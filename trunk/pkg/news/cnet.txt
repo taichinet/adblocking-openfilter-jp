@@ -1,0 +1,2 @@
+﻿!----- CNET -----!
+	japan.cnet.com##div[class="block10.clearfix"]

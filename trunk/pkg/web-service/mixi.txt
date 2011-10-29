@@ -1,0 +1,35 @@
+﻿!-----mixi-----!
+!開放：システム
+	@@|http://mixi.jp/ajax_*$domain=mixi.jp
+	@@/analy(tics|ze|sis)/$domain=mixi.jp
+	
+	!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
+	
+	!開放：アプリ
+		@@||happyelements.com^$domain=mixi.jp
+		@@mixi.jp##script[src^="/static/js//mixi/analysis.production"]
+		@@/analy(tics|ze|sis)/$domain=mixi-plathome.jp
+	!抑止
+		mixi.jp##div[class^="fm_promsfm_proms_"]
+		mixi.jp##div[class^="sponsorList"]
+		mixi.jp##div[id="adBanner"]
+		mixi.jp##div[id="collaboPr"]
+		mixi.jp##div[id="contentMatch"]
+		mixi.jp##div[id="fm_top_ad"]
+		mixi.jp##div[id="keywordRanking"]
+		mixi.jp##div[id="picupCommunity"]
+		mixi.jp##div[id="picupReview"]
+		mixi.jp##div[id="poncan_ad"]
+		mixi.jp##div[id="prContentsArea"]
+		mixi.jp##div[id="mAd"]
+		mixi.jp##iframe[src^="http://a.mreco.jp/adsv/"]
+		mixi.jp##iframe[src*="mreco0.jp/"]
+		mixi-platform.com##div[id="fm_top_ad"]
+		mixi-platform.com##div[id="poncan_ad"]
+		mixi-platform.com##ul[class="fm_proms_list"]
+	!mreco抑止
+		||mreco.jp/adsv/*
+		||mreco0.jp/
+		mixi.jp##div[id="mAd"]
+		mixi.jp##iframe[src*="mreco0.jp/"]
+

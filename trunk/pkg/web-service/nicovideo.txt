@@ -1,0 +1,60 @@
+﻿!----- nicovideo -----!
+! 開放：システム系
+	! nicodic系
+		@@||api.nicodic.jp^
+	! app系
+		@@||app.nicovideo.jp^
+		@@||app-cliapi.nicovideo.jp^
+		@@||app-pay.nicovideo.jp^
+	! flapi系
+		@@||flapi.nicovideo.jp/api/*
+	! nimg.jp
+		! res系
+			@@||res.nimg.jp/swf/appli/*
+	! nicoapp
+		@@||nicoapp.jp^
+
+! 開放：市場用
+	@@||images-amazon.com^$domain=nicovideo.jp
+	@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
+	@@nicovideo.jp##div[id^="ichiba_item"]
+	@@nicovideo.jp##div[id^="ichibaitem_"]
+	@@nicovideo.jp##div[id^="ichiba"]
+	@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
+
+!! 抑止対象
+! 拒否
+		||nicovideo.jp/__utm.gif*
+		||nicovideo.jp/api/getmarquee*
+	! ad系
+		||ad.nicovideo.jp^$domain=nicovideo.jp
+	! uad系
+		||uad.nicovideo.jp/delivery/assets/swf/*
+	! app-cliapi系
+		|app-cliapi.nicovideo.jp/crossdomain.xml
+	! watch系
+		||flapi.nicovideo.jp/api/getmarqueev3
+		||flapi.nicovideo.jp/api/feed/*$domain=live.nicovideo.jp
+	! info系
+		||info.nicovideo.jp/feed/*
+	! live系
+		||live.nicovideo.jp/api/getstreamlist?*
+		||live.nicovideo.jp/bnr_mobile_gate.swf?*
+		||live.nicovideo.jp/crossdomain.xml
+		||live.nicovideo.jp/inc/live_ad.js?*
+		||live.nicovideo.jp/img/watch/pct_dmy_flashplayer.png
+		||watch.live.nicovideo.jp/api/heartbeat
+		||watch.live.nicovideo.jp/crossdomain.xml
+	! nimg.jp
+		! res系
+			||res.nimg.jp/swf/appli/*
+	! icon系
+		||icon.nimg.jp^$domain=live.nicovideo.jp
+
+! 非表示
+	nicovideo.jp##div[class="ads_468"]
+	live.nicovideo.jp##div[class="ichiba_frm"]
+	live.nicovideo.jp##div[id="carousel"]
+
+
+

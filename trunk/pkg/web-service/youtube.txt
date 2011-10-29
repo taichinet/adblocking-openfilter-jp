@@ -1,0 +1,5 @@
+﻿!----- youtube -----!
+	youtube.com##div[id^="google_companion_ad_"]
+	youtube.com##div[id="ticker-inner"]
+	youtube.com##div[id="google_companion_ad_div"]
+	youtube.com##IFRAME[src^="http://pagead2.googlesyndication.com/pagead/ads?ad_block="]

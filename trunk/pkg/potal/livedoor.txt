@@ -1,0 +1,55 @@
+﻿!----- livedoor -----!
+	/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
+	livedoor.com##*[href*="A-affiliate"]
+	livedoor.com##div#ad-giftext
+	livedoor.com##div#ad-recommend
+	livedoor.com##div#amazon-ranking
+	livedoor.com##div#become
+	livedoor.com##div#become_ads
+	livedoor.com##div#blogcampaign
+	livedoor.com##div#headerBanner
+	livedoor.com##div#newsFooter
+	livedoor.com##div#osusume
+	livedoor.com##div#otoku-info
+	livedoor.com##div#partner-box
+	livedoor.com##div#yahoo-shopping
+	livedoor.com##div[class*="adsenseBox"]
+	livedoor.com##div[class*="adsense-topics-detail"]
+	livedoor.com##div[class*="becomeAuthor"]
+	livedoor.com##div[class*="becomeImages"]
+	livedoor.com##div[class*="becomeNewprice"]
+	livedoor.com##div[class*="becomeTitle"]
+	livedoor.com##div[class*="google-body"]
+	livedoor.com##div[class*="google-title"]
+	livedoor.com##div[class*="large-showcase"]
+	livedoor.com##div[class*="LDservice-link"]
+	livedoor.com##div[class*="module ad-"]
+	livedoor.com##div[class*="module ads-"]
+	livedoor.com##div[class*="prtextBox"]
+	livedoor.com##div[class*="SearchResultBottomAD"]
+	livedoor.com##div[class*="SearchResultTopAD"]
+	livedoor.com##div[class*="section ads-by-google-0"]
+	livedoor.com##iframe[src*="ad.yieldmanager.com"]
+	livedoor.com##script[src="http://image.click.livedoor.com/js/livedoortopFlashAd.js"]
+	livedoor.com##img[class="tie-up"]
+	livedoor.com##p#megaText
+!! サービス
+	blog.livedoor.jp##div[id="analyzer_tags"]
+	blog.livedoor.jp##script[src$="/settings/ad.js"]
+	blog.livedoor.jp##script[src$="/settings/header.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
+	blog.livedoor.jp##span[class="common-header-logo"]
+	blog.livedoor.jp##span[class="common-header-pr"]
+	blog.livedoor.jp##span[class="commopn-header-category"]
+	blog.livedoor.jp##td[class="catprbox"]
+	blog.livedoor.jp##td[class="newstickerbox"]
+	blog.livedoor.jp##td[class="pickuptheme"]
+	blog.livedoor.jp##td[class="startblogbox"]
+	.livedoor.biz/settings/header.js^$domain=livedoor.biz
+	http://blog.livedoor.jp/*/settings/header.js
+! blogeditor
+	@@||livedoor.blogcms.jp/js/cms2/swfupload/*
+	@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
+	@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp

@@ -1,0 +1,97 @@
+﻿!!! mediagene系
+	!! 共通
+		||advg.jp
+	!! gizmodo.jp
+		! SiteTOP
+		gizmodo.jp##div[class="date_header date_header_premium"]
+		! subHeader
+		gizmodo.jp##ul[class="recomended"]
+		! footer
+		gizmodo.jp##div[class="foot_facebook_block"]
+		! BOX
+		gizmodo.jp##div[id="headbar"]
+		gizmodo.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
+		! 左ペイン
+		gizmodo.jp##div[id="side"]
+		gizmodo.jp##div[id="team"]
+		gizmodo.jp##div[id="entryranking"]
+		! 中央ペイン
+		gizmodo.jp##div[class="right"]
+		gizmodo.jp##div[class="ad_entry_amazon_under"]
+		gizmodo.jp##div[class="facebook_block"]
+		gizmodo.jp##div[class="fbbox"]
+		gizmodo.jp##div[class="recententries"]
+		! 右ペイン
+		gizmodo.jp##div[class="entry_comments section"]
+		gizmodo.jp##div[class="amazon_ranking section"]
+		gizmodo.jp##div[id="hateburanking"]
+		gizmodo.jp##div[class="entry_tweetrank section"]
+		! 新着&Tweet数ランキング
+			gizmodo.jp##div[class="entrybox_title"]
+		! affiliate
+			||images-amazon.com^$domain=gizmodo.jp
+			||fbcdn.net^$domain=facebook.com
+			||xml.affiliate.rakuten.co.jp^$domain=gizmodo.jp
+			||yimg.jp^$domain=gizmodo.jp
+			||disqus.com^$domain=gizmodo.jp
+			gizmodo.jp##div[id="index_amazon"]
+			gizmodo.jp##div[id="amazon"]
+		! 広告記事
+			gizmodo.jp##div[class="entry entry_s ad_premiumplan clfx"]
+		! facebook plugin
+			gizmodo.jp##iframe[src^="http://www.facebook.com/plugins"]
+		! 場所ド忘れ
+			gizmodo.jp##a[href^="http://www.amazon.co.jp/exec/"]
+			gizmodo.jp##.headline
+
+
+
+	!! lifehacker.jp
+		! SiteTOP
+		lifehacker.jp##div[class="date_header date_header_premium"]
+		! subHeader
+		lifehacker.jp##ul[class="recomended"]
+		! footer
+		lifehacker.jp##div[class="foot_facebook_block"]
+		! TOPBOX
+		lifehacker.jp##div[id="headbar"]
+		lifehacker.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
+		lifehacker.jp##div[class-"entrybox"]
+		lifehacker.jp##div[class="headline"]
+		! 左ペイン
+		lifehacker.jp##div[id="side"]
+		lifehacker.jp##div[id="team"]
+		lifehacker.jp##div[id="entryranking"]
+		! 中央ペイン
+		lifehacker.jp##div[class="right"]
+		lifehacker.jp##div[class="ad_entry_amazon_under"]
+		lifehacker.jp##div[class="facebook_block"]
+		lifehacker.jp##div[class="fbbox"]
+		lifehacker.jp##div[class="recententries"]
+		! 右ペイン
+		lifehacker.jp##div[class="entry_comments section"]
+		lifehacker.jp##div[class="amazon_ranking section"]
+		lifehacker.jp##div[id="hateburanking"]
+		! 新着&Tweet数ランキング
+		lifehacker.jp##div[class="entrybox_title"]
+		! affiliate
+		lifehacker.jp##div[id^="index_amazon"]
+		lifehacker.jp##div[id^="amazon"]
+		lifehacker.jp##div[class^="amazon_"]
+		lifehacker.jp##div[class^="ad_entry_amazon"]
+		! 広告記事
+		lifehacker.jp##div[class="entry entry_s ad_premiumplan clfx"]
+	!! kotaku.jp
+		! adv
+		||kotaku.jp/common/inc/inc_ad_entry_top.js
+		! 左ペイン
+		kotaku.jp##div[id="side"]
+		! 中央ペイン
+		kotaku.jp##div[class="entry ad_entry_super clfx clr"]
+		kotaku.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/"]
+		! 右ペイン
+		kotaku.jp##div[class="entry_comments section"]
+		! 広告記事
+		kotaku.jp##div[class="entry entry_s ad_premiumplan clfx"]
+
+

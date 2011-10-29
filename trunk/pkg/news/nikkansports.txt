@@ -1,0 +1,5 @@
+﻿!----- nikkansports -----!
+
+	nikkansports.com##div[class="adPRtext"]
+	nikkansports.com##IFRAME[src^="http://ad.nikkansports.com/"]
+	

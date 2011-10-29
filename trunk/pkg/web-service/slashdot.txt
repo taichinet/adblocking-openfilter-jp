@@ -1,0 +1,3 @@
+﻿!----- slashdot -----!	
+	slashdot.jp##div[id="ads-index-text"]
+

@@ -1,0 +1,27 @@
+﻿!----- ameblo -----!
+! 1*1画像検出
+	||act.ameba.jp^
+	||ameblo.jp/accesslog/*
+! 抑止
+	||spstatic.ameba.jp^
+	ameblo.jp##ul[id="amebaBar"]
+	ameblo.jp##div[id="ameblo"][class="mainMenu"]
+	ameblo.jp##div[id="officialGnere"]
+	ameblo.jp##div[class="readerMainLink"]
+	ameblo.jp##div[id="amestamodule"]
+	ameblo.jp##div[id^="advertising"]
+	ameblo.jp##div[id="dendoBox"]
+	ameblo.jp##div[id="rc_box"][class="rc_box09"]
+	ameblo.jp##div[id="readerList"]
+	ameblo.jp##div[id="footer_ad_official"]
+	ameblo.jp##p[class="ad1"]
+	ameblo.jp##p[class="ad2"]
+	ameblo.jp##p[class="dendoLink"]
+	ameblo.jp##p[class="dendoName"]
+	ameblo.jp###resPointArea
+	ameblo.jp###amebloInfo
+	ameblo.jp###eco_head
+
+	ameblo.jp##div[class="readerMainLink"]
+
+	ameblo.jp##ul[class="rc_head clearFix"]

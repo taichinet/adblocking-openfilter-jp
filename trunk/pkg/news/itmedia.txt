@@ -1,0 +1,40 @@
+﻿!----- ITMedia -----!
+! core
+	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
+! ITMedia
+	itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
+	itmedia.co.jp##div[class="ITFT"]
+	itmedia.co.jp##div[id^="IS"]
+	itmedia.co.jp##div[id="ISAL"]
+	itmedia.co.jp##div[id="ISALR"]
+	itmedia.co.jp##div[id="ISTCPB"]
+	itmedia.co.jp##div[id="ISTLC"]
+	itmedia.co.jp##div[id="ISTLR"]
+	itmedia.co.jp##div[id="cmsPrcredit"]
+	itmedia.co.jp##script[type="text/javascript"][src*="/css/"]
+	itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
+
+! bizmakoto.jp
+	bizmakoto.jp##.colBox.colBoxFeedback
+	bizmakoto.jp##.makotofocushead
+	bizmakoto.jp###ISAL
+	bizmakoto.jp##.colBoxClear.h10px
+	bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
+	bizmakoto.jp###COIDP
+	bizmakoto.jp###ISAL2
+	bizmakoto.jp###makotofocus + * + * + * + * A[href^="/bizid/articles/"]
+	bizmakoto.jp###makotofocus + * + * + * + * A[href^="http://www.itmedia.co.jp/news/fl/"]
+	bizmakoto.jp##div[id^="makotofocus"]
+	bizmakoto.jp##script[src^="/css/"][src$=".js"]
+	bizmakoto.jp##.cbox
+	bizmakoto.jp###ISTLR
+	bizmakoto.jp###features
+	bizmakoto.jp###globalFooter
+
+	
+	! 試験中
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://bizmakoto.jp"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://www.itmedia.co.jp/news/fl/"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href="/pcuser/special/mouse-jp.html"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[href^="/makoto/articles/"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]

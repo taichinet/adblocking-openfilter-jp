@@ -1,0 +1,4 @@
+﻿!----- yahoo.co.jp -----!
+	blogs.yahoo.co.jp##div[class="newblogInfoTalent"]
+	blogs.yahoo.co.jp##div[class^="newblogInfo"]
+

@@ -1,0 +1,33 @@
+﻿!----- 日経 -----!
+!!! nikkei.co.jp
+! 許可対象
+	!@@##*[class*="cm"]
+! 抑止対象
+	||adb.nikkei.co.jp*
+	||adpriv.nikkei.com*
+	nikkei.co.jp##div[id="magazine_books"]
+	nikkei.co.jp##div[id="trend"]
+	nikkei.co.jp##div[id="strategic"]
+	nikkei.co.jp##div[id="sub_text_ad"]
+	nikkei.co.jp##div[id="jigyoyochi"]
+	nikkei.co.jp##div[id^="ADVERTISE_RECTANGLE1"]
+	nikkei.co.jp##div[class^="cmn-sub"]
+	nikkei.co.jp##div[class^="cmn-pr"]
+	nikkei.co.jp##p[class="ni"]
+!!! nikkeibp.co.jp
+	|http://bizad.nikkeibp.co.jp/*
+	|http://www.nikkeibp.co.jp/js/*/*/*/ad_common.js
+	|http://www.nikkeibp.co.jp/js/*/*/*/ad_parts.js
+	nikkeibp.co.jp##*[src*="ad_"]
+	nikkeibp.co.jp##*[href^="http://bizad.nikkeibp.co.jp/"]
+	nikkeibp.co.jp##div[id^="ad_"]
+	nikkeibp.co.jp##div[class^="ad_"]
+	!nikkeibp.co.jp##div[class="ad_rectangle"]
+	!nikkeibp.co.jp##div[class="ad_text connector"]
+	!nikkeibp.co.jp##div[class="ad_text"]
+	nikkeibp.co.jp##div[class="bpbox_text"]
+	nikkeibp.co.jp##div[class="mediaBanner"]
+	nikkeibp.co.jp##div[class="rectangle"]
+	nikkeibp.co.jp##div[class*="tertiary"]
+	nikkeibp.co.jp##div[class="yad_imatch"]
+	nikkeibp.co.jp##iframe[src^="http://travel.nikkeibp.co.jp/iframe/"]

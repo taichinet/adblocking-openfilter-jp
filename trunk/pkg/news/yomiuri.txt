@@ -1,0 +1,8 @@
+﻿!----- yomiuri -----!
+	yomiuri.co.jp##div[class="yahooAd"]
+	yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
+	yomiuri.co.jp##div[class="ad200-out"]
+	yomiuri.co.jp##div[class="sideRegularCONT"]
+	yomiuri.co.jp##div[class="sideBlock.mobile"]
+	yomiuri.co.jp##div[class="search.clearfix"]
+

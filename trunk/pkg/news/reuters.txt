@@ -1,0 +1,6 @@
+﻿!----- reuters -----!
+	*/overtureAd.js$domain=reuters.com
+	reuters.com##div[class="ad"][id^="advert_"]
+	reuters.com##img[title*="doubleclick.net"]
+	reuters.com##span[class="marketingPR"]
+

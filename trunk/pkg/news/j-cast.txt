@@ -1,0 +1,7 @@
+﻿!----- j-cast -----!
+	j-cast.com##div[class="amazon-info"]
+	j-cast.com##div[id="MCAdEntryCenterrectangle"]
+	j-cast.com##div[id="MCAdEntryToptext"]
+	j-cast.com##div[id="MCAdEntryUnderTitle"]
+	j-cast.com##div[id="MCEntryAmazon"]
+	j-cast.com##iframe[title="Advertisement"]

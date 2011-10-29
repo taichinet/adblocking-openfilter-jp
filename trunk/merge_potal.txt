@@ -1,0 +1,123 @@
+﻿[adblock]
+﻿
+!----- excite -----!
+	http://adimp.excite.co.jp/*
+	##*[href*="http://adimp.excite.co.jp/"]
+	##script[src*="http://adimp.excite.co.jp/"]
+	excite.co.jp##div[class="ov_cm1"]
+	excite.co.jp##div[class="ov_cm2"]
+	excite.co.jp##div[class="popularKeywords"]
+	excite.co.jp##div[id="HS-2-frame"]
+
+﻿!----- フレッシュアイ -----!
+	fresheye.com##*[class="pr"]
+	fresheye.com##*[src*="impact-ad.jp"]
+	fresheye.com##div[class="pbox"]
+	*advertising.com*^$domain=fresheye.com
+	*durasite.net*^$domain=fresheye.com
+	*impact-ad.jp*^$domain=fresheye.com
+	*microad.jp*^$domain=fresheye.com
+﻿!----- NTTの方のgoo -----!
+!!! goo.ne.jp
+	!! 抑止対象
+		http://log000.goo.ne.jp/VL/
+		||ad.goo.ne.jp/*
+		||ad.nttnavi.co.jp/*
+		||goo.ne.jp/banner*
+	!! 非表示
+		goo.ne.jp##div[class="pr"][id="pr"][name="pr"]
+		goo.ne.jp##dl[class="txtimgl"]
+		goo.ne.jp##div[id="ghTop"]
+		goo.ne.jp##div[id="osusume"]
+
+﻿!!! google.com!	!! 許可設定	@@|https://mail.google.com/*	@@|https://www.google.com/adsense/*	@@|http://www.google.co.jp/extern_js/	@@|http://www.google.co.jp/images/srpr/*	@@|http://www.google.co.jp/images?*	@@|http://www.google.co.jp/imgevent?	@@|http://www.google.co.jp/sbd?client=firefox-a	@@|http://www.google.com/images?*$domain=google.com,~third-party	@@|http://www.google.com/recaptcha/api/*	@@|http://www.google.com/sbd?*$domain=google.com,~third-party	@@||gstatic.com^	@@||docs.google.com^!! 解析	google-analytics.com/ga.js!! 広告データの非表示化	||googleadservices.com^	|www.google.co.jp/extern_js/	|pagead2.googlesyndication.com/pagead/*	google.com,google.co.jp##table[id="mbEnd"]	google.com,google.co.jp##*[href*="/aclk"]	google.com,google.co.jp##*[src="http://pagead2.googlesyndication.com/pagead/show_ads.js"]	google.com,google.co.jp##div[id="pa1"]	google.com,google.co.jp##div[id="tads"]	google.com,google.co.jp##div[id="tbd"]	google.com,google.co.jp##div[id="rhs"]	google.com,google.co.jp##div[class="g-tools_table"]	google.com,google.co.jp##div[class="g-tools_img"]	google.com,google.co.jp##div[class*="g-tools"]!! 非表示	! 検索広告		google.com,google.co.jp##span[id="taw"]		google.com,google.co.jp##div[id="bottomads"]		google.com,google.co.jp##td[class="std"]﻿!----- infoseek -----!
+	*rakuten.co.jp/content/ad/DCBT/*
+	*news.www.infoseek.co.jp/isweb/*
+	http://grp01.ias.rakuten.co.jp/*$domain=infoseek.co.jp
+	*image.ias.rakuten.co.jp*
+	infoseek.co.jp##*[src^="http://grp01.ias.rakuten.co.jp/"]
+	infoseek.co.jp##*[src^="http://news.www.infoseek.co.jp/hotspot/data/"]
+	infoseek.co.jp##*[src^="http://image.infoseek.co.jp/images/ads/"]
+	infoseek.co.jp##*[src^="http://topics.news.www.infoseek.co.jp/isweb/clip.html"]
+	infoseek.co.jp##*[src*=".js"]
+	infoseek.co.jp##*[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
+	infoseek.co.jp##*[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
+	infoseek.co.jp##*[href*="http://rd.rakuten.co.jp/go/?R2=http://event.rakuten.co.jp/campaign/"]
+	infoseek.co.jp##*[src*="ias.rakuten.co.jp"]
+	infoseek.co.jp##*[src*="hotspot-loader.js"]
+	infoseek.co.jp##*[class^="hotspot-font"]
+	infoseek.co.jp##div[id*="ad"]
+	infoseek.co.jp##div#CorpArea
+	infoseek.co.jp##div#grpService
+	infoseek.co.jp##div#hotFeature
+	infoseek.co.jp##div#pickup_contents
+	infoseek.co.jp##div#pointget
+	infoseek.co.jp##div#recommend
+	infoseek.co.jp##div[class*="ads"]]
+	infoseek.co.jp##div[class="prtxt"]
+	infoseek.co.jp##div[class="topic"]
+	infoseek.co.jp##span[id*="abg"]
+	infoseek.co.jp##*[id^="ichiba"]
+	infoseek.co.jp##*[id="trAshiatoItem"]
+	infoseek.co.jp##*[id="woman"]
+! beacon?
+	ashiato.rakuten.co.jp/*
+
+﻿!----- livedoor -----!
+	/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
+	livedoor.com##*[href*="A-affiliate"]
+	livedoor.com##div#ad-giftext
+	livedoor.com##div#ad-recommend
+	livedoor.com##div#amazon-ranking
+	livedoor.com##div#become
+	livedoor.com##div#become_ads
+	livedoor.com##div#blogcampaign
+	livedoor.com##div#headerBanner
+	livedoor.com##div#newsFooter
+	livedoor.com##div#osusume
+	livedoor.com##div#otoku-info
+	livedoor.com##div#partner-box
+	livedoor.com##div#yahoo-shopping
+	livedoor.com##div[class*="adsenseBox"]
+	livedoor.com##div[class*="adsense-topics-detail"]
+	livedoor.com##div[class*="becomeAuthor"]
+	livedoor.com##div[class*="becomeImages"]
+	livedoor.com##div[class*="becomeNewprice"]
+	livedoor.com##div[class*="becomeTitle"]
+	livedoor.com##div[class*="google-body"]
+	livedoor.com##div[class*="google-title"]
+	livedoor.com##div[class*="large-showcase"]
+	livedoor.com##div[class*="LDservice-link"]
+	livedoor.com##div[class*="module ad-"]
+	livedoor.com##div[class*="module ads-"]
+	livedoor.com##div[class*="prtextBox"]
+	livedoor.com##div[class*="SearchResultBottomAD"]
+	livedoor.com##div[class*="SearchResultTopAD"]
+	livedoor.com##div[class*="section ads-by-google-0"]
+	livedoor.com##iframe[src*="ad.yieldmanager.com"]
+	livedoor.com##script[src="http://image.click.livedoor.com/js/livedoortopFlashAd.js"]
+	livedoor.com##img[class="tie-up"]
+	livedoor.com##p#megaText
+!! サービス
+	blog.livedoor.jp##div[id="analyzer_tags"]
+	blog.livedoor.jp##script[src$="/settings/ad.js"]
+	blog.livedoor.jp##script[src$="/settings/header.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
+	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
+	blog.livedoor.jp##span[class="common-header-logo"]
+	blog.livedoor.jp##span[class="common-header-pr"]
+	blog.livedoor.jp##span[class="commopn-header-category"]
+	blog.livedoor.jp##td[class="catprbox"]
+	blog.livedoor.jp##td[class="newstickerbox"]
+	blog.livedoor.jp##td[class="pickuptheme"]
+	blog.livedoor.jp##td[class="startblogbox"]
+	.livedoor.biz/settings/header.js^$domain=livedoor.biz
+	http://blog.livedoor.jp/*/settings/header.js
+! blogeditor
+	@@||livedoor.blogcms.jp/js/cms2/swfupload/*
+	@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
+	@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
+﻿!----- MSN -----!
+	##*[href*="http://clk.atdmt.com/"]
+﻿!----- yahoo -----!!!! yahoo.co.jp	!! 許可対象		@@||map.yahoo.co.jp^$document		@@||yahooapis.com	!! 抑止対象		yjaxc.yahoo.co.jp		/*\.yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/	!! 非表示		yahoo.co.jp##div[class^="ad"]		yahoo.co.jp##div[id^="pos-"]		beauty.yahoo.co.jp##div[class="all_md02"]		chiebukuro.yahoo.co.jp##div[id="chie-ams"]		finance.yahoo.co.jp##div[class="marB10"]		realestate.yahoo.co.jp##div[id="ranking"]		sports.yahoo.co.jp##div[id="im2"]		tv.yahoo.co.jp##div[class="pr300a"]		tv.yahoo.co.jp##div[id="right1"]		weather.yahoo.co.jp##div[class^="yjw_sub_md "]		yahoo.co.jp##a[href^="http://ard.yahoo.co.jp/"]		yahoo.co.jp##a[href="http://business.yahoo.co.jp/sponsor/"]		yahoo.co.jp##div[class^="yjSt adTyumokumar"]		yahoo.co.jp##div[class^="ymuiHeaderBGLG"]		yahoo.co.jp##div[class="bx"][id="rightbox"]		yahoo.co.jp##div[id^="ADframe"]		yahoo.co.jp##div[id="center1"]		yahoo.co.jp##div[id="center2"]		yahoo.co.jp##div[id="mainpr"]		yahoo.co.jp##div[id="pos-lrec"]		yahoo.co.jp##div[id="rightbox1"]		yahoo.co.jp##div[id="tct"]		yahoo.co.jp##div[id="uhdMain"]	!! mail用暫定策		@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*		||yui.yahooapis.jp/3.0.0pr2/build/yui/*		##div[id="jpwelcomeinsideyahootitle"]	!! blog		blogs.yahoo.co.jp##div[id="bottomAdBannerArea"]

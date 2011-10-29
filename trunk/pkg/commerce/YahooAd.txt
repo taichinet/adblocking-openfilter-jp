@@ -1,0 +1,5 @@
+﻿! ----- YahooAd ----- !
+!! 許可対象
+!! 抑止対象
+	##div[class="yahooAd"]
+
