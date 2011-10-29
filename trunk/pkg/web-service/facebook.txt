@@ -1,7 +1,7 @@
 ﻿!----- facebook -----!
+
 	!@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
 	!@@/(external|static|profile|photos-*)\.ak\.fbcdn\.net/$domain=facebook.com
-	*.channel.facebook.com/iframe/*
 	creative.ak.fbcdn.net/*/flyers/*
 	http://www.facebook.com/ajax/emu/end.php*$domain=facebook.com
 	facebook.com##a[href*="/ajax/emu/end.php"]
@@ -15,11 +15,17 @@
 	facebook.com##div[class="ego_section"]
 	facebook.com##span[class="fbEmuContext"]
 	facebook.com##span[class="muffin_tracking_pixel_start"]
+	! 解析用フレーム
+		||facebook.com/ai.php*
+		##*[src*="/ai.php"]
+
 ! plugin
-	##iframe[src^="http://www.facebook.com/plugins/likebox.php?"]
-	##iframe[src^="http://www.facebook.com/plugins/like.php"]
-	##script[src^="http://connect.facebook.net/"]
+	||connect.facebook.net/en_US/all.js
+	||facebook.com/plugins/^
+	||facebook.com/iframe/^
+	##iframe[src*="facebook.com/plugins/likebox.php?"]
+	##iframe[src*="facebook.com/plugins/like.php"]
+	##iframe[src*="facebook.com/plugins/recommendations.php?"]
+	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-! 解析用フレーム
-	||facebook.com/ai.php*
-	##*[src*="/ai.php"]
+

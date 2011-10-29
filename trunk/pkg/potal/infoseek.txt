@@ -1,33 +1,37 @@
-﻿!----- infoseek -----!
-	*rakuten.co.jp/content/ad/DCBT/*
-	*news.www.infoseek.co.jp/isweb/*
-	http://grp01.ias.rakuten.co.jp/*$domain=infoseek.co.jp
-	*image.ias.rakuten.co.jp*
-	infoseek.co.jp##*[src^="http://grp01.ias.rakuten.co.jp/"]
-	infoseek.co.jp##*[src^="http://news.www.infoseek.co.jp/hotspot/data/"]
-	infoseek.co.jp##*[src^="http://image.infoseek.co.jp/images/ads/"]
-	infoseek.co.jp##*[src^="http://topics.news.www.infoseek.co.jp/isweb/clip.html"]
-	infoseek.co.jp##*[src*=".js"]
-	infoseek.co.jp##*[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
-	infoseek.co.jp##*[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
-	infoseek.co.jp##*[href*="http://rd.rakuten.co.jp/go/?R2=http://event.rakuten.co.jp/campaign/"]
-	infoseek.co.jp##*[src*="ias.rakuten.co.jp"]
-	infoseek.co.jp##*[src*="hotspot-loader.js"]
-	infoseek.co.jp##*[class^="hotspot-font"]
+﻿
+!----- infoseek -----!
+	||rakuten.co.jp/content/ad/DCBT/^$domain=infoseek.co.jp
+	||ias.rakuten.co.jp/^$domain=infoseek.co.jp
+	||image.ias.rakuten.co.jp/^$domain=infoseek.co.jp
+	infoseek.co.jp##*[id^="ichiba"]
+	infoseek.co.jp##*[id="trAshiatoItem"]
+	infoseek.co.jp##*[id="woman"]
+	infoseek.co.jp##div[class^="hotspot-font"]
+	infoseek.co.jp##div[class*="ads"]]
+	infoseek.co.jp##div[class="prtxt"]
+	infoseek.co.jp##div[class="topic"]
 	infoseek.co.jp##div[id*="ad"]
+	infoseek.co.jp##div[id="grpRakutenLinkArea"]
 	infoseek.co.jp##div#CorpArea
 	infoseek.co.jp##div#grpService
 	infoseek.co.jp##div#hotFeature
 	infoseek.co.jp##div#pickup_contents
 	infoseek.co.jp##div#pointget
 	infoseek.co.jp##div#recommend
-	infoseek.co.jp##div[class*="ads"]]
-	infoseek.co.jp##div[class="prtxt"]
-	infoseek.co.jp##div[class="topic"]
+	infoseek.co.jp##iframe[href*="http://rd.rakuten.co.jp/go/?R2=http://event.rakuten.co.jp/campaign/"]
+	infoseek.co.jp##iframe[src^="http://topics.news.www.infoseek.co.jp/isweb/clip.html"]
+	infoseek.co.jp##iframe[src*="ias.rakuten.co.jp"]
+	infoseek.co.jp##IMG[src*="bunner"]
+	infoseek.co.jp##script[src^="http://grp01.ias.rakuten.co.jp/"]
+	infoseek.co.jp##script[src^="http://image.infoseek.co.jp/images/ads/"]
+	infoseek.co.jp##script[src^="http://news.www.infoseek.co.jp/hotspot/data/"]
+	infoseek.co.jp##script[src*=".js"]
+	infoseek.co.jp##script[src*="hotspot-loader.js"]
+	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
+	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
 	infoseek.co.jp##span[id*="abg"]
-	infoseek.co.jp##*[id^="ichiba"]
-	infoseek.co.jp##*[id="trAshiatoItem"]
-	infoseek.co.jp##*[id="woman"]
+
+
 ! beacon?
 	ashiato.rakuten.co.jp/*
 

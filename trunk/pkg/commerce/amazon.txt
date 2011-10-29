@@ -3,3 +3,5 @@
 	@@||amazon.co.jp^$document
 	##IMG[title^="[amazon.com]"]
 	##IMG[title^="[images-amazon.com]"]
+	##div[id="amazlet-info"]
+

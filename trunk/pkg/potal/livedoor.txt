@@ -32,7 +32,13 @@
 	livedoor.com##iframe[src*="ad.yieldmanager.com"]
 	livedoor.com##script[src="http://image.click.livedoor.com/js/livedoortopFlashAd.js"]
 	livedoor.com##img[class="tie-up"]
-	livedoor.com##p#megaText
+	livedoor.com##p[id="megaText"]
+	livedoor.com##div[id="ad"]
+	livedoor.com##div[id="feature-ad"]
+	livedoor.com##div[id="news-special"]
+	livedoor.com##div[id="footer-ad-links > UL"]
+	livedoor.com##div[id="commonFooter"]
+
 !! サービス
 	blog.livedoor.jp##div[id="analyzer_tags"]
 	blog.livedoor.jp##script[src$="/settings/ad.js"]
@@ -47,9 +53,13 @@
 	blog.livedoor.jp##td[class="newstickerbox"]
 	blog.livedoor.jp##td[class="pickuptheme"]
 	blog.livedoor.jp##td[class="startblogbox"]
-	.livedoor.biz/settings/header.js^$domain=livedoor.biz
-	http://blog.livedoor.jp/*/settings/header.js
-! blogeditor
-	@@||livedoor.blogcms.jp/js/cms2/swfupload/*
-	@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
-	@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
+	||livedoor.biz/settings/header.js^$domain=livedoor.biz
+	||livedoor.jp/*/settings/header.js
+
+	! blogeditor
+		@@||livedoor.blogcms.jp/js/cms2/swfupload/*
+		@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
+		@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
+	! なぞり検索
+		nazorisearch
+		*selectionSearch.js

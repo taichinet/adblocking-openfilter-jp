@@ -1,8 +1,8 @@
 ﻿[adblock]
 ﻿!----- facebook -----!
+
 	!@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
 	!@@/(external|static|profile|photos-*)\.ak\.fbcdn\.net/$domain=facebook.com
-	*.channel.facebook.com/iframe/*
 	creative.ak.fbcdn.net/*/flyers/*
 	http://www.facebook.com/ajax/emu/end.php*$domain=facebook.com
 	facebook.com##a[href*="/ajax/emu/end.php"]
@@ -16,14 +16,20 @@
 	facebook.com##div[class="ego_section"]
 	facebook.com##span[class="fbEmuContext"]
 	facebook.com##span[class="muffin_tracking_pixel_start"]
+	! 解析用フレーム
+		||facebook.com/ai.php*
+		##*[src*="/ai.php"]
+
 ! plugin
-	##iframe[src^="http://www.facebook.com/plugins/likebox.php?"]
-	##iframe[src^="http://www.facebook.com/plugins/like.php"]
-	##script[src^="http://connect.facebook.net/"]
+	||connect.facebook.net/en_US/all.js
+	||facebook.com/plugins/^
+	||facebook.com/iframe/^
+	##iframe[src*="facebook.com/plugins/likebox.php?"]
+	##iframe[src*="facebook.com/plugins/like.php"]
+	##iframe[src*="facebook.com/plugins/recommendations.php?"]
+	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-! 解析用フレーム
-	||facebook.com/ai.php*
-	##*[src*="/ai.php"]
+
 ﻿!----- hangame.co.jp -----!
 	hangame.co.jp##.promoBnrWrap
 	hangame.co.jp###rcmndGames
@@ -68,7 +74,9 @@
 		mixi.jp##iframe[src*="mreco0.jp/"]
 		mixi-platform.com##div[id="fm_top_ad"]
 		mixi-platform.com##div[id="poncan_ad"]
+		mixi-platform.com##div[id="fm_new_proms"]
 		mixi-platform.com##ul[class="fm_proms_list"]
+
 	!mreco抑止
 		||mreco.jp/adsv/*
 		||mreco0.jp/
@@ -132,26 +140,36 @@
 	nicovideo.jp##div[class="ads_468"]
 	live.nicovideo.jp##div[class="ichiba_frm"]
 	live.nicovideo.jp##div[id="carousel"]
-
-
+	nicovideo.jp##div[id="web_pc_premium.sideBanner"]
+	nicovideo.jp##div[id="web_pc_footer"]
+	nicovideo.jp##div[id="footerWrap"]
+	nicovideo.jp##div[id="sideTxtAd"]
+	nicovideo.jp##div[id="PAGEFOOTER"]
+	nicovideo.jp##div[id="content_312"]
+	nicovideo.jp##div[id="header-banner"]
 
 ﻿!----- slashdot -----!	
 	slashdot.jp##div[id="ads-index-text"]
 
 ﻿!----- Twitter -----!
-!!!! 公式
-!!! 許可対象
-!	わざと公式のみしか通らない様にしてます。
-	@@||twitter.com^$domain=twitter.com
-	@@||twimg.com^$domain=twitter.com
-	@@||api.twitter.com^$domain=twitter.com
-	twitter.com##.trends-inner
-	twitter.com##.definition
-	twitter.com##.trend-link-arrow.trend-link.pretty-link
-	twitter.com##.promo
-	twitter.com##.user-rec-inner
-	twitter.com###global-nav-who_to_follow
-﻿!----- ustream -----!	
+!!! 公式
+	!! 許可対象
+	!	わざと公式のみしか通らない様にしてます。
+		@@||twitter.com^$domain=twitter.com
+		@@||twimg.com^$domain=twitter.com
+		@@||api.twitter.com^$domain=twitter.com
+		twitter.com##.trends-inner
+		twitter.com##.definition
+		twitter.com##.trend-link-arrow.trend-link.pretty-link
+		twitter.com##.promo
+		twitter.com##.user-rec-inner
+		twitter.com###global-nav-who_to_follow
+	! Twitter関連の他サイト
+		! Togetter
+			togetter.com##div[id="amazon_content_box"]
+		! lockerz
+			lockerz.com##div[id="feed-box.clearfix"]
+			lockerz.com##div[id="leaderboard-ad"]﻿!----- ustream -----!	
 	ustream.tv##div[class="channelTopBannerWrapper"]
 	ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 	ustream.tv##div[class="hideAdMessage.forPageRectangle"]
@@ -184,10 +202,10 @@
 	ameblo.jp##p[class="ad2"]
 	ameblo.jp##p[class="dendoLink"]
 	ameblo.jp##p[class="dendoName"]
-	ameblo.jp###resPointArea
-	ameblo.jp###amebloInfo
-	ameblo.jp###eco_head
-
+	ameblo.jp##div[id="resPointArea"]
+	ameblo.jp##div[id="amebloInfo"]
+	ameblo.jp##div[id="eco_head"]
+	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
 
 	ameblo.jp##ul[class="rc_head clearFix"]
@@ -198,10 +216,8 @@
 	diamondblog.jp##div[id="hotspot"]
 ﻿!----- fc2 -----!
 ! メイン
-	fc2.com###sh_fc2blogheadbar_menu
-	fc2.com###sh_fc2blogheadbar
-
-
+	fc2.com##div[id="sh_fc2blogheadbar_menu"]
+	fc2.com##div[id="sh_fc2blogheadbar"]
 ! エディタ
 	blog.fc2.com##iframe[src^="http://ace.advertising.com/"]
 	blog.fc2.com##div[class="content"][id="recommend_newentry"]
@@ -216,7 +232,8 @@
 
 ! 表示
 	||fc2.com/ad/*
-
+! 解析？
+	/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
 ﻿! So-net blog	||blog.so-net.ne.jp/_contents/js/*	||blog.so-net.ne.jp/_common/js/*	||blog.so-net.ne.jp/_common/images/*	||so-net.ne.jp/search/javascripts/research/*	blog.so-net.ne.jp##.searchFrame	blog.so-net.ne.jp##.sbHeader	blog.so-net.ne.jp###powered﻿!----- yahoo.co.jp -----!
 	blogs.yahoo.co.jp##div[class="newblogInfoTalent"]
 	blogs.yahoo.co.jp##div[class^="newblogInfo"]

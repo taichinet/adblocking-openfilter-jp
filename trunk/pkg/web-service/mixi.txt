@@ -26,7 +26,9 @@
 		mixi.jp##iframe[src*="mreco0.jp/"]
 		mixi-platform.com##div[id="fm_top_ad"]
 		mixi-platform.com##div[id="poncan_ad"]
+		mixi-platform.com##div[id="fm_new_proms"]
 		mixi-platform.com##ul[class="fm_proms_list"]
+
 	!mreco抑止
 		||mreco.jp/adsv/*
 		||mreco0.jp/

@@ -18,10 +18,10 @@
 	ameblo.jp##p[class="ad2"]
 	ameblo.jp##p[class="dendoLink"]
 	ameblo.jp##p[class="dendoName"]
-	ameblo.jp###resPointArea
-	ameblo.jp###amebloInfo
-	ameblo.jp###eco_head
-
+	ameblo.jp##div[id="resPointArea"]
+	ameblo.jp##div[id="amebloInfo"]
+	ameblo.jp##div[id="eco_head"]
+	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
 
 	ameblo.jp##ul[class="rc_head clearFix"]

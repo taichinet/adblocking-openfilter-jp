@@ -55,6 +55,11 @@
 	nicovideo.jp##div[class="ads_468"]
 	live.nicovideo.jp##div[class="ichiba_frm"]
 	live.nicovideo.jp##div[id="carousel"]
-
-
+	nicovideo.jp##div[id="web_pc_premium.sideBanner"]
+	nicovideo.jp##div[id="web_pc_footer"]
+	nicovideo.jp##div[id="footerWrap"]
+	nicovideo.jp##div[id="sideTxtAd"]
+	nicovideo.jp##div[id="PAGEFOOTER"]
+	nicovideo.jp##div[id="content_312"]
+	nicovideo.jp##div[id="header-banner"]
 
