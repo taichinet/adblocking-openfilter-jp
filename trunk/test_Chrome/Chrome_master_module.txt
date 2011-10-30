@@ -33,7 +33,7 @@ rakuten.co.jp##IMG[src^="http://ba.afl.rakuten.co.jp/"]
 !! 許可対象
 !! 抑止対象
 ##div[class="yahooAd"]
-[adblock]
+
 !----- excite -----!
 http://adimp.excite.co.jp/*
 ##*[href*="http://adimp.excite.co.jp/"]
@@ -257,7 +257,7 @@ yahoo.co.jp##div[id="uhdMain"]
 ##div[id="jpwelcomeinsideyahootitle"]
 !! blog
 blogs.yahoo.co.jp##div[id="bottomAdBannerArea"]
-[adblock]
+
 !----- facebook -----!
 !@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
 !@@/(external|static|profile|photos-*)\.ak\.fbcdn\.net/$domain=facebook.com
@@ -490,7 +490,7 @@ blog.so-net.ne.jp###powered
 !----- yahoo.co.jp -----!
 blogs.yahoo.co.jp##div[class="newblogInfoTalent"]
 blogs.yahoo.co.jp##div[class^="newblogInfo"]
-[Adblock Plus]
+
 ! ----- @IT ----- !
 atmarkit.co.jp##div[id="ad"]
 atmarkit.co.jp##div[id="crec"]

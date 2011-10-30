@@ -1,0 +1,6 @@
+﻿[Adblock Plus]
+! http://adblocking-openfilter-jp.googlecode.com/files/Chrome_test.txt
+
+! mixi
+||mreco.jp/adsv/*
+||mreco0.jp/
