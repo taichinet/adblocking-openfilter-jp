@@ -1,0 +1,7 @@
+#labels filter,IssueList
+=== *[http://openfilter-jp.blogspot.com/search/label/Issues 既知の問題]* ===
+||環境||フィルタ名||現象名||内容||対応予定||
+||Chrome||module_potal||特定環境において、[http://code.google.com/p/adblocking-openfilter-jp/downloads/detail?name=module_potal.txt&can=2&q= module_potal.txt] が購読出来ない||Chrome版AdblockPlusにて、購読出来ない現象が発生しています。||対応完了。Chrome・Firefox版AdblockPlusにて更新の実施を確認。||
+||Chrome,Firefox||module_web||iGoogleの動作不良||一部ガジェットの動作不良||未定||
+||Chrome||module_web||mixi.jpにて表示不良||CSSがちゃんと読み込めない||更新予定||
+||Chrome||module_web||mixi.jpにて表示不良||バナーの非表示が出来ていない||対応中||
