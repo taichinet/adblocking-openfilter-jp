@@ -10,5 +10,5 @@
 	atmarkit.co.jp##div[id="kyujinim"]
 	atmarkit.co.jp##div[id="rrec"]
 	atmarkit.co.jp##div[id="semBox"]
-	cinematoday.jp##div[id="ad-prime-display"]
 	atmarkit.co.jp##div[id="kyujinel"]
+	|http://dlv.itmedia.jp/adsv/v1?
