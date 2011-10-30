@@ -85,7 +85,8 @@
 	j-cast.com##div[id="MCAdEntryToptext"]
 	j-cast.com##div[id="MCAdEntryUnderTitle"]
 	j-cast.com##div[id="MCEntryAmazon"]
-	j-cast.com##iframe[title="Advertisement"]﻿!----- 毎日 -----!
+	j-cast.com##iframe[title="Advertisement"]
+﻿!----- 毎日 -----!
 !!! mainichi.jp
 	*ad.mainichi.jp*
 	|http://ai.yimg.jp/bdv/*/*/*/*.gif$domain=mainichi.jp

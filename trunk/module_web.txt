@@ -52,8 +52,9 @@
 !開放：システム
 	@@|http://mixi.jp/ajax_*$domain=mixi.jp
 	@@/analy(tics|ze|sis)/$domain=mixi.jp
-	
-	!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
+		!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
+	@@|http://img.mixi.net/static/css/$domain=mixi.jp
+		! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
 	
 	!開放：アプリ
 		@@||happyelements.com^$domain=mixi.jp
