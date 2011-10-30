@@ -1,18 +1,17 @@
 ﻿!----- livedoor -----!
 	/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
 	livedoor.com##*[href*="A-affiliate"]
-	livedoor.com##div#ad-giftext
-	livedoor.com##div#ad-recommend
-	livedoor.com##div#amazon-ranking
-	livedoor.com##div#become
-	livedoor.com##div#become_ads
-	livedoor.com##div#blogcampaign
-	livedoor.com##div#headerBanner
-	livedoor.com##div#newsFooter
-	livedoor.com##div#osusume
-	livedoor.com##div#otoku-info
-	livedoor.com##div#partner-box
-	livedoor.com##div#yahoo-shopping
+	livedoor.com##div[id="ad-recommend"]
+	livedoor.com##div[id="amazon-ranking"]
+	livedoor.com##div[id="become"]
+	livedoor.com##div[id="become_ads"]
+	livedoor.com##div[id="blogcampaign"]
+	livedoor.com##div[id="headerBanner"]
+	livedoor.com##div[id="newsFooter"]
+	livedoor.com##div[id="osusume"]
+	livedoor.com##div[id="otoku-info"]
+	livedoor.com##div[id="partner-box"]
+	livedoor.com##div[id="yahoo-shopping"]
 	livedoor.com##div[class*="adsenseBox"]
 	livedoor.com##div[class*="adsense-topics-detail"]
 	livedoor.com##div[class*="becomeAuthor"]
