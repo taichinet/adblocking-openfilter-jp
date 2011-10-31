@@ -1,7 +1,7 @@
 ﻿[Adblock Plus]
 
 
-﻿﻿!----- excite -----!
+﻿!----- excite -----!
 	http://adimp.excite.co.jp/*
 	##*[href*="http://adimp.excite.co.jp/"]
 	##script[src*="http://adimp.excite.co.jp/"]
