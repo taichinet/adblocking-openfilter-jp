@@ -1,6 +1,20 @@
 ﻿[Adblock Plus]
 
 
+﻿! ----- @IT ----- !
+	atmarkit.co.jp##div[id="ad"]
+	atmarkit.co.jp##div[id="crec"]
+	atmarkit.co.jp##div[id="frec"]
+	atmarkit.co.jp##div[id="ISALR"]
+	atmarkit.co.jp##div[id="ISALRU"]
+	atmarkit.co.jp##div[id="ISTLC"]
+	atmarkit.co.jp##div[id="job-info"]
+	atmarkit.co.jp##div[id="kyujin"]
+	atmarkit.co.jp##div[id="kyujinim"]
+	atmarkit.co.jp##div[id="rrec"]
+	atmarkit.co.jp##div[id="semBox"]
+	atmarkit.co.jp##div[id="kyujinel"]
+	|http://dlv.itmedia.jp/adsv/v1?
 ﻿!----- excite -----!
 	http://adimp.excite.co.jp/*
 	##*[href*="http://adimp.excite.co.jp/"]
@@ -71,6 +85,47 @@
 ! beacon?
 	ashiato.rakuten.co.jp/*
 
+﻿!----- ITMedia -----!
+! core
+	|http://dlv.itmedia.jp/adsv/v1?
+	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
+! ITMedia
+	itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
+	itmedia.co.jp##div[class="ITFT"]
+	itmedia.co.jp##div[id^="IS"]
+	itmedia.co.jp##div[id="ISAL"]
+	itmedia.co.jp##div[id="ISALR"]
+	itmedia.co.jp##div[id="ISTCPB"]
+	itmedia.co.jp##div[id="ISTLC"]
+	itmedia.co.jp##div[id="ISTLR"]
+	itmedia.co.jp##div[id="cmsPrcredit"]
+	itmedia.co.jp##script[type="text/javascript"][src*="/css/"]
+	itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
+
+! bizmakoto.jp
+	bizmakoto.jp##.colBox.colBoxFeedback
+	bizmakoto.jp##.makotofocushead
+	bizmakoto.jp###ISAL
+	bizmakoto.jp##.colBoxClear.h10px
+	bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
+	bizmakoto.jp###COIDP
+	bizmakoto.jp###ISAL2
+	bizmakoto.jp###makotofocus + * + * + * + * A[href^="/bizid/articles/"]
+	bizmakoto.jp###makotofocus + * + * + * + * A[href^="http://www.itmedia.co.jp/news/fl/"]
+	bizmakoto.jp##div[id^="makotofocus"]
+	bizmakoto.jp##script[src^="/css/"][src$=".js"]
+	bizmakoto.jp##.cbox
+	bizmakoto.jp###ISTLR
+	bizmakoto.jp###features
+	bizmakoto.jp###globalFooter
+
+	
+	! 試験中
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://bizmakoto.jp"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://www.itmedia.co.jp/news/fl/"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href="/pcuser/special/mouse-jp.html"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[href^="/makoto/articles/"]
+		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]
 ﻿! ----- J's goal ----- !
 	||jsgoal.jp/js/_parts/random_banner/*
 	||jsgoal.jp/js/common/ad_overture.js
@@ -139,6 +194,103 @@
 	! なぞり検索
 		nazorisearch
 		*selectionSearch.js
+﻿!!! mediagene系
+	!! 共通
+		||advg.jp
+	!! gizmodo.jp
+		! SiteTOP
+		gizmodo.jp##div[class="date_header date_header_premium"]
+		! subHeader
+		gizmodo.jp##ul[class="recomended"]
+		! footer
+		gizmodo.jp##div[class="foot_facebook_block"]
+		! BOX
+		gizmodo.jp##div[id="headbar"]
+		gizmodo.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
+		! 左ペイン
+		gizmodo.jp##div[id="side"]
+		gizmodo.jp##div[id="team"]
+		gizmodo.jp##div[id="entryranking"]
+		! 中央ペイン
+		gizmodo.jp##div[class="right"]
+		gizmodo.jp##div[class="ad_entry_amazon_under"]
+		gizmodo.jp##div[class="facebook_block"]
+		gizmodo.jp##div[class="fbbox"]
+		gizmodo.jp##div[class="recententries"]
+		! 右ペイン
+		gizmodo.jp##div[class="entry_comments section"]
+		gizmodo.jp##div[class="amazon_ranking section"]
+		gizmodo.jp##div[id="hateburanking"]
+		gizmodo.jp##div[class="entry_tweetrank section"]
+		! 新着&Tweet数ランキング
+			gizmodo.jp##div[class="entrybox_title"]
+		! affiliate
+			||images-amazon.com^$domain=gizmodo.jp
+			||fbcdn.net^$domain=facebook.com
+			||xml.affiliate.rakuten.co.jp^$domain=gizmodo.jp
+			||yimg.jp^$domain=gizmodo.jp
+			||disqus.com^$domain=gizmodo.jp
+			gizmodo.jp##div[id="index_amazon"]
+			gizmodo.jp##div[id="amazon"]
+		! 広告記事
+			gizmodo.jp##div[class="entry entry_s ad_premiumplan clfx"]
+		! facebook plugin
+			gizmodo.jp##iframe[src^="http://www.facebook.com/plugins"]
+		! 場所ド忘れ
+			gizmodo.jp##a[href^="http://www.amazon.co.jp/exec/"]
+			gizmodo.jp##.headline
+
+
+
+	!! lifehacker.jp
+		! SiteTOP
+		lifehacker.jp##div[class="date_header date_header_premium"]
+		! subHeader
+		lifehacker.jp##ul[class="recomended"]
+		! footer
+		lifehacker.jp##div[class="foot_facebook_block"]
+		! TOPBOX
+		lifehacker.jp##div[id="headbar"]
+		lifehacker.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
+		lifehacker.jp##div[class-"entrybox"]
+		lifehacker.jp##div[class="headline"]
+		! 左ペイン
+		lifehacker.jp##div[id="side"]
+		lifehacker.jp##div[id="team"]
+		lifehacker.jp##div[id="entryranking"]
+		! 中央ペイン
+		lifehacker.jp##div[class="right"]
+		lifehacker.jp##div[class="ad_entry_amazon_under"]
+		lifehacker.jp##div[class="facebook_block"]
+		lifehacker.jp##div[class="fbbox"]
+		lifehacker.jp##div[class="recententries"]
+		! 右ペイン
+		lifehacker.jp##div[class="entry_comments section"]
+		lifehacker.jp##div[class="amazon_ranking section"]
+		lifehacker.jp##div[id="hateburanking"]
+		! 新着&Tweet数ランキング
+		lifehacker.jp##div[class="entrybox_title"]
+		! affiliate
+		lifehacker.jp##div[id^="index_amazon"]
+		lifehacker.jp##div[id^="amazon"]
+		lifehacker.jp##div[class^="amazon_"]
+		lifehacker.jp##div[class^="ad_entry_amazon"]
+		! 広告記事
+		lifehacker.jp##div[class="entry entry_s ad_premiumplan clfx"]
+	!! kotaku.jp
+		! adv
+		||kotaku.jp/common/inc/inc_ad_entry_top.js
+		! 左ペイン
+		kotaku.jp##div[id="side"]
+		! 中央ペイン
+		kotaku.jp##div[class="entry ad_entry_super clfx clr"]
+		kotaku.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/"]
+		! 右ペイン
+		kotaku.jp##div[class="entry_comments section"]
+		! 広告記事
+		kotaku.jp##div[class="entry entry_s ad_premiumplan clfx"]
+
+
 ﻿!----- MSN -----!
 	##*[href*="http://clk.atdmt.com/"]
 ﻿! ----- rocketnews24.com ----- !

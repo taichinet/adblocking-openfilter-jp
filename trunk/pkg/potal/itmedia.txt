@@ -1,5 +1,6 @@
 ﻿!----- ITMedia -----!
 ! core
+	|http://dlv.itmedia.jp/adsv/v1?
 	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
 ! ITMedia
 	itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]

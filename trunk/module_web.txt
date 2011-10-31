@@ -212,6 +212,9 @@
 	ameblo.jp##div[class="readerMainLink"]
 
 	ameblo.jp##ul[class="rc_head clearFix"]
+﻿!----- blogger.com -----!
+! Adenseモジュールの非表示
+	##div[class="widget AdSense"]
 ﻿!----- diamondblog.jp -----!
 	diamondblog.jp##div[id="newentry"]
 	diamondblog.jp##iframe[src^="https://ads.adjust-net.jp/adserver/"]
