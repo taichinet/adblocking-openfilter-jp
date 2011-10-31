@@ -1,41 +1,58 @@
 ﻿!----- ITMedia -----!
 ! core
-	|http://dlv.itmedia.jp/adsv/v1?
+	|http://dlv.itmedia.jp/adsv/^
 	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
-! ITMedia
-	itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
-	itmedia.co.jp##div[class="ITFT"]
-	itmedia.co.jp##div[id^="IS"]
-	itmedia.co.jp##div[id="ISAL"]
-	itmedia.co.jp##div[id="ISALR"]
-	itmedia.co.jp##div[id="ISTCPB"]
-	itmedia.co.jp##div[id="ISTLC"]
-	itmedia.co.jp##div[id="ISTLR"]
-	itmedia.co.jp##div[id="cmsPrcredit"]
-	itmedia.co.jp##script[type="text/javascript"][src*="/css/"]
-	itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
-
-! bizmakoto.jp
-	bizmakoto.jp##.colBox.colBoxFeedback
-	bizmakoto.jp##.makotofocushead
-	bizmakoto.jp###ISAL
-	bizmakoto.jp##.colBoxClear.h10px
-	bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
-	bizmakoto.jp###COIDP
-	bizmakoto.jp###ISAL2
-	bizmakoto.jp###makotofocus + * + * + * + * A[href^="/bizid/articles/"]
-	bizmakoto.jp###makotofocus + * + * + * + * A[href^="http://www.itmedia.co.jp/news/fl/"]
-	bizmakoto.jp##div[id^="makotofocus"]
-	bizmakoto.jp##script[src^="/css/"][src$=".js"]
-	bizmakoto.jp##.cbox
-	bizmakoto.jp###ISTLR
-	bizmakoto.jp###features
-	bizmakoto.jp###globalFooter
-
-	
-	! 試験中
-		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://bizmakoto.jp"]
-		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://www.itmedia.co.jp/news/fl/"]
-		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href="/pcuser/special/mouse-jp.html"]
-		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[href^="/makoto/articles/"]
-		bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]
+	! ITMedia
+		itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
+		itmedia.co.jp##div[class="ITFT"]
+		itmedia.co.jp##div[id^="IS"]
+		itmedia.co.jp##div[id="ISAL"]
+		itmedia.co.jp##div[id="ISALR"]
+		itmedia.co.jp##div[id="ISTCPB"]
+		itmedia.co.jp##div[id="ISTLC"]
+		itmedia.co.jp##div[id="ISTLR"]
+		itmedia.co.jp##div[id="cmsPrcredit"]
+		itmedia.co.jp##script[type="text/javascript"][src*="/css/"]
+		itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
+	! bizmakoto.jp
+		bizmakoto.jp##.colBox.colBoxFeedback
+		bizmakoto.jp##.makotofocushead
+		bizmakoto.jp###ISAL
+		bizmakoto.jp##.colBoxClear.h10px
+		bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
+		bizmakoto.jp###COIDP
+		bizmakoto.jp###ISAL2
+		bizmakoto.jp###makotofocus + * + * + * + * A[href^="/bizid/articles/"]
+		bizmakoto.jp###makotofocus + * + * + * + * A[href^="http://www.itmedia.co.jp/news/fl/"]
+		bizmakoto.jp##div[id^="makotofocus"]
+		bizmakoto.jp##script[src^="/css/"][src$=".js"]
+		bizmakoto.jp##.cbox
+		bizmakoto.jp###ISTLR
+		bizmakoto.jp###features
+		bizmakoto.jp###globalFooter
+		! 試験中
+			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://bizmakoto.jp"]
+			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href^="http://www.itmedia.co.jp/news/fl/"]
+			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * [href="/pcuser/special/mouse-jp.html"]
+			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[href^="/makoto/articles/"]
+			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]
+	! @IT
+		atmarkit.co.jp##div[id="ad"]
+		atmarkit.co.jp##div[id="crec"]
+		atmarkit.co.jp##div[id="frec"]
+		atmarkit.co.jp##div[id="ISALR"]
+		atmarkit.co.jp##div[id="ISALRU"]
+		atmarkit.co.jp##div[id="ISTLC"]
+		atmarkit.co.jp##div[id="job-info"]
+		atmarkit.co.jp##div[id="kyujin"]
+		atmarkit.co.jp##div[id="kyujinim"]
+		atmarkit.co.jp##div[id="rrec"]
+		atmarkit.co.jp##div[id="semBox"]
+		atmarkit.co.jp##div[id="kyujinel"]
+		atmarkit.co.jp##div[id="header_ad"]
+		atmarkit.co.jp##div[class="ad"]
+		atmarkit.co.jp##div[id="eventad"]
+		atmarkit.co.jp##div[id="ISFLR"]
+		atmarkit.co.jp##div[id="ISTLR"]
+		atmarkit.co.jp##div[class="haken"]
+		atmarkit.co.jp##div[class="jc"]
