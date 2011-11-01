@@ -1,0 +1,2 @@
+#labels Deprecated
+[http://code.google.com/p/adblocking-openfilter-jp/issues/list IssueList]
