@@ -1,5 +1,5 @@
-﻿!----- diamondblog.jp -----!
+!----- diamondblog.jp -----!
+	diamondblog.jp##iframe[src*="adjust-net.jp"]
 	diamondblog.jp##div[id="newentry"]
-	diamondblog.jp##iframe[src^="https://ads.adjust-net.jp/adserver/"]
 	diamondblog.jp##div[id="headbar"]
 	diamondblog.jp##div[id="hotspot"]

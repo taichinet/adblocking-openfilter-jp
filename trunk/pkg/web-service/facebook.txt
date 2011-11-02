@@ -1,5 +1,4 @@
-﻿!----- facebook -----!
-
+!----- facebook -----!
 	!@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
 	!@@/(external|static|profile|photos-*)\.ak\.fbcdn\.net/$domain=facebook.com
 	creative.ak.fbcdn.net/*/flyers/*
@@ -18,7 +17,6 @@
 	! 解析用フレーム
 		||facebook.com/ai.php*
 		##*[src*="/ai.php"]
-
 ! plugin
 	||connect.facebook.net/en_US/all.js
 	||facebook.com/plugins/^
@@ -28,4 +26,3 @@
 	##iframe[src*="facebook.com/plugins/recommendations.php?"]
 	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-

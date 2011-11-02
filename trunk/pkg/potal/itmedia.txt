@@ -1,7 +1,7 @@
 !----- ITMedia -----!
-! core
-	|http://dlv.itmedia.jp/adsv/^
-	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
+	! core
+		|http://dlv.itmedia.jp/adsv/^
+		##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
 	! ITMedia
 		itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
 		itmedia.co.jp##div[class="ITFT"]
@@ -38,21 +38,19 @@
 			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]
 	! @IT
 		atmarkit.co.jp##div[id="ad"]
-		atmarkit.co.jp##div[id="crec"]
-		atmarkit.co.jp##div[id="frec"]
-		atmarkit.co.jp##div[id="ISALR"]
-		atmarkit.co.jp##div[id="ISALRU"]
-		atmarkit.co.jp##div[id="ISTLC"]
-		atmarkit.co.jp##div[id="job-info"]
-		atmarkit.co.jp##div[id="kyujin"]
-		atmarkit.co.jp##div[id="kyujinim"]
-		atmarkit.co.jp##div[id="rrec"]
-		atmarkit.co.jp##div[id="semBox"]
-		atmarkit.co.jp##div[id="kyujinel"]
-		atmarkit.co.jp##div[id="header_ad"]
 		atmarkit.co.jp##div[class="ad"]
-		atmarkit.co.jp##div[id="eventad"]
-		atmarkit.co.jp##div[id="ISFLR"]
-		atmarkit.co.jp##div[id="ISTLR"]
 		atmarkit.co.jp##div[class="haken"]
 		atmarkit.co.jp##div[class="jc"]
+		atmarkit.co.jp##div[id^="kyujin"]
+		atmarkit.co.jp##div[id="crec"]
+		atmarkit.co.jp##div[id="eventad"]
+		atmarkit.co.jp##div[id="frec"]
+		atmarkit.co.jp##div[id="header_ad"]
+		atmarkit.co.jp##div[id="ISALR"]
+		atmarkit.co.jp##div[id="ISALRU"]
+		atmarkit.co.jp##div[id="ISFLR"]
+		atmarkit.co.jp##div[id="ISTLC"]
+		atmarkit.co.jp##div[id="ISTLR"]
+		atmarkit.co.jp##div[id="job-info"]
+		atmarkit.co.jp##div[id="rrec"]
+		atmarkit.co.jp##div[id="semBox"]

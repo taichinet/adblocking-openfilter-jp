@@ -1,4 +1,4 @@
-﻿!----- ameblo -----!
+!----- ameblo -----!
 ! 1*1画像検出
 	||act.ameba.jp^
 	||ameblo.jp/accesslog/*
@@ -23,5 +23,4 @@
 	ameblo.jp##div[id="eco_head"]
 	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
-
 	ameblo.jp##ul[class="rc_head clearFix"]

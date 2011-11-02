@@ -580,7 +580,7 @@
 		google.com,google.co.jp##div[id="bottomads"]
 		google.com,google.co.jp##td[class="std"]
 !----- infoseek -----!
-	||rakuten.co.jp/content/ad/DCBT/^$domain=infoseek.co.jp
+	||rakuten.co.jp/content/ad/^$domain=infoseek.co.jp
 	||ias.rakuten.co.jp/^$domain=infoseek.co.jp
 	||image.ias.rakuten.co.jp/^$domain=infoseek.co.jp
 	infoseek.co.jp##*[id^="ichiba"]
@@ -591,31 +591,29 @@
 	infoseek.co.jp##div[class="prtxt"]
 	infoseek.co.jp##div[class="topic"]
 	infoseek.co.jp##div[id*="ad"]
+	infoseek.co.jp##div[id="CorpArea"]
 	infoseek.co.jp##div[id="grpRakutenLinkArea"]
-	infoseek.co.jp##div#CorpArea
-	infoseek.co.jp##div#grpService
-	infoseek.co.jp##div#hotFeature
-	infoseek.co.jp##div#pickup_contents
-	infoseek.co.jp##div#pointget
-	infoseek.co.jp##div#recommend
+	infoseek.co.jp##div[id="grpService"]
+	infoseek.co.jp##div[id="hotFeature"]
+	infoseek.co.jp##div[id="pickup_contents"]
+	infoseek.co.jp##div[id="pointget"]
+	infoseek.co.jp##div[id="recommend"]
 	infoseek.co.jp##iframe[href*="http://rd.rakuten.co.jp/go/?R2=http://event.rakuten.co.jp/campaign/"]
 	infoseek.co.jp##iframe[src^="http://topics.news.www.infoseek.co.jp/isweb/clip.html"]
 	infoseek.co.jp##iframe[src*="ias.rakuten.co.jp"]
-	infoseek.co.jp##IMG[src*="bunner"]
-	infoseek.co.jp##script[src^="http://grp01.ias.rakuten.co.jp/"]
+	infoseek.co.jp##img[src*="bunner"]
 	infoseek.co.jp##script[src^="http://image.infoseek.co.jp/images/ads/"]
 	infoseek.co.jp##script[src^="http://news.www.infoseek.co.jp/hotspot/data/"]
 	infoseek.co.jp##script[src*=".js"]
 	infoseek.co.jp##script[src*="hotspot-loader.js"]
-	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
-	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
+	infoseek.co.jp##script[src*="ias.rakuten.co.jp"]
 	infoseek.co.jp##span[id*="abg"]
 ! beacon?
 	ashiato.rakuten.co.jp/*
 !----- ITMedia -----!
-! core
-	|http://dlv.itmedia.jp/adsv/^
-	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
+	! core
+		|http://dlv.itmedia.jp/adsv/^
+		##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
 	! ITMedia
 		itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
 		itmedia.co.jp##div[class="ITFT"]
@@ -652,203 +650,161 @@
 			bizmakoto.jp##.colBox.colBoxNew + * + * + * + * A[onclick*="http://bizmakoto.jp/style/"]
 	! @IT
 		atmarkit.co.jp##div[id="ad"]
-		atmarkit.co.jp##div[id="crec"]
-		atmarkit.co.jp##div[id="frec"]
-		atmarkit.co.jp##div[id="ISALR"]
-		atmarkit.co.jp##div[id="ISALRU"]
-		atmarkit.co.jp##div[id="ISTLC"]
-		atmarkit.co.jp##div[id="job-info"]
-		atmarkit.co.jp##div[id="kyujin"]
-		atmarkit.co.jp##div[id="kyujinim"]
-		atmarkit.co.jp##div[id="rrec"]
-		atmarkit.co.jp##div[id="semBox"]
-		atmarkit.co.jp##div[id="kyujinel"]
-		atmarkit.co.jp##div[id="header_ad"]
 		atmarkit.co.jp##div[class="ad"]
-		atmarkit.co.jp##div[id="eventad"]
-		atmarkit.co.jp##div[id="ISFLR"]
-		atmarkit.co.jp##div[id="ISTLR"]
 		atmarkit.co.jp##div[class="haken"]
 		atmarkit.co.jp##div[class="jc"]
+		atmarkit.co.jp##div[id^="kyujin"]
+		atmarkit.co.jp##div[id="crec"]
+		atmarkit.co.jp##div[id="eventad"]
+		atmarkit.co.jp##div[id="frec"]
+		atmarkit.co.jp##div[id="header_ad"]
+		atmarkit.co.jp##div[id="ISALR"]
+		atmarkit.co.jp##div[id="ISALRU"]
+		atmarkit.co.jp##div[id="ISFLR"]
+		atmarkit.co.jp##div[id="ISTLC"]
+		atmarkit.co.jp##div[id="ISTLR"]
+		atmarkit.co.jp##div[id="job-info"]
+		atmarkit.co.jp##div[id="rrec"]
+		atmarkit.co.jp##div[id="semBox"]
 ! ----- J's goal ----- !
 	||jsgoal.jp/js/_parts/random_banner/*
 	||jsgoal.jp/js/common/ad_overture.js
 	jsgoal.jp##div[id="searchpopup"]
 !----- livedoor -----!
-	/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
-	livedoor.com##*[href*="A-affiliate"]
-	livedoor.com##div[id="ad-recommend"]
-	livedoor.com##div[id="amazon-ranking"]
-	livedoor.com##div[id="become"]
-	livedoor.com##div[id="become_ads"]
-	livedoor.com##div[id="blogcampaign"]
-	livedoor.com##div[id="headerBanner"]
-	livedoor.com##div[id="newsFooter"]
-	livedoor.com##div[id="osusume"]
-	livedoor.com##div[id="otoku-info"]
-	livedoor.com##div[id="partner-box"]
-	livedoor.com##div[id="yahoo-shopping"]
-	livedoor.com##div[class*="adsenseBox"]
-	livedoor.com##div[class*="adsense-topics-detail"]
-	livedoor.com##div[class*="becomeAuthor"]
-	livedoor.com##div[class*="becomeImages"]
-	livedoor.com##div[class*="becomeNewprice"]
-	livedoor.com##div[class*="becomeTitle"]
-	livedoor.com##div[class*="google-body"]
-	livedoor.com##div[class*="google-title"]
-	livedoor.com##div[class*="large-showcase"]
-	livedoor.com##div[class*="LDservice-link"]
-	livedoor.com##div[class*="module ad-"]
-	livedoor.com##div[class*="module ads-"]
-	livedoor.com##div[class*="prtextBox"]
-	livedoor.com##div[class*="SearchResultBottomAD"]
-	livedoor.com##div[class*="SearchResultTopAD"]
-	livedoor.com##div[class*="section ads-by-google-0"]
-	livedoor.com##iframe[src*="ad.yieldmanager.com"]
-	livedoor.com##script[src="http://image.click.livedoor.com/js/livedoortopFlashAd.js"]
-	livedoor.com##img[class="tie-up"]
-	livedoor.com##p[id="megaText"]
-	livedoor.com##div[id="ad"]
-	livedoor.com##div[id="feature-ad"]
-	livedoor.com##div[id="news-special"]
-	livedoor.com##div[id="footer-ad-links > UL"]
-	livedoor.com##div[id="commonFooter"]
-!! サービス
-	blog.livedoor.jp##div[id="analyzer_tags"]
-	blog.livedoor.jp##script[src$="/settings/ad.js"]
-	blog.livedoor.jp##script[src$="/settings/header.js"]
-	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
-	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
-	blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
-	blog.livedoor.jp##span[class="common-header-logo"]
-	blog.livedoor.jp##span[class="common-header-pr"]
-	blog.livedoor.jp##span[class="commopn-header-category"]
-	blog.livedoor.jp##td[class="catprbox"]
-	blog.livedoor.jp##td[class="newstickerbox"]
-	blog.livedoor.jp##td[class="pickuptheme"]
-	blog.livedoor.jp##td[class="startblogbox"]
-	||livedoor.biz/settings/header.js^$domain=livedoor.biz
-	||livedoor.jp/*/settings/header.js
+	! 正規表現
+		/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
+	! .com
+		livedoor.com##*[href*="A-affiliate"]
+		livedoor.com##div[id="ad-recommend"]
+		livedoor.com##div[id="amazon-ranking"]
+		livedoor.com##div[id="become"]
+		livedoor.com##div[id="become_ads"]
+		livedoor.com##div[id="blogcampaign"]
+		livedoor.com##div[id="headerBanner"]
+		livedoor.com##div[id="newsFooter"]
+		livedoor.com##div[id="osusume"]
+		livedoor.com##div[id="otoku-info"]
+		livedoor.com##div[id="partner-box"]
+		livedoor.com##div[id="yahoo-shopping"]
+		livedoor.com##div[class*="adsenseBox"]
+		livedoor.com##div[class*="adsense-topics-detail"]
+		livedoor.com##div[class*="becomeAuthor"]
+		livedoor.com##div[class*="becomeImages"]
+		livedoor.com##div[class*="becomeNewprice"]
+		livedoor.com##div[class*="becomeTitle"]
+		livedoor.com##div[class*="google-body"]
+		livedoor.com##div[class*="google-title"]
+		livedoor.com##div[class*="large-showcase"]
+		livedoor.com##div[class*="LDservice-link"]
+		livedoor.com##div[class*="module ad-"]
+		livedoor.com##div[class*="prtextBox"]
+		livedoor.com##div[class*="SearchResult"][class$=AD"]
+		!	livedoor.com##div[class*="SearchResultBottomAD"][class$=AD"]
+		!	livedoor.com##div[class*="SearchResultTopAD"]
+		livedoor.com##div[class*="section ads-by-google-0"]
+		livedoor.com##iframe[src*="ad.yieldmanager.com"]
+		livedoor.com##script[src="http://image.click.livedoor.com/js/livedoortopFlashAd.js"]
+		livedoor.com##img[class="tie-up"]
+		livedoor.com##p[id="megaText"]
+		livedoor.com##div[id="ad"]
+		livedoor.com##div[id="feature-ad"]
+		livedoor.com##div[id="news-special"]
+		livedoor.com##div[id^="footer-ad-links"]
+		livedoor.com##div[id="commonFooter"]
+	!! サービス
+		! weblog
+			blog.livedoor.jp##div[id="analyzer_tags"]
+			blog.livedoor.jp##script[src$="/settings/ad.js"]
+			blog.livedoor.jp##script[src$="/settings/header.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
+			blog.livedoor.jp##span[class^="common-header"]
+			blog.livedoor.jp##td[class="catprbox"]
+			blog.livedoor.jp##td[class="newstickerbox"]
+			blog.livedoor.jp##td[class="pickuptheme"]
+			blog.livedoor.jp##td[class="startblogbox"]
+			/settings/header.js^$domain=livedoor.com,livedoor.net,livedoor.jp,livedoor.biz
+			/settings/ad.js^$domain=livedoor.com,livedoor.net,livedoor.jp,livedoor.biz
 	! blogeditor
+		! これに許可を出さないとツールを使えない為、許可。
 		@@||livedoor.blogcms.jp/js/cms2/swfupload/*
 		@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
 		@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
 	! なぞり検索
 		nazorisearch
 		*selectionSearch.js
+
+!! 試験用
 !!! mediagene系
 	!! 共通
 		! 広告拒否
-			||advg.jp
-			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##iframe[src*="ds.advg.jp"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class^="ad_head"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class^="ad_entry"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class^="entry entry_s ad_premiumplan clfx"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class^="amazon"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="date_header date_header_premium"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="entry_comments section"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="entry_tweetrank section"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="entrybox"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="entrybox_title"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="headline"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="recententries"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id^="amazon"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id="entryranking"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id="hateburanking"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id="headbar"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id="team"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[id="twtrbox"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##iframe[src*="advg.jp"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##ul[class="recomended"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##ul[class="headline"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##a[href^="http://www.amazon.co.jp/exec/"]
+			||xml.affiliate.rakuten.co.jp^$domain=gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net
+			||images-amazon.com^$domain=gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net
+			||yimg.jp^$domain=gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net
+			||disqus.com^$domain=gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net
 		! facebook plugin
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="facebook_block"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="fbbox"]
+			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class="foot_facebook_block"]
 			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##iframe[src^="http://www.facebook.com/plugins"]
 	!! gizmodo.jp
-			gizmodo.jp##.headline
-			gizmodo.jp##div[class="date_header date_header_premium"]
-			gizmodo.jp##ul[class="recomended"]
-			gizmodo.jp##div[class="foot_facebook_block"]
-			gizmodo.jp##div[id="headbar"]
-			gizmodo.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
-			gizmodo.jp##div[id="team"]
-			gizmodo.jp##div[id="entryranking"]
-			gizmodo.jp##div[class="right"]
-			gizmodo.jp##div[class="facebook_block"]
-			gizmodo.jp##div[class="fbbox"]
-			gizmodo.jp##div[class="recententries"]
-			gizmodo.jp##div[class="entry_comments section"]
-			gizmodo.jp##div[class="amazon_ranking section"]
-			gizmodo.jp##div[id="hateburanking"]
-			gizmodo.jp##div[class="entry_tweetrank section"]
-			gizmodo.jp##div[class="entrybox_title"]
-		! 広告記事
-			gizmodo.jp##div[class="entry entry_s ad_premiumplan clfx"]
-		! facebook plugin
-			gizmodo.jp##iframe[src^="http://www.facebook.com/plugins"]
-		! affiliate
-			||images-amazon.com^$domain=gizmodo.jp
-			||fbcdn.net^$domain=facebook.com
-			||xml.affiliate.rakuten.co.jp^$domain=gizmodo.jp
-			||yimg.jp^$domain=gizmodo.jp
-			||disqus.com^$domain=gizmodo.jp
-			gizmodo.jp##div[class="ad_entry_amazon_under"]
-			gizmodo.jp##div[id="index_amazon"]
-			gizmodo.jp##div[id="amazon"]
-			gizmodo.jp##a[href^="http://www.amazon.co.jp/exec/"]
-	!! lifehacker.jp
-		! SiteTOP
-			lifehacker.jp##div[class="date_header date_header_premium"]
-			lifehacker.jp##ul[class="recomended"]
-			lifehacker.jp##div[id="headbar"]
-			lifehacker.jp##div[class-"entrybox"]
-			lifehacker.jp##div[class="headline"]
-			lifehacker.jp##div[id="team"]
-			lifehacker.jp##div[id="entryranking"]
-			lifehacker.jp##div[class="right"]
-			lifehacker.jp##div[class="recententries"]
-			lifehacker.jp##div[class="entry_comments section"]
-			lifehacker.jp##div[id="hateburanking"]
-		! 新着&Tweet数ランキング
-			lifehacker.jp##div[class="entrybox_title"]
-		! facebook plugin
-			lifehacker.jp##div[class="foot_facebook_block"]
-			lifehacker.jp##div[class="facebook_block"]
-			lifehacker.jp##div[class="fbbox"]
-		! affiliate
-			lifehacker.jp##div[id^="index_amazon"]
-			lifehacker.jp##div[id^="amazon"]
-			lifehacker.jp##div[class^="amazon_"]
-			lifehacker.jp##div[class^="ad_entry_amazon"]
-			lifehacker.jp##div[class="amazon_ranking section"]
-			lifehacker.jp##div[class="ad_entry_amazon_under"]
-			lifehacker.jp##iframe[src^="http://ds.advg.jp/adpds_deliver/p/iframe"]
-		! 広告記事
-			lifehacker.jp##div[class="entry entry_s ad_premiumplan clfx"]
+		gizmodo.jp##div[class="entrybox"]
+		gizmodo.jp##div[id^="index_amazon"]
 	!! kotaku.jp
-		! 広告
-			||kotaku.jp/common/inc/inc_ad_entry_top.js
-			kotaku.jp##div[class="entry entry_s ad_premiumplan clfx"]
-			kotaku.jp##div[class="ad_head_rectangle"]
-			kotaku.jp##div[class="entry ad_entry_super clfx clr"]
-			kotaku.jp##div[class="entry_comments section"]
+		||kotaku.jp/common/inc/inc_ad_entry_top.js
+		kotaku.jp##div[class="entry ad_entry_super clfx clr"]
+	!! lifehacker.jp
+		lifehacker.jp##div[class^="amazon_"]
+		lifehacker.jp##div[class="right"]
+		lifehacker.jp##div[id^="index_amazon"]
+	!! mylohas.net
+		mylohas.net##div[id="adboshubox"]
+		mylohas.net##div[id="mainarea_foot"]
+		mylohas.net##div[id="searchbnbox"]
+		mylohas.net##IFRAME[src^="http://files.glam.jp/adops/ad_creatives/"]
 	!! myspiritual.jp
-		! main
-			myspiritual.jp##div[class="topBox"]
-			myspiritual.jp##div[class="ranking"]
-			myspiritual.jp##div[id="staff"]
-			myspiritual.jp##IMG[src="/common/images/flogo.jpg"]
-			myspiritual.jp##div[id="snsBox"]
-			myspiritual.jp##div[class="bnrBox"]
-		! afffiliate
-			myspiritual.jp##div[class="ad"]
-			myspiritual.jp##div[class="ad"] + * + [id="item"]
-		! twitter
-			myspiritual.jp##div[id="twi.asideright"]
-		! 解析対策
-			myspiritual.jp##div[id="analyze"]
-	!!mylohas.net
-		! main
-			mylohas.net##div[id="searchbnbox"]
-			mylohas.net##div[id="twtrbox"]
-			mylohas.net##div[id="mainarea_foot"]
-		! afffiliate
-			|glam.jp/adops/ad_creatives/$domain=files.glam.jp
-			mylohas.net##IFRAME[src^="http://files.glam.jp/adops/ad_creatives/"]
-			mylohas.net##div[id="adboshubox"]
-!----- MSN -----!
+		myspiritual.jp##div[class="ad"]
+		myspiritual.jp##div[class="bnrBox"]
+		myspiritual.jp##div[class="ranking"]
+		myspiritual.jp##div[class="topBox"]
+		myspiritual.jp##div[id="analyze"]
+		myspiritual.jp##div[id="snsBox"]
+		myspiritual.jp##div[id="staff"]
+		myspiritual.jp##DIV[id="item"][class="asideleft"]
+		myspiritual.jp##div[id="twi"][class="asideright"]
+
+	!! 関連性のあるサイト
+		|glam.jp/adops/ad_creatives/$domain=files.glam.jp
+		||fbcdn.net^$domain=facebook.com!----- MSN -----!
 	##*[href*="http://clk.atdmt.com/"]
 ! ----- rocketnews24.com ----- !
+	rocketnews24.com##div[class^="ad ad"]
 	rocketnews24.com##div[id="pouch-posts"]
-	rocketnews24.com##div[id="ad.ad468x60"]
-	rocketnews24.com##div[class="ad ad-randomhotspot"]
-	rocketnews24.com##div[id="ad.ad300x250"]
-	rocketnews24.com##div[id="text-6"]
-	rocketnews24.com##div[id="text-7"]
-	rocketnews24.com##div[id="text-8"]
+	rocketnews24.com##div[id^="ad.ad"]
 	rocketnews24.com##div[id="linkcat-1728"]
-	rocketnews24.com##div[id^="linkcat"][class="widget.widget_links"]
-	rocketnews24.com##div[id="ad.ad728x90 + DIV[style="float:left;width:600px;"]
-	rocketnews24.com##div[id="text-5"]
+	rocketnews24.com##div[class="widget.widget_links"]
 ! ----- searchina ----- !
 	searchina.ne.jp##div[id="nl2ad"]
 	searchina.ne.jp##div[id="column.adsense"]
@@ -895,8 +851,7 @@
 !
 ! pkg/web
 !
-﻿!----- facebook -----!
-
+!----- facebook -----!
 	!@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
 	!@@/(external|static|profile|photos-*)\.ak\.fbcdn\.net/$domain=facebook.com
 	creative.ak.fbcdn.net/*/flyers/*
@@ -915,7 +870,6 @@
 	! 解析用フレーム
 		||facebook.com/ai.php*
 		##*[src*="/ai.php"]
-
 ! plugin
 	||connect.facebook.net/en_US/all.js
 	||facebook.com/plugins/^
@@ -925,7 +879,6 @@
 	##iframe[src*="facebook.com/plugins/recommendations.php?"]
 	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-
 ﻿!----- hangame.co.jp -----!
 	hangame.co.jp##.promoBnrWrap
 	hangame.co.jp###rcmndGames
@@ -942,14 +895,13 @@
 	!! 非表示：広告枠(div)
 	##*[id^="dclkAdsDivID"]
 	##*[class="advert"]
-﻿!-----mixi-----!
+!-----mixi-----!
 !開放：システム
 	@@|http://mixi.jp/ajax_*$domain=mixi.jp
 	@@/analy(tics|ze|sis)/$domain=mixi.jp
 		!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
 	@@|http://img.mixi.net/static/css/$domain=mixi.jp
 		! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
-	
 	!開放：アプリ
 		||ad.adlantis.jp/ad/*
 		@@||happyelements.com^$domain=mixi.jp
@@ -974,14 +926,12 @@
 		mixi-platform.com##div[id="poncan_ad"]
 		mixi-platform.com##div[id="fm_new_proms"]
 		mixi-platform.com##ul[class="fm_proms_list"]
-
 	!mreco抑止
 		||mreco.jp/adsv/*
 		||mreco0.jp/
 		mixi.jp##div[id="mAd"]
 		mixi.jp##iframe[src*="mreco0.jp/"]
-
-﻿!----- nicovideo -----!
+!----- nicovideo -----!
 ! 開放：システム系
 	! nicodic系
 		@@||api.nicodic.jp^
@@ -996,7 +946,6 @@
 			@@||res.nimg.jp/swf/appli/*
 	! nicoapp
 		@@||nicoapp.jp^
-
 ! 開放：市場用
 	@@||images-amazon.com^$domain=nicovideo.jp
 	@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
@@ -1033,7 +982,6 @@
 			||res.nimg.jp/swf/appli/*
 	! icon系
 		||icon.nimg.jp^$domain=live.nicovideo.jp
-
 ! 非表示
 	nicovideo.jp##div[class="ads_468"]
 	live.nicovideo.jp##div[class="ichiba_frm"]
@@ -1045,11 +993,9 @@
 	nicovideo.jp##div[id="PAGEFOOTER"]
 	nicovideo.jp##div[id="content_312"]
 	nicovideo.jp##div[id="header-banner"]
-
-﻿!----- slashdot -----!	
+!----- slashdot -----!
 	slashdot.jp##div[id="ads-index-text"]
-
-﻿!----- Twitter -----!
+!----- Twitter -----!
 !!! 公式
 	!! 許可対象
 	!	わざと公式のみしか通らない様にしてます。
@@ -1067,20 +1013,19 @@
 			togetter.com##div[id="amazon_content_box"]
 		! lockerz
 			lockerz.com##div[id="feed-box.clearfix"]
-			lockerz.com##div[id="leaderboard-ad"]﻿!----- ustream -----!	
+			lockerz.com##div[id="leaderboard-ad"]
+﻿!----- ustream -----!	
 	ustream.tv##div[class="channelTopBannerWrapper"]
 	ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 	ustream.tv##div[class="hideAdMessage.forPageRectangle"]
 	ustream.tv##div[id="PageRectangle"]
 	ustream.tv##div[id="UstreamSiteNotification"]
-
-
 ﻿!----- youtube -----!
 	youtube.com##div[id^="google_companion_ad_"]
 	youtube.com##div[id="ticker-inner"]
 	youtube.com##div[id="google_companion_ad_div"]
 	youtube.com##IFRAME[src^="http://pagead2.googlesyndication.com/pagead/ads?ad_block="]
-﻿!----- ameblo -----!
+!----- ameblo -----!
 ! 1*1画像検出
 	||act.ameba.jp^
 	||ameblo.jp/accesslog/*
@@ -1105,22 +1050,20 @@
 	ameblo.jp##div[id="eco_head"]
 	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
-
 	ameblo.jp##ul[class="rc_head clearFix"]
 ﻿!----- blogger.com -----!
-! Adenseモジュールの非表示
-	##div[class="widget AdSense"]
-﻿!----- diamondblog.jp -----!
+	! Adenseモジュールの非表示
+		##div[class="widget AdSense"]
+!----- diamondblog.jp -----!
+	diamondblog.jp##iframe[src*="adjust-net.jp"]
 	diamondblog.jp##div[id="newentry"]
-	diamondblog.jp##iframe[src^="https://ads.adjust-net.jp/adserver/"]
 	diamondblog.jp##div[id="headbar"]
 	diamondblog.jp##div[id="hotspot"]
-﻿!----- fc2 -----!
+!----- fc2 -----!
 ! メイン
-	fc2.com##div[id="sh_fc2blogheadbar_menu"]
-	fc2.com##div[id="sh_fc2blogheadbar"]
+	fc2.com##div[id^="sh_fc2blogheadbar"]
 ! エディタ
-	blog.fc2.com##iframe[src^="http://ace.advertising.com/"]
+	blog.fc2.com##iframe[src*="advertising.com"]
 	blog.fc2.com##div[class="content"][id="recommend_newentry"]
 	blog.fc2.com##div[class="content"][id="content_tab"]
 	blog.fc2.com##div[class="main_top_ad"]
@@ -1130,12 +1073,18 @@
 	blog.fc2.com##div[id="ad_sidebar"]
 	blog.fc2.com##div[id="flashcontent1"]
 	blog.fc2.com##embed[src^="http://fc2.com/ad/"]
-
 ! 表示
 	||fc2.com/ad/*
 ! 解析？
 	/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
-﻿! So-net blog	||blog.so-net.ne.jp/_contents/js/*	||blog.so-net.ne.jp/_common/js/*	||blog.so-net.ne.jp/_common/images/*	||so-net.ne.jp/search/javascripts/research/*	blog.so-net.ne.jp##.searchFrame	blog.so-net.ne.jp##.sbHeader	blog.so-net.ne.jp###powered﻿!----- yahoo.co.jp -----!
+﻿! So-net blog
+	||blog.so-net.ne.jp/_contents/js/*
+	||blog.so-net.ne.jp/_common/js/*
+	||blog.so-net.ne.jp/_common/images/*
+	||so-net.ne.jp/search/javascripts/research/*
+	blog.so-net.ne.jp##.searchFrame
+	blog.so-net.ne.jp##.sbHeader
+	blog.so-net.ne.jp###powered
+!----- yahoo.co.jp -----!
 	blogs.yahoo.co.jp##div[class="newblogInfoTalent"]
 	blogs.yahoo.co.jp##div[class^="newblogInfo"]
-

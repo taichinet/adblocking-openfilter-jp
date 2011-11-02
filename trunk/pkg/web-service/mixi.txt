@@ -1,11 +1,10 @@
-﻿!-----mixi-----!
+!-----mixi-----!
 !開放：システム
 	@@|http://mixi.jp/ajax_*$domain=mixi.jp
 	@@/analy(tics|ze|sis)/$domain=mixi.jp
 		!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
 	@@|http://img.mixi.net/static/css/$domain=mixi.jp
 		! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
-	
 	!開放：アプリ
 		||ad.adlantis.jp/ad/*
 		@@||happyelements.com^$domain=mixi.jp
@@ -30,10 +29,8 @@
 		mixi-platform.com##div[id="poncan_ad"]
 		mixi-platform.com##div[id="fm_new_proms"]
 		mixi-platform.com##ul[class="fm_proms_list"]
-
 	!mreco抑止
 		||mreco.jp/adsv/*
 		||mreco0.jp/
 		mixi.jp##div[id="mAd"]
 		mixi.jp##iframe[src*="mreco0.jp/"]
-

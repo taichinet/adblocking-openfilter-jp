@@ -1,9 +1,8 @@
-﻿!----- fc2 -----!
+!----- fc2 -----!
 ! メイン
-	fc2.com##div[id="sh_fc2blogheadbar_menu"]
-	fc2.com##div[id="sh_fc2blogheadbar"]
+	fc2.com##div[id^="sh_fc2blogheadbar"]
 ! エディタ
-	blog.fc2.com##iframe[src^="http://ace.advertising.com/"]
+	blog.fc2.com##iframe[src*="advertising.com"]
 	blog.fc2.com##div[class="content"][id="recommend_newentry"]
 	blog.fc2.com##div[class="content"][id="content_tab"]
 	blog.fc2.com##div[class="main_top_ad"]
@@ -13,7 +12,6 @@
 	blog.fc2.com##div[id="ad_sidebar"]
 	blog.fc2.com##div[id="flashcontent1"]
 	blog.fc2.com##embed[src^="http://fc2.com/ad/"]
-
 ! 表示
 	||fc2.com/ad/*
 ! 解析？

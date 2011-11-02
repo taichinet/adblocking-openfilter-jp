@@ -1,4 +1,4 @@
-﻿!----- nicovideo -----!
+!----- nicovideo -----!
 ! 開放：システム系
 	! nicodic系
 		@@||api.nicodic.jp^
@@ -13,7 +13,6 @@
 			@@||res.nimg.jp/swf/appli/*
 	! nicoapp
 		@@||nicoapp.jp^
-
 ! 開放：市場用
 	@@||images-amazon.com^$domain=nicovideo.jp
 	@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
@@ -50,7 +49,6 @@
 			||res.nimg.jp/swf/appli/*
 	! icon系
 		||icon.nimg.jp^$domain=live.nicovideo.jp
-
 ! 非表示
 	nicovideo.jp##div[class="ads_468"]
 	live.nicovideo.jp##div[class="ichiba_frm"]
@@ -62,4 +60,3 @@
 	nicovideo.jp##div[id="PAGEFOOTER"]
 	nicovideo.jp##div[id="content_312"]
 	nicovideo.jp##div[id="header-banner"]
-
