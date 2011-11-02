@@ -1,6 +1,9 @@
 ﻿[Adblock Plus]
 
 
+!
+! pkg/potal
+!
 !----- excite -----!
 	|adimp.excite.co.jp/*
 	##*[href*="http://adimp.excite.co.jp/"]
@@ -12,7 +15,6 @@
 	excite.co.jp##div[id="rakuten-frame"]
 	excite.co.jp##div[id="footer"]
 	excite.co.jp##div[id="trans-banner"]
-
 !----- フレッシュアイ -----!
 	fresheye.com##*[class="pr"]
 	fresheye.com##*[src*="impact-ad.jp"]
@@ -63,13 +65,11 @@
 	google.com,google.co.jp##div[class="g-tools_table"]
 	google.com,google.co.jp##div[class="g-tools_img"]
 	google.com,google.co.jp##div[class*="g-tools"]
-
 !! 非表示
 	! 検索広告
 		google.com,google.co.jp##span[id="taw"]
 		google.com,google.co.jp##div[id="bottomads"]
 		google.com,google.co.jp##td[class="std"]
-
 !----- infoseek -----!
 	||rakuten.co.jp/content/ad/DCBT/^$domain=infoseek.co.jp
 	||ias.rakuten.co.jp/^$domain=infoseek.co.jp
@@ -101,11 +101,8 @@
 	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
 	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
 	infoseek.co.jp##span[id*="abg"]
-
-
 ! beacon?
 	ashiato.rakuten.co.jp/*
-
 !----- ITMedia -----!
 ! core
 	|http://dlv.itmedia.jp/adsv/^
@@ -207,7 +204,6 @@
 	livedoor.com##div[id="news-special"]
 	livedoor.com##div[id="footer-ad-links > UL"]
 	livedoor.com##div[id="commonFooter"]
-
 !! サービス
 	blog.livedoor.jp##div[id="analyzer_tags"]
 	blog.livedoor.jp##script[src$="/settings/ad.js"]
@@ -224,7 +220,6 @@
 	blog.livedoor.jp##td[class="startblogbox"]
 	||livedoor.biz/settings/header.js^$domain=livedoor.biz
 	||livedoor.jp/*/settings/header.js
-
 	! blogeditor
 		@@||livedoor.blogcms.jp/js/cms2/swfupload/*
 		@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
@@ -331,7 +326,6 @@
 			|glam.jp/adops/ad_creatives/$domain=files.glam.jp
 			mylohas.net##IFRAME[src^="http://files.glam.jp/adops/ad_creatives/"]
 			mylohas.net##div[id="adboshubox"]
-
 !----- MSN -----!
 	##*[href*="http://clk.atdmt.com/"]
 ! ----- rocketnews24.com ----- !
@@ -346,8 +340,6 @@
 	rocketnews24.com##div[id^="linkcat"][class="widget.widget_links"]
 	rocketnews24.com##div[id="ad.ad728x90 + DIV[style="float:left;width:600px;"]
 	rocketnews24.com##div[id="text-5"]
-
-
 ! ----- searchina ----- !
 	searchina.ne.jp##div[id="nl2ad"]
 	searchina.ne.jp##div[id="column.adsense"]
@@ -391,4 +383,3 @@
 		##div[id="jpwelcomeinsideyahootitle"]
 	!! blog
 		blogs.yahoo.co.jp##div[id="bottomAdBannerArea"]
-

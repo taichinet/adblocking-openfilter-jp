@@ -1,6 +1,9 @@
 ﻿[Adblock Plus]
 
 
+!
+! pkg/web
+!
 ﻿!----- facebook -----!
 
 	!@@/facebook\.com\/ajax\/(presence|photos|typeahead|feedback|feed|home|hovercard|chat)*/$domain=facebook.com
