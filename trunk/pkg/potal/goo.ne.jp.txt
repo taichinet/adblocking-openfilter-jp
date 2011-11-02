@@ -1,4 +1,4 @@
-﻿!----- NTTの方のgoo -----!
+!----- NTTの方のgoo -----!
 !!! goo.ne.jp
 	!! 抑止対象
 		http://log000.goo.ne.jp/VL/
@@ -10,4 +10,3 @@
 		goo.ne.jp##dl[class="txtimgl"]
 		goo.ne.jp##div[id="ghTop"]
 		goo.ne.jp##div[id="osusume"]
-

@@ -1,1 +1,38 @@
-﻿!----- yahoo -----!!!! yahoo.co.jp	!! 許可対象		@@||map.yahoo.co.jp^$document		@@||yahooapis.com	!! 抑止対象		yjaxc.yahoo.co.jp		/*\.yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/	!! 非表示		yahoo.co.jp##div[class^="ad"]		yahoo.co.jp##div[id^="pos-"]		beauty.yahoo.co.jp##div[class="all_md02"]		chiebukuro.yahoo.co.jp##div[id="chie-ams"]		finance.yahoo.co.jp##div[class="marB10"]		realestate.yahoo.co.jp##div[id="ranking"]		sports.yahoo.co.jp##div[id="im2"]		tv.yahoo.co.jp##div[class="pr300a"]		tv.yahoo.co.jp##div[id="right1"]		weather.yahoo.co.jp##div[class^="yjw_sub_md "]		yahoo.co.jp##a[href^="http://ard.yahoo.co.jp/"]		yahoo.co.jp##a[href="http://business.yahoo.co.jp/sponsor/"]		yahoo.co.jp##div[class^="yjSt adTyumokumar"]		yahoo.co.jp##div[class^="ymuiHeaderBGLG"]		yahoo.co.jp##div[class="bx"][id="rightbox"]		yahoo.co.jp##div[id^="ADframe"]		yahoo.co.jp##div[id="center1"]		yahoo.co.jp##div[id="center2"]		yahoo.co.jp##div[id="mainpr"]		yahoo.co.jp##div[id="pos-lrec"]		yahoo.co.jp##div[id="rightbox1"]		yahoo.co.jp##div[id="tct"]		yahoo.co.jp##div[id="uhdMain"]	!! mail用暫定策		@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*		||yui.yahooapis.jp/3.0.0pr2/build/yui/*		##div[id="jpwelcomeinsideyahootitle"]	!! blog		blogs.yahoo.co.jp##div[id="bottomAdBannerArea"]
+!----- yahoo -----!
+!!! yahoo.co.jp
+	!! 許可対象
+		@@||map.yahoo.co.jp^$document
+		@@||yahooapis.com
+	!! 抑止対象
+		yjaxc.yahoo.co.jp
+		/*\.yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/
+	!! 非表示
+		yahoo.co.jp##div[class^="ad"]
+		yahoo.co.jp##div[id^="pos-"]
+		beauty.yahoo.co.jp##div[class="all_md02"]
+		chiebukuro.yahoo.co.jp##div[id="chie-ams"]
+		finance.yahoo.co.jp##div[class="marB10"]
+		realestate.yahoo.co.jp##div[id="ranking"]
+		sports.yahoo.co.jp##div[id="im2"]
+		tv.yahoo.co.jp##div[class="pr300a"]
+		tv.yahoo.co.jp##div[id="right1"]
+		weather.yahoo.co.jp##div[class^="yjw_sub_md "]
+		yahoo.co.jp##a[href^="http://ard.yahoo.co.jp/"]
+		yahoo.co.jp##a[href="http://business.yahoo.co.jp/sponsor/"]
+		yahoo.co.jp##div[class^="yjSt adTyumokumar"]
+		yahoo.co.jp##div[class^="ymuiHeaderBGLG"]
+		yahoo.co.jp##div[class="bx"][id="rightbox"]
+		yahoo.co.jp##div[id^="ADframe"]
+		yahoo.co.jp##div[id="center1"]
+		yahoo.co.jp##div[id="center2"]
+		yahoo.co.jp##div[id="mainpr"]
+		yahoo.co.jp##div[id="pos-lrec"]
+		yahoo.co.jp##div[id="rightbox1"]
+		yahoo.co.jp##div[id="tct"]
+		yahoo.co.jp##div[id="uhdMain"]
+	!! mail用暫定策
+		@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*
+		||yui.yahooapis.jp/3.0.0pr2/build/yui/*
+		##div[id="jpwelcomeinsideyahootitle"]
+	!! blog
+		blogs.yahoo.co.jp##div[id="bottomAdBannerArea"]

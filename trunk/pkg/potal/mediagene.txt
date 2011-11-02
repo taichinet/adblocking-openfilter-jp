@@ -97,4 +97,3 @@
 			|glam.jp/adops/ad_creatives/$domain=files.glam.jp
 			mylohas.net##IFRAME[src^="http://files.glam.jp/adops/ad_creatives/"]
 			mylohas.net##div[id="adboshubox"]
-

@@ -1,4 +1,4 @@
-﻿!----- livedoor -----!
+!----- livedoor -----!
 	/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
 	livedoor.com##*[href*="A-affiliate"]
 	livedoor.com##div[id="ad-recommend"]
@@ -37,7 +37,6 @@
 	livedoor.com##div[id="news-special"]
 	livedoor.com##div[id="footer-ad-links > UL"]
 	livedoor.com##div[id="commonFooter"]
-
 !! サービス
 	blog.livedoor.jp##div[id="analyzer_tags"]
 	blog.livedoor.jp##script[src$="/settings/ad.js"]
@@ -54,7 +53,6 @@
 	blog.livedoor.jp##td[class="startblogbox"]
 	||livedoor.biz/settings/header.js^$domain=livedoor.biz
 	||livedoor.jp/*/settings/header.js
-
 	! blogeditor
 		@@||livedoor.blogcms.jp/js/cms2/swfupload/*
 		@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp

@@ -1,4 +1,4 @@
-﻿! ----- rocketnews24.com ----- !
+! ----- rocketnews24.com ----- !
 	rocketnews24.com##div[id="pouch-posts"]
 	rocketnews24.com##div[id="ad.ad468x60"]
 	rocketnews24.com##div[class="ad ad-randomhotspot"]
@@ -10,5 +10,3 @@
 	rocketnews24.com##div[id^="linkcat"][class="widget.widget_links"]
 	rocketnews24.com##div[id="ad.ad728x90 + DIV[style="float:left;width:600px;"]
 	rocketnews24.com##div[id="text-5"]
-
-

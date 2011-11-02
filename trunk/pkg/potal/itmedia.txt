@@ -1,4 +1,4 @@
-﻿!----- ITMedia -----!
+!----- ITMedia -----!
 ! core
 	|http://dlv.itmedia.jp/adsv/^
 	##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]

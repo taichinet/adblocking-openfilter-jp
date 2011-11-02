@@ -1,4 +1,3 @@
-﻿
 !----- infoseek -----!
 	||rakuten.co.jp/content/ad/DCBT/^$domain=infoseek.co.jp
 	||ias.rakuten.co.jp/^$domain=infoseek.co.jp
@@ -30,8 +29,5 @@
 	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/js.ng"]
 	infoseek.co.jp##script[src*="http://grp01.ias.rakuten.co.jp/pm/ad_layout/"]
 	infoseek.co.jp##span[id*="abg"]
-
-
 ! beacon?
 	ashiato.rakuten.co.jp/*
-

@@ -1,5 +1,5 @@
-﻿!----- excite -----!
-	http://adimp.excite.co.jp/*
+!----- excite -----!
+	|adimp.excite.co.jp/*
 	##*[href*="http://adimp.excite.co.jp/"]
 	##script[src*="http://adimp.excite.co.jp/"]
 	excite.co.jp##div[class="ov_cm1"]
@@ -9,4 +9,3 @@
 	excite.co.jp##div[id="rakuten-frame"]
 	excite.co.jp##div[id="footer"]
 	excite.co.jp##div[id="trans-banner"]
-

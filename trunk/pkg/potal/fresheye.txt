@@ -1,4 +1,4 @@
-﻿!----- フレッシュアイ -----!
+!----- フレッシュアイ -----!
 	fresheye.com##*[class="pr"]
 	fresheye.com##*[src*="impact-ad.jp"]
 	fresheye.com##div[class="pbox"]
