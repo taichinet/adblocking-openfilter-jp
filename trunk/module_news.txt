@@ -4,67 +4,53 @@
 !
 ! pkg/news
 !
-﻿!----- 朝日 -----!
+!----- 朝日 -----!
 !!! asahi.com
 	asahi.com##div[class="BnrPr"]
-﻿!----- CNET -----!
-	japan.cnet.com##div[class="block10.clearfix"]
-﻿!----- cyzo.com -----!
+!----- CNET -----!
+	cnet.com##div[class="block10.clearfix"]
+!----- cyzo.com -----!
 	cyzo.com##img[alt="PR"]
 	cyzo.com##img[src="http://www.cyzo.com/common/img/pr_icon.gif"]
 	cyzo.com##div[id="head-contents"]
 	cyzo.com##div[id="head-ad"]
 	cyzo.com##div[id="gamma-inner"]
 	cyzo.com##[href*="nikkancyzo-22"]
-	cyzo.com##[href^="http://ds.advg.jp/adpds_deliver/"] > *
-﻿!----- engadget -----!
+	cyzo.com##[href*="advg.jp"]
+!----- engadget -----!
 	engadget.com##div[class="medrect"]
 	engadget.com##IFRAME[src^="http://xml.affiliate.rakuten.co.jp"]
-
-﻿!----- getnews -----!
+!----- getnews -----!
 	gernews.jp##a[href^="http://j.mp"]
-	getnews.jp##a[href^="http://j.mp"]
 	getnews.jp##div[id="adft_border"]
 	getnews.jp##div[id="cntx_recom"]
 	getnews.jp##img[title^="[images-amazon.com]"]
-
-﻿!----- j-cast -----!
+!----- j-cast -----!
 	j-cast.com##div[class="amazon-info"]
-	j-cast.com##div[id="MCAdEntryCenterrectangle"]
-	j-cast.com##div[id="MCAdEntryToptext"]
-	j-cast.com##div[id="MCAdEntryUnderTitle"]
-	j-cast.com##div[id="MCEntryAmazon"]
+	j-cast.com##div[id^="MCAdEntry"]
+	j-cast.com##div[id^="MCEntry"]
 	j-cast.com##iframe[title="Advertisement"]
-﻿!----- 毎日 -----!
+!----- 毎日 -----!
 !!! mainichi.jp
 	*ad.mainichi.jp*
-	|http://ai.yimg.jp/bdv/*/*/*/*.gif$domain=mainichi.jp
-	|http://ai.yimg.jp/bdv/*/*/*/*.jpg$domain=mainichi.jp
-	|http://ai.yimg.jp/bdv/*/*/*/*.swf$domain=mainichi.jp
-	|http://ard.yahoo.co.jp/SIG*$domain=mainichi.jp
+	||yimg.jp/bdv/^$domain=mainichi.jp
+	|ard.yahoo.co.jp/^$domain=mainichi.jp
 	mainichi.jp##div[class^="ArticleAd"]
 	mainichi.jp##div[class="AA"]
-	mainichi.jp##div[class="AdChumoku"]
-	mainichi.jp##div[class="AdGraph"]
-	mainichi.jp##div[class="AdMrq"]
+	mainichi.jp##div[class^="Ad"]
 	mainichi.jp##div[class="SR"]
 	mainichi.jp##div[id*="AD"]
 	mainichi.jp##div[id*="Ad"]
 	mainichi.jp##div[id*="ad"]
 	mainichi.jp##divclass="SubContentsB"]
-	mainichi.jp##div[class="AdChumoku"]
-	mainichi.jp##div[class="AdGraph"]
-	mainichi.jp##div[class="AdMrq"]
+	mainichi.jp##div[class^="Ad"]
 	mainichi.jp##div[class="ArticleAdKW"]
 	mainichi.jp##div[class="Campaign"]
+	mainichi.jp##div[class$="Ad"]
 	mainichi.jp##div[class="SquareAd"]
-	mainichi.jp##div[id^="ADframe"]
-	mainichi.jp##div[id="SuperBanner"]
+	mainichi.jp##div[id^="AD"]
+	mainichi.jp##div[id*="Banner"]
 	mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
-
-
-	! "|http://ai.yimg.jp/bdv/*/*/*/*."は抑止内容をツメて更新予定
-
 ﻿!----- 産経 -----!
 !!! MSN産経
 	|msndata.jp.msn.com/*

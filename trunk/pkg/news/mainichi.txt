@@ -1,30 +1,21 @@
-﻿!----- 毎日 -----!
+!----- 毎日 -----!
 !!! mainichi.jp
 	*ad.mainichi.jp*
-	|http://ai.yimg.jp/bdv/*/*/*/*.gif$domain=mainichi.jp
-	|http://ai.yimg.jp/bdv/*/*/*/*.jpg$domain=mainichi.jp
-	|http://ai.yimg.jp/bdv/*/*/*/*.swf$domain=mainichi.jp
-	|http://ard.yahoo.co.jp/SIG*$domain=mainichi.jp
+	||yimg.jp/bdv/^$domain=mainichi.jp
+	|ard.yahoo.co.jp/^$domain=mainichi.jp
 	mainichi.jp##div[class^="ArticleAd"]
 	mainichi.jp##div[class="AA"]
-	mainichi.jp##div[class="AdChumoku"]
-	mainichi.jp##div[class="AdGraph"]
-	mainichi.jp##div[class="AdMrq"]
+	mainichi.jp##div[class^="Ad"]
 	mainichi.jp##div[class="SR"]
 	mainichi.jp##div[id*="AD"]
 	mainichi.jp##div[id*="Ad"]
 	mainichi.jp##div[id*="ad"]
 	mainichi.jp##divclass="SubContentsB"]
-	mainichi.jp##div[class="AdChumoku"]
-	mainichi.jp##div[class="AdGraph"]
-	mainichi.jp##div[class="AdMrq"]
+	mainichi.jp##div[class^="Ad"]
 	mainichi.jp##div[class="ArticleAdKW"]
 	mainichi.jp##div[class="Campaign"]
+	mainichi.jp##div[class$="Ad"]
 	mainichi.jp##div[class="SquareAd"]
-	mainichi.jp##div[id^="ADframe"]
-	mainichi.jp##div[id="SuperBanner"]
+	mainichi.jp##div[id^="AD"]
+	mainichi.jp##div[id*="Banner"]
 	mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
-
-
-	! "|http://ai.yimg.jp/bdv/*/*/*/*."は抑止内容をツメて更新予定
-
