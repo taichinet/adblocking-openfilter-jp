@@ -1,19 +1,17 @@
-!----- Twitter -----!
-!!! 公式
-	!! 許可対象
-	!	わざと公式のみしか通らない様にしてます。
-		@@||twitter.com^$domain=twitter.com
-		@@||twimg.com^$domain=twitter.com
-		@@||api.twitter.com^$domain=twitter.com
-		twitter.com##.trends-inner
-		twitter.com##.definition
-		twitter.com##.trend-link-arrow.trend-link.pretty-link
-		twitter.com##.promo
-		twitter.com##.user-rec-inner
-		twitter.com###global-nav-who_to_follow
-	! Twitter関連の他サイト
-		! Togetter
+! twitter
+	!!! 公式
+		!! 許可対象
+			!	わざと公式のみしか通らない様にしてます。
+			@@||twitter.com^$domain=twitter.com
+			@@||twimg.com^$domain=twitter.com
+			@@||api.twitter.com^$domain=twitter.com
+			twitter.com##.trends-inner
+			twitter.com##.definition
+			twitter.com##.trend-link-arrow.trend-link.pretty-link
+			twitter.com##.promo
+			twitter.com##.user-rec-inner
+			twitter.com###global-nav-who_to_follow
+	!!! Twitter関連の他サイト
+		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
-		! lockerz
-			lockerz.com##div[id="feed-box.clearfix"]
-			lockerz.com##div[id="leaderboard-ad"]
+

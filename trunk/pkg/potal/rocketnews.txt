@@ -1,6 +1,10 @@
-! ----- rocketnews24.com ----- !
-	rocketnews24.com##div[class^="ad ad"]
-	rocketnews24.com##div[id="pouch-posts"]
-	rocketnews24.com##div[id^="ad.ad"]
-	rocketnews24.com##div[id="linkcat-1728"]
-	rocketnews24.com##div[class="widget.widget_links"]
+! rocketnews24.com
+	!!! —}~
+		!! L
+			rocketnews24.com##div[class^="ad ad"]
+			rocketnews24.com##div[id^="ad.ad"]
+		!! ƒvƒ‰ƒOƒCƒ“
+			rocketnews24.com##div[id="linkcat-1728"]
+			rocketnews24.com##div[class="widget.widget_links"]
+			rocketnews24.com##div[id="pouch-posts"]
+

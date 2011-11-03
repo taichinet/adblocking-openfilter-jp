@@ -1,12 +1,11 @@
-!----- NTTの方のgoo -----!
-!!! goo.ne.jp
-	!! 抑止対象
-		http://log000.goo.ne.jp/VL/
-		||ad.goo.ne.jp/*
-		||ad.nttnavi.co.jp/*
-		||goo.ne.jp/banner*
-	!! 非表示
-		goo.ne.jp##div[class="pr"][id="pr"][name="pr"]
-		goo.ne.jp##dl[class="txtimgl"]
-		goo.ne.jp##div[id="ghTop"]
-		goo.ne.jp##div[id="osusume"]
+! NTTの方のgoo
+	!!! 抑止
+		!! 広告
+			http://log000.goo.ne.jp/VL/
+			||ad.goo.ne.jp/*
+			||ad.nttnavi.co.jp/*
+			||goo.ne.jp/banner*
+			goo.ne.jp##div[class="pr"][id="pr"][name="pr"]
+			goo.ne.jp##dl[class="txtimgl"]
+			goo.ne.jp##div[id="ghTop"]
+			goo.ne.jp##div[id="osusume"]

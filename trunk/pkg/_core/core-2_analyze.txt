@@ -1,0 +1,27 @@
+! [CORE]解析対策:解析スクリプトの抑止を行う。
+	!!! 1:抑止・拒否
+		!! 1.汎用
+			/be(con|acon)\.(jpg|gif|png|js|cgi|\/)/
+			! tracking
+			/(|link)track(|ing)\.(|js)/
+			##*[src*="AccessLog"]
+			##*[class*="tracking"]
+			##div[id*="tracking"]
+			##div[class*="tracking"]
+			##*[class*="accessLog"]
+			##div[id*="accessLog"]
+			##div[class*="accessLog"]
+		!! 2.ferret系
+			##script[src^="http://kaiseki.ferret-plus.com"]
+			||read-scope.com^
+		!! 3.kan-net系
+			*/sibulla*.js^
+			||kan-net.com^
+			!! ziyu.net(対応決まって無いのでおざなり)
+			||ziyu.net^
+		!! 4.bluemetrix.com
+			! 生成スクリプトのみ。
+			/bmv[0-9][0-9]f\.js/
+			/bmv[0-9][0-9]\.js/
+			/bm[0-9][0-9]f\.js/
+			/bm[0-9][0-9]\.js/

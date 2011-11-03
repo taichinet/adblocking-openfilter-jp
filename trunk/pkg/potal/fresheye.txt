@@ -1,8 +1,7 @@
-!----- フレッシュアイ -----!
-	fresheye.com##*[class="pr"]
-	fresheye.com##*[src*="impact-ad.jp"]
-	fresheye.com##div[class="pbox"]
-	*advertising.com*^$domain=fresheye.com
-	*durasite.net*^$domain=fresheye.com
-	*impact-ad.jp*^$domain=fresheye.com
-	*microad.jp*^$domain=fresheye.com
+! フレッシュアイ
+	!!! 抑止
+		!! 広告
+			fresheye.com##*[class="pr"]
+			fresheye.com##div[class="pbox"]
+			fresheye.com##*[src*="impact-ad.jp"]
+				! コアかNGhostに引き上げるかもしれない。
