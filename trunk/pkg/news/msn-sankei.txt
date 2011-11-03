@@ -1,4 +1,4 @@
-﻿!----- 産経 -----!
+!----- 産経 -----!
 !!! MSN産経
 	|msndata.jp.msn.com/*
 	*ads*.msn.com*$domain=sankei.jp.msn.com

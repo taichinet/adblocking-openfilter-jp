@@ -1,4 +1,4 @@
-﻿!----- amazon -----!
+!----- amazon -----!
 	@@||affiliate.amazon.co.jp^$document
 	@@||amazon.co.jp^$document
 	##IMG[title^="[amazon.com]"]

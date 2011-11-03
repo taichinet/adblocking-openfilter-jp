@@ -1,4 +1,4 @@
-﻿!----- lockerz.com -----!
+!----- lockerz.com -----!
 	!! 非表示：広告枠(div)
 	##*[id^="dclkAdsDivID"]
 	##*[class="advert"]

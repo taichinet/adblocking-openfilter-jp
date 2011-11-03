@@ -1,4 +1,4 @@
-﻿! So-net blog
+! So-net blog
 	||blog.so-net.ne.jp/_contents/js/*
 	||blog.so-net.ne.jp/_common/js/*
 	||blog.so-net.ne.jp/_common/images/*

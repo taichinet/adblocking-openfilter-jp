@@ -32,7 +32,7 @@
 	##iframe[src*="facebook.com/plugins/recommendations.php?"]
 	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-﻿!----- hangame.co.jp -----!
+!----- hangame.co.jp -----!
 	hangame.co.jp##.promoBnrWrap
 	hangame.co.jp###rcmndGames
 	hangame.co.jp###rcmndEasyGame
@@ -44,7 +44,7 @@
 	hangame.co.jp##div[id="rcmndEasyGame"]
 	hangame.co.jp##div[id="rcmndGames"]
 	hangame.co.jp##div[id="recruitmentCircle"]
-﻿!----- lockerz.com -----!
+!----- lockerz.com -----!
 	!! 非表示：広告枠(div)
 	##*[id^="dclkAdsDivID"]
 	##*[class="advert"]
@@ -167,13 +167,13 @@
 		! lockerz
 			lockerz.com##div[id="feed-box.clearfix"]
 			lockerz.com##div[id="leaderboard-ad"]
-﻿!----- ustream -----!	
+!----- ustream -----!	
 	ustream.tv##div[class="channelTopBannerWrapper"]
 	ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 	ustream.tv##div[class="hideAdMessage.forPageRectangle"]
 	ustream.tv##div[id="PageRectangle"]
 	ustream.tv##div[id="UstreamSiteNotification"]
-﻿!----- youtube -----!
+!----- youtube -----!
 	youtube.com##div[id^="google_companion_ad_"]
 	youtube.com##div[id="ticker-inner"]
 	youtube.com##div[id="google_companion_ad_div"]
@@ -204,7 +204,7 @@
 	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
 	ameblo.jp##ul[class="rc_head clearFix"]
-﻿!----- blogger.com -----!
+!----- blogger.com -----!
 	! Adenseモジュールの非表示
 		##div[class="widget AdSense"]
 !----- diamondblog.jp -----!
@@ -230,7 +230,7 @@
 	||fc2.com/ad/*
 ! 解析？
 	/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
-﻿! So-net blog
+! So-net blog
 	||blog.so-net.ne.jp/_contents/js/*
 	||blog.so-net.ne.jp/_common/js/*
 	||blog.so-net.ne.jp/_common/images/*

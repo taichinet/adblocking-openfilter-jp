@@ -4,20 +4,20 @@
 !
 ! pkg/commerce
 !
-﻿!!! a8.net
+!!! a8.net
 !! 許可対象
 !! 抑止対象
 	##div[class="yahooAd"]
 	##a[href^="http://px.a8.net/"]
 
-﻿!----- amazon -----!
+!----- amazon -----!
 	@@||affiliate.amazon.co.jp^$document
 	@@||amazon.co.jp^$document
 	##IMG[title^="[amazon.com]"]
 	##IMG[title^="[images-amazon.com]"]
 	##div[id="amazlet-info"]
 
-﻿! ----- 楽天 ----- !
+! ----- 楽天 ----- !
 !! 許可対象
 	@@||item.rakuten.co.jp^$document
 !! 抑止対象
@@ -37,7 +37,7 @@
 		!!iframe対策
 			affiliate.rakuten.co.jp##HTML
 			rakuten.co.jp##IMG[src^="http://ba.afl.rakuten.co.jp/"]
-﻿! ----- YahooAd ----- !
+! ----- YahooAd ----- !
 !! 許可対象
 !! 抑止対象
 	##div[class="yahooAd"]
@@ -92,7 +92,7 @@
 	mainichi.jp##div[id^="AD"]
 	mainichi.jp##div[id*="Banner"]
 	mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
-﻿!----- 産経 -----!
+!----- 産経 -----!
 !!! MSN産経
 	|msndata.jp.msn.com/*
 	*ads*.msn.com*$domain=sankei.jp.msn.com
@@ -121,14 +121,14 @@
 	/ad.css^$domain=zakzak.co.jp
 	zakzak.co.jp##div[id^="ad"]
 
-﻿!----- newsweekjapan -----!
+!----- newsweekjapan -----!
 	newsweekjapan.jp###sideAdPanel
 	newsweekjapan.jp##div[id="sideAdPanel"]
-﻿!----- nikkansports -----!
+!----- nikkansports -----!
 
 	nikkansports.com##div[class="adPRtext"]
 	nikkansports.com##IFRAME[src^="http://ad.nikkansports.com/"]
-	﻿!----- 日経 -----!
+!----- 日経 -----!
 !!! nikkei.co.jp
 ! 許可対象
 	!@@##*[class*="cm"]
@@ -140,7 +140,7 @@
 	nikkei.co.jp##div[id="strategic"]
 	nikkei.co.jp##div[id="sub_text_ad"]
 	nikkei.co.jp##div[id="jigyoyochi"]
-	nikkei.co.jp##div[id^="ADVERTISE_RECTANGLE1"]
+	nikkei.co.jp##div[id^="ADVERTISE"]
 	nikkei.co.jp##div[class^="cmn-sub"]
 	nikkei.co.jp##div[class^="cmn-pr"]
 	nikkei.co.jp##p[class="ni"]
@@ -161,20 +161,18 @@
 	nikkeibp.co.jp##div[class*="tertiary"]
 	nikkeibp.co.jp##div[class="yad_imatch"]
 	nikkeibp.co.jp##iframe[src^="http://travel.nikkeibp.co.jp/iframe/"]
-﻿!----- reuters -----!
+!----- reuters -----!
 	*/overtureAd.js$domain=reuters.com
 	reuters.com##div[class="ad"][id^="advert_"]
 	reuters.com##img[title*="doubleclick.net"]
 	reuters.com##span[class="marketingPR"]
-
-﻿!----- yomiuri -----!
+!----- yomiuri -----!
 	yomiuri.co.jp##div[class="yahooAd"]
 	yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
 	yomiuri.co.jp##div[class="ad200-out"]
 	yomiuri.co.jp##div[class="sideRegularCONT"]
 	yomiuri.co.jp##div[class="sideBlock.mobile"]
 	yomiuri.co.jp##div[class="search.clearfix"]
-
 !
 ! pkg/NGhost
 !
@@ -859,7 +857,7 @@
 	##iframe[src*="facebook.com/plugins/recommendations.php?"]
 	##script[src*="connect.facebook.net"]
 	facebook.com##div[class^="auto_resize_iframe"]
-﻿!----- hangame.co.jp -----!
+!----- hangame.co.jp -----!
 	hangame.co.jp##.promoBnrWrap
 	hangame.co.jp###rcmndGames
 	hangame.co.jp###rcmndEasyGame
@@ -871,7 +869,7 @@
 	hangame.co.jp##div[id="rcmndEasyGame"]
 	hangame.co.jp##div[id="rcmndGames"]
 	hangame.co.jp##div[id="recruitmentCircle"]
-﻿!----- lockerz.com -----!
+!----- lockerz.com -----!
 	!! 非表示：広告枠(div)
 	##*[id^="dclkAdsDivID"]
 	##*[class="advert"]
@@ -994,13 +992,13 @@
 		! lockerz
 			lockerz.com##div[id="feed-box.clearfix"]
 			lockerz.com##div[id="leaderboard-ad"]
-﻿!----- ustream -----!	
+!----- ustream -----!	
 	ustream.tv##div[class="channelTopBannerWrapper"]
 	ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 	ustream.tv##div[class="hideAdMessage.forPageRectangle"]
 	ustream.tv##div[id="PageRectangle"]
 	ustream.tv##div[id="UstreamSiteNotification"]
-﻿!----- youtube -----!
+!----- youtube -----!
 	youtube.com##div[id^="google_companion_ad_"]
 	youtube.com##div[id="ticker-inner"]
 	youtube.com##div[id="google_companion_ad_div"]
@@ -1031,7 +1029,7 @@
 	ameblo.jp##div[id="geinoujin_now"]
 	ameblo.jp##div[class="readerMainLink"]
 	ameblo.jp##ul[class="rc_head clearFix"]
-﻿!----- blogger.com -----!
+!----- blogger.com -----!
 	! Adenseモジュールの非表示
 		##div[class="widget AdSense"]
 !----- diamondblog.jp -----!
@@ -1057,7 +1055,7 @@
 	||fc2.com/ad/*
 ! 解析？
 	/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
-﻿! So-net blog
+! So-net blog
 	||blog.so-net.ne.jp/_contents/js/*
 	||blog.so-net.ne.jp/_common/js/*
 	||blog.so-net.ne.jp/_common/images/*

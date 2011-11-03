@@ -1,4 +1,4 @@
-﻿!----- 日経 -----!
+!----- 日経 -----!
 !!! nikkei.co.jp
 ! 許可対象
 	!@@##*[class*="cm"]
@@ -10,7 +10,7 @@
 	nikkei.co.jp##div[id="strategic"]
 	nikkei.co.jp##div[id="sub_text_ad"]
 	nikkei.co.jp##div[id="jigyoyochi"]
-	nikkei.co.jp##div[id^="ADVERTISE_RECTANGLE1"]
+	nikkei.co.jp##div[id^="ADVERTISE"]
 	nikkei.co.jp##div[class^="cmn-sub"]
 	nikkei.co.jp##div[class^="cmn-pr"]
 	nikkei.co.jp##p[class="ni"]

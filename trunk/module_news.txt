@@ -51,7 +51,7 @@
 	mainichi.jp##div[id^="AD"]
 	mainichi.jp##div[id*="Banner"]
 	mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
-﻿!----- 産経 -----!
+!----- 産経 -----!
 !!! MSN産経
 	|msndata.jp.msn.com/*
 	*ads*.msn.com*$domain=sankei.jp.msn.com
@@ -80,14 +80,14 @@
 	/ad.css^$domain=zakzak.co.jp
 	zakzak.co.jp##div[id^="ad"]
 
-﻿!----- newsweekjapan -----!
+!----- newsweekjapan -----!
 	newsweekjapan.jp###sideAdPanel
 	newsweekjapan.jp##div[id="sideAdPanel"]
-﻿!----- nikkansports -----!
+!----- nikkansports -----!
 
 	nikkansports.com##div[class="adPRtext"]
 	nikkansports.com##IFRAME[src^="http://ad.nikkansports.com/"]
-	﻿!----- 日経 -----!
+!----- 日経 -----!
 !!! nikkei.co.jp
 ! 許可対象
 	!@@##*[class*="cm"]
@@ -99,7 +99,7 @@
 	nikkei.co.jp##div[id="strategic"]
 	nikkei.co.jp##div[id="sub_text_ad"]
 	nikkei.co.jp##div[id="jigyoyochi"]
-	nikkei.co.jp##div[id^="ADVERTISE_RECTANGLE1"]
+	nikkei.co.jp##div[id^="ADVERTISE"]
 	nikkei.co.jp##div[class^="cmn-sub"]
 	nikkei.co.jp##div[class^="cmn-pr"]
 	nikkei.co.jp##p[class="ni"]
@@ -120,17 +120,15 @@
 	nikkeibp.co.jp##div[class*="tertiary"]
 	nikkeibp.co.jp##div[class="yad_imatch"]
 	nikkeibp.co.jp##iframe[src^="http://travel.nikkeibp.co.jp/iframe/"]
-﻿!----- reuters -----!
+!----- reuters -----!
 	*/overtureAd.js$domain=reuters.com
 	reuters.com##div[class="ad"][id^="advert_"]
 	reuters.com##img[title*="doubleclick.net"]
 	reuters.com##span[class="marketingPR"]
-
-﻿!----- yomiuri -----!
+!----- yomiuri -----!
 	yomiuri.co.jp##div[class="yahooAd"]
 	yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
 	yomiuri.co.jp##div[class="ad200-out"]
 	yomiuri.co.jp##div[class="sideRegularCONT"]
 	yomiuri.co.jp##div[class="sideBlock.mobile"]
 	yomiuri.co.jp##div[class="search.clearfix"]
-

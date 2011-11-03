@@ -4,20 +4,20 @@
 !
 ! pkg/commerce
 !
-﻿!!! a8.net
+!!! a8.net
 !! 許可対象
 !! 抑止対象
 	##div[class="yahooAd"]
 	##a[href^="http://px.a8.net/"]
 
-﻿!----- amazon -----!
+!----- amazon -----!
 	@@||affiliate.amazon.co.jp^$document
 	@@||amazon.co.jp^$document
 	##IMG[title^="[amazon.com]"]
 	##IMG[title^="[images-amazon.com]"]
 	##div[id="amazlet-info"]
 
-﻿! ----- 楽天 ----- !
+! ----- 楽天 ----- !
 !! 許可対象
 	@@||item.rakuten.co.jp^$document
 !! 抑止対象
@@ -37,7 +37,7 @@
 		!!iframe対策
 			affiliate.rakuten.co.jp##HTML
 			rakuten.co.jp##IMG[src^="http://ba.afl.rakuten.co.jp/"]
-﻿! ----- YahooAd ----- !
+! ----- YahooAd ----- !
 !! 許可対象
 !! 抑止対象
 	##div[class="yahooAd"]

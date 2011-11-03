@@ -1,4 +1,4 @@
-﻿!----- hangame.co.jp -----!
+!----- hangame.co.jp -----!
 	hangame.co.jp##.promoBnrWrap
 	hangame.co.jp###rcmndGames
 	hangame.co.jp###rcmndEasyGame

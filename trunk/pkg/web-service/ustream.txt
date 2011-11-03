@@ -1,4 +1,4 @@
-﻿!----- ustream -----!	
+!----- ustream -----!	
 	ustream.tv##div[class="channelTopBannerWrapper"]
 	ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 	ustream.tv##div[class="hideAdMessage.forPageRectangle"]
