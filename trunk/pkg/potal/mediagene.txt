@@ -59,4 +59,4 @@
 			myspiritual.jp##div[id="twi"][class="asideright"]
 	!!! 関連性のあるサイト
 			|glam.jp/adops/ad_creatives/$domain=files.glam.jp
-			||fbcdn.net^$domain=facebook.com
+
