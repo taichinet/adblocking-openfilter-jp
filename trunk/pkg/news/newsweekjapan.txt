@@ -1,3 +1,2 @@
-!----- newsweekjapan -----!
-	newsweekjapan.jp###sideAdPanel
-	newsweekjapan.jp##div[id="sideAdPanel"]
+!!! [newsweekjapan.jp]
+			newsweekjapan.jp##div[id="sideAdPanel"]

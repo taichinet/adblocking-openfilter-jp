@@ -1,6 +1,3 @@
 !!! a8.net
-!! 許可対象
-!! 抑止対象
-	##div[class="yahooAd"]
-	##a[href^="http://px.a8.net/"]
-
+		!! 抑止対象
+			##a[href^="http://px.a8.net/"]

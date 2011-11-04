@@ -1,5 +1,4 @@
-!----- yahoo -----!
-!!! yahoo.co.jp
+!!! [yahoo.co.jp]
 	!!! 許可対象
 		@@||map.yahoo.co.jp^$document
 		@@||yahooapis.com
@@ -32,9 +31,7 @@
 			yahoo.co.jp##div[id="rightbox1"]
 			yahoo.co.jp##div[id="tct"]
 			yahoo.co.jp##div[id="uhdMain"]
-		!!! mail用暫定策
+	!!! mail用暫定策
 			@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*
 			||yui.yahooapis.jp/3.0.0pr2/build/yui/*
 			##div[id="jpwelcomeinsideyahootitle"]
-		!!! blog
-			blogs.yahoo.co.jp##div[id*="AdBanner"]

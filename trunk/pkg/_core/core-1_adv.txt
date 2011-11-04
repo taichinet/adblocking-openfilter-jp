@@ -132,4 +132,8 @@
 			||advertising.com^
 			||durasite.net^
 			||impact-ad.jp^
+				##script[src*="impact-ad.jp"]
+				##iframe[src*="impact-ad.jp"]
+				##img[src*="impact-ad.jp"]
+				##a[href*="impact-ad.jp"]
 			||microad.jp^

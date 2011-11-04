@@ -1,3 +1,2 @@
-! ‚·‚ç‚Ç.jp
-	!! L‚Ì—}~
-		slashdot.jp##div[id="ads-index-text"]
+!!! [ã™ã‚‰ã©.jp]
+			slashdot.jp##div[id="ads-index-text"]

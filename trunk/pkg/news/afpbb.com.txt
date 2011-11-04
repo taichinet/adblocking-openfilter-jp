@@ -1,0 +1,3 @@
+!!! [afpbb.com]
+			afpbb.com###bpnDirectoryBlock
+			afpbb.com###prLinkBlock

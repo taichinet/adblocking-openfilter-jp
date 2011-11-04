@@ -1,6 +1,5 @@
-! searchina
-	!!! L—}~
-		searchina.ne.jp##div[id="nl2ad"]
-		searchina.ne.jp##div[id="column.adsense"]
-		searchina.ne.jp##div[id="xlisting_keyword_side"]
-		searchina.ne.jp##div[class="nl2ad"]
+!!! [searchina]
+			searchina.ne.jp##div[id="nl2ad"]
+			searchina.ne.jp##div[id="column.adsense"]
+			searchina.ne.jp##div[id="xlisting_keyword_side"]
+			searchina.ne.jp##div[class="nl2ad"]

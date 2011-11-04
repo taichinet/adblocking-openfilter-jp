@@ -1,5 +1,5 @@
-! diamondblog.jp
-	diamondblog.jp##iframe[src*="adjust-net.jp"]
-	diamondblog.jp##div[id="newentry"]
-	diamondblog.jp##div[id="headbar"]
-	diamondblog.jp##div[id="hotspot"]
+!!! [diamondblog.jp]
+			diamondblog.jp##iframe[src*="adjust-net.jp"]
+			diamondblog.jp##div[id="newentry"]
+			diamondblog.jp##div[id="headbar"]
+			diamondblog.jp##div[id="hotspot"]

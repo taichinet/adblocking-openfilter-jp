@@ -1,0 +1,3 @@
+!!! [goo.ne.jp]
+	blog.goo.ne.jp##div[id="mod-advertising"]
+	blog.goo.ne.jp##div[id="mod-goo-recommends"}

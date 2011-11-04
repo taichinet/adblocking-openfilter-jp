@@ -1,4 +1,4 @@
-! mixi.jp
+!!! [mixi.jp]
 	!!! 1.開放
 		!! 1.メイン
 			@@|http://mixi.jp/ajax_*$domain=mixi.jp
@@ -36,5 +36,3 @@
 			mixi-platform.com##div[id="poncan_ad"]
 			mixi-platform.com##div[id="fm_new_proms"]
 			mixi-platform.com##ul[class="fm_proms_list"]
-		!mreco抑止
-

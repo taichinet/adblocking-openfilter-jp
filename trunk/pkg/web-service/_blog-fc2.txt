@@ -1,7 +1,6 @@
-! fc2
-	!!! 抑止
+!!! [fc2.com]
 		!! ブログヘッダ
-			fc2.com##div[id^="sh_fc2blogheadbar"]
+			fc2.com##div[id$="blogheadbar"]
 		!! エディタ
 			blog.fc2.com##iframe[src*="advertising.com"]
 			blog.fc2.com##div[class="content"][id="recommend_newentry"]

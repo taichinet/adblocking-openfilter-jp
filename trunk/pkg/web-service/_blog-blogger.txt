@@ -1,3 +1,2 @@
-! blogger.com
-	!!! Adenseモジュールの非表示
-		##div[class="widget AdSense"]
+!!! [blogger.com]
+			##div[class="widget AdSense"]

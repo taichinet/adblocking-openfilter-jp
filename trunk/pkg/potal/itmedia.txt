@@ -1,5 +1,5 @@
-! ITMedia
-	!!! 抑止
+!!! [ITMedia系列]
+	!!! 共通
 		!! core
 			||itmedia.jp/adsv/^
 			##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
@@ -10,12 +10,12 @@
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLC"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLR"]
-		!! ITMedia
+	!!! ITMedia
 			itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
 			itmedia.co.jp##div[class="ITFT"]
 			itmedia.co.jp##div[id="cmsPrcredit"]
 			itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
-		!! bizmakoto.jp
+	!!! bizmakoto.jp
 			bizmakoto.jp##.colBox.colBoxFeedback
 			bizmakoto.jp##.makotofocushead
 			bizmakoto.jp###ISAL
@@ -33,10 +33,10 @@
 			bizmakoto.jp##a[href="/pcuser/special/mouse-jp.html"]
 			bizmakoto.jp##a[href^="/makoto/articles/"]
 			bizmakoto.jp##a[onclick*="http://bizmakoto.jp/style/"]
-			! 試験中
-			bizmakoto.jp##div[id="makotofocus"] > A[href^="/bizid/articles/"]
-			bizmakoto.jp##div[id="makotofocus"] > A[href^="http://www.itmedia.co.jp/news/fl/"]
-		!! @IT
+				! 試験中
+				bizmakoto.jp##div[id="makotofocus"] > A[href^="/bizid/articles/"]
+				bizmakoto.jp##div[id="makotofocus"] > A[href^="http://www.itmedia.co.jp/news/fl/"]
+	!!! @IT
 			atmarkit.co.jp##div[id="ad"]
 			atmarkit.co.jp##div[class="ad"]
 			atmarkit.co.jp##div[class="haken"]

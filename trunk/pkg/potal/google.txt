@@ -1,17 +1,17 @@
-! google.com
-	!!! 許可設定
-		!! .com
+!!! [google.com]
+	!!! 許可
+	!!! .com
 			@@||google.com/adsense/*
 			@@||google.com/images?*
 			@@||google.com/recaptcha/api/*
 			@@||google.com/sbd?*
-		!! .co.jp
+	!!! .co.jp
 			@@||google.co.jp/extern_js/
 			@@||google.co.jp/images/srpr/*
 			@@||google.co.jp/images?*
 			@@||google.co.jp/imgevent?
-			@@||google.co.jp/sbd?client=firefox-a
-		!! 個別サービス（サブドメインも含む）
+			@@||google.co.jp/sbd?
+	!!! 個別サービス（サブドメインも含む）
 			@@||gstatic.com^
 			@@|mail.google.com/*
 			@@|docs.google.com^

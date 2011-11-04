@@ -1,7 +1,5 @@
-! NTTの方のgoo
-	!!! 抑止
-		!! 広告
-			http://log000.goo.ne.jp/VL/
+!!! [NTTの方のgoo]
+			|log000.goo.ne.jp/VL/
 			||ad.goo.ne.jp/*
 			||ad.nttnavi.co.jp/*
 			||goo.ne.jp/banner*

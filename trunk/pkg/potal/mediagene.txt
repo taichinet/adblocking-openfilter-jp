@@ -1,4 +1,4 @@
-! mediagene系
+!!! [mediagene系]
 	!!! 共通
 		!! 広告拒否
 			gizmodo.jp,lifehacker.jp,kotaku.jp,myspiritual.jp,mylohas.net##div[class^="ad_head"]
@@ -57,7 +57,6 @@
 			myspiritual.jp##div[id="staff"]
 			myspiritual.jp##DIV[id="item"][class="asideleft"]
 			myspiritual.jp##div[id="twi"][class="asideright"]
-
-		!! 関連性のあるサイト
+	!!! 関連性のあるサイト
 			|glam.jp/adops/ad_creatives/$domain=files.glam.jp
 			||fbcdn.net^$domain=facebook.com

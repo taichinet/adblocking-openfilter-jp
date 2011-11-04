@@ -1,3 +1,0 @@
-!----- 朝日 -----!
-!!! asahi.com
-	asahi.com##div[class="BnrPr"]

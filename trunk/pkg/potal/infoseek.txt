@@ -1,9 +1,7 @@
-! infoseek.co.jp
-	!!! 抑止
+!!! [infoseek.co.jp]
 		!! 広域
 			||rakuten.co.jp/content/ad/^$domain=infoseek.co.jp
 			||ias.rakuten.co.jp/^$domain=infoseek.co.jp
-			||image.ias.rakuten.co.jp/^$domain=infoseek.co.jp
 			infoseek.co.jp##*[id^="ichiba"]
 			infoseek.co.jp##*[id="trAshiatoItem"]
 			infoseek.co.jp##*[id="woman"]

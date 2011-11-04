@@ -1,5 +1,5 @@
-! Facebook
-	!!! 内部モジュール
+!!! [Facebook]
+	!!! 内部
 		!! 表示簡略化
 			||creative.ak.fbcdn.net/*/flyers/*
 			||facebook.com/ajax/emu/end.php*$domain=facebook.com
@@ -26,4 +26,3 @@
 			||facebook.com/iframe/^
 			##iframe[src*="facebook.com/plugins/"]
 			##script[src*="connect.facebook.net"]
-

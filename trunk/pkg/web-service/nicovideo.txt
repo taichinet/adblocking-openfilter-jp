@@ -1,5 +1,6 @@
-! nicovideo系統
-	!!! 1.開放:システム系
+!!! [nicovideo]ニコニコ動画系統
+!!! {開放}
+	!!!システム系統
 		!! nicodic系
 			@@||api.nicodic.jp^
 		!! app系
@@ -11,18 +12,18 @@
 		!! nimg.jp
 			!! res系
 				@@||res.nimg.jp/swf/appli/*
-		!! nicoapp
-			@@||nicoapp.jp^
-		!! 開放：市場用
-			! 最近、ちゃんと開放できている感じがしないんで確認が必要
-			@@||images-amazon.com^$domain=nicovideo.jp
-			@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
-			@@nicovideo.jp##div[id^="ichiba_item"]
-			@@nicovideo.jp##div[id^="ichibaitem_"]
-			@@nicovideo.jp##div[id^="ichiba"]
-			@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
-
-	!!! 2.拒否:*.nicovideo.jp
+			!! nicoapp
+				@@||nicoapp.jp^
+			!! 市場用 
+				! 最近、ちゃんと開放できている感じがしないんで確認が必要
+				@@||images-amazon.com^$domain=nicovideo.jp
+				@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
+				@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
+				@@nicovideo.jp##div[id^="ichiba_item"]
+				@@nicovideo.jp##div[id^="ichibaitem_"]
+				@@nicovideo.jp##div[id^="ichiba"]
+				@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
+	!! {拒否}*.nicovideo.jp
 		!! /
 			||nicovideo.jp/__utm.gif*
 			||nicovideo.jp/api/getmarquee*
@@ -42,14 +43,15 @@
 			||live.nicovideo.jp/crossdomain.xml
 			||live.nicovideo.jp/inc/live_ad.js?*
 			||live.nicovideo.jp/img/watch/pct_dmy_flashplayer.png
+		!! watch.live.
 			||watch.live.nicovideo.jp/api/heartbeat
 			||watch.live.nicovideo.jp/crossdomain.xml
-	!!! 3.拒否:nimg.jp
+	!!! {拒否}nimg.jp
 		!! res系
 			||res.nimg.jp/swf/appli/*
 		!! icon系
 			||icon.nimg.jp^$domain=live.nicovideo.jp
-	!!! 4.非表示
+	!!! 非表示
 		!! 広告:nicovideo.jp
 			nicovideo.jp##div[class="ads_468"]
 			nicovideo.jp##div[id^="sideTxtAd"]

@@ -1,7 +1,3 @@
-! フレッシュアイ
-	!!! 抑止
-		!! 広告
+!!! [フレッシュアイ]
 			fresheye.com##*[class="pr"]
 			fresheye.com##div[class="pbox"]
-			fresheye.com##*[src*="impact-ad.jp"]
-				! コアかNGhostに引き上げるかもしれない。
