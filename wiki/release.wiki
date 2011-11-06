@@ -6,5 +6,5 @@
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_NGhost.txt NGhost.txt]||NG指定ホスト用パッケージ||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_commerce.txt module_commerce.txt]||商用サイト向けモジュール||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_news.txt module_news.txt]||ニュースサイト向けパッケージ||
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_potal.txt module_potal.txt]||ポータルサイト向けパッケージ||
+||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_potal.txt module_potal.txt]||ポータルサイト向けパッケージ(動作不良有り)||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_web.txt module_web.txt]||Webサービス向けパッケージ||
