@@ -1,3 +1,0 @@
-!!! [YahooAd]
-		!! 抑止対象
-			##div[class="yahooAd"]

@@ -1,5 +1,0 @@
-!!! [j-cast]
-			j-cast.com##div[class="amazon-info"]
-			j-cast.com##div[id^="MCAdEntry"]
-			j-cast.com##div[id^="MCEntry"]
-			j-cast.com##iframe[title="Advertisement"]
