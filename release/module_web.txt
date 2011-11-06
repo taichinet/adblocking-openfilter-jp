@@ -1,9 +1,14 @@
-﻿[Adblock Plus]
+[Adblock Plus]
 
 
 !
 ! pkg/web
 !
+
+!! 2011/11/06
+!! Changes in release directories
+!!    http://code.google.com/p/adblocking-openfilter-jp/wiki/release?tm=2
+
 !!! [Facebook]
 	!!! 内部
 		!! 表示簡略化

@@ -1,9 +1,12 @@
-﻿[Adblock Plus]
-
-
+[Adblock Plus]
 !
 ! pkg/potal
 !
+
+!! 2011/11/06
+!! Changes in release directories
+!!    http://code.google.com/p/adblocking-openfilter-jp/wiki/release?tm=2
+
 !!! [excite.co.jp]
 			|adimp.excite.co.jp/*
 			excite.co.jp##a[href*="adimp"]

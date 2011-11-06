@@ -4,6 +4,11 @@
 !
 ! pkg/commerce
 !
+
+!! 2011/11/06
+!! Changes in release directories
+!!    http://code.google.com/p/adblocking-openfilter-jp/wiki/release?tm=2
+
 !!! a8.net
 		!! 抑止対象
 			##a[href^="http://px.a8.net/"]
