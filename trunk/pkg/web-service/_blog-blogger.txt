@@ -1,0 +1,2 @@
+!!! [blogger.com]
+			##div[class="widget AdSense"]

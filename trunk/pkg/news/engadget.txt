@@ -1,0 +1,3 @@
+!!! [engadget]
+			engadget.com##div[class="medrect"]
+			engadget.com##IFRAME[src^="http://xml.affiliate.rakuten.co.jp"]

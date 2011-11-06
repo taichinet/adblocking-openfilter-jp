@@ -1,0 +1,8 @@
+!!! [blog.so-net.ne.jp]
+			||blog.so-net.ne.jp/_contents/js/*
+			||blog.so-net.ne.jp/_common/js/*
+			||blog.so-net.ne.jp/_common/images/*
+			||so-net.ne.jp/search/javascripts/research/*
+			blog.so-net.ne.jp##div[class="searchFrame"]
+			blog.so-net.ne.jp##div[class="sbHeader"]
+			blog.so-net.ne.jp##div[id="powered"]

@@ -1,0 +1,38 @@
+!!! [google.com]
+	!!! 許可
+	!!! .com
+			@@||google.com/adsense/*
+			@@||google.com/images?*
+			@@||google.com/recaptcha/api/*
+			@@||google.com/sbd?*
+	!!! .co.jp
+			@@||google.co.jp/extern_js/
+			@@||google.co.jp/images/srpr/*
+			@@||google.co.jp/images?*
+			@@||google.co.jp/imgevent?
+			@@||google.co.jp/sbd?
+	!!! 個別サービス（サブドメインも含む）
+			@@||gstatic.com^
+			@@|mail.google.com/*
+			@@|docs.google.com^
+	!!! 拒否
+		!! 解析
+			google-analytics.com/ga.js
+		!! 広告データの非表示化
+			||googleadservices.com^
+			|www.google.co.jp/extern_js/
+			|pagead2.googlesyndication.com/pagead/*
+			google.com,google.co.jp##table[id="mbEnd"]
+			google.com,google.co.jp##a[href*="/aclk"]
+			google.com,google.co.jp##script[src*=/pagead/show_ads.js"]
+			google.com,google.co.jp##div[id="pa1"]
+			google.com,google.co.jp##div[id="tads"]
+			google.com,google.co.jp##div[id="tbd"]
+			google.com,google.co.jp##div[id="rhs"]
+			google.com,google.co.jp##div[class="g-tools_table"]
+			google.com,google.co.jp##div[class="g-tools_img"]
+			google.com,google.co.jp##div[class*="g-tools"]
+		!! 検索広告
+			google.com,google.co.jp##span[id="taw"]
+			google.com,google.co.jp##div[id="bottomads"]
+			google.com,google.co.jp##td[class="std"]

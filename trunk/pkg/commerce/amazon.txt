@@ -1,0 +1,14 @@
+!!! [amazon]
+	!!! {許可}
+		!! amazon.co.jp
+			@@||affiliate.amazon.co.jp^$document
+			@@||amazon.co.jp^$document
+		!! amazon.com
+			@@||affiliate.amazon.com^$document
+			@@||amazon.com^$document
+	!!! 拒否
+			##IMG[title^="[amazon.com]"]
+			##IMG[title^="[images-amazon.com]"]
+			##div[id*="amazlet"]
+			##div[class^="amazlet"]
+

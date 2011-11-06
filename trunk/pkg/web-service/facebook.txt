@@ -1,0 +1,28 @@
+!!! [Facebook]
+	!!! 内部
+		!! 表示簡略化
+			||creative.ak.fbcdn.net/*/flyers/*
+			||facebook.com/ajax/emu/end.php*$domain=facebook.com
+			facebook.com##a[href*="/ajax/emu/end.php"]
+			facebook.com##a[href^="/campaign/landing.php"]
+			facebook.com##a[class="uiIconLink emuEventfad_fan fbEmuLink"]
+			facebook.com##a[ajaxify*="en=fad_fan"]
+			facebook.com##a[class="uiHeaderActions rfloat"][href^="/campaign/landing.php"]
+			facebook.com##div[id="pagelet_mutual"]
+			facebook.com##div[id="pagelet_ego_pane"]
+			facebook.com##div[class="ego_column"]
+			facebook.com##div[class="ego_section"]
+			facebook.com##span[class="fbEmuContext"]
+			facebook.com##span[class="muffin_tracking_pixel_start"]
+			facebook.com##div[class^="auto_resize_iframe"]
+		!! 解析用フレーム
+			||facebook.com/ai.php*
+			##iframe[src*="/ai.php"]
+			##script[src*="/ai.php"]
+	!!! 外部
+		!! モジュール
+			||connect.facebook.net/en_US/all.js
+			||facebook.com/plugins/^
+			||facebook.com/iframe/^
+			##iframe[src*="facebook.com/plugins/"]
+			##script[src*="connect.facebook.net"]

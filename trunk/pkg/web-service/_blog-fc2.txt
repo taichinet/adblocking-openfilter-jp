@@ -1,0 +1,18 @@
+!!! [fc2.com]
+		!! ブログヘッダ
+			fc2.com##div[id$="blogheadbar"]
+		!! エディタ
+			blog.fc2.com##iframe[src*="advertising.com"]
+			blog.fc2.com##div[class="content"][id="recommend_newentry"]
+			blog.fc2.com##div[class="content"][id="content_tab"]
+			blog.fc2.com##div[class="main_top_ad"]
+			blog.fc2.com##div[class="content"][id="content_track"]
+			blog.fc2.com##div[id="recent_template"][class="recent_tmpl"]
+			blog.fc2.com##div[id="tbtheme"]
+			blog.fc2.com##div[id="ad_sidebar"]
+			blog.fc2.com##div[id="flashcontent1"]
+			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
+		!! 広告
+			||fc2.com/ad/*
+		!! 解析？
+			/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
