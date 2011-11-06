@@ -3,8 +3,8 @@
  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/core-filter.txt コアフィルタ]
  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/master_module.txt 追加パッケージ] 以下のファイルをマージした物です。
 ||ファイル||内容||購読||
-||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_NGhost.txt NGhost.txt||NG指定ホスト用パッケージ||購読||
+||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_NGhost.txt NGhost.txt]||NG指定ホスト用パッケージ||購読||
 ||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_commerce.txt module_commerce.txt]||商用サイト向けモジュール||購読||
 ||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_news.txt module_news.txt]||ニュースサイト向けパッケージ||購読||
 ||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_potal.txt module_potal.txt]||ポータルサイト向けパッケージ||購読||
-||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_web.txt module_web.txt]||Webサービス向けパッケージ||[abp:subscribe?location=http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_web.txt&title=aio_mod-web 購読]||
+||[http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_web.txt module_web.txt]||Webサービス向けパッケージ||<a href="abp:subscribe?location=http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_web.txt&title=aio_mod-web">購読</a>||
