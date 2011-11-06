@@ -1,0 +1,9 @@
+#labels Adblock-Firefox
+公開ファイル一覧
+ * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/core-filter.txt コアフィルタ]
+ * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/master_module.txt 追加パッケージ] 以下のファイルをマージした物です。
+  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_NGhost.txt NG指定ホスト用パッケージ] 当プロジェクトにて、NG指定しているホストの拒否ファイル
+  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_commerce.txt 商用サイト向けモジュール]
+  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_news.txt ニュースサイト向けパッケージ]
+  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_potal.txt ポータルサイト向けパッケージ]
+  * [http://code.google.com/p/adblocking-openfilter-jp/source/browse/release/module_web.txt Webサービス向けパッケージ]
