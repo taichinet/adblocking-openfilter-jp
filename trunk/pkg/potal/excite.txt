@@ -9,3 +9,5 @@
 			excite.co.jp##div[id="rakuten-frame"]
 			excite.co.jp##div[id="footer"]
 			excite.co.jp##div[id$="banner"]
+			excite.co.jp##div[id="external_flash_ad_embed"}
+			excite.co.jp##div[id="excite_slidead_wrap"]

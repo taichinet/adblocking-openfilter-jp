@@ -12,7 +12,8 @@
 			@@mixi.jp##script[src^="/static/js//mixi/analysis.production"]
 			@@/analy(tics|ze|sis)/$domain=mixi-plathome.jp
 	!!! 2. 抑止
-		!! 1.広告（メイン）
+		!! 広告（メイン）
+			mixi.jp##iframe[src="ads."]
 			||mreco.jp/^
 			||mreco0.jp/^
 			mixi.jp##div[class^="fm_promsfm_proms_"]
@@ -28,9 +29,10 @@
 			mixi.jp##div[id="prContentsArea"]
 			mixi.jp##div[id="mAd"]
 			mixi.jp##iframe[src^="http://a.mreco.jp/adsv/"]
-			mixi.jp##iframe[src*="mreco.jp/"]
-			mixi.jp##iframe[src*="mreco0.jp/"]
-		!! 2.広告（アプリ）
+			mixi.jp##iframe[src*="mreco.jp"]
+			mixi.jp##iframe[src*="mreco0.jp"]
+			mixi.jp##div[id="bodySub"] > DIV[id="adBanner"]
+		!! 広告（アプリ）
 			! 圧倒的に情報不足なので、他のリストが出てくるなら非常にうれしい所。
 			mixi-platform.com##div[id="fm_top_ad"]
 			mixi-platform.com##div[id="poncan_ad"]
