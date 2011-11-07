@@ -1,13 +1,9 @@
-[Adblock Plus]
+﻿[Adblock Plus]
+
 
 !
 ! pkg/news
 !
-
-!! 2011/11/06
-!! Changes in release directories
-!!    http://code.google.com/p/adblocking-openfilter-jp/wiki/release?tm=2
-
 !!! [afpbb.com]
 			afpbb.com###bpnDirectoryBlock
 			afpbb.com###prLinkBlock

@@ -11,4 +11,6 @@
 			##IMG[title^="[images-amazon.com]"]
 			##div[id*="amazlet"]
 			##div[class^="amazlet"]
+			##div[class="amazlet-box"]
+
 

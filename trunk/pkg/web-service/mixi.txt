@@ -22,6 +22,7 @@
 			mixi.jp##div[id="collaboPr"]
 			mixi.jp##div[id="contentMatch"]
 			mixi.jp##div[id="fm_top_ad"]
+			mixi.jp##div[id="footerAdBanner"]
 			mixi.jp##div[id="keywordRanking"]
 			mixi.jp##div[id="picupCommunity"]
 			mixi.jp##div[id="picupReview"]
@@ -38,3 +39,5 @@
 			mixi-platform.com##div[id="poncan_ad"]
 			mixi-platform.com##div[id="fm_new_proms"]
 			mixi-platform.com##ul[class="fm_proms_list"]
+			mixi-platform.com##div[id="fm_top_ad"] > div[id="poncan_ad"]
+

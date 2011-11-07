@@ -1,14 +1,9 @@
-[Adblock Plus]
+﻿[Adblock Plus]
 
 
 !
 ! pkg/web
 !
-
-!! 2011/11/06
-!! Changes in release directories
-!!    http://code.google.com/p/adblocking-openfilter-jp/wiki/release?tm=2
-
 !!! [Facebook]
 	!!! 内部
 		!! 表示簡略化
@@ -78,6 +73,7 @@
 			mixi.jp##div[id="collaboPr"]
 			mixi.jp##div[id="contentMatch"]
 			mixi.jp##div[id="fm_top_ad"]
+			mixi.jp##div[id="footerAdBanner"]
 			mixi.jp##div[id="keywordRanking"]
 			mixi.jp##div[id="picupCommunity"]
 			mixi.jp##div[id="picupReview"]
@@ -94,6 +90,8 @@
 			mixi-platform.com##div[id="poncan_ad"]
 			mixi-platform.com##div[id="fm_new_proms"]
 			mixi-platform.com##ul[class="fm_proms_list"]
+			mixi-platform.com##div[id="fm_top_ad"] > div[id="poncan_ad"]
+
 !!! [nicovideo]ニコニコ動画系統
 !!! {開放}
 	!!!システム系統
@@ -175,6 +173,7 @@
 			twitter.com##.promo
 			twitter.com##.user-rec-inner
 			twitter.com###global-nav-who_to_follow
+			twitter.com##div[class="component.promptbird.promptbird-dashboard-narrow"]
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
