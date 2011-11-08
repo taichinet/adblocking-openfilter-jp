@@ -1,7 +1,8 @@
 ﻿[Adblock Plus]
-
-
 !
+! module_potal　除去版
+! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
+!!
 ! pkg/web
 !
 !!! [Facebook]
@@ -177,6 +178,10 @@
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
+			togetter.com##div[class="advertise_head_box"]
+			togetter.com##A[href*="togetter06-22"]
+			togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
+			togetter.com##div[class="side_box"]
 !!! [ustream]
 			ustream.tv##div[class="channelTopBannerWrapper"]
 			ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
@@ -238,6 +243,9 @@
 			||fc2.com/ad/*
 		!! 解析？
 			/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
+		!! ぶろぐらんきんぐ
+			||blogranking.fc2.com/*
+			##A[href^="http://blogranking.fc2.com/"]
 !!! [goo.ne.jp]
 	blog.goo.ne.jp##div[id="mod-advertising"]
 	blog.goo.ne.jp##div[id="mod-goo-recommends"}

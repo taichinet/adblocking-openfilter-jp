@@ -16,3 +16,6 @@
 			||fc2.com/ad/*
 		!! 解析？
 			/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
+		!! ぶろぐらんきんぐ
+			||blogranking.fc2.com/*
+			##A[href^="http://blogranking.fc2.com/"]

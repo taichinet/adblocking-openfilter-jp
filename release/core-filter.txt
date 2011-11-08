@@ -1,7 +1,8 @@
 ﻿[Adblock Plus]
-
-
 !
+! module_potal　除去版
+! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
+!!
 ! pkg/_core
 !
 ! 特殊許可:Firefoxの動作上、許可が必要な対象

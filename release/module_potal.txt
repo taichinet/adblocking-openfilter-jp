@@ -1,7 +1,8 @@
 ﻿[Adblock Plus]
-
-
 !
+! module_potal　除去版
+! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
+!!
 ! pkg/potal
 !
 ! 現在、動作不良を抱えているフィルタです。
@@ -18,7 +19,7 @@
 			excite.co.jp##div[id="rakuten-frame"]
 			excite.co.jp##div[id="footer"]
 			excite.co.jp##div[id$="banner"]
-			excite.co.jp##div[id="external_flash_ad_embed"}
+			excite.co.jp##div[id="external_flash_ad_embed"]
 			excite.co.jp##div[id="excite_slidead_wrap"]
 !!! [フレッシュアイ]
 			fresheye.com##*[class="pr"]
@@ -48,23 +49,22 @@
 	!!! 個別サービス（サブドメインも含む）
 			@@||gstatic.com^
 			@@|mail.google.com/*
-			@@|docs.google.com^
+				mail.google.com##DIV[class="mq"]
+			@@|docs.google.com/*
 	!!! 拒否
 		!! 解析
 			google-analytics.com/ga.js
 		!! 広告データの非表示化
 			||googleadservices.com^
-			|www.google.co.jp/extern_js/
-			|pagead2.googlesyndication.com/pagead/*
+			||google.co.jp/extern_js/
+			||googlesyndication.com/pagead/*
 			google.com,google.co.jp##table[id="mbEnd"]
 			google.com,google.co.jp##a[href*="/aclk"]
-			google.com,google.co.jp##script[src*=/pagead/show_ads.js"]
+			google.com,google.co.jp##script[src*="/pagead/show_ads.js"]
 			google.com,google.co.jp##div[id="pa1"]
 			google.com,google.co.jp##div[id="tads"]
 			google.com,google.co.jp##div[id="tbd"]
 			google.com,google.co.jp##div[id="rhs"]
-			google.com,google.co.jp##div[class="g-tools_table"]
-			google.com,google.co.jp##div[class="g-tools_img"]
 			google.com,google.co.jp##div[class*="g-tools"]
 		!! 検索広告
 			google.com,google.co.jp##span[id="taw"]
@@ -104,56 +104,56 @@
 			! 怪しいので抑止
 			||ashiato.rakuten.co.jp/*
 !!! [ITMedia系列]
+
+!!
+!! 諸般の事情で再構築中。
+!! どうしても古いのが使いたいって人は、コメントアウトで残しておくので、それをコピペして使ってね。
+!!
+
 	!!! 共通
 		!! core
-			||itmedia.jp/adsv/^
+			||dlv.itmedia.jp/adsv/*
 			##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISAL"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISALR"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISALRU"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id~="ISAL"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id^="ISTL"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISFLR"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLC"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLR"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
 	!!! ITMedia
-			itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
-			itmedia.co.jp##div[class="ITFT"]
-			itmedia.co.jp##div[id="cmsPrcredit"]
-			itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/v1/"]
 	!!! bizmakoto.jp
-			bizmakoto.jp##.colBox.colBoxFeedback
-			bizmakoto.jp##.makotofocushead
-			bizmakoto.jp###ISAL
-			bizmakoto.jp##.colBoxClear.h10px
-			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
-			bizmakoto.jp###COIDP
-			bizmakoto.jp###ISAL2
-			bizmakoto.jp##div[id^="makotofocus"]
-			bizmakoto.jp##script[src^="/css/"][src$=".js"]
-			bizmakoto.jp##.cbox
-			bizmakoto.jp###ISTLR
-			bizmakoto.jp###features
-			bizmakoto.jp###globalFooter
-			bizmakoto.jp##a[href^="http://www.itmedia.co.jp/news/fl/"]
-			bizmakoto.jp##a[href="/pcuser/special/mouse-jp.html"]
-			bizmakoto.jp##a[href^="/makoto/articles/"]
-			bizmakoto.jp##a[onclick*="http://bizmakoto.jp/style/"]
-				! 試験中
-				bizmakoto.jp##div[id="makotofocus"] > A[href^="/bizid/articles/"]
-				bizmakoto.jp##div[id="makotofocus"] > A[href^="http://www.itmedia.co.jp/news/fl/"]
+			bizmakoto.jp##div[id="makotofocus"]
+			bizmakoto.jp##div[class="prtimes"]
+			bizmakoto.jp##div[id="feedback"]
+			bizmakoto.jp##div[id="topitmnews"]
+			bizmakoto.jp##div[class="makotofocushead"]
+			bizmakoto.jp##div[class="navi"]
+			bizmakoto.jp##div[class="pr-txt"]
+			bizmakoto.jp##div[class="subcol"] > div[class="rectangle"]
+			bizmakoto.jp##div[class="subcol"] > div[id="tfm"]
+			bizmakoto.jp##div[class="subcol"] > div[id="twtRank"]
+			bizmakoto.jp##div[id="carrier"] > div[class="cbox"]
+			bizmakoto.jp##div[id="globalFooter"]
 	!!! @IT
-			atmarkit.co.jp##div[id="ad"]
-			atmarkit.co.jp##div[class="ad"]
-			atmarkit.co.jp##div[class="haken"]
-			atmarkit.co.jp##div[class="jc"]
-			atmarkit.co.jp##div[id^="kyujin"]
-			atmarkit.co.jp##div[id="crec"]
-			atmarkit.co.jp##div[id="eventad"]
-			atmarkit.co.jp##div[id="frec"]
-			atmarkit.co.jp##div[id="header_ad"]
-			atmarkit.co.jp##div[id="job-info"]
-			atmarkit.co.jp##div[id="rrec"]
-			atmarkit.co.jp##div[id="semBox"]
+
+!!! 旧フィルタ
+	!!! ITMedia
+!			itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
+!			itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/"]
+!			itmedia.co.jp##div[class="ITFT"]
+!			itmedia.co.jp##div[id="cmsPrcredit"]
+	!!! @IT
+!			atmarkit.co.jp##div[id="ad"]
+!			atmarkit.co.jp##div[class="ad"]
+!			atmarkit.co.jp##div[class="haken"]
+!			atmarkit.co.jp##div[class="jc"]
+!			atmarkit.co.jp##div[id^="kyujin"]
+!			atmarkit.co.jp##div[id="crec"]
+!			atmarkit.co.jp##div[id="eventad"]
+!			atmarkit.co.jp##div[id="frec"]
+!			atmarkit.co.jp##div[id="header_ad"]
+!			atmarkit.co.jp##div[id="job-info"]
+!			atmarkit.co.jp##div[id="rrec"]
+!			atmarkit.co.jp##div[id="semBox"]
 !!! [J's goal]
 			||jsgoal.jp/js/_parts/random_banner/*
 			||jsgoal.jp/js/common/ad_overture.js
@@ -295,6 +295,8 @@
 			searchina.ne.jp##div[id="column.adsense"]
 			searchina.ne.jp##div[id="xlisting_keyword_side"]
 			searchina.ne.jp##div[class="nl2ad"]
+			searchina.ne.jp##DIV[id="special_pr"][class$="special_ad"]
+			searchina.ne.jp##IFRAME[src^="http://js.searchina.ne.jp/api/yahooshopping/"]
 !!! [tabelog.com]
 			tabelog.com##div[class="listing"]
 			tabelog.com##div[class="banner"]
