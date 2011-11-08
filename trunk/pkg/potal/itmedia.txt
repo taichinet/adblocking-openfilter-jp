@@ -7,26 +7,72 @@
 
 	!!! 共通
 		!! core
-			||dlv.itmedia.jp/adsv/*
-			||cgi.itmedia.co.jp/
-			||g-ecx.images-amazon.com^$domain=bizmakoto.jp
-			##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id~="ISAL"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id^="ISTL"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISFLR"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLR"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
-		!! twitter
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[class^="twtr-widget"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="widget.js"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="twimgWidget.js"]
-			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##embed[src="http://ws.amazon.co.jp/widgets/"]
+			!! 読み込み拒否
+				!! 内部コンテンツ
+					||dlv.itmedia.jp/adsv/*
+					||cgi.itmedia.co.jp/*
+				!! 外部コンテンツ
+					||g-ecx.images-amazon.com^$domain=itmedia.co.jp,bizmakoto.jp
+					||platform.twitter.com/widgets/*$domain=itmedia.co.jp,bizmakoto.jp
+					||cdn.api.b.hatena.ne.jp^$domain=itmedia.co.jp,bizmakoto.jp
+					||plusone.google.com^$domain=itmedia.co.jp,bizmakoto.jp
+					||b.st-hatena.com/images/entry-button/*$domain=bizmakoto.jp
+					||ws.amazon.co.jp^$domain=itmedia.co.jp,bizmakoto.jp
+					||widget.zenback.jp^$domain=tmedia.co.jp,bizmakoto.jp
+					||otter.topsy.com^$domain=tmedia.co.jp,bizmakoto.jp
+			!! 非表示
+				!! 広告
+					!! 自前表示
+						##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id~="ISAL"]
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id^="ISTL"]
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISFLR"]
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLR"]
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
+					!! amazon
+						itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##embed[src="http://ws.amazon.co.jp/widgets/"]
+			!! blogparts
+				##div#kijijiblogparts
+			!! wassr.jp
+				##div[class^="widget"] > A[href^="http://wassr.jp/user/"]
+			!! twitter
+				itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id^="twtr-widget"]
+				itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[class^="twtr-widget"]
+				itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="widget.js"]
+				itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="twimgWidget.js"]
 	!!! ITMedia
+		!! 親止め
+			itmedia.co.jp##div[id="amazon-item"]
+			itmedia.co.jp##div[id="osusumepc"]
+			itmedia.co.jp##div[id="mobileshop"]
+			itmedia.co.jp##div[id="hatebu"]
+			itmedia.co.jp##div[id="newzia_connect_flmobile"]
+			itmedia.co.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + div
+			itmedia.co.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
+		!! www.
+			www.itmedia.co.jp##div[class="colBoxAppinfo"]
+			www.itmedia.co.jp##div[class="colBoxRanking"]
+			www.itmedia.co.jp##div[class="colBoxOnetopi"]
+		!! plusd.
+			plusd.itmedia.co.jp##div[class="leftbox"] > div
+			plusd.itmedia.co.jp##div[class="leftbox"] + div[class="leftbox"]
+			plusd.itmedia.co.jp##div[class="kwoutBtn"]
+			plusd.itmedia.co.jp##div[class="hb"]
+			plusd.itmedia.co.jp##div[class="endlink"] + P[align="CENTER"]
+		!! nlab.
+			nlab.itmedia.co.jp##div[class="colBoxUlist"]
+			nlab.itmedia.co.jp##A[href*="itmedia-netlab-22"]
+			itmedia.co.jp##div[id="globalFooter"]
+		!! gadget.
+			gadget.itmedia.co.jp##div[id="ITOP"]
+			gadget.itmedia.co.jp##div[class="zenback"]
+		!! blogs.
+			blogs.itmedia.co.jp##A[title$="PR"]
 	!!! bizmakoto.jp
 			bizmakoto.jp##div[class="quickpoll"]
 			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
-			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + DIV[style^="margin"]
-			bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + DIV[style^="margin"]
+			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + div[style^="margin"]
+			bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + div[style^="margin"]
 			bizmakoto.jp##div[class="keyword"]
 			bizmakoto.jp##div[class="navi"]
 			bizmakoto.jp##div[class="prtimes"]
@@ -45,7 +91,7 @@
 			bizmakoto.jp##div[class="affiliateBox-amazon"]
 			bizmakoto.jp##div[class="GtAdsense"]
 		!! makoto*
-			bizmakoto.jp##div[class="makotoblog"] > DIV[style^="text-align"]
+			bizmakoto.jp##div[class="makotoblog"] > div[style^="text-align"]
 			bizmakoto.jp##div[class="makotofocushead"]
 			bizmakoto.jp##div[id="makotofocus"]
 		!! global
@@ -55,7 +101,7 @@
 			bizmakoto.jp##div[class="cbox"][id="twtRank"]
 			bizmakoto.jp##div[class^="cbox"] + div[class="cbox"]
 			bizmakoto.jp##div[class="colBoxIndex"] > div[class="colBoxIcon"]
-			bizmakoto.jp##DIV[id="colBoxSocialButton"]
+			bizmakoto.jp##div[id="colBoxSocialButton"]
 			bizmakoto.jp##div[class="colBoxSocialButton"]
 			bizmakoto.jp##div[id="rank"] + div[class="cbox"]
 			bizmakoto.jp##div[id="tfm"] + div[class="cbox"]
