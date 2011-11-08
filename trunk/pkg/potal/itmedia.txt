@@ -69,13 +69,17 @@
 		!! blogs.
 			blogs.itmedia.co.jp##A[title$="PR"]
 	!!! bizmakoto.jp
-			bizmakoto.jp##div[class="quickpoll"]
 			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
 			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + div[style^="margin"]
 			bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + div[style^="margin"]
+			bizmakoto.jp##div[class^="msbTopOut"]
+			bizmakoto.jp##div[class="affiliateBox-amazon"]
+			bizmakoto.jp##div[class="GtAdsense"]
 			bizmakoto.jp##div[class="keyword"]
 			bizmakoto.jp##div[class="navi"]
+			bizmakoto.jp##div[class="pr-txt"]
 			bizmakoto.jp##div[class="prtimes"]
+			bizmakoto.jp##div[class="quickpoll"]
 			bizmakoto.jp##div[class="randomicon"]
 			bizmakoto.jp##div[id="carrier"] > div[class="cbox"]
 			bizmakoto.jp##div[id="COIDP"]
@@ -87,9 +91,6 @@
 			bizmakoto.jp##IFRAME[src^="http://cgi.itmedia.co.jp/quickpoll/"]
 			bizmakoto.jp##IMG[src^="http://image.itmedia.co.jp/makoto/images/"]
 			bizmakoto.jp##SCRIPT[src="/include/modiphi/inst_prtimes.js"] + ##div[class="cbox"]
-			bizmakoto.jp##div[class="pr-txt"]
-			bizmakoto.jp##div[class="affiliateBox-amazon"]
-			bizmakoto.jp##div[class="GtAdsense"]
 		!! makoto*
 			bizmakoto.jp##div[class="makotoblog"] > div[style^="text-align"]
 			bizmakoto.jp##div[class="makotofocushead"]
