@@ -1,6 +1,6 @@
-﻿[Adblock Plus]
+[Adblock Plus]
 !
-! module_potal　除去版
+! module_potal　試験リリース版
 ! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
 !!
 ! pkg/potal
@@ -113,47 +113,63 @@
 	!!! 共通
 		!! core
 			||dlv.itmedia.jp/adsv/*
+			||cgi.itmedia.co.jp/
+			||g-ecx.images-amazon.com^$domain=bizmakoto.jp
 			##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id~="ISAL"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id^="ISTL"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISFLR"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTLR"]
 			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[id="ISTCPB"]
+		!! twitter
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##div[class^="twtr-widget"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="widget.js"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##script[src$="twimgWidget.js"]
+			itmedia.co.jp,bizmakoto.jp,atmarkit.co.jp##embed[src="http://ws.amazon.co.jp/widgets/"]
 	!!! ITMedia
 	!!! bizmakoto.jp
-			bizmakoto.jp##div[id="makotofocus"]
-			bizmakoto.jp##div[class="prtimes"]
-			bizmakoto.jp##div[id="feedback"]
-			bizmakoto.jp##div[id="topitmnews"]
-			bizmakoto.jp##div[class="makotofocushead"]
+			bizmakoto.jp##div[class="quickpoll"]
+			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
+			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + DIV[style^="margin"]
+			bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + DIV[style^="margin"]
+			bizmakoto.jp##div[class="keyword"]
 			bizmakoto.jp##div[class="navi"]
+			bizmakoto.jp##div[class="prtimes"]
+			bizmakoto.jp##div[class="randomicon"]
+			bizmakoto.jp##div[id="carrier"] > div[class="cbox"]
+			bizmakoto.jp##div[id="COIDP"]
+			bizmakoto.jp##div[id="feedback"]
+			bizmakoto.jp##div[id="ITSB"] + ##div[class="colBoxR50"]
+			bizmakoto.jp##div[id="lnavSubSub"]
+			bizmakoto.jp##div[id="topitmnews"]
+			bizmakoto.jp##IFRAME[src^="//www.facebook.com/plugins/likebox.php"]
+			bizmakoto.jp##IFRAME[src^="http://cgi.itmedia.co.jp/quickpoll/"]
+			bizmakoto.jp##IMG[src^="http://image.itmedia.co.jp/makoto/images/"]
+			bizmakoto.jp##SCRIPT[src="/include/modiphi/inst_prtimes.js"] + ##div[class="cbox"]
 			bizmakoto.jp##div[class="pr-txt"]
+			bizmakoto.jp##div[class="affiliateBox-amazon"]
+			bizmakoto.jp##div[class="GtAdsense"]
+		!! makoto*
+			bizmakoto.jp##div[class="makotoblog"] > DIV[style^="text-align"]
+			bizmakoto.jp##div[class="makotofocushead"]
+			bizmakoto.jp##div[id="makotofocus"]
+		!! global
+			bizmakoto.jp##div[id="globalFooter"]
+			bizmakoto.jp##div[id="globalHeaderMiddle"]
+		!! cbox
+			bizmakoto.jp##div[class="cbox"][id="twtRank"]
+			bizmakoto.jp##div[class^="cbox"] + div[class="cbox"]
+			bizmakoto.jp##div[class="colBoxIndex"] > div[class="colBoxIcon"]
+			bizmakoto.jp##DIV[id="colBoxSocialButton"]
+			bizmakoto.jp##div[class="colBoxSocialButton"]
+			bizmakoto.jp##div[id="rank"] + div[class="cbox"]
+			bizmakoto.jp##div[id="tfm"] + div[class="cbox"]
+			bizmakoto.jp##SCRIPT[src^="/include/bizid/"] + div[class="cbox"]
+		!! subcol
 			bizmakoto.jp##div[class="subcol"] > div[class="rectangle"]
 			bizmakoto.jp##div[class="subcol"] > div[id="tfm"]
 			bizmakoto.jp##div[class="subcol"] > div[id="twtRank"]
-			bizmakoto.jp##div[id="carrier"] > div[class="cbox"]
-			bizmakoto.jp##div[id="globalFooter"]
 	!!! @IT
-
-!!! 旧フィルタ
-	!!! ITMedia
-!			itmedia.co.jp##a[href^="http://www.itmedia.co.jp/news/pr"]
-!			itmedia.co.jp##a[href^="http://dlv.itmedia.jp/rd/"]
-!			itmedia.co.jp##div[class="ITFT"]
-!			itmedia.co.jp##div[id="cmsPrcredit"]
-	!!! @IT
-!			atmarkit.co.jp##div[id="ad"]
-!			atmarkit.co.jp##div[class="ad"]
-!			atmarkit.co.jp##div[class="haken"]
-!			atmarkit.co.jp##div[class="jc"]
-!			atmarkit.co.jp##div[id^="kyujin"]
-!			atmarkit.co.jp##div[id="crec"]
-!			atmarkit.co.jp##div[id="eventad"]
-!			atmarkit.co.jp##div[id="frec"]
-!			atmarkit.co.jp##div[id="header_ad"]
-!			atmarkit.co.jp##div[id="job-info"]
-!			atmarkit.co.jp##div[id="rrec"]
-!			atmarkit.co.jp##div[id="semBox"]
 !!! [J's goal]
 			||jsgoal.jp/js/_parts/random_banner/*
 			||jsgoal.jp/js/common/ad_overture.js

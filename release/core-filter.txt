@@ -1,6 +1,6 @@
-﻿[Adblock Plus]
+[Adblock Plus]
 !
-! module_potal　除去版
+! module_potal　試験リリース版
 ! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
 !!
 ! pkg/_core
@@ -21,7 +21,7 @@
 			! 誤爆が結構ある為、“ad”では引っ掛けない方向で。
 			/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
-			*ad.js
+			/ad\.(js|css)/
 		!! 2.id記述
 			! ワイルドカードだと適合しないケースもあるので、調査と確認が必要。
 			##*[id*="/AD"]
