@@ -34,7 +34,7 @@
 		!! app-cliapi.
 			|app-cliapi.nicovideo.jp/crossdomain.xml
 			||flapi.nicovideo.jp/api/getmarqueev3
-			||flapi.nicovideo.jp/api/feed/*$domain=live.nicovideo.jp
+			||flapi.nicovideo.jp/api/feed/*$domain=nicovideo.jp
 		!! info.
 			||info.nicovideo.jp/feed/*
 		!! live.

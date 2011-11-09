@@ -21,8 +21,8 @@
 			##script[src*="/ai.php"]
 	!!! 外部
 		!! モジュール
-			||connect.facebook.net/en_US/all.js
-			||facebook.com/plugins/^
-			||facebook.com/iframe/^
+			||connect.facebook.net/*/all.js
+			||facebook.com/iframe/^$third-party
+			||facebook.com/plugins/*$third-party
 			##iframe[src*="facebook.com/plugins/"]
 			##script[src*="connect.facebook.net"]

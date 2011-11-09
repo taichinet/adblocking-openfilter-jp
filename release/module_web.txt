@@ -28,9 +28,9 @@
 			##script[src*="/ai.php"]
 	!!! 外部
 		!! モジュール
-			||connect.facebook.net/en_US/all.js
-			||facebook.com/plugins/^
-			||facebook.com/iframe/^
+			||connect.facebook.net/*/all.js
+			||facebook.com/iframe/^$third-party
+			||facebook.com/plugins/*$third-party
 			##iframe[src*="facebook.com/plugins/"]
 			##script[src*="connect.facebook.net"]
 !!! [hangame.co.jp]
@@ -45,6 +45,15 @@
 			hangame.co.jp##div[id="rcmndEasyGame"]
 			hangame.co.jp##div[id="rcmndGames"]
 			hangame.co.jp##div[id="recruitmentCircle"]
+!!! [hatena.ne.jp]
+	!!! ウィジェットの停止
+		!! はてブウィジェット
+			##a[id^="hatena-bookmark-widget"]
+	!!! b.st-hatena
+		!! 外部
+			||b.st-hatena.com/js/*$third-party
+			||b.st-hatena.com/images/entry-button/*$third-party
+			||b.hatena.ne.jp/entry/*$third-party
 !!! [lockerz.com]
 			lockerz.com##div[class="advert"]
 			lockerz.com##div[id^="dclkAdsDivID"]
@@ -52,15 +61,15 @@
 			lockerz.com##div[id="leaderboard-ad"]
 !!! [mixi.jp]
 	!!! 1.開放
-		!! 1.メイン
+		!! メイン
 			@@|http://mixi.jp/ajax_*$domain=mixi.jp
 			@@/analy(tics|ze|sis)/$domain=mixi.jp
 				!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
 			@@|http://img.mixi.net/static/css/$domain=mixi.jp
 				! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
-		!! 2.アプリ
+		!! アプリ
 			||ad.adlantis.jp/ad/*
-			@@||happyelements.com^$domain=mixi.jp
+			@@||happyelements.com
 			@@mixi.jp##script[src^="/static/js//mixi/analysis.production"]
 			@@/analy(tics|ze|sis)/$domain=mixi-plathome.jp
 	!!! 2. 抑止
@@ -92,7 +101,9 @@
 			mixi-platform.com##div[id="fm_new_proms"]
 			mixi-platform.com##ul[class="fm_proms_list"]
 			mixi-platform.com##div[id="fm_top_ad"] > div[id="poncan_ad"]
-
+		!! シェアの停止
+			##A[href="http://mixi.jp/share.pl"]
+			||static.mixi.jp/js/*$third-party
 !!! [nicovideo]ニコニコ動画系統
 !!! {開放}
 	!!!システム系統
@@ -129,7 +140,7 @@
 		!! app-cliapi.
 			|app-cliapi.nicovideo.jp/crossdomain.xml
 			||flapi.nicovideo.jp/api/getmarqueev3
-			||flapi.nicovideo.jp/api/feed/*$domain=live.nicovideo.jp
+			||flapi.nicovideo.jp/api/feed/*$domain=nicovideo.jp
 		!! info.
 			||info.nicovideo.jp/feed/*
 		!! live.
@@ -168,13 +179,23 @@
 			@@||twitter.com^$domain=twitter.com
 			@@||twimg.com^$domain=twitter.com
 			@@||api.twitter.com^$domain=twitter.com
-			twitter.com##.trends-inner
-			twitter.com##.definition
-			twitter.com##.trend-link-arrow.trend-link.pretty-link
-			twitter.com##.promo
-			twitter.com##.user-rec-inner
-			twitter.com###global-nav-who_to_follow
-			twitter.com##div[class="component.promptbird.promptbird-dashboard-narrow"]
+		!! 抑止
+			!! 内部表示簡略化
+				||api.twitter.com/*/trends/*
+				||api.twitter.com/*/users/*
+				||twitter.com/promos/random_json_promo?*
+				twitter.com##div[class="trends-inner"]
+				twitter.com##div[class="definition"]
+				twitter.com##div[class="trend-link-arrow"]
+				twitter.com##div[class="promo"]
+				twitter.com##div[class="user-rec-inner"]
+				twitter.com##div[class="component.promptbird.promptbird-dashboard-narrow"]
+				twitter.com##DIV[id^="global-nav-who_to_follow"]
+				twitter.com##DIV[id^="ad_block"]
+				twitter.com##H2[class="user-rec-component"]
+			!! share
+				##A[href="http://twitter.com/share"]
+				||platform.twitter.com^$third-party
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
@@ -219,8 +240,14 @@
 			ameblo.jp##p[class="ad2"]
 			ameblo.jp##ul[class="rc_head clearFix"]
 !!! [blogger.com]
-			##div[class="widget AdSense"]
+			blogspot.com##div[class="widget AdSense"]
+			blogspot.com##IFRAME[src^="http://dcs.yahoo.co.jp/dp/?adid="]
+
 !!! [diamondblog.jp]
+		!! �g�b�v
+			diamondblog.jp##A[href^="http://www.diamondblog.jp/s/"]
+		!! �R���e���c
+			||diamondblog.jp/js/swfloader.js
 			diamondblog.jp##iframe[src*="adjust-net.jp"]
 			diamondblog.jp##div[id="newentry"]
 			diamondblog.jp##div[id="headbar"]

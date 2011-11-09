@@ -11,7 +11,6 @@
 		||advg.jp^
 			##a[href*="advg.jp"]
 			##iframe[src*="advg.jp"]
-			##A[href^="http://ds.advg.jp/adpds_deliver/"]
 		||microad.jp^
 			##a[href*="microad.jp"]
 		||adingo.jp^
@@ -23,11 +22,11 @@
 		||impact-ad.jp^
 			##a[href*="impact-ad.jp"]
 			##iframe[src*="impact-ad.jp"]
-		||adjust-net.jp
+		||adjust-net.jp^
 			##a[href*="adjust-net.jp"]
 			##iframe[src*="adjust-net.jp"]
 		||link-trade.net^
-			##script[src^="http://script.link-trade.net/"]
+			##script[src^="link-trade.net"]
 		||accesstrade.net^
 			##A[href*="accesstrade.net/"]
 			##iframe[src*="accesstrade.net/"]
@@ -41,6 +40,26 @@
 			##A[href*="j-a-net.jp"]
 			##iframe[src*="j-a-net.jp"]
 		||adtech.de^
+			##A[href*="adtech.de"]
+			##iframe[src*="adtech.de"]
+		||d.href.org.uk^
+			##A[href*="d.href.org.uk"]
+			##iframe[src*="d.href.org.uk"]
+		||media-b.jp^
+			##A[href*^="media-b.jp"]
+			##iframe[src*="media-b.jp"]
+		||durasite.net^
+			##a[href*="durasite.net"]
+			##iframe[src*="durasite.net"]
+		||abmr.net^
+			##a[href*="abmr.net"]
+			##iframe[src*="abmr.net"]
+		||2mdn.net^
+			##a[href*="2mdn.net"]
+			##iframe[src*="2mdn.net"]
+		||smartadserver.com^
+			##a[href*="smartadserver.com"]
+			##iframe[src*="smartadserver.com"]
 	!!! [特殊例外]
 		!! このドメインで商売もやっている為、当面は現物のみのブロックとする。
 		##a[href^="http://gyutto.com/game/af-"]

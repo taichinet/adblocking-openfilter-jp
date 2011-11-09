@@ -1,3 +1,5 @@
 !!! [YahooAd]
 		!! 抑止対象
 			##div[class="yahooAd"]
+			||ov.yahoo.co.jp
+			||ai.yimg.jp/bdv/*

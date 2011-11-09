@@ -1,7 +1,0 @@
-!!! [searchina]
-			searchina.ne.jp##div[id="nl2ad"]
-			searchina.ne.jp##div[id="column.adsense"]
-			searchina.ne.jp##div[id="xlisting_keyword_side"]
-			searchina.ne.jp##div[class="nl2ad"]
-			searchina.ne.jp##DIV[id="special_pr"][class$="special_ad"]
-			searchina.ne.jp##IFRAME[src^="http://js.searchina.ne.jp/api/yahooshopping/"]

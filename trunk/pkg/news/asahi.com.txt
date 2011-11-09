@@ -1,9 +1,0 @@
-!!! [asahi[class="com]
-			asahi[class="com##div[class="BnrPr"]
-			asahi[class="com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
-			asahi[class="com##div[class="Box1"] > H2
-			asahi[class="com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
-			asahi[class="com##div[class="Box2"]
-			asahi[class="com##div#Sub > div[class="BnrLnkLct"]
-			asahi[class="com##ul[class="BnrLnk"] > LI
-			asahi[class="com##dl[class="PrInfo"]

@@ -13,8 +13,8 @@
 			nikkei.co.jp##p[class="ni"]
 	!!! nikkeibp.co.jp
 			|http://bizad.nikkeibp.co.jp/*
-			|http://www.nikkeibp.co.jp/js/*/*/*/ad_common.js
-			|http://www.nikkeibp.co.jp/js/*/*/*/ad_parts.js
+			/ad_common.js^$domain=nikkeibp.co.jp
+			/ad_parts.js^$domain=nikkeibp.co.jp
 			nikkeibp.co.jp##*[src*="ad_"]
 			nikkeibp.co.jp##*[href^="http://bizad.nikkeibp.co.jp/"]
 			nikkeibp.co.jp##div[id^="ad_"]

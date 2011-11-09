@@ -9,14 +9,14 @@
 			afpbb.com###bpnDirectoryBlock
 			afpbb.com###prLinkBlock
 !!! [asahi[class="com]
-			asahi[class="com##div[class="BnrPr"]
-			asahi[class="com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
-			asahi[class="com##div[class="Box1"] > H2
-			asahi[class="com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
-			asahi[class="com##div[class="Box2"]
-			asahi[class="com##div#Sub > div[class="BnrLnkLct"]
-			asahi[class="com##ul[class="BnrLnk"] > LI
-			asahi[class="com##dl[class="PrInfo"]
+	asahi.com##div[class="BnrPr"]
+	asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
+	asahi.com##div[class="Box1"] > H2
+	asahi.com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
+	asahi.com##div[class="Box2"]
+	asahi.com##div[id="Sub"] > div[class="BnrLnkLct"]
+	asahi.com##ul[class="BnrLnk"] > LI
+	asahi.com##dl[class="PrInfo"]
 !!! [CNET]
 			cnet.com##div[class="block10.clearfix"]
 !!! [cyzo.com]
@@ -109,8 +109,8 @@
 			nikkei.co.jp##p[class="ni"]
 	!!! nikkeibp.co.jp
 			|http://bizad.nikkeibp.co.jp/*
-			|http://www.nikkeibp.co.jp/js/*/*/*/ad_common.js
-			|http://www.nikkeibp.co.jp/js/*/*/*/ad_parts.js
+			/ad_common.js^$domain=nikkeibp.co.jp
+			/ad_parts.js^$domain=nikkeibp.co.jp
 			nikkeibp.co.jp##*[src*="ad_"]
 			nikkeibp.co.jp##*[href^="http://bizad.nikkeibp.co.jp/"]
 			nikkeibp.co.jp##div[id^="ad_"]
@@ -132,6 +132,12 @@
 			reuters.com##span[class="marketingPR"]
 			reuters.com##div[class="toolbarTicker"]
 			reuters.com##div[class="bpnModule"]
+!!! [sanspo.com]
+	!! 広告
+			sanspo.com##A[href="/notice/adsense.htm"]
+			sanspo.com##DIV[class="module.adimg"]
+			sanspo.com##DIV[class$="adimg"] + DIV[class$="graybox"]
+			sanspo.com##DIV[id="cyumoku"]
 !!! [読売]
 			yomiuri.co.jp##div[class="yahooAd"]
 			yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]

@@ -1,0 +1,31 @@
+!!! [twitter]
+	!!! 公式
+		!! 許可対象
+			! わざと公式のみしか通らない様にしてます。
+			@@||twitter.com^$domain=twitter.com
+			@@||twimg.com^$domain=twitter.com
+			@@||api.twitter.com^$domain=twitter.com
+		!! 抑止
+			!! 内部表示簡略化
+				||api.twitter.com/*/trends/*
+				||api.twitter.com/*/users/*
+				||twitter.com/promos/random_json_promo?*
+				twitter.com##div[class="trends-inner"]
+				twitter.com##div[class="definition"]
+				twitter.com##div[class="trend-link-arrow"]
+				twitter.com##div[class="promo"]
+				twitter.com##div[class="user-rec-inner"]
+				twitter.com##div[class="component.promptbird.promptbird-dashboard-narrow"]
+				twitter.com##DIV[id^="global-nav-who_to_follow"]
+				twitter.com##DIV[id^="ad_block"]
+				twitter.com##H2[class="user-rec-component"]
+			!! share
+				##A[href="http://twitter.com/share"]
+				||platform.twitter.com^$third-party
+	!!! Twitter関連の他サイト
+		!! Togetter
+			togetter.com##div[id="amazon_content_box"]
+			togetter.com##div[class="advertise_head_box"]
+			togetter.com##A[href*="togetter06-22"]
+			togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
+			togetter.com##div[class="side_box"]

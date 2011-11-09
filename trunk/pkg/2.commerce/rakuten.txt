@@ -2,8 +2,11 @@
 		!! 許可対象
 			@@||item.rakuten.co.jp^$document
 		!! 抑止対象
+			/(static|xml|hbb)\.(afl|affiliate)\.rakuten\.co\.jp/
+			!	||hbb.afl.rakuten.co.jp^
+			!	||static.affiliate.rakuten.co.jp^
+			!	||xml.affiliate.rakuten.co.jp^
 			||pitatto.rakuten.co.jp/image/*
-			||hbb.afl.rakuten.co.jp^
 			||image.infoseek.rakuten.co.jp/common/footer/css/grpRakutenLinkArea.css
 			rakuten.co.jp##td[align="center"]
 			rakuten.co.jp##dl[class="hotKeywords"]
@@ -14,8 +17,13 @@
 		!! 外部貼り付け
 			##img[title^="[rakuten.co.jp]"]
 			##a[href*="afl.rakuten.co.jp/"]
-		!! iframe対策
-			affiliate.rakuten.co.jp##HTML
+		!! afl.
+			afl.rakuten.co.jp##HTML
 			##script[src*="afl.rakuten.co.jp"]
 			##iframe[src*="afl.rakuten.co.jp"]
 			##img[src*="afl.rakuten.co.jp"]
+		!! static.
+			affiliate.rakuten.co.jp##HTML
+			##script[src*="affiliate.rakuten.co.jp"]
+			##iframe[src*="affiliate.rakuten.co.jp"]
+			##img[src*="affiliate.rakuten.co.jp"]

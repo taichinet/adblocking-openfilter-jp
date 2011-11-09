@@ -144,16 +144,24 @@
 			##a[href*="http://ads."]
 			##a[href*="affiliate"]
 	!!! 2:特定ドメイン直撃
+		!! amazon
 			||amazon.co.jp/widgets/^
+		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
+		!! advertising.com
 			||advertising.com^
+		!! durasite.net
 			||durasite.net^
+		!!impact-ad.jp
 			||impact-ad.jp^
 				##script[src*="impact-ad.jp"]
 				##iframe[src*="impact-ad.jp"]
 				##img[src*="impact-ad.jp"]
 				##a[href*="impact-ad.jp"]
+		!! microad.jp
 			||microad.jp^
+		!! overture系
+			*/overtureAd.js
 ! [CORE]解析対策:解析スクリプトの抑止を行う。
 	!!! 1:抑止・拒否
 		!! 1.汎用

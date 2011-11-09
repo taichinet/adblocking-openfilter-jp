@@ -36,8 +36,8 @@
 	!!! サービス
 		!! weblog
 			! 分離計画有り。
-			/settings/header.js^$domain=livedoor.com,livedoor.net,livedoor.jp,livedoor.biz
-			/settings/ad.js^$domain=livedoor.com,livedoor.net,livedoor.jp,livedoor.biz
+			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 			blog.livedoor.jp##div[id="analyzer_tags"]
 			blog.livedoor.jp##script[src$="/settings/ad.js"]
 			blog.livedoor.jp##script[src$="/settings/header.js"]

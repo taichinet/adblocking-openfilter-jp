@@ -1,4 +1,8 @@
 !!! [diamondblog.jp]
+		!! トップ
+			diamondblog.jp##A[href^="http://www.diamondblog.jp/s/"]
+		!! コンテンツ
+			||diamondblog.jp/js/swfloader.js
 			diamondblog.jp##iframe[src*="adjust-net.jp"]
 			diamondblog.jp##div[id="newentry"]
 			diamondblog.jp##div[id="headbar"]

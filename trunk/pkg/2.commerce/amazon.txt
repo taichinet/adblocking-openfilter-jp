@@ -7,10 +7,12 @@
 			@@||affiliate.amazon.com^$document
 			@@||amazon.com^$document
 	!!! 拒否
+			||g-ecx.images-amazon.com^
 			##IMG[title^="[amazon.com]"]
 			##IMG[title^="[images-amazon.com]"]
+			##div[class*="amazlet"]
 			##div[id*="amazlet"]
-			##div[class^="amazlet"]
-			##div[class="amazlet-box"]
+			##div[class*="amazlet-box"]
+			##div[id*="amazlet-box"]
 
 
