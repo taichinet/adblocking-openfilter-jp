@@ -34,27 +34,5 @@
 			livedoor.com##div[id^="footer-ad"]
 			livedoor.com##div[id="commonFooter"]
 	!!! サービス
-		!! weblog
-			! 分離計画有り。
-			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			blog.livedoor.jp##div[id="analyzer_tags"]
-			blog.livedoor.jp##script[src$="/settings/ad.js"]
-			blog.livedoor.jp##script[src$="/settings/header.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
-			blog.livedoor.jp##span[class^="common-header"]
-			blog.livedoor.jp##td[class="catprbox"]
-			blog.livedoor.jp##td[class="newstickerbox"]
-			blog.livedoor.jp##td[class="pickuptheme"]
-			blog.livedoor.jp##td[class="startblogbox"]
-		!! blogeditor
-			! これに許可を出さないとツールを使えない為、許可。
-			@@||livedoor.blogcms.jp/js/cms2/swfupload/*
-			@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
-			@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
-		!! なぞり検索
-			! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
-			nazorisearch
-			selectionSearch.js
+		!! 多分解析
+			||lcs.livedoor.net^

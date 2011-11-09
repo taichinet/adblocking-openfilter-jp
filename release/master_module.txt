@@ -814,11 +814,16 @@
 	!!! ウィジェットの停止
 		!! はてブウィジェット
 			##a[id^="hatena-bookmark-widget"]
+			##DIV[id^="hatena-bookmark-widget"]
 	!!! b.st-hatena
 		!! 外部
 			||b.st-hatena.com/js/*$third-party
 			||b.st-hatena.com/images/entry-button/*$third-party
 			||b.hatena.ne.jp/entry/*$third-party
+			||b.hatena.ne.jp/css/*$third-party
+			||b.hatena.ne.jp/entrylist/*$third-party
+			||b.hatena.ne.jp/images/widget/*$third-party
+			||b.hatena.ne.jp/js/*$third-party
 !!! [lockerz.com]
 			lockerz.com##div[class="advert"]
 			lockerz.com##div[id^="dclkAdsDivID"]
@@ -941,9 +946,8 @@
 	!!! 公式
 		!! 許可対象
 			! わざと公式のみしか通らない様にしてます。
-			@@||twitter.com^$domain=twitter.com
-			@@||twimg.com^$domain=twitter.com
-			@@||api.twitter.com^$domain=twitter.com
+			@@||twimg.com/profile_images/$domain=twitter.com
+			
 		!! 抑止
 			!! 内部表示簡略化
 				||api.twitter.com/*/trends/*
@@ -961,6 +965,10 @@
 			!! share
 				##A[href="http://twitter.com/share"]
 				||platform.twitter.com^$third-party
+			!! ウィジェット
+				||widgets.twimg.com/j/*/widget.js
+				##script[src="http://widgets.twimg.com/j/2/widget.js"]
+				##DIV[id^="twtr-widget"]
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
@@ -1041,6 +1049,31 @@
 !!! [goo.ne.jp]
 	blog.goo.ne.jp##div[id="mod-advertising"]
 	blog.goo.ne.jp##div[id="mod-goo-recommends"}
+!!! [blog.livedoor.*]
+		!! weblog
+			! 分離計画有り。
+			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+			blog.livedoor.jp##div[id="analyzer_tags"]
+			blog.livedoor.jp##script[src$="/settings/ad.js"]
+			blog.livedoor.jp##script[src$="/settings/header.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
+			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
+			blog.livedoor.jp##span[class^="common-header"]
+			blog.livedoor.jp##td[class="catprbox"]
+			blog.livedoor.jp##td[class="newstickerbox"]
+			blog.livedoor.jp##td[class="pickuptheme"]
+			blog.livedoor.jp##td[class="startblogbox"]
+		!! blogeditor
+			! これに許可を出さないとツールを使えない為、許可。
+			@@||livedoor.blogcms.jp/js/cms2/swfupload/*
+			@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
+			@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
+		!! なぞり検索
+			! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
+			nazorisearch
+			selectionSearch.js
 !!! [blog.so-net.ne.jp]
 			||blog.so-net.ne.jp/_contents/js/*
 			||blog.so-net.ne.jp/_common/js/*
@@ -1351,30 +1384,8 @@
 			livedoor.com##div[id^="footer-ad"]
 			livedoor.com##div[id="commonFooter"]
 	!!! サービス
-		!! weblog
-			! 分離計画有り。
-			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			blog.livedoor.jp##div[id="analyzer_tags"]
-			blog.livedoor.jp##script[src$="/settings/ad.js"]
-			blog.livedoor.jp##script[src$="/settings/header.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
-			blog.livedoor.jp##span[class^="common-header"]
-			blog.livedoor.jp##td[class="catprbox"]
-			blog.livedoor.jp##td[class="newstickerbox"]
-			blog.livedoor.jp##td[class="pickuptheme"]
-			blog.livedoor.jp##td[class="startblogbox"]
-		!! blogeditor
-			! これに許可を出さないとツールを使えない為、許可。
-			@@||livedoor.blogcms.jp/js/cms2/swfupload/*
-			@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
-			@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
-		!! なぞり検索
-			! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
-			nazorisearch
-			selectionSearch.js
+		!! 多分解析
+			||lcs.livedoor.net^
 !!! [mediagene系]
 	!!! 共通
 		!! 広告拒否
