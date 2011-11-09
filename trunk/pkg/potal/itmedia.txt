@@ -6,7 +6,7 @@
 !!
 
 	!!! 共通
-		!! core
+		!! base
 			!! 読み込み拒否
 				!! 内部コンテンツ
 					||dlv.itmedia.jp/adsv/*
@@ -69,6 +69,7 @@
 		!! blogs.
 			blogs.itmedia.co.jp##A[title$="PR"]
 	!!! bizmakoto.jp
+		!! base
 			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
 			bizmakoto.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + div[style^="margin"]
 			bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + div[style^="margin"]
@@ -112,3 +113,53 @@
 			bizmakoto.jp##div[class="subcol"] > div[id="tfm"]
 			bizmakoto.jp##div[class="subcol"] > div[id="twtRank"]
 	!!! @IT
+		!! base
+			atmarkit.co.jp,eetimes.jp##div[class="ad"]
+			atmarkit.co.jp,eetimes.jp##div[class="jobspace"]
+			atmarkit.co.jp,eetimes.jp##div[id^="kyujin"]
+			atmarkit.co.jp,eetimes.jp##div[id^="social"]
+			atmarkit.co.jp,eetimes.jp##div[id="calendarInnerPR"]
+			atmarkit.co.jp,eetimes.jp##div[id="globalFooter"]
+			atmarkit.co.jp,eetimes.jp##div[id="hatebu"]
+			atmarkit.co.jp,eetimes.jp##div[id="header_ad"]
+			atmarkit.co.jp,eetimes.jp##div[id="job-info"]
+			atmarkit.co.jp,eetimes.jp##div[id="kyujin"]
+			atmarkit.co.jp,eetimes.jp##div[id="osirase"]
+			atmarkit.co.jp,eetimes.jp##div[id="pr-event"]
+			atmarkit.co.jp,eetimes.jp##div[id="right-rectangle"] DT
+			atmarkit.co.jp,eetimes.jp##div[id="swfAd"]
+			atmarkit.co.jp,eetimes.jp##SPAN[class="prmark"]
+			atmarkit.co.jp,eetimes.jp##div[class^="ISCHR"][class$="heading"] + div[id*="body"]
+			atmarkit.co.jp,eetimes.jp##div[class^="ISCHR"][class$="heading"] + SPAN
+			atmarkit.co.jp,eetimes.jp##div[class^="ISCHU"][class$="heading"] + SPAN
+			atmarkit.co.jp,eetimes.jp##div[class^="ISLER"][class$="heading"] + SPAN
+			atmarkit.co.jp,eetimes.jp##div[class^="ISLEU"][class$="heading"] + SPAN
+			atmarkit.co.jp,eetimes.jp##div[id^="ISALR"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ISCHC"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ISFLC"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ISLEC"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ISLER"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ISTLC"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITKT"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITNI"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITR"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITTC"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITTI"]
+			atmarkit.co.jp,eetimes.jp##div[id^="ITTO"]
+			atmarkit.co.jp,eetimes.jp##DIV[id^="twtr-widget"]
+		!! www.
+			www.atmarkit.co.jp##div[id="btm-ttwpjob"]
+			www.atmarkit.co.jp##div[id="sponsor"] > H2
+		!! core.
+			core.atmarkit.co.jp##div[id="ad728"]
+		!! jibun.
+			jibun.atmarkit.co.jp##div[id="twitter_div"]
+			jibun.atmarkit.co.jp##UL[class="archive"] + DIV
+		!! monoist.
+			monoist.atmarkit.co.jp##div[class="colBoxSubhead"] + DIV[class="colBoxInner"] + DIV[class="colBoxClear.h20px"]
+			monoist.atmarkit.co.jp##div[id="colBoxRanking + SCRIPT[type="text/javascript"] + DIV[class="colBox"] > DIV[class="colBoxOuter"]
+			monoist.atmarkit.co.jp##div[id="socialButton"]
+	!! cancom-j.com
+			ednjapan.cancom-j.com##div[class="border_h3.border_h3_red"]
+	!! ee-times.jp
+			eetimes.jp##div[id="masterFooter"]
