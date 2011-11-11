@@ -14,6 +14,7 @@
 			blog.livedoor.jp##td[class="newstickerbox"]
 			blog.livedoor.jp##td[class="pickuptheme"]
 			blog.livedoor.jp##td[class="startblogbox"]
+			blog.livedoor.jp##A[href*="ldblog-001-22"]
 		!! blogeditor
 			! これに許可を出さないとツールを使えない為、許可。
 			@@||livedoor.blogcms.jp/js/cms2/swfupload/*

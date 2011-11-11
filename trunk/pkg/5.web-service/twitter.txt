@@ -7,7 +7,6 @@
 		!! 抑止
 			!! 内部表示簡略化
 				||api.twitter.com/*/trends/*
-				||api.twitter.com/*/users/*
 				||twitter.com/promos/random_json_promo?*
 				twitter.com##div[class="trends-inner"]
 				twitter.com##div[class="definition"]

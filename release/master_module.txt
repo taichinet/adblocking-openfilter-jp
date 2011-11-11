@@ -951,7 +951,6 @@
 		!! 抑止
 			!! 内部表示簡略化
 				||api.twitter.com/*/trends/*
-				||api.twitter.com/*/users/*
 				||twitter.com/promos/random_json_promo?*
 				twitter.com##div[class="trends-inner"]
 				twitter.com##div[class="definition"]
@@ -1047,8 +1046,9 @@
 			||blogranking.fc2.com/*
 			##A[href^="http://blogranking.fc2.com/"]
 !!! [goo.ne.jp]
-	blog.goo.ne.jp##div[id="mod-advertising"]
-	blog.goo.ne.jp##div[id="mod-goo-recommends"}
+			blog.goo.ne.jp##div[id="mod-advertising"]
+			blog.goo.ne.jp##div[id="global-header"]
+			blog.goo.ne.jp##div[id="mod-goo-recommends"]
 !!! [blog.livedoor.*]
 		!! weblog
 			! 分離計画有り。
@@ -1065,6 +1065,7 @@
 			blog.livedoor.jp##td[class="newstickerbox"]
 			blog.livedoor.jp##td[class="pickuptheme"]
 			blog.livedoor.jp##td[class="startblogbox"]
+			blog.livedoor.jp##A[href*="ldblog-001-22"]
 		!! blogeditor
 			! これに許可を出さないとツールを使えない為、許可。
 			@@||livedoor.blogcms.jp/js/cms2/swfupload/*
@@ -1073,8 +1074,7 @@
 		!! なぞり検索
 			! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
 			nazorisearch
-			selectionSearch.js
-!!! [blog.so-net.ne.jp]
+			selectionSearch.js!!! [blog.so-net.ne.jp]
 			||blog.so-net.ne.jp/_contents/js/*
 			||blog.so-net.ne.jp/_common/js/*
 			||blog.so-net.ne.jp/_common/images/*
