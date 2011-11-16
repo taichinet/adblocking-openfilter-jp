@@ -1,7 +1,7 @@
 #labels Adblock-Firefox
 = 公開ファイル一覧 =
  * [http://adblocking-openfilter-jp.googlecode.com/svn/release/core-filter.txt コアフィルタ]
- * [http://adblocking-openfilter-jp.googlecode.com/svn/release/master_module.txt 追加パッケージ] 以下のファイルをマージした物です。
+== [http://adblocking-openfilter-jp.googlecode.com/svn/release/master_module.txt 追加パッケージ] 以下のファイルをマージした物です。 ==
 ||ファイル||内容||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_NGhost.txt NGhost.txt]||NG指定ホスト用パッケージ||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_commerce.txt module_commerce.txt]||商用サイト向けモジュール||
