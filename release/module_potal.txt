@@ -2,12 +2,16 @@
 !
 ! module_potal　試験リリース版
 ! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!
+!!
 ! pkg/potal
 !
 ! 現在、動作不良を抱えているフィルタです。
 ! 使用時は注意してください。
 !
+!!! [J's goal]
+			||jsgoal.jp/js/_parts/random_banner/*
+			||jsgoal.jp/js/common/ad_overture.js
+			jsgoal.jp##div[id="searchpopup"]
 !!! [excite.co.jp]
 			|adimp.excite.co.jp/*
 			excite.co.jp##a[href*="adimp"]
@@ -259,10 +263,6 @@
 			ednjapan.cancom-j.com##div[class="border_h3.border_h3_red"]
 	!! ee-times.jp
 			eetimes.jp##div[id="masterFooter"]
-!!! [J's goal]
-			||jsgoal.jp/js/_parts/random_banner/*
-			||jsgoal.jp/js/common/ad_overture.js
-			jsgoal.jp##div[id="searchpopup"]
 !!! [livedoor]
 	!!! 基本抑止
 		!! 正規表現
