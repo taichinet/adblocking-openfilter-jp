@@ -2,7 +2,7 @@
 !
 ! module_potal　試験リリース版
 ! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!!
+!
 ! pkg/potal
 !
 ! 現在、動作不良を抱えているフィルタです。
