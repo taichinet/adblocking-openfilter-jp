@@ -1,0 +1,13 @@
+!!! [excite.co.jp]
+			|adimp.excite.co.jp/*
+			excite.co.jp##a[href*="adimp"]
+			excite.co.jp##script[src*="adimp"]
+			excite.co.jp##iframe[src*="adimp"]
+			excite.co.jp##div[class^="ov_cm"]
+			excite.co.jp##div[class="popularKeywords"]
+			excite.co.jp##div[id="HS-2-frame"]
+			excite.co.jp##div[id="rakuten-frame"]
+			excite.co.jp##div[id="footer"]
+			excite.co.jp##div[id$="banner"]
+			excite.co.jp##div[id="external_flash_ad_embed"]
+			excite.co.jp##div[id="excite_slidead_wrap"]

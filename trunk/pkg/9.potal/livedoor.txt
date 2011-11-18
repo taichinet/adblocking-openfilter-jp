@@ -1,0 +1,38 @@
+!!! [livedoor]
+	!!! 基本抑止
+		!! 正規表現
+			/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
+		!! .com
+			livedoor.com##*[href*="A-affiliate"]
+			livedoor.com##div[id^="ad-"]
+			livedoor.com##div[id="amazon-ranking"]
+			livedoor.com##div[id*="become"]
+			livedoor.com##div[id="blogcampaign"]
+			livedoor.com##div[id="headerBanner"]
+			livedoor.com##div[id="newsFooter"]
+			livedoor.com##div[id="osusume"]
+			livedoor.com##div[id="otoku-info"]
+			livedoor.com##div[id="partner-box"]
+			livedoor.com##div[id="yahoo-shopping"]
+			livedoor.com##div[class*="adsense"]
+			livedoor.com##div[class*="become"]
+			livedoor.com##div[class*="google-body"]
+			livedoor.com##div[class*="google-title"]
+			livedoor.com##div[class*="large-showcase"]
+			livedoor.com##div[class*="LDservice-link"]
+			livedoor.com##div[class*="module ad-"]
+			livedoor.com##div[class*="prtextBox"]
+			livedoor.com##div[class*="SearchResult"][class$=AD"]
+			livedoor.com##div[class*="SearchResultTopAD"]
+			livedoor.com##div[class*="ads-by-google"]
+			livedoor.com##iframe[src*="ad.yieldmanager.com"]
+			livedoor.com##script[src*="FlashAd"]
+			livedoor.com##img[class="tie-up"]
+			livedoor.com##p[id="megaText"]
+			livedoor.com##div[id$="ad"]
+			livedoor.com##div[id="news-special"]
+			livedoor.com##div[id^="footer-ad"]
+			livedoor.com##div[id="commonFooter"]
+	!!! サービス
+		!! 多分解析
+			||lcs.livedoor.net^
