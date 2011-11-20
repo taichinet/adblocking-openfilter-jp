@@ -955,16 +955,19 @@
 					!! DIV[id="page-outer"][class=""]
 						!! DIV[id="page-container"][class="page-container  profile-container"]
 							!! DIV>DIV[class="dashboard profile-dashboard"]
-								twitter.comDIV[class="component"]>DIV[id="custom_49"][class="eTologyToken"]
+								twitter.com##DIV[class="component"]>DIV[id="custom_49"][class="eTologyToken"]
 				!! DIV[id="doc"][class="route-home"]
 					!! DIV[id="page-outer"]
 						!! DIV[id="page-container"][class="page-container home-container"]
 							!! DIV[id="page-node-home"]
 								!! DIV[class="dashboard"]
-										twitter.comDIV[class="component"]>DIV[class="getting-started"]>H2
-										twitter.comDIV[class="component"]>DIV[class="getting-started"]>OL
-										twitter.comDIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"
-										twitter.comDIV[class="component"]>DIV[class="contact-import-inner"]>H3
+										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>H2
+										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>OL
+										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"
+										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H3
+										twitter.com##DIV[class="component"]>DIV[class="definition"]>P[class="promo"]
+
+
 			!! share
 				twitter.com##A[href="http://twitter.com/share"]
 				twitter.com##A[href^="http://blog.twitter.jp/"]
