@@ -963,7 +963,7 @@
 								!! DIV[class="dashboard"]
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>H2
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>OL
-										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"
+										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"]
 										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H3
 										twitter.com##DIV[class="component"]>DIV[class="definition"]>P[class="promo"]
 
