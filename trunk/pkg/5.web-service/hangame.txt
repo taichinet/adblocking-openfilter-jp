@@ -1,9 +1,4 @@
 !!! [hangame.co.jp]
-			hangame.co.jp##.promoBnrWrap
-			hangame.co.jp###rcmndGames
-			hangame.co.jp###rcmndEasyGame
-			hangame.co.jp###newlyInfo
-			hangame.co.jp###cmsBnrArea
 			hangame.co.jp##div[class="promoBnrWrap"]
 			hangame.co.jp##div[id="cmsBnrArea"]
 			hangame.co.jp##div[id="newlyInfo"]

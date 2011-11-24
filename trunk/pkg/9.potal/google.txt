@@ -14,18 +14,18 @@
 	!!! 個別サービス（サブドメインも含む）
 			@@||gstatic.com^
 			@@|mail.google.com/*
-				mail.google.com##DIV[class="mq"]
 			@@|docs.google.com/*
+			mail.google.com##DIV[class="mq"]
 	!!! 拒否
 		!! 解析
-			google-analytics.com/ga.js
+			||google-analytics.com/ga.js
 		!! 広告データの非表示化
-			||googleadservices.com^
+			||googleadservices.com
 			||google.co.jp/extern_js/
 			||googlesyndication.com/pagead/*
 			google.com,~google.co.jp##table[id="mbEnd"]
 			google.com,~google.co.jp##a[href*="/aclk"]
-			google.com,~google.co.jp##script[src*="/pagead/show_ads.js"]
+			google.com,~google.co.jp##script[src*="show_ads.js"]
 			google.com,~google.co.jp##div[id="pa1"]
 			google.com,~google.co.jp##div[id="tads"]
 			google.com,~google.co.jp##div[id="tbd"]

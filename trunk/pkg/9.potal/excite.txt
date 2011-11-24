@@ -1,5 +1,5 @@
 !!! [excite.co.jp]
-			|adimp.excite.co.jp/*
+			||adimp.excite.co.jp/*
 			excite.co.jp##a[href*="adimp"]
 			excite.co.jp##script[src*="adimp"]
 			excite.co.jp##iframe[src*="adimp"]

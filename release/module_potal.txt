@@ -13,7 +13,7 @@
 			||jsgoal.jp/js/common/ad_overture.js
 			jsgoal.jp##div[id="searchpopup"]
 !!! [excite.co.jp]
-			|adimp.excite.co.jp/*
+			||adimp.excite.co.jp/*
 			excite.co.jp##a[href*="adimp"]
 			excite.co.jp##script[src*="adimp"]
 			excite.co.jp##iframe[src*="adimp"]
@@ -29,12 +29,13 @@
 			fresheye.com##*[class="pr"]
 			fresheye.com##div[class="pbox"]
 !!! [NTTの方のgoo]
-			|log000.goo.ne.jp/VL/
+			|log000.goo.ne.jp/VL/*
 			||ad.goo.ne.jp/*
 			||ad.nttnavi.co.jp/*
 			||goo.ne.jp/banner*
-			goo.ne.jp##div[class="pr"][id="pr"][name="pr"]
+			goo.ne.jp##div[class="pr"]
 			goo.ne.jp##dl[class="txtimgl"]
+			goo.ne.jp##div[id="pr"]
 			goo.ne.jp##div[id="ghTop"]
 			goo.ne.jp##div[id="osusume"]
 !!! [google.com]
@@ -53,18 +54,18 @@
 	!!! 個別サービス（サブドメインも含む）
 			@@||gstatic.com^
 			@@|mail.google.com/*
-				mail.google.com##DIV[class="mq"]
 			@@|docs.google.com/*
+			mail.google.com##DIV[class="mq"]
 	!!! 拒否
 		!! 解析
-			google-analytics.com/ga.js
+			||google-analytics.com/ga.js
 		!! 広告データの非表示化
-			||googleadservices.com^
+			||googleadservices.com
 			||google.co.jp/extern_js/
 			||googlesyndication.com/pagead/*
 			google.com,~google.co.jp##table[id="mbEnd"]
 			google.com,~google.co.jp##a[href*="/aclk"]
-			google.com,~google.co.jp##script[src*="/pagead/show_ads.js"]
+			google.com,~google.co.jp##script[src*="show_ads.js"]
 			google.com,~google.co.jp##div[id="pa1"]
 			google.com,~google.co.jp##div[id="tads"]
 			google.com,~google.co.jp##div[id="tbd"]
@@ -76,8 +77,8 @@
 			google.com,~google.co.jp##td[class="std"]
 !!! [infoseek.co.jp]
 		!! 広域
-			||rakuten.co.jp/content/ad/^$domain=infoseek.co.jp
-			||ias.rakuten.co.jp/^$domain=infoseek.co.jp
+			||rakuten.co.jp/content/ad/^
+			||ias.rakuten.co.jp/^
 			infoseek.co.jp##*[id^="ichiba"]
 			infoseek.co.jp##*[id="trAshiatoItem"]
 			infoseek.co.jp##*[id="woman"]

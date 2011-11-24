@@ -1,29 +1,29 @@
 !!! [nicovideo]ニコニコ動画系統
-!!! {開放}
-	!!!システム系統
-		!! nicodic系
-			@@||api.nicodic.jp^
-		!! app系
-			@@||app.nicovideo.jp^
-			@@||app-cliapi.nicovideo.jp^
-			@@||app-pay.nicovideo.jp^
-		!! flapi系
-			@@||flapi.nicovideo.jp/api/*
-		!! nimg.jp
-			!! res系
-				@@||res.nimg.jp/swf/appli/*
-			!! nicoapp
-				@@||nicoapp.jp^
-			!! 市場用 
-				! 最近、ちゃんと開放できている感じがしないんで確認が必要
-				@@||images-amazon.com^$domain=nicovideo.jp
-				@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
-				@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
-				@@nicovideo.jp##div[id^="ichiba_item"]
-				@@nicovideo.jp##div[id^="ichibaitem_"]
-				@@nicovideo.jp##div[id^="ichiba"]
-				@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
-	!! {拒否}*.nicovideo.jp
+	!!! {開放}
+		!!!システム系統
+			!! nicodic系
+				@@||api.nicodic.jp^
+			!! app系
+				@@||app.nicovideo.jp^
+				@@||app-cliapi.nicovideo.jp^
+				@@||app-pay.nicovideo.jp^
+			!! flapi系
+				@@||flapi.nicovideo.jp/api/*
+			!! nimg.jp
+				!! res系
+					@@||res.nimg.jp/swf/appli/*
+				!! nicoapp
+					@@||nicoapp.jp^
+				!! 市場用 
+					! 最近、ちゃんと開放できている感じがしないんで確認が必要
+					@@||images-amazon.com^$domain=nicovideo.jp
+					@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
+					@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
+					@@nicovideo.jp##div[id^="ichiba_item"]
+					@@nicovideo.jp##div[id^="ichibaitem_"]
+					@@nicovideo.jp##div[id^="ichiba"]
+					@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
+	!!! {拒否}*.nicovideo.jp
 		!! /
 			||nicovideo.jp/__utm.gif*
 			||nicovideo.jp/api/getmarquee*
@@ -31,10 +31,13 @@
 			||ad.nicovideo.jp^$domain=nicovideo.jp
 		!! uad.
 			||uad.nicovideo.jp/delivery/assets/swf/*
+			||uad.nicovideo.jp/Uads*
 		!! app-cliapi.
 			|app-cliapi.nicovideo.jp/crossdomain.xml
 			||flapi.nicovideo.jp/api/getmarqueev3
 			||flapi.nicovideo.jp/api/feed/*$domain=nicovideo.jp
+		!! flapi
+			||flapi.nicovideo.jp/api/logger.php^
 		!! info.
 			||info.nicovideo.jp/feed/*
 		!! live.
@@ -49,6 +52,8 @@
 	!!! {拒否}nimg.jp
 		!! res系
 			||res.nimg.jp/swf/appli/*
+			||res.nimg.jp/swf/player/marqueeplayer.swf?*
+			||res.nimg.jp/img/system/marquee/event*
 		!! icon系
 			||icon.nimg.jp^$domain=live.nicovideo.jp
 	!!! 非表示
