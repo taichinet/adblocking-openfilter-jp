@@ -1,0 +1,54 @@
+!!! add-on
+!!!
+!!! ブログパーツやリンク稼ぎに関連するモジュール
+	!!! blog-parts
+			! “そのプラグインが無くても、コンテンツの内容に影響しない”物のみを追加すること。
+				||apserver.net
+					##A[href*="apserver.net"]
+					##IFRAME[src*="apserver.net"]
+					##script[src*="apserver.net"]
+				||addthis.com
+					##A[href*="addthis.com"]
+				||linkmost.org
+					##A[href*="linkmost.org"]
+				||blogmura.com
+					##A[href*="blogmura.com"]
+					##script{src*="blogmura.com"]
+					##iframe[src*="blogmura.com"]
+				||with2.net^
+					##A[href*="with2.net"]
+					##script{src*="with2.net"]
+				||revolvermaps.com
+					##a[href*="revolvermaps.com"]
+					##script[src*="revolvermaps.com"]
+					##object[data*="revolvermaps.com"]
+				||geotargeting.jp
+					||parts.geotg.jp^
+					##a[href*="geotargeting.jp"]
+					##script[src*="geotg.jp"]
+				||sitecatcher.net
+					##a[href*="sitecatcher.net"]
+					##img[src*="sitecatcher.net"]
+					##area[href*="sitecatcher.net"]
+				||newzia.jp^
+					##a[href*="newzia.jp"]
+					##div[class="newzia.jp"]
+					##div[id*="newzia.jp"]
+					##img[src*="newzia.jp"]
+					##iframe[id*="newzia"]
+					##iframe[src*="newzia.jp"]
+				||zenback.jp^
+					##a[href*="zenback.jp"]
+					##div[class="zenback.jp"]
+					##div[id*="zenback.jp"]
+					##img[src*="zenback.jp"]
+					##iframe[id*="zenback.jp"]
+					##iframe[src*="zenback.jp"]
+		!! 未整理
+				||kau.li^
+				||wowzio.com^
+				||wowzio.net^
+				||zenback.jp^
+				||feedmeter.net^
+				|http://www.i-kanji.com/*
+				|http://www.bamboo-waves.com/blogparts/*

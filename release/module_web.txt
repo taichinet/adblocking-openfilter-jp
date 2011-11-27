@@ -215,6 +215,8 @@
 				##script[src="http://widgets.twimg.com/j/2/widget.js"]
 				##DIV[id^="twtr-widget"]
 				##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
+			!! 広告
+				twitter.com##DIV[class="component"] > IFRAME[id$="ad"]
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
