@@ -1007,7 +1007,7 @@
 				twitter.com##DIV[class="trends-inner"]
 				twitter.com##P[class="promo"]
 				twitter.com##H2[class="user-rec-component"]
-				twitter.com##LI[class$="js-actionable-user"]
+				twitter.com##LI[class$="user-small-list-item js-actionable-user "]
 				twitter.com##LI[class="trend-item"]
 			!! share
 					twitter.com##A[href="http://twitter.com/share"]
