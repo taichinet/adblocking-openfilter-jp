@@ -1,7 +1,7 @@
 ! [CORE]解析対策:解析スクリプトの抑止を行う。
 	!!! 1:抑止・拒否
 		!! 1.汎用
-			/be(con|acon)\.(jpg|gif|png|js|cgi|\/)/
+			/be(con|acon)/
 			! tracking
 			/(|link)track(|ing)\.(|js)/
 			##*[src*="AccessLog"]
@@ -11,6 +11,7 @@
 			##*[class*="accessLog"]
 			##div[id*="accessLog"]
 			##div[class*="accessLog"]
+			##div[class*="log"]
 		!! 2.ferret系
 			##script[src^="http://kaiseki.ferret-plus.com"]
 			||read-scope.com^

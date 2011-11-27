@@ -1,8 +1,9 @@
 [Adblock Plus]
 !
-! module_potal　試験リリース版
-! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!!
+!
+! This filter is "no support , no follow."
+!
+!
 ! pkg/_core
 !
 ! 特殊許可:Firefoxの動作上、許可が必要な対象
@@ -22,110 +23,116 @@
 			/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
 			/ad\.(js|css)/
-		!! 2.id記述
-			! ワイルドカードだと適合しないケースもあるので、調査と確認が必要。
-			##*[id*="/AD"]
-			##*[id*="/Ad"]
-			##*[id*="/ad"]
-			##*[id*="/AD"]
-			##*[id*="/Ad"]
-			##*[id*="/ad"]
-			##*[id$="_ad"]
-			##*[id$="_ads"]
-			##*[id^="ad"]
-			##*[id^="ad-"]
-			##*[id^="ad_"]
-			##*[id*="adBlock"]
-			##*[id*="adbox"]
-			##*[id*="AdContainer"]
-			##*[id^="ads"]
-			##*[id^="ads-"]
-			##*[id="adtext"]
-			##*[id="adTitle"]
-			##*[id*="affiliate"]
-			##*[id*="autopagerize_insert_before"]
-			##*[id*="banner_eye_catch_bottom"]
-			##*[id*="become"]
-			##*[id*="become_ads"]
-			##*[id*="blogcampaign"]
-			##*[id*="bpbox_text"]
-			##*[id*="cm"]
-			##*[id*="headerBanner"]
-			##*[id*="imAds1"]
-			##*[id*="imAds2"]
-			##*[id*="im-wrapper-re"]
-			##*[id*="interested"]
-			##*[id*="interestMatch"]
-			##*[id*="mainad"]
-			##*[id*="main-header-banner-box"]
-			##*[id*="mediaBanner"]
-			##*[id*="module-adsense module"]
-			##*[id*="newsFooter"]
-			##*[id*="partner-box"]
-			##*[id*="pickup"]
-			##*[id*="pr"]
-			##*[id*="promo"]
-			##*[id*="showAdv"]
-			##*[id*="squareAd"]
-			##*[id*="textAd"]
-		!! 3.class記述
-			! ワイルドカードだと適合しないケースもあるので、調査と確認が必要。
-			##*[class*="/AD"]
-			##*[class*="/Ad"]
-			##*[class*="/ad"]
-			##*[class*="/AD"]
-			##*[class*="/Ad"]
-			##*[class*="/ad"]
-			##*[class$="_ad"]
-			##*[class$="_ads"]
-			##*[class^="ad"]
-			##*[class^="ad-"]
-			##*[class^="ad_"]
-			##*[class*="adBlock"]
-			##*[class*="adbox"]
-			##*[class*="AdContainer"]
-			##*[class^="ads"]
-			##*[class^="ads-"]
-			##*[class="adtext"]
-			##*[class="adTitle"]
-			##*[class*="affiliate"]
-			##*[class*="autopagerize_insert_before"]
-			##*[class*="banner_eye_catch_bottom"]
-			##*[class*="become"]
-			##*[class*="become_ads"]
-			##*[class*="blogcampaign"]
-			##*[class*="bpbox_text"]
-			##*[class*="cm"]
-			##*[class*="headerBanner"]
-			##*[class*="imAds1"]
-			##*[class*="imAds2"]
-			##*[class*="im-wrapper-re"]
-			##*[class*="interested"]
-			##*[class*="interestMatch"]
-			##*[class*="mainad"]
-			##*[class*="main-header-banner-box"]
-			##*[class*="mediaBanner"]
-			##*[class*="module-adsense module"]
-			##*[class*="newsFooter"]
-			##*[class*="partner-box"]
-			##*[class*="pickup"]
-			##*[class*="pr"]
-			##*[class*="promo"]
-			##*[class*="showAdv"]
-			##*[class*="squareAd"]
-			##*[class*="textAd"]
-		!! 4.src記述
-			##*[src*="ad_common.js"]
-			##*[src*="ad_parts.js"]
-		!! 5.div/spanによる表示抑止
-			##div#access_data
-		!! 6.iframe記述
+		!! 2.div記述
+			!! id
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id$="_ad"]
+				##div[id$="_ads"]
+				##div[id^="ad"]
+				##div[id^="ad-"]
+				##div[id^="ad_"]
+				##div[id*="adBlock"]
+				##div[id*="adbox"]
+				##div[id*="AdContainer"]
+				##div[id^="ads"]
+				##div[id^="ads-"]
+				##div[id*="adsense"]
+				##div[id="adtext"]
+				##div[id="adTitle"]
+				##div[id*="affiliate"]
+				##div[id*="autopagerize_insert_before"]
+				##div[id*="banner"]
+				##div[id*="banner_eye_catch_bottom"]
+				##div[id*="become"]
+				##div[id*="become_ads"]
+				##div[id*="blogcampaign"]
+				##div[id*="bpbox_text"]
+				##div[id*="cm"]
+				##div[id*="headerBanner"]
+				##div[id*="imAds1"]
+				##div[id*="imAds2"]
+				##div[id*="im-wrapper-re"]
+				##div[id*="interested"]
+				##div[id*="interestMatch"]
+				##div[id*="mainad"]
+				##div[id*="main-header-banner-box"]
+				##div[id*="mediaBanner"]
+				##div[id*="module-adsense module"]
+				##div[id*="newsFooter"]
+				##div[id*="partner-box"]
+				##div[id*="pickup"]
+				##div[id*="pr"]
+				##div[id*="promo"]
+				##div[id*="showAdv"]
+				##div[id*="squareAd"]
+				##div[id*="textAd"]
+			!! class記述
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class$="_ad"]
+				##div[class$="_ads"]
+				##div[class^="ad"]
+				##div[class^="ad-"]
+				##div[class^="ad_"]
+				##div[class*="adBlock"]
+				##div[class*="adbox"]
+				##div[class*="AdContainer"]
+				##div[class^="ads"]
+				##div[class^="ads-"]
+				##div[class*="adsense"]
+				##div[class="adtext"]
+				##div[class="adTitle"]
+				##div[class*="affiliate"]
+				##div[class*="autopagerize_insert_before"]
+				##div[class*="banner"]
+				##div[class*="banner_eye_catch_bottom"]
+				##div[class*="become"]
+				##div[class*="become_ads"]
+				##div[class*="blogcampaign"]
+				##div[class*="bpbox_text"]
+				##div[class*="cm"]
+				##div[class*="headerBanner"]
+				##div[class*="imAds1"]
+				##div[class*="imAds2"]
+				##div[class*="im-wrapper-re"]
+				##div[class*="interested"]
+				##div[class*="interestMatch"]
+				##div[class*="mainad"]
+				##div[class*="main-header-banner-box"]
+				##div[class*="mediaBanner"]
+				##div[class*="module-adsense module"]
+				##div[class*="newsFooter"]
+				##div[class*="partner-box"]
+				##div[class*="pickup"]
+				##div[class*="pr"]
+				##div[class*="promo"]
+				##div[class*="showAdv"]
+				##div[class*="squareAd"]
+				##div[class*="textAd"]
+		!! 3.script記述
+			##script[src*="ad_common.js"]
+			##script[src*="ad_parts.js"]
+		!! 4.iframe記述
 			##iframe[src^="http://ad."]
 			##iframe[src^="https://ad."]
 			##iframe[src^="http://ads."]
 			##iframe[src^="https://ads."]
+			##IFRAME[src$="/ad.htm"]
+			##IFRAME[src$="/ad2.htm"]
+			##IFRAME[src$="/ad.html"]
+			##IFRAME[src$="/ad2.html"]
 			##iframe[src*="adserver"]
-		!! 7.ハイパーリンク指定
+			##IFRAME[src*="affiliate"]
+		!! 5.ハイパーリンク指定
 			##a[href*="/Click/"]
 			##a[href*="/click/"]
 			##a[href*="/link/?"]
@@ -143,9 +150,12 @@
 			##a[href^="http://ad."]
 			##a[href*="http://ads."]
 			##a[href*="affiliate"]
-	!!! 2:特定ドメイン直撃
+		!! 6.その他表記
+			##div[id*="buyPremium"]
+			##div[id*="sponsered_contents"]
+	!!! 2:特定ドメイン直
 		!! amazon
-			||amazon.co.jp/widgets/^
+			||amazon.co.jp/widgets/*
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -165,7 +175,7 @@
 ! [CORE]解析対策:解析スクリプトの抑止を行う。
 	!!! 1:抑止・拒否
 		!! 1.汎用
-			/be(con|acon)\.(jpg|gif|png|js|cgi|\/)/
+			/be(con|acon)/
 			! tracking
 			/(|link)track(|ing)\.(|js)/
 			##*[src*="AccessLog"]
@@ -175,6 +185,7 @@
 			##*[class*="accessLog"]
 			##div[id*="accessLog"]
 			##div[class*="accessLog"]
+			##div[class*="log"]
 		!! 2.ferret系
 			##script[src^="http://kaiseki.ferret-plus.com"]
 			||read-scope.com^
@@ -193,16 +204,19 @@
 	!!! 1:HTML拒否
 		/rss*\.(htm|html|php|js)/
 	!!! 2:“RSS/rss”で停止可能な要素
-		##*[id*="RSS"]
-		##*[class*="RSS"]
-		##*[src*="RSS"]
-		##iframe[title="RSS"]
-		##iframe[src*="RSS"]
-		##div[id*="rss"]
-		##div[class*="rss"]
-		##script[src*="rss"]
-		##iframe[title*="rss"]
-		##iframe[src*="rss"]
+		!! *指定
+			##*[id*="RSS"]
+			##*[class*="RSS"]
+			##*[src*="RSS"]
+			##iframe[title="RSS"]
+			##iframe[src*="RSS"]
+			##div[id*="rss"]
+			##div[class*="rss"]
+			##script[src*="rss"]
+			##iframe[title*="rss"]
+			##iframe[src*="rss"]
+		!! 行頭一致
+			##DIV[id^="rss"]
 	!!! 3:“RSS”以外の表記
 		!! 1.headrank
 			/headrank\.(html|htm|php|js)
@@ -269,13 +283,14 @@
 			@@||amazon.com^$document
 	!!! 拒否
 			||g-ecx.images-amazon.com^
-			##IMG[title^="[amazon.com]"]
-			##IMG[title^="[images-amazon.com]"]
+			##IMG[title*="amazon.com"]
+			##IMG[title*="images-amazon.com"]
 			##div[class*="amazlet"]
 			##div[id*="amazlet"]
 			##div[class*="amazlet-box"]
 			##div[id*="amazlet-box"]
-
+			##div[class*="azlink-box"]
+			##div[class*="amazon_crcr"]
 
 !!! [楽天]
 		!! 許可対象
@@ -311,6 +326,11 @@
 			##div[class="yahooAd"]
 			||ov.yahoo.co.jp
 			||ai.yimg.jp/bdv/*
+		!! yahoo内限定
+			yahoo.co.jp##DIV#pos-lrec
+			yahoo.co.jp##TD.prBox
+			yahoo.co.jp##DIV#yregtxt
+
 !
 ! pkg/news
 !
@@ -372,6 +392,7 @@
 !!! [産経]
 	!!! MSN産経
 			|msndata.jp.msn.com/*
+			||sankei.jp.msn.com/js/adlisting/*
 			*ads*.msn.com*$domain=sankei.jp.msn.com
 			*rad.msn.com*$domain=sankei.jp.msn.com
 			sankei.jp.msn.com##*[src*="rad.msn.com"]
@@ -391,6 +412,8 @@
 			sankei.jp.msn.com##div[id="infokikaku"]
 			sankei.jp.msn.com##div[id="Tieup"]
 			sankei.jp.msn.com##iframe[id*="more-doc"]
+			sankei.jp.msn.com##DIV[id="SocialModuleBar"]
+			sankei.jp.msn.com##DIV[class="contentDisplayFix"] > DIV[id="ModuleTitle] > H3[class="blue"]
 	!!! sankeibiz.jp
 			/ad*$domain=sankeibiz.jp
 			sankeibiz.jp##div[id="adSEO"]
@@ -398,6 +421,7 @@
 			/ad_images*$domain=zakzak.co.jp
 			/ad.css^$domain=zakzak.co.jp
 			zakzak.co.jp##div[id^="ad"]
+
 !!! [newsweekjapan.jp]
 			newsweekjapan.jp##div[id="sideAdPanel"]
 !!! [nikkansports]
@@ -495,6 +519,10 @@
 		||adplan-ds.com^
 			##a[href*="adplan-ds.com"]
 			##iframe[*="adplan-ds.com"]
+		||adserve.com^
+			##A[href*="adserve.com"]
+			##iframe[src*="adserve.com"]
+			##script[src*="adserve.com"]		
 		||j-a-net.jp^
 			##A[href*="j-a-net.jp"]
 			##iframe[src*="j-a-net.jp"]
@@ -504,15 +532,26 @@
 		||d.href.org.uk^
 			##A[href*="d.href.org.uk"]
 			##iframe[src*="d.href.org.uk"]
+		||dtiserv.com^
+			##A[href*="dtiserv.com"]
+			##iframe[src*="dtiserv.com"]
+			##script[src*="dtiserv.com"]		
 		||media-b.jp^
 			##A[href*^="media-b.jp"]
 			##iframe[src*="media-b.jp"]
 		||durasite.net^
 			##a[href*="durasite.net"]
 			##iframe[src*="durasite.net"]
+		||e-nls.com^
+			##A[href*="e-nls.com"]
+			##iframe[src*="e-nls.com"]
+			##script[src*="e-nls.com"]
 		||abmr.net^
 			##a[href*="abmr.net"]
 			##iframe[src*="abmr.net"]
+		||extreme-dm.com^
+			##a[href*="extreme-dm.com"]
+			##iframe[src*="extreme-dm.com"]
 		||2mdn.net^
 			##a[href*="2mdn.net"]
 			##iframe[src*="2mdn.net"]
@@ -523,6 +562,13 @@
 		!! このドメインで商売もやっている為、当面は現物のみのブロックとする。
 		##a[href^="http://gyutto.com/game/af-"]
 		##A[href*="dl.getchu.com/index.php?action=idx&ad"]
+!!! [dmm]
+	!!! affiliate
+		||dmm.co.jp
+			##a[href*="dmm.co.jp"]
+			##IFRAME[src*="dmm.co.jp"]
+			##IMG[title*="dmm.co"]
+
 !!! [MFRO対策用]
 	! MFRO社以外の名義でのドメイン保有・ログ取得用ツールでの使用が濃厚。
 	! 関連するキーワードにてヒットするドメインは、例外なく全面非表示扱い。
@@ -576,6 +622,9 @@
 				i2idata.jp##html
 					##*[href*="i2idata.jp"]
 					##*[src*="i2idata.jp"]
+			!! 誤作動の可能性あり。
+				##*[href*="i2i"]
+				##*[src*="i2i"]	
 		!! rentalurl
 			/rentalurl\.(com|net|jp)/
 				##a[href*="rentalurl"]
@@ -942,6 +991,8 @@
 			live.nicovideo.jp##div[id="carousel"]
 !!! [すらど.jp]
 			slashdot.jp##div[id="ads-index-text"]
+			slashdot.jp##div[id^="gpt-sd_index"]
+
 !!! [twitter]
 	!!! 公式
 		!! 許可対象
@@ -951,31 +1002,32 @@
 			!! 内部表示簡略化
 				twitter.com##A[href^="http://blog.twitter.jp/"]
 				||twitter.com/promos/random_json_promo?*
-				!! DIV[id="doc"][class="route-profile"]
 					!! DIV[id="page-outer"][class=""]
 						!! DIV[id="page-container"][class="page-container  profile-container"]
 							!! DIV>DIV[class="dashboard profile-dashboard"]
 								twitter.com##DIV[class="component"]>DIV[id="custom_49"][class="eTologyToken"]
-				!! DIV[id="doc"][class="route-home"]
 					!! DIV[id="page-outer"]
 						!! DIV[id="page-container"][class="page-container home-container"]
-							!! DIV[id="page-node-home"]
-								!! DIV[class="dashboard"]
+							!! DIV[id="page-node-home"]>DIV[class="dashboard"]
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>H2
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>OL
 										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"]
 										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H3
 										twitter.com##DIV[class="component"]>DIV[class="definition"]>P[class="promo"]
-
-
+						!! 仕分けはそのうち
+							twitter.com##DIV[class="trends-inner "]> H2
+							twitter.com##DIV[class="user-rec-inner"] > H2[class="user-rec-component
+							twitter.com##LI[class="trend-item"]
+							twitter.com##UL[class="recommended-followers"] > LI[class="user-small-list-item"]
 			!! share
 				twitter.com##A[href="http://twitter.com/share"]
 				twitter.com##A[href^="http://blog.twitter.jp/"]
 				||platform.twitter.com^$third-party
 			!! ウィジェット
 				||widgets.twimg.com
-				twitter.com##script[src="http://widgets.twimg.com/j/2/widget.js"]
-				twitter.com##DIV[id^="twtr-widget"]
+				##script[src="http://widgets.twimg.com/j/2/widget.js"]
+				##DIV[id^="twtr-widget"]
+				##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
@@ -996,6 +1048,10 @@
 	!！！ アドオン
 			!! pbtweet+用
 				DIV[class="component"]>DIV[class$="pb-toggleable"]
+				
+				
+				
+
 !!! [ustream]
 			ustream.tv##div[class="channelTopBannerWrapper"]
 			ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
@@ -1059,8 +1115,15 @@
 			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
 		!! 広告
 			||fc2.com/ad/*
+			##DIV[id^="footer_link"]
 		!! 解析？
-			/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
+			! 長くなる気がしないので、現物ベタ。
+				||fc2.com/ana*
+				||analysis.fc2.com^
+				||analyzer5.fc2.com^
+				||analyzer54.fc2.com^
+				! カウンターは解析用の読み込みに使ってるんじゃないかと言う推測の元、ブロック。
+					||counter*.fc2.com^
 		!! ぶろぐらんきんぐ
 			||blogranking.fc2.com/*
 			##A[href^="http://blogranking.fc2.com/"]

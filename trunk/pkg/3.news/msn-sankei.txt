@@ -1,6 +1,7 @@
 !!! [産経]
 	!!! MSN産経
 			|msndata.jp.msn.com/*
+			||sankei.jp.msn.com/js/adlisting/*
 			*ads*.msn.com*$domain=sankei.jp.msn.com
 			*rad.msn.com*$domain=sankei.jp.msn.com
 			sankei.jp.msn.com##*[src*="rad.msn.com"]
@@ -20,6 +21,8 @@
 			sankei.jp.msn.com##div[id="infokikaku"]
 			sankei.jp.msn.com##div[id="Tieup"]
 			sankei.jp.msn.com##iframe[id*="more-doc"]
+			sankei.jp.msn.com##DIV[id="SocialModuleBar"]
+			sankei.jp.msn.com##DIV[class="contentDisplayFix"] > DIV[id="ModuleTitle] > H3[class="blue"]
 	!!! sankeibiz.jp
 			/ad*$domain=sankeibiz.jp
 			sankeibiz.jp##div[id="adSEO"]
@@ -27,3 +30,4 @@
 			/ad_images*$domain=zakzak.co.jp
 			/ad.css^$domain=zakzak.co.jp
 			zakzak.co.jp##div[id^="ad"]
+

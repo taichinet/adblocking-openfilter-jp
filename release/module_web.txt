@@ -1,8 +1,9 @@
 [Adblock Plus]
 !
-! module_potal　試験リリース版
-! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!!
+!
+! This filter is "no support , no follow."
+!
+!
 ! pkg/web
 !
 !!! [Facebook]
@@ -177,6 +178,8 @@
 			live.nicovideo.jp##div[id="carousel"]
 !!! [すらど.jp]
 			slashdot.jp##div[id="ads-index-text"]
+			slashdot.jp##div[id^="gpt-sd_index"]
+
 !!! [twitter]
 	!!! 公式
 		!! 許可対象
@@ -186,31 +189,32 @@
 			!! 内部表示簡略化
 				twitter.com##A[href^="http://blog.twitter.jp/"]
 				||twitter.com/promos/random_json_promo?*
-				!! DIV[id="doc"][class="route-profile"]
 					!! DIV[id="page-outer"][class=""]
 						!! DIV[id="page-container"][class="page-container  profile-container"]
 							!! DIV>DIV[class="dashboard profile-dashboard"]
 								twitter.com##DIV[class="component"]>DIV[id="custom_49"][class="eTologyToken"]
-				!! DIV[id="doc"][class="route-home"]
 					!! DIV[id="page-outer"]
 						!! DIV[id="page-container"][class="page-container home-container"]
-							!! DIV[id="page-node-home"]
-								!! DIV[class="dashboard"]
+							!! DIV[id="page-node-home"]>DIV[class="dashboard"]
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>H2
 										twitter.com##DIV[class="component"]>DIV[class="getting-started"]>OL
 										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H2[class="contact-import-component"]
 										twitter.com##DIV[class="component"]>DIV[class="contact-import-inner"]>H3
 										twitter.com##DIV[class="component"]>DIV[class="definition"]>P[class="promo"]
-
-
+						!! 仕分けはそのうち
+							twitter.com##DIV[class="trends-inner "]> H2
+							twitter.com##DIV[class="user-rec-inner"] > H2[class="user-rec-component
+							twitter.com##LI[class="trend-item"]
+							twitter.com##UL[class="recommended-followers"] > LI[class="user-small-list-item"]
 			!! share
 				twitter.com##A[href="http://twitter.com/share"]
 				twitter.com##A[href^="http://blog.twitter.jp/"]
 				||platform.twitter.com^$third-party
 			!! ウィジェット
 				||widgets.twimg.com
-				twitter.com##script[src="http://widgets.twimg.com/j/2/widget.js"]
-				twitter.com##DIV[id^="twtr-widget"]
+				##script[src="http://widgets.twimg.com/j/2/widget.js"]
+				##DIV[id^="twtr-widget"]
+				##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 	!!! Twitter関連の他サイト
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
@@ -231,6 +235,10 @@
 	!！！ アドオン
 			!! pbtweet+用
 				DIV[class="component"]>DIV[class$="pb-toggleable"]
+				
+				
+				
+
 !!! [ustream]
 			ustream.tv##div[class="channelTopBannerWrapper"]
 			ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]

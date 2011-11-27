@@ -1,8 +1,9 @@
 [Adblock Plus]
 !
-! module_potal　試験リリース版
-! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!!
+!
+! This filter is "no support , no follow."
+!
+!
 ! pkg/commerce
 !
 !!! a8.net
@@ -18,13 +19,14 @@
 			@@||amazon.com^$document
 	!!! 拒否
 			||g-ecx.images-amazon.com^
-			##IMG[title^="[amazon.com]"]
-			##IMG[title^="[images-amazon.com]"]
+			##IMG[title*="amazon.com"]
+			##IMG[title*="images-amazon.com"]
 			##div[class*="amazlet"]
 			##div[id*="amazlet"]
 			##div[class*="amazlet-box"]
 			##div[id*="amazlet-box"]
-
+			##div[class*="azlink-box"]
+			##div[class*="amazon_crcr"]
 
 !!! [楽天]
 		!! 許可対象
@@ -60,3 +62,8 @@
 			##div[class="yahooAd"]
 			||ov.yahoo.co.jp
 			||ai.yimg.jp/bdv/*
+		!! yahoo内限定
+			yahoo.co.jp##DIV#pos-lrec
+			yahoo.co.jp##TD.prBox
+			yahoo.co.jp##DIV#yregtxt
+

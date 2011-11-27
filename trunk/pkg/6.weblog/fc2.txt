@@ -14,8 +14,15 @@
 			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
 		!! 広告
 			||fc2.com/ad/*
+			##DIV[id^="footer_link"]
 		!! 解析？
-			/analyzer(|1|2|3|4|5|6|7|8|9)(1|2|3|4|5|6|7|8|9|0).fc2\.com/*
+			! 長くなる気がしないので、現物ベタ。
+				||fc2.com/ana*
+				||analysis.fc2.com^
+				||analyzer5.fc2.com^
+				||analyzer54.fc2.com^
+				! カウンターは解析用の読み込みに使ってるんじゃないかと言う推測の元、ブロック。
+					||counter*.fc2.com^
 		!! ぶろぐらんきんぐ
 			||blogranking.fc2.com/*
 			##A[href^="http://blogranking.fc2.com/"]

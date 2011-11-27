@@ -2,16 +2,19 @@
 	!!! 1:HTML拒否
 		/rss*\.(htm|html|php|js)/
 	!!! 2:“RSS/rss”で停止可能な要素
-		##*[id*="RSS"]
-		##*[class*="RSS"]
-		##*[src*="RSS"]
-		##iframe[title="RSS"]
-		##iframe[src*="RSS"]
-		##div[id*="rss"]
-		##div[class*="rss"]
-		##script[src*="rss"]
-		##iframe[title*="rss"]
-		##iframe[src*="rss"]
+		!! *指定
+			##*[id*="RSS"]
+			##*[class*="RSS"]
+			##*[src*="RSS"]
+			##iframe[title="RSS"]
+			##iframe[src*="RSS"]
+			##div[id*="rss"]
+			##div[class*="rss"]
+			##script[src*="rss"]
+			##iframe[title*="rss"]
+			##iframe[src*="rss"]
+		!! 行頭一致
+			##DIV[id^="rss"]
 	!!! 3:“RSS”以外の表記
 		!! 1.headrank
 			/headrank\.(html|htm|php|js)

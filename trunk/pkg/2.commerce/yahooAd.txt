@@ -3,3 +3,8 @@
 			##div[class="yahooAd"]
 			||ov.yahoo.co.jp
 			||ai.yimg.jp/bdv/*
+		!! yahoo内限定
+			yahoo.co.jp##DIV#pos-lrec
+			yahoo.co.jp##TD.prBox
+			yahoo.co.jp##DIV#yregtxt
+

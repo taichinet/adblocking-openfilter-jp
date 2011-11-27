@@ -51,6 +51,9 @@
 				i2idata.jp##html
 					##*[href*="i2idata.jp"]
 					##*[src*="i2idata.jp"]
+			!! 誤作動の可能性あり。
+				##*[href*="i2i"]
+				##*[src*="i2i"]	
 		!! rentalurl
 			/rentalurl\.(com|net|jp)/
 				##a[href*="rentalurl"]

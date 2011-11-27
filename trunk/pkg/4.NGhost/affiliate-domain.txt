@@ -36,6 +36,10 @@
 		||adplan-ds.com^
 			##a[href*="adplan-ds.com"]
 			##iframe[*="adplan-ds.com"]
+		||adserve.com^
+			##A[href*="adserve.com"]
+			##iframe[src*="adserve.com"]
+			##script[src*="adserve.com"]		
 		||j-a-net.jp^
 			##A[href*="j-a-net.jp"]
 			##iframe[src*="j-a-net.jp"]
@@ -45,15 +49,26 @@
 		||d.href.org.uk^
 			##A[href*="d.href.org.uk"]
 			##iframe[src*="d.href.org.uk"]
+		||dtiserv.com^
+			##A[href*="dtiserv.com"]
+			##iframe[src*="dtiserv.com"]
+			##script[src*="dtiserv.com"]		
 		||media-b.jp^
 			##A[href*^="media-b.jp"]
 			##iframe[src*="media-b.jp"]
 		||durasite.net^
 			##a[href*="durasite.net"]
 			##iframe[src*="durasite.net"]
+		||e-nls.com^
+			##A[href*="e-nls.com"]
+			##iframe[src*="e-nls.com"]
+			##script[src*="e-nls.com"]
 		||abmr.net^
 			##a[href*="abmr.net"]
 			##iframe[src*="abmr.net"]
+		||extreme-dm.com^
+			##a[href*="extreme-dm.com"]
+			##iframe[src*="extreme-dm.com"]
 		||2mdn.net^
 			##a[href*="2mdn.net"]
 			##iframe[src*="2mdn.net"]

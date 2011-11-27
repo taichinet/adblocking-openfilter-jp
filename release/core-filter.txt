@@ -1,8 +1,9 @@
 [Adblock Plus]
 !
-! module_potal　試験リリース版
-! http://openfilter-jp.blogspot.com/2011/11/blog-post_08.html
-!!
+!
+! This filter is "no support , no follow."
+!
+!
 ! pkg/_core
 !
 ! 特殊許可:Firefoxの動作上、許可が必要な対象
@@ -22,110 +23,116 @@
 			/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
 			/ad\.(js|css)/
-		!! 2.id記述
-			! ワイルドカードだと適合しないケースもあるので、調査と確認が必要。
-			##*[id*="/AD"]
-			##*[id*="/Ad"]
-			##*[id*="/ad"]
-			##*[id*="/AD"]
-			##*[id*="/Ad"]
-			##*[id*="/ad"]
-			##*[id$="_ad"]
-			##*[id$="_ads"]
-			##*[id^="ad"]
-			##*[id^="ad-"]
-			##*[id^="ad_"]
-			##*[id*="adBlock"]
-			##*[id*="adbox"]
-			##*[id*="AdContainer"]
-			##*[id^="ads"]
-			##*[id^="ads-"]
-			##*[id="adtext"]
-			##*[id="adTitle"]
-			##*[id*="affiliate"]
-			##*[id*="autopagerize_insert_before"]
-			##*[id*="banner_eye_catch_bottom"]
-			##*[id*="become"]
-			##*[id*="become_ads"]
-			##*[id*="blogcampaign"]
-			##*[id*="bpbox_text"]
-			##*[id*="cm"]
-			##*[id*="headerBanner"]
-			##*[id*="imAds1"]
-			##*[id*="imAds2"]
-			##*[id*="im-wrapper-re"]
-			##*[id*="interested"]
-			##*[id*="interestMatch"]
-			##*[id*="mainad"]
-			##*[id*="main-header-banner-box"]
-			##*[id*="mediaBanner"]
-			##*[id*="module-adsense module"]
-			##*[id*="newsFooter"]
-			##*[id*="partner-box"]
-			##*[id*="pickup"]
-			##*[id*="pr"]
-			##*[id*="promo"]
-			##*[id*="showAdv"]
-			##*[id*="squareAd"]
-			##*[id*="textAd"]
-		!! 3.class記述
-			! ワイルドカードだと適合しないケースもあるので、調査と確認が必要。
-			##*[class*="/AD"]
-			##*[class*="/Ad"]
-			##*[class*="/ad"]
-			##*[class*="/AD"]
-			##*[class*="/Ad"]
-			##*[class*="/ad"]
-			##*[class$="_ad"]
-			##*[class$="_ads"]
-			##*[class^="ad"]
-			##*[class^="ad-"]
-			##*[class^="ad_"]
-			##*[class*="adBlock"]
-			##*[class*="adbox"]
-			##*[class*="AdContainer"]
-			##*[class^="ads"]
-			##*[class^="ads-"]
-			##*[class="adtext"]
-			##*[class="adTitle"]
-			##*[class*="affiliate"]
-			##*[class*="autopagerize_insert_before"]
-			##*[class*="banner_eye_catch_bottom"]
-			##*[class*="become"]
-			##*[class*="become_ads"]
-			##*[class*="blogcampaign"]
-			##*[class*="bpbox_text"]
-			##*[class*="cm"]
-			##*[class*="headerBanner"]
-			##*[class*="imAds1"]
-			##*[class*="imAds2"]
-			##*[class*="im-wrapper-re"]
-			##*[class*="interested"]
-			##*[class*="interestMatch"]
-			##*[class*="mainad"]
-			##*[class*="main-header-banner-box"]
-			##*[class*="mediaBanner"]
-			##*[class*="module-adsense module"]
-			##*[class*="newsFooter"]
-			##*[class*="partner-box"]
-			##*[class*="pickup"]
-			##*[class*="pr"]
-			##*[class*="promo"]
-			##*[class*="showAdv"]
-			##*[class*="squareAd"]
-			##*[class*="textAd"]
-		!! 4.src記述
-			##*[src*="ad_common.js"]
-			##*[src*="ad_parts.js"]
-		!! 5.div/spanによる表示抑止
-			##div#access_data
-		!! 6.iframe記述
+		!! 2.div記述
+			!! id
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id$="_ad"]
+				##div[id$="_ads"]
+				##div[id^="ad"]
+				##div[id^="ad-"]
+				##div[id^="ad_"]
+				##div[id*="adBlock"]
+				##div[id*="adbox"]
+				##div[id*="AdContainer"]
+				##div[id^="ads"]
+				##div[id^="ads-"]
+				##div[id*="adsense"]
+				##div[id="adtext"]
+				##div[id="adTitle"]
+				##div[id*="affiliate"]
+				##div[id*="autopagerize_insert_before"]
+				##div[id*="banner"]
+				##div[id*="banner_eye_catch_bottom"]
+				##div[id*="become"]
+				##div[id*="become_ads"]
+				##div[id*="blogcampaign"]
+				##div[id*="bpbox_text"]
+				##div[id*="cm"]
+				##div[id*="headerBanner"]
+				##div[id*="imAds1"]
+				##div[id*="imAds2"]
+				##div[id*="im-wrapper-re"]
+				##div[id*="interested"]
+				##div[id*="interestMatch"]
+				##div[id*="mainad"]
+				##div[id*="main-header-banner-box"]
+				##div[id*="mediaBanner"]
+				##div[id*="module-adsense module"]
+				##div[id*="newsFooter"]
+				##div[id*="partner-box"]
+				##div[id*="pickup"]
+				##div[id*="pr"]
+				##div[id*="promo"]
+				##div[id*="showAdv"]
+				##div[id*="squareAd"]
+				##div[id*="textAd"]
+			!! class記述
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class$="_ad"]
+				##div[class$="_ads"]
+				##div[class^="ad"]
+				##div[class^="ad-"]
+				##div[class^="ad_"]
+				##div[class*="adBlock"]
+				##div[class*="adbox"]
+				##div[class*="AdContainer"]
+				##div[class^="ads"]
+				##div[class^="ads-"]
+				##div[class*="adsense"]
+				##div[class="adtext"]
+				##div[class="adTitle"]
+				##div[class*="affiliate"]
+				##div[class*="autopagerize_insert_before"]
+				##div[class*="banner"]
+				##div[class*="banner_eye_catch_bottom"]
+				##div[class*="become"]
+				##div[class*="become_ads"]
+				##div[class*="blogcampaign"]
+				##div[class*="bpbox_text"]
+				##div[class*="cm"]
+				##div[class*="headerBanner"]
+				##div[class*="imAds1"]
+				##div[class*="imAds2"]
+				##div[class*="im-wrapper-re"]
+				##div[class*="interested"]
+				##div[class*="interestMatch"]
+				##div[class*="mainad"]
+				##div[class*="main-header-banner-box"]
+				##div[class*="mediaBanner"]
+				##div[class*="module-adsense module"]
+				##div[class*="newsFooter"]
+				##div[class*="partner-box"]
+				##div[class*="pickup"]
+				##div[class*="pr"]
+				##div[class*="promo"]
+				##div[class*="showAdv"]
+				##div[class*="squareAd"]
+				##div[class*="textAd"]
+		!! 3.script記述
+			##script[src*="ad_common.js"]
+			##script[src*="ad_parts.js"]
+		!! 4.iframe記述
 			##iframe[src^="http://ad."]
 			##iframe[src^="https://ad."]
 			##iframe[src^="http://ads."]
 			##iframe[src^="https://ads."]
+			##IFRAME[src$="/ad.htm"]
+			##IFRAME[src$="/ad2.htm"]
+			##IFRAME[src$="/ad.html"]
+			##IFRAME[src$="/ad2.html"]
 			##iframe[src*="adserver"]
-		!! 7.ハイパーリンク指定
+			##IFRAME[src*="affiliate"]
+		!! 5.ハイパーリンク指定
 			##a[href*="/Click/"]
 			##a[href*="/click/"]
 			##a[href*="/link/?"]
@@ -143,9 +150,12 @@
 			##a[href^="http://ad."]
 			##a[href*="http://ads."]
 			##a[href*="affiliate"]
-	!!! 2:特定ドメイン直撃
+		!! 6.その他表記
+			##div[id*="buyPremium"]
+			##div[id*="sponsered_contents"]
+	!!! 2:特定ドメイン直
 		!! amazon
-			||amazon.co.jp/widgets/^
+			||amazon.co.jp/widgets/*
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -165,7 +175,7 @@
 ! [CORE]解析対策:解析スクリプトの抑止を行う。
 	!!! 1:抑止・拒否
 		!! 1.汎用
-			/be(con|acon)\.(jpg|gif|png|js|cgi|\/)/
+			/be(con|acon)/
 			! tracking
 			/(|link)track(|ing)\.(|js)/
 			##*[src*="AccessLog"]
@@ -175,6 +185,7 @@
 			##*[class*="accessLog"]
 			##div[id*="accessLog"]
 			##div[class*="accessLog"]
+			##div[class*="log"]
 		!! 2.ferret系
 			##script[src^="http://kaiseki.ferret-plus.com"]
 			||read-scope.com^
@@ -193,16 +204,19 @@
 	!!! 1:HTML拒否
 		/rss*\.(htm|html|php|js)/
 	!!! 2:“RSS/rss”で停止可能な要素
-		##*[id*="RSS"]
-		##*[class*="RSS"]
-		##*[src*="RSS"]
-		##iframe[title="RSS"]
-		##iframe[src*="RSS"]
-		##div[id*="rss"]
-		##div[class*="rss"]
-		##script[src*="rss"]
-		##iframe[title*="rss"]
-		##iframe[src*="rss"]
+		!! *指定
+			##*[id*="RSS"]
+			##*[class*="RSS"]
+			##*[src*="RSS"]
+			##iframe[title="RSS"]
+			##iframe[src*="RSS"]
+			##div[id*="rss"]
+			##div[class*="rss"]
+			##script[src*="rss"]
+			##iframe[title*="rss"]
+			##iframe[src*="rss"]
+		!! 行頭一致
+			##DIV[id^="rss"]
 	!!! 3:“RSS”以外の表記
 		!! 1.headrank
 			/headrank\.(html|htm|php|js)

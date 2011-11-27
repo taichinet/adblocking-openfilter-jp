@@ -1,0 +1,5 @@
+[Adblock Plus]
+!
+!
+! This filter is "no support , no follow."
+!
