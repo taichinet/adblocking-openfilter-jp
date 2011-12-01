@@ -3,7 +3,6 @@
 	!!! 公式
 		!! 許可対象
 			@@||twimg.com/profile_images/$domain=twitter.com
-			@@||twipple.jp
 		!! 抑止
 			!! 内部表示簡略化
 				twitter.com##DIV[id="custom_49"][class="eTologyToken"]
@@ -13,18 +12,20 @@
 				twitter.com##DIV[class="trends-inner"]
 				twitter.com##P[class="promo"]
 				twitter.com##H2[class="user-rec-component"]
-				twitter.com##LI[class="user-small-list-item js-actionable-user "]
-				twitter.com##LI[class="trend-item"]
+				twitter.com##LI[class^="user-small-list-item js-actionable-user"]
+				twitter.com##LI[class^="trend-item"]
+				twitter.com##IFRAME[id$="ad"]
 			!! share
 					twitter.com##A[href="http://twitter.com/share"]
 					##script[src="http://widgets.twimg.com/j/2/widget.js"]
 					##DIV[id^="twtr-widget"]
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
-					twitter.com##DIV[class="component"] > IFRAME[id$="ad"]
 			!! 広告抑止
 				||ad-v.jp^$domain=twitter.com
 
 	!!! Twitter関連の他サイト
+		!! twitpic
+			twitpic.com##DIV[id^="view-photo-ad"]
 		!! Togetter
 			togetter.com##div[id="amazon_content_box"]
 			togetter.com##div[class="advertise_head_box"]
@@ -32,15 +33,7 @@
 			togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
 			togetter.com##div[class="side_box"]
 		!! twipple
-
-			!!DIV[id="container"]
-				twipple.jp##DIV[id="container"]>DIV[id="externalLink"][class="yPulldownBox"]
-				!!DIV[id="ColumnControl"][class="twelveColumn section"]>DIV[class="trSet"]
-					!!DIV[id="FirstColumn"][class="eightBox column"]>!DIV[class="contentsArea columnContentLeft02"]
-						!!DIV[id="tweetBoxArea"]>DIV[id="home_timeline"][class="ui-tabs-panel ui-widget-content ui-corner-bottom"]
-							!!DIV[class="timeline"]>DIV[class^="tweetBox"][id^="home_"]>DIV[class="tweetRightBox"]
-								!!DIV[class="mh30Box tr"]
-									twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
+			twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
 	!！！ アドオン
 			!! pbtweet+用
 				DIV[class="component"]>DIV[class$="pb-toggleable"]
