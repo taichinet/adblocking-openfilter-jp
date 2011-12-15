@@ -839,6 +839,11 @@
 			/x(xxxxxxxx\.jp)/
 			/y(aekumo\.com|ahansugi\.com|akigote\.com|akiin\.net|akiuchi\.com|amagomori\.com|amanoha\.com|angotonaki\.com|ohamanzokuja\.com|okinihakarae\.com|okochou\.com|omibitoshirazu\.com|oshi-moto\.com|oshi-tsugu\.com|ukigesho\.com|ukihotaru\.com|ukimizake\.net|uki-mura\.net|ukishigure\.com|umenogotoshi\.com|u-nagi\.com|u-yake\.com)/
 			/z(ashiki\.com|atunen\.com|ouri\.jp)/
+	!! apserver.net
+			||apserver.net
+			##A[href*="apserver.net/share/out.php"]
+			##A[href*="apserver.net/share/in.php"]
+			##IFRAME[src*="apserver.net"]
 !
 ! pkg/web
 !
