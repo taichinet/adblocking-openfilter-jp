@@ -1,6 +1,9 @@
-!!! [tabelog.com]
-			tabelog.com##div[class="listing"]
-			tabelog.com##div[class="banner"]
-			tabelog.com##div[class="areamatch-box"]
-			tabelog.com##div[id="overture_ad"]
-			tabelog.com##IFRAME[src^="http://notice.kakaku.com/html.ng/"]
+	!!! [tabelog.com]
+				tabelog.com##div[class="listing"]
+				tabelog.com##div[class="banner"]
+				tabelog.com##div[class="areamatch-box"]
+				tabelog.com##div[id="overture_ad"]
+				tabelog.com##IFRAME[src^="http://notice.kakaku.com/html.ng/"]
+
+	!!! <end>
+

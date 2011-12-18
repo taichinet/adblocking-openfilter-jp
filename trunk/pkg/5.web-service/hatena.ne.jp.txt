@@ -1,14 +1,17 @@
-!!! [hatena.ne.jp]
-	!!! ウィジェットの停止
-		!! はてブウィジェット
-			##a[id^="hatena-bookmark-widget"]
-			##DIV[id^="hatena-bookmark-widget"]
-	!!! b.st-hatena
-		!! 外部
-			||b.st-hatena.com/js/*$third-party
-			||b.st-hatena.com/images/entry-button/*$third-party
-			||b.hatena.ne.jp/entry/*$third-party
-			||b.hatena.ne.jp/css/*$third-party
-			||b.hatena.ne.jp/entrylist/*$third-party
-			||b.hatena.ne.jp/images/widget/*$third-party
-			||b.hatena.ne.jp/js/*$third-party
+	!!! [hatena.ne.jp]
+		!!! ウィジェットの停止
+			!! はてブウィジェット
+				##a[id^="hatena-bookmark-widget"]
+				##DIV[id^="hatena-bookmark-widget"]
+		!!! b.st-hatena
+			!! 外部
+				||b.st-hatena.com/js/*$third-party
+				||b.st-hatena.com/images/entry-button/*$third-party
+				||b.hatena.ne.jp/entry/*$third-party
+				||b.hatena.ne.jp/css/*$third-party
+				||b.hatena.ne.jp/entrylist/*$third-party
+				||b.hatena.ne.jp/images/widget/*$third-party
+				||b.hatena.ne.jp/js/*$third-party
+
+	!!! <end>
+

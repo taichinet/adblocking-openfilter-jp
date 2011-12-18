@@ -1,2 +1,5 @@
-!!! [CNET]
-			cnet.com##div[class="block10.clearfix"]
+	!!! [CNET]
+				cnet.com##div[class="block10.clearfix"]
+
+	!!! <end>
+

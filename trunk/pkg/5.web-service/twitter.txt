@@ -1,43 +1,42 @@
-!!! [twitter]
-!!! 
-	!!! 公式
-		!! 許可対象
-			@@||twimg.com/profile_images/$domain=twitter.com
-		!! 抑止
-			!! 内部表示簡略化
-				twitter.com##DIV[id="custom_49"][class="eTologyToken"]
-				twitter.com##A[href^="http://blog.twitter.jp/"]
-				twitter.com##A[href="/#!/who_to_follow"]
-				twitter.com##IFRAME[id="j_ad"]
-				twitter.com##DIV[class="trends-inner"]
-				twitter.com##P[class="promo"]
-				twitter.com##H2[class="user-rec-component"]
-				twitter.com##LI[class^="user-small-list-item js-actionable-user"]
-				twitter.com##LI[class^="trend-item"]
-				twitter.com##IFRAME[id$="ad"]
-			!! share
-					twitter.com##A[href="http://twitter.com/share"]
-					##script[src="http://widgets.twimg.com/j/2/widget.js"]
-					##DIV[id^="twtr-widget"]
-					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
-			!! 広告抑止
-				||ad-v.jp^$domain=twitter.com
+	!!! [twitter]
+	!!! 
+		!!! 公式
+			!! 許可対象
+				@@||twimg.com/profile_images/$domain=twitter.com
+			!! 抑止
+				!! 内部表示簡略化
+					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
+					twitter.com##A[href^="http://blog.twitter.jp/"]
+					twitter.com##A[href="/#!/who_to_follow"]
+					twitter.com##IFRAME[id="j_ad"]
+					twitter.com##DIV[class="trends-inner"]
+					twitter.com##P[class="promo"]
+					twitter.com##H2[class="user-rec-component"]
+					twitter.com##LI[class^="user-small-list-item js-actionable-user"]
+					twitter.com##LI[class^="trend-item"]
+					twitter.com##IFRAME[id$="ad"]
+				!! share
+						twitter.com##A[href="http://twitter.com/share"]
+						##script[src="http://widgets.twimg.com/j/2/widget.js"]
+						##DIV[id^="twtr-widget"]
+						##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
+				!! 広告抑止
+					||ad-v.jp^$domain=twitter.com
 
-	!!! Twitter関連の他サイト
-		!! twitpic
-			twitpic.com##DIV[id^="view-photo-ad"]
-		!! Togetter
-			togetter.com##div[id="amazon_content_box"]
-			togetter.com##div[class="advertise_head_box"]
-			togetter.com##A[href*="togetter06-22"]
-			togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
-			togetter.com##div[class="side_box"]
-		!! twipple
-			twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
-	!！！ アドオン
-			!! pbtweet+用
-				DIV[class="component"]>DIV[class$="pb-toggleable"]
-				
-				
-				
+		!!! Twitter関連の他サイト
+			!! twitpic
+				twitpic.com##DIV[id^="view-photo-ad"]
+			!! Togetter
+				togetter.com##div[id="amazon_content_box"]
+				togetter.com##div[class="advertise_head_box"]
+				togetter.com##A[href*="togetter06-22"]
+				togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
+				togetter.com##div[class="side_box"]
+			!! twipple
+				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
+		!！！ アドオン
+				!! pbtweet+用
+					DIV[class="component"]>DIV[class$="pb-toggleable"]
+
+	!!! <end>
 

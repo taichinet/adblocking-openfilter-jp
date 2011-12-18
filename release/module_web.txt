@@ -54,203 +54,228 @@
 			||facebook.com/plugins/*$third-party
 			##iframe[src*="facebook.com/plugins/"]
 			##script[src*="connect.facebook.net"]
-!!! [hangame.co.jp]
-			hangame.co.jp##div[class="promoBnrWrap"]
-			hangame.co.jp##div[id="cmsBnrArea"]
-			hangame.co.jp##div[id="newlyInfo"]
-			hangame.co.jp##div[id="rcmndEasyGame"]
-			hangame.co.jp##div[id="rcmndGames"]
-			hangame.co.jp##div[id="recruitmentCircle"]
-!!! [hatena.ne.jp]
-	!!! ウィジェットの停止
-		!! はてブウィジェット
-			##a[id^="hatena-bookmark-widget"]
-			##DIV[id^="hatena-bookmark-widget"]
-	!!! b.st-hatena
-		!! 外部
-			||b.st-hatena.com/js/*$third-party
-			||b.st-hatena.com/images/entry-button/*$third-party
-			||b.hatena.ne.jp/entry/*$third-party
-			||b.hatena.ne.jp/css/*$third-party
-			||b.hatena.ne.jp/entrylist/*$third-party
-			||b.hatena.ne.jp/images/widget/*$third-party
-			||b.hatena.ne.jp/js/*$third-party
-!!! [lockerz.com]
-			lockerz.com##div[class="advert"]
-			lockerz.com##div[id^="dclkAdsDivID"]
-			lockerz.com##div[id="feed-box"][class="clearfix"]
-			lockerz.com##div[id="leaderboard-ad"]
-!!! [mixi.jp]
-	!!! 1.開放
-		!! メイン
-			@@|http://mixi.jp/ajax_*$domain=mixi.jp
-			@@/analy(tics|ze|sis)/$domain=mixi.jp
-				!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
-			@@|http://img.mixi.net/static/css/$domain=mixi.jp
-				! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
-		!! アプリ
-			||ad.adlantis.jp/ad/*
-			@@||happyelements.com
-			@@mixi.jp##script[src^="/static/js//mixi/analysis.production"]
-			@@/analy(tics|ze|sis)/$domain=mixi-plathome.jp
-	!!! 2. 抑止
-		!! 広告（メイン）
-			mixi.jp##iframe[src="ads."]
-			||mreco.jp/^
-			||mreco0.jp/^
-			mixi.jp##div[class^="fm_promsfm_proms_"]
-			mixi.jp##div[class^="sponsorList"]
-			mixi.jp##div[id="adBanner"]
-			mixi.jp##div[id="collaboPr"]
-			mixi.jp##div[id="contentMatch"]
-			mixi.jp##div[id="fm_top_ad"]
-			mixi.jp##div[id="footerAdBanner"]
-			mixi.jp##div[id="keywordRanking"]
-			mixi.jp##div[id="picupCommunity"]
-			mixi.jp##div[id="picupReview"]
-			mixi.jp##div[id="poncan_ad"]
-			mixi.jp##div[id="prContentsArea"]
-			mixi.jp##div[id="mAd"]
-			mixi.jp##iframe[src^="http://a.mreco.jp/adsv/"]
-			mixi.jp##iframe[src*="mreco.jp"]
-			mixi.jp##iframe[src*="mreco0.jp"]
-			mixi.jp##div[id="bodySub"] > DIV[id="adBanner"]
-		!! 広告（アプリ）
-			! 圧倒的に情報不足なので、他のリストが出てくるなら非常にうれしい所。
-			mixi-platform.com##div[id="fm_top_ad"]
-			mixi-platform.com##div[id="poncan_ad"]
-			mixi-platform.com##div[id="fm_new_proms"]
-			mixi-platform.com##ul[class="fm_proms_list"]
-			mixi-platform.com##div[id="fm_top_ad"] > div[id="poncan_ad"]
-		!! シェアの停止
-			##A[href="http://mixi.jp/share.pl"]
-			||static.mixi.jp/js/*$third-party
-!!! [nicovideo]ニコニコ動画系統
-	!!! {開放}
-		!!!システム系統
-			!! nicodic系
-				@@||api.nicodic.jp^
-			!! app系
-				@@||app.nicovideo.jp^
-				@@||app-cliapi.nicovideo.jp^
-				@@||app-pay.nicovideo.jp^
-			!! flapi系
-				@@||flapi.nicovideo.jp/api/*
-			!! nimg.jp
-				!! res系
-					@@||res.nimg.jp/swf/appli/*
-				!! nicoapp
-					@@||nicoapp.jp^
-				!! 市場用 
-					! 最近、ちゃんと開放できている感じがしないんで確認が必要
-					@@||images-amazon.com^$domain=nicovideo.jp
-					@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
-					@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
-					@@nicovideo.jp##div[id^="ichiba_item"]
-					@@nicovideo.jp##div[id^="ichibaitem_"]
-					@@nicovideo.jp##div[id^="ichiba"]
-					@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
-	!!! {拒否}*.nicovideo.jp
-		!! /
-			||nicovideo.jp/__utm.gif*
-			||nicovideo.jp/api/getmarquee*
-		!! ad.
-			||ad.nicovideo.jp^$domain=nicovideo.jp
-		!! uad.
-			||uad.nicovideo.jp/delivery/assets/swf/*
-			||uad.nicovideo.jp/Uads*
-		!! app-cliapi.
-			|app-cliapi.nicovideo.jp/crossdomain.xml
-			||flapi.nicovideo.jp/api/getmarqueev3
-			||flapi.nicovideo.jp/api/feed/*$domain=nicovideo.jp
-		!! flapi
-			||flapi.nicovideo.jp/api/logger.php^
-		!! info.
-			||info.nicovideo.jp/feed/*
-		!! live.
-			||live.nicovideo.jp/api/getstreamlist?*
-			||live.nicovideo.jp/bnr_mobile_gate.swf?*
-			||live.nicovideo.jp/crossdomain.xml
-			||live.nicovideo.jp/inc/live_ad.js?*
-			||live.nicovideo.jp/img/watch/pct_dmy_flashplayer.png
-		!! watch.live.
-			||watch.live.nicovideo.jp/api/heartbeat
-			||watch.live.nicovideo.jp/crossdomain.xml
-	!!! {拒否}nimg.jp
-		!! res系
-			||res.nimg.jp/swf/appli/*
-			||res.nimg.jp/swf/player/marqueeplayer.swf?*
-			||res.nimg.jp/img/system/marquee/event*
-		!! icon系
-			||icon.nimg.jp^$domain=live.nicovideo.jp
-	!!! 非表示
-		!! 広告:nicovideo.jp
-			nicovideo.jp##div[class="ads_468"]
-			nicovideo.jp##div[id^="sideTxtAd"]
-			nicovideo.jp##div[id^="header-banner"]
-			nicovideo.jp##div[id^="web_pc_premium"]
-			nicovideo.jp##div[id^="web_pc_footer"]
-			nicovideo.jp##div[id^="footerWrap"]
-			nicovideo.jp##div[id^="PAGEFOOTER"]
-			nicovideo.jp##div[id^="content_312"]
-		!! 広告:ニコ生用
-			live.nicovideo.jp##div[class="ichiba_frm"]
-			live.nicovideo.jp##div[id="carousel"]
-!!! [すらど.jp]
-			slashdot.jp##div[id="ads-index-text"]
-			slashdot.jp##div[id^="gpt-sd_index"]
 
-!!! [twitter]
-!!! 
-	!!! 公式
-		!! 許可対象
-			@@||twimg.com/profile_images/$domain=twitter.com
-		!! 抑止
-			!! 内部表示簡略化
-				twitter.com##DIV[id="custom_49"][class="eTologyToken"]
-				twitter.com##A[href^="http://blog.twitter.jp/"]
-				twitter.com##A[href="/#!/who_to_follow"]
-				twitter.com##IFRAME[id="j_ad"]
-				twitter.com##DIV[class="trends-inner"]
-				twitter.com##P[class="promo"]
-				twitter.com##H2[class="user-rec-component"]
-				twitter.com##LI[class^="user-small-list-item js-actionable-user"]
-				twitter.com##LI[class^="trend-item"]
-				twitter.com##IFRAME[id$="ad"]
-			!! share
-					twitter.com##A[href="http://twitter.com/share"]
-					##script[src="http://widgets.twimg.com/j/2/widget.js"]
-					##DIV[id^="twtr-widget"]
-					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
-			!! 広告抑止
-				||ad-v.jp^$domain=twitter.com
+	!!! <end>
 
-	!!! Twitter関連の他サイト
-		!! twitpic
-			twitpic.com##DIV[id^="view-photo-ad"]
-		!! Togetter
-			togetter.com##div[id="amazon_content_box"]
-			togetter.com##div[class="advertise_head_box"]
-			togetter.com##A[href*="togetter06-22"]
-			togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
-			togetter.com##div[class="side_box"]
-		!! twipple
-			twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
-	!！！ アドオン
-			!! pbtweet+用
-				DIV[class="component"]>DIV[class$="pb-toggleable"]
-				
-				
-				
+	!!! [hangame.co.jp]
+				hangame.co.jp##div[class="promoBnrWrap"]
+				hangame.co.jp##div[id="cmsBnrArea"]
+				hangame.co.jp##div[id="newlyInfo"]
+				hangame.co.jp##div[id="rcmndEasyGame"]
+				hangame.co.jp##div[id="rcmndGames"]
+				hangame.co.jp##div[id="recruitmentCircle"]
 
-!!! [ustream]
-			ustream.tv##div[class="channelTopBannerWrapper"]
-			ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
-			ustream.tv##div[class="hideAdMessage.forPageRectangle"]
-			ustream.tv##div[id="PageRectangle"]
-			ustream.tv##div[id="UstreamSiteNotification"]
-!!! [YouTube]
-			youtube.com##div[id^="google_companion_ad_"]
-			youtube.com##div[id="ticker-inner"]
-			youtube.com##iframe[src*="/pagead"]
-			youtube.com##iframe[src*="ad_block"]
+	!!! <end>
+
+	!!! [hatena.ne.jp]
+		!!! ウィジェットの停止
+			!! はてブウィジェット
+				##a[id^="hatena-bookmark-widget"]
+				##DIV[id^="hatena-bookmark-widget"]
+		!!! b.st-hatena
+			!! 外部
+				||b.st-hatena.com/js/*$third-party
+				||b.st-hatena.com/images/entry-button/*$third-party
+				||b.hatena.ne.jp/entry/*$third-party
+				||b.hatena.ne.jp/css/*$third-party
+				||b.hatena.ne.jp/entrylist/*$third-party
+				||b.hatena.ne.jp/images/widget/*$third-party
+				||b.hatena.ne.jp/js/*$third-party
+
+	!!! <end>
+
+	!!! [lockerz.com]
+				lockerz.com##div[class="advert"]
+				lockerz.com##div[id^="dclkAdsDivID"]
+				lockerz.com##div[id="feed-box"][class="clearfix"]
+				lockerz.com##div[id="leaderboard-ad"]
+
+	!!! <end>
+
+	!!! [mixi.jp]
+		!!! 1.開放
+			!! メイン
+				@@|http://mixi.jp/ajax_*$domain=mixi.jp
+				@@/analy(tics|ze|sis)/$domain=mixi.jp
+					!“/analy(tics|ze|sis)/$domain=mixi.jp”に関しては、動作が確定していないので暫定。
+				@@|http://img.mixi.net/static/css/$domain=mixi.jp
+					! Chrome環境でCSSを蹴る現象が起こっていたので、回避の為に追加
+			!! アプリ
+				||ad.adlantis.jp/ad/*
+				@@||happyelements.com
+				@@mixi.jp##script[src^="/static/js//mixi/analysis.production"]
+				@@/analy(tics|ze|sis)/$domain=mixi-plathome.jp
+		!!! 2. 抑止
+			!! 広告（メイン）
+				mixi.jp##iframe[src="ads."]
+				||mreco.jp/^
+				||mreco0.jp/^
+				mixi.jp##div[class^="fm_promsfm_proms_"]
+				mixi.jp##div[class^="sponsorList"]
+				mixi.jp##div[id="adBanner"]
+				mixi.jp##div[id="collaboPr"]
+				mixi.jp##div[id="contentMatch"]
+				mixi.jp##div[id="fm_top_ad"]
+				mixi.jp##div[id="footerAdBanner"]
+				mixi.jp##div[id="keywordRanking"]
+				mixi.jp##div[id="picupCommunity"]
+				mixi.jp##div[id="picupReview"]
+				mixi.jp##div[id="poncan_ad"]
+				mixi.jp##div[id="prContentsArea"]
+				mixi.jp##div[id="mAd"]
+				mixi.jp##iframe[src^="http://a.mreco.jp/adsv/"]
+				mixi.jp##iframe[src*="mreco.jp"]
+				mixi.jp##iframe[src*="mreco0.jp"]
+				mixi.jp##div[id="bodySub"] > DIV[id="adBanner"]
+			!! 広告（アプリ）
+				! 圧倒的に情報不足なので、他のリストが出てくるなら非常にうれしい所。
+				mixi-platform.com##div[id="fm_top_ad"]
+				mixi-platform.com##div[id="poncan_ad"]
+				mixi-platform.com##div[id="fm_new_proms"]
+				mixi-platform.com##ul[class="fm_proms_list"]
+				mixi-platform.com##div[id="fm_top_ad"] > div[id="poncan_ad"]
+			!! シェアの停止
+				##A[href="http://mixi.jp/share.pl"]
+				||static.mixi.jp/js/*$third-party
+
+	!!! <end>
+
+	!!! [nicovideo]ニコニコ動画系統
+		!!! {開放}
+			!!!システム系統
+				!! nicodic系
+					@@||api.nicodic.jp^
+				!! app系
+					@@||app.nicovideo.jp^
+					@@||app-cliapi.nicovideo.jp^
+					@@||app-pay.nicovideo.jp^
+				!! flapi系
+					@@||flapi.nicovideo.jp/api/*
+				!! nimg.jp
+					!! res系
+						@@||res.nimg.jp/swf/appli/*
+					!! nicoapp
+						@@||nicoapp.jp^
+					!! 市場用 
+						! 最近、ちゃんと開放できている感じがしないんで確認が必要
+						@@||images-amazon.com^$domain=nicovideo.jp
+						@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
+						@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
+						@@nicovideo.jp##div[id^="ichiba_item"]
+						@@nicovideo.jp##div[id^="ichibaitem_"]
+						@@nicovideo.jp##div[id^="ichiba"]
+						@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
+		!!! {拒否}*.nicovideo.jp
+			!! /
+				||nicovideo.jp/__utm.gif*
+				||nicovideo.jp/api/getmarquee*
+			!! ad.
+				||ad.nicovideo.jp^$domain=nicovideo.jp
+			!! uad.
+				||uad.nicovideo.jp/delivery/assets/swf/*
+				||uad.nicovideo.jp/Uads*
+			!! app-cliapi.
+				|app-cliapi.nicovideo.jp/crossdomain.xml
+				||flapi.nicovideo.jp/api/getmarqueev3
+				||flapi.nicovideo.jp/api/feed/*$domain=nicovideo.jp
+			!! flapi
+				||flapi.nicovideo.jp/api/logger.php^
+			!! info.
+				||info.nicovideo.jp/feed/*
+			!! live.
+				||live.nicovideo.jp/api/getstreamlist?*
+				||live.nicovideo.jp/bnr_mobile_gate.swf?*
+				||live.nicovideo.jp/crossdomain.xml
+				||live.nicovideo.jp/inc/live_ad.js?*
+				||live.nicovideo.jp/img/watch/pct_dmy_flashplayer.png
+			!! watch.live.
+				||watch.live.nicovideo.jp/api/heartbeat
+				||watch.live.nicovideo.jp/crossdomain.xml
+		!!! {拒否}nimg.jp
+			!! res系
+				||res.nimg.jp/swf/appli/*
+				||res.nimg.jp/swf/player/marqueeplayer.swf?*
+				||res.nimg.jp/img/system/marquee/event*
+			!! icon系
+				||icon.nimg.jp^$domain=live.nicovideo.jp
+		!!! 非表示
+			!! 広告:nicovideo.jp
+				nicovideo.jp##div[class="ads_468"]
+				nicovideo.jp##div[id^="sideTxtAd"]
+				nicovideo.jp##div[id^="header-banner"]
+				nicovideo.jp##div[id^="web_pc_premium"]
+				nicovideo.jp##div[id^="web_pc_footer"]
+				nicovideo.jp##div[id^="footerWrap"]
+				nicovideo.jp##div[id^="PAGEFOOTER"]
+				nicovideo.jp##div[id^="content_312"]
+			!! 広告:ニコ生用
+				live.nicovideo.jp##div[class="ichiba_frm"]
+				live.nicovideo.jp##div[id="carousel"]
+
+	!!! <end>
+
+	!!! [すらど.jp]
+				slashdot.jp##div[id="ads-index-text"]
+				slashdot.jp##div[id^="gpt-sd_index"]
+
+	!!! <end>
+
+	!!! [twitter]
+	!!! 
+		!!! 公式
+			!! 許可対象
+				@@||twimg.com/profile_images/$domain=twitter.com
+			!! 抑止
+				!! 内部表示簡略化
+					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
+					twitter.com##A[href^="http://blog.twitter.jp/"]
+					twitter.com##A[href="/#!/who_to_follow"]
+					twitter.com##IFRAME[id="j_ad"]
+					twitter.com##DIV[class="trends-inner"]
+					twitter.com##P[class="promo"]
+					twitter.com##H2[class="user-rec-component"]
+					twitter.com##LI[class^="user-small-list-item js-actionable-user"]
+					twitter.com##LI[class^="trend-item"]
+					twitter.com##IFRAME[id$="ad"]
+				!! share
+						twitter.com##A[href="http://twitter.com/share"]
+						##script[src="http://widgets.twimg.com/j/2/widget.js"]
+						##DIV[id^="twtr-widget"]
+						##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
+				!! 広告抑止
+					||ad-v.jp^$domain=twitter.com
+
+		!!! Twitter関連の他サイト
+			!! twitpic
+				twitpic.com##DIV[id^="view-photo-ad"]
+			!! Togetter
+				togetter.com##div[id="amazon_content_box"]
+				togetter.com##div[class="advertise_head_box"]
+				togetter.com##A[href*="togetter06-22"]
+				togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
+				togetter.com##div[class="side_box"]
+			!! twipple
+				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
+		!！！ アドオン
+				!! pbtweet+用
+					DIV[class="component"]>DIV[class$="pb-toggleable"]
+
+	!!! <end>
+
+	!!! [ustream]
+				ustream.tv##div[class="channelTopBannerWrapper"]
+				ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
+				ustream.tv##div[class="hideAdMessage.forPageRectangle"]
+				ustream.tv##div[id="PageRectangle"]
+				ustream.tv##div[id="UstreamSiteNotification"]
+
+	!!! <end>
+
+	!!! [YouTube]
+				youtube.com##div[id^="google_companion_ad_"]
+				youtube.com##div[id="ticker-inner"]
+				youtube.com##iframe[src*="/pagead"]
+				youtube.com##iframe[src*="ad_block"]
+
+	!!! <end>
+

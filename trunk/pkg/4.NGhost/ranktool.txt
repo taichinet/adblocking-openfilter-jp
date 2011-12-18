@@ -1,5 +1,9 @@
-	!! apserver.net
+	!!! [ranktool] ランキングツールの非表示化
+		!! apserver.net
 			||apserver.net
-			##A[href*="apserver.net/share/out.php"]
-			##A[href*="apserver.net/share/in.php"]
-			##IFRAME[src*="apserver.net"]
+				##A[href*="apserver.net"]
+				##IFRAME[src*="apserver.net"]
+				##SCRIPT[src*="apserver.net"]
+
+	!!! <end>
+

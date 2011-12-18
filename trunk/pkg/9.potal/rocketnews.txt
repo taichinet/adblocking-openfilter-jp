@@ -1,8 +1,11 @@
-!!! [rocketnews24.com]
-		!! 広告
-			rocketnews24.com##div[class^="ad ad"]
-			rocketnews24.com##div[id^="ad.ad"]
-		!! プラグイン
-			rocketnews24.com##div[id="linkcat-1728"]
-			rocketnews24.com##div[class="widget.widget_links"]
-			rocketnews24.com##div[id="pouch-posts"]
+	!!! [rocketnews24.com]
+			!! 広告
+				rocketnews24.com##div[class^="ad ad"]
+				rocketnews24.com##div[id^="ad.ad"]
+			!! プラグイン
+				rocketnews24.com##div[id="linkcat-1728"]
+				rocketnews24.com##div[class="widget.widget_links"]
+				rocketnews24.com##div[id="pouch-posts"]
+
+	!!! <end>
+

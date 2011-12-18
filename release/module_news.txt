@@ -29,147 +29,194 @@
 !!! [afpbb.com]
 			afpbb.com###bpnDirectoryBlock
 			afpbb.com###prLinkBlock
-!!! [asahi[class="com]
-	asahi.com##div[class="BnrPr"]
-	asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
-	asahi.com##div[class="Box1"] > H2
-	asahi.com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
-	asahi.com##div[class="Box2"]
-	asahi.com##div[id="Sub"] > div[class="BnrLnkLct"]
-	asahi.com##ul[class="BnrLnk"] > LI
-	asahi.com##dl[class="PrInfo"]
-!!! [CNET]
-			cnet.com##div[class="block10.clearfix"]
-!!! [cyzo.com]
-			cyzo.com##img[alt="PR"]
-			cyzo.com##img[src*="/common/img/pr_icon.gif"]
-			cyzo.com##div[id="head-contents"]
-			cyzo.com##div[id="head-ad"]
-			cyzo.com##div[id="gamma-inner"]
-			cyzo.com##[href*="nikkancyzo-22"]
-			cyzo.com##[href*="advg.jp"]
-!!! [engadget]
-			engadget.com##div[class="medrect"]
-			engadget.com##IFRAME[src^="http://xml.affiliate.rakuten.co.jp"]
-!!! [getnews.jp]
-			gernews.jp##a[href^="http://j.mp"]
-			getnews.jp##div[id="adft_border"]
-			getnews.jp##div[id="cntx_recom"]
-			getnews.jp##img[title^="[images-amazon.com]"]
-!!! [j-cast]
-			j-cast.com##div[class="amazon-info"]
-			j-cast.com##div[id^="MCAdEntry"]
-			j-cast.com##iframe[title="Advertisement"]
-			j-cast.com##DIV[class$="Banner"]
-			j-cast.com##div[id^="RCBanner"]
-			j-cast.com##div[id^="MCEntryAmazon"]
-			j-cast.com##div[id^="RCTopRectangle"]
-!!! [毎日]
-			||ad.mainichi.jp/^
-			||yimg.jp/bdv/^$domain=mainichi.jp
-			|ard.yahoo.co.jp/^$domain=mainichi.jp
-			mainichi.jp##div[class^="ArticleAd"]
-			mainichi.jp##div[class="AA"]
-			mainichi.jp##div[class^="Ad"]
-			mainichi.jp##div[class="SR"]
-			mainichi.jp##div[id*="AD"]
-			mainichi.jp##div[id*="Ad"]
-			mainichi.jp##div[id*="ad"]
-			mainichi.jp##divclass="SubContentsB"]
-			mainichi.jp##div[class^="Ad"]
-			mainichi.jp##div[class="ArticleAdKW"]
-			mainichi.jp##div[class="Campaign"]
-			mainichi.jp##div[class$="Ad"]
-			mainichi.jp##div[class="SquareAd"]
-			mainichi.jp##div[id^="AD"]
-			mainichi.jp##div[id*="Banner"]
-			mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
-!!! [産経]
-	!!! MSN産経
-			|msndata.jp.msn.com/*
-			||sankei.jp.msn.com/js/adlisting/*
-			*ads*.msn.com*$domain=sankei.jp.msn.com
-			*rad.msn.com*$domain=sankei.jp.msn.com
-			sankei.jp.msn.com##*[src*="rad.msn.com"]
-			sankei.jp.msn.com##div[class*="Ad"]
-			sankei.jp.msn.com##div[class*="ad"]
-			sankei.jp.msn.com##div[class*="parent chrome"]
-			sankei.jp.msn.com##div[class="adcenter"]
-			sankei.jp.msn.com##div[class="ECmodule"]
-			sankei.jp.msn.com##div[id*="ad"]
-			sankei.jp.msn.com##div[id^="AD"][id$="line"]
-			! 先頭+末尾でテスト。多分動くはず。
-				!sankei.jp.msn.com##div[id="AD1line"]
-				!sankei.jp.msn.com##div[id="AD2line"]
-			sankei.jp.msn.com##div[id="ADfootlight"]
-			sankei.jp.msn.com##div[id="grokInstantContainer"]
-			sankei.jp.msn.com##div[id="infochumoku"]
-			sankei.jp.msn.com##div[id="infokikaku"]
-			sankei.jp.msn.com##div[id="Tieup"]
-			sankei.jp.msn.com##iframe[id*="more-doc"]
-			sankei.jp.msn.com##DIV[id="SocialModuleBar"]
-			sankei.jp.msn.com##DIV[class="contentDisplayFix"] > DIV[id="ModuleTitle"] > H3[class="blue"]
-	!!! sankeibiz.jp
-			/ad*$domain=sankeibiz.jp
-			sankeibiz.jp##div[id="adSEO"]
-	!!! zakzak.co.jp
-			/ad_images*$domain=zakzak.co.jp
-			/ad.css^$domain=zakzak.co.jp
-			zakzak.co.jp##div[id^="ad"]
+!!! <end>
+	!!! [asahi.com]
+		asahi.com##div[class="BnrPr"]
+		asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
+		asahi.com##div[class="Box1"] > H2
+		asahi.com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
+		asahi.com##div[class="Box2"]
+		asahi.com##div[id="Sub"] > div[class="BnrLnkLct"]
+		asahi.com##ul[class="BnrLnk"] > LI
+		asahi.com##dl[class="PrInfo"]
 
-!!! [newsweekjapan.jp]
-			newsweekjapan.jp##div[id="sideAdPanel"]
-!!! [nikkansports]
-			nikkansports.com##div[class="adPRtext"]
-			nikkansports.com##IFRAME[src^="http://ad."]
-!!! [日経系]
-	!!! nikkei.co.jp
-			||adb.nikkei.co.jp*
-			||adpriv.nikkei.com*
-			nikkei.co.jp##div[id="magazine_books"]
-			nikkei.co.jp##div[id="trend"]
-			nikkei.co.jp##div[id="strategic"]
-			nikkei.co.jp##div[id="sub_text_ad"]
-			nikkei.co.jp##div[id="jigyoyochi"]
-			nikkei.co.jp##div[id^="ADVERTISE"]
-			nikkei.co.jp##div[class^="cmn-sub"]
-			nikkei.co.jp##div[class^="cmn-pr"]
-			nikkei.co.jp##p[class="ni"]
-	!!! nikkeibp.co.jp
-			|http://bizad.nikkeibp.co.jp/*
-			/ad_common.js^$domain=nikkeibp.co.jp
-			/ad_parts.js^$domain=nikkeibp.co.jp
-			nikkeibp.co.jp##*[src*="ad_"]
-			nikkeibp.co.jp##*[href^="http://bizad.nikkeibp.co.jp/"]
-			nikkeibp.co.jp##div[id^="ad_"]
-			nikkeibp.co.jp##div[class^="ad_"]
-			nikkeibp.co.jp##div[class="bpbox_text"]
-			nikkeibp.co.jp##div[class="mediaBanner"]
-			nikkeibp.co.jp##div[class="rectangle"]
-			nikkeibp.co.jp##div[class*="tertiary"]
-			nikkeibp.co.jp##div[class="yad_imatch"]
-			nikkeibp.co.jp##iframe[src^="http://travel.nikkeibp.co.jp/iframe/"]
-!!! [npn.co.jp]
-			npn.co.jp##div[id^="ygbad"]
-			npn.co.jp##div[id^="ads_"]
-			npn.co.jp##p[class^="pr-text"]
-!!! [reuters]
-			*/overtureAd.js$domain=reuters.com
-			reuters.com##div[class="ad"][id^="advert_"]
-			reuters.com##img[title*="doubleclick.net"]
-			reuters.com##span[class="marketingPR"]
-			reuters.com##div[class="toolbarTicker"]
-			reuters.com##div[class="bpnModule"]
-!!! [sanspo.com]
-	!! 広告
-			sanspo.com##A[href="/notice/adsense.htm"]
-			sanspo.com##DIV[class="module.adimg"]
-			sanspo.com##DIV[class$="adimg"] + DIV[class$="graybox"]
-			sanspo.com##DIV[id="cyumoku"]
-!!! [読売]
-			yomiuri.co.jp##div[class="yahooAd"]
-			yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
-			yomiuri.co.jp##div[class="ad200-out"]
-			yomiuri.co.jp##div[class="sideRegularCONT"]
-			yomiuri.co.jp##div[class="sideBlock.mobile"]
-			yomiuri.co.jp##div[class="search.clearfix"]
+	!!! <end>
+
+	!!! [CNET]
+				cnet.com##div[class="block10.clearfix"]
+
+	!!! <end>
+
+	!!! [cyzo.com]
+				cyzo.com##img[alt="PR"]
+				cyzo.com##img[src*="/common/img/pr_icon.gif"]
+				cyzo.com##div[id="head-contents"]
+				cyzo.com##div[id="head-ad"]
+				cyzo.com##div[id="gamma-inner"]
+				cyzo.com##[href*="nikkancyzo-22"]
+				cyzo.com##[href*="advg.jp"]
+
+	!!! <end>
+
+	!!! [engadget]
+				engadget.com##div[class="medrect"]
+				engadget.com##IFRAME[src^="http://xml.affiliate.rakuten.co.jp"]
+
+	!!! <end>
+
+	!!! [getnews.jp]
+				gernews.jp##a[href^="http://j.mp"]
+				getnews.jp##div[id="adft_border"]
+				getnews.jp##div[id="cntx_recom"]
+				getnews.jp##img[title^="[images-amazon.com]"]
+
+	!!! <end>
+
+	!!! [j-cast]
+				j-cast.com##div[class="amazon-info"]
+				j-cast.com##div[id^="MCAdEntry"]
+				j-cast.com##iframe[title="Advertisement"]
+				j-cast.com##DIV[class$="Banner"]
+				j-cast.com##div[id^="RCBanner"]
+				j-cast.com##div[id^="MCEntryAmazon"]
+				j-cast.com##div[id^="RCTopRectangle"]
+
+	!!! <end>
+
+	!!! [毎日]
+				||ad.mainichi.jp/^
+				||yimg.jp/bdv/^$domain=mainichi.jp
+				|ard.yahoo.co.jp/^$domain=mainichi.jp
+				mainichi.jp##div[class^="ArticleAd"]
+				mainichi.jp##div[class="AA"]
+				mainichi.jp##div[class^="Ad"]
+				mainichi.jp##div[class="SR"]
+				mainichi.jp##div[id*="AD"]
+				mainichi.jp##div[id*="Ad"]
+				mainichi.jp##div[id*="ad"]
+				mainichi.jp##divclass="SubContentsB"]
+				mainichi.jp##div[class^="Ad"]
+				mainichi.jp##div[class="ArticleAdKW"]
+				mainichi.jp##div[class="Campaign"]
+				mainichi.jp##div[class$="Ad"]
+				mainichi.jp##div[class="SquareAd"]
+				mainichi.jp##div[id^="AD"]
+				mainichi.jp##div[id*="Banner"]
+				mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
+
+	!!! <end>
+
+	!!! [産経]
+		!!! MSN産経
+				|msndata.jp.msn.com/*
+				||sankei.jp.msn.com/js/adlisting/*
+				*ads*.msn.com*$domain=sankei.jp.msn.com
+				*rad.msn.com*$domain=sankei.jp.msn.com
+				sankei.jp.msn.com##*[src*="rad.msn.com"]
+				sankei.jp.msn.com##div[class*="Ad"]
+				sankei.jp.msn.com##div[class*="ad"]
+				sankei.jp.msn.com##div[class*="parent chrome"]
+				sankei.jp.msn.com##div[class="adcenter"]
+				sankei.jp.msn.com##div[class="ECmodule"]
+				sankei.jp.msn.com##div[id*="ad"]
+				sankei.jp.msn.com##div[id^="AD"][id$="line"]
+				! 先頭+末尾でテスト。多分動くはず。
+					!sankei.jp.msn.com##div[id="AD1line"]
+					!sankei.jp.msn.com##div[id="AD2line"]
+				sankei.jp.msn.com##div[id="ADfootlight"]
+				sankei.jp.msn.com##div[id="grokInstantContainer"]
+				sankei.jp.msn.com##div[id="infochumoku"]
+				sankei.jp.msn.com##div[id="infokikaku"]
+				sankei.jp.msn.com##div[id="Tieup"]
+				sankei.jp.msn.com##iframe[id*="more-doc"]
+				sankei.jp.msn.com##DIV[id="SocialModuleBar"]
+				sankei.jp.msn.com##DIV[class="contentDisplayFix"] > DIV[id="ModuleTitle"] > H3[class="blue"]
+		!!! sankeibiz.jp
+				/ad*$domain=sankeibiz.jp
+				sankeibiz.jp##div[id="adSEO"]
+		!!! zakzak.co.jp
+				/ad_images*$domain=zakzak.co.jp
+				/ad.css^$domain=zakzak.co.jp
+				zakzak.co.jp##div[id^="ad"]
+
+	!!! <end>
+
+	!!! [newsweekjapan.jp]
+				newsweekjapan.jp##div[id="sideAdPanel"]
+
+	!!! <end>
+
+	!!! [nikkansports]
+				nikkansports.com##div[class="adPRtext"]
+				nikkansports.com##IFRAME[src^="http://ad."]
+				nikkansports.com##DIV[id="sideRecommend"]
+				nikkansports.com##DIV[class="adGIFtext"]
+
+	!!! <end>
+
+	!!! [日経系]
+		!!! nikkei.co.jp
+				||adb.nikkei.co.jp*
+				||adpriv.nikkei.com*
+				nikkei.co.jp##div[id="magazine_books"]
+				nikkei.co.jp##div[id="trend"]
+				nikkei.co.jp##div[id="strategic"]
+				nikkei.co.jp##div[id="sub_text_ad"]
+				nikkei.co.jp##div[id="jigyoyochi"]
+				nikkei.co.jp##div[id^="ADVERTISE"]
+				nikkei.co.jp##div[class^="cmn-sub"]
+				nikkei.co.jp##div[class^="cmn-pr"]
+				nikkei.co.jp##p[class="ni"]
+		!!! nikkeibp.co.jp
+				|http://bizad.nikkeibp.co.jp/*
+				/ad_common.js^$domain=nikkeibp.co.jp
+				/ad_parts.js^$domain=nikkeibp.co.jp
+				nikkeibp.co.jp##*[src*="ad_"]
+				nikkeibp.co.jp##*[href^="http://bizad.nikkeibp.co.jp/"]
+				nikkeibp.co.jp##div[id^="ad_"]
+				nikkeibp.co.jp##div[class^="ad_"]
+				nikkeibp.co.jp##div[class="bpbox_text"]
+				nikkeibp.co.jp##div[class="mediaBanner"]
+				nikkeibp.co.jp##div[class="rectangle"]
+				nikkeibp.co.jp##div[class*="tertiary"]
+				nikkeibp.co.jp##div[class="yad_imatch"]
+				nikkeibp.co.jp##iframe[src^="http://travel.nikkeibp.co.jp/iframe/"]
+
+	!!! <end>
+
+	!!! [npn.co.jp]
+				npn.co.jp##div[id^="ygbad"]
+				npn.co.jp##div[id^="ads_"]
+				npn.co.jp##p[class^="pr-text"]
+
+	!!! <end>
+
+	!!! [reuters]
+				*/overtureAd.js$domain=reuters.com
+				reuters.com##div[class="ad"][id^="advert_"]
+				reuters.com##img[title*="doubleclick.net"]
+				reuters.com##span[class="marketingPR"]
+				reuters.com##div[class="toolbarTicker"]
+				reuters.com##div[class="bpnModule"]
+
+	!!! <end>
+
+	!!! [sanspo.com]
+		!! 広告
+				sanspo.com##A[href="/notice/adsense.htm"]
+				sanspo.com##DIV[class="module.adimg"]
+				sanspo.com##DIV[class$="adimg"] + DIV[class$="graybox"]
+				sanspo.com##DIV[id="cyumoku"]
+
+	!!! <end>
+
+	!!! [読売]
+				yomiuri.co.jp##div[class="yahooAd"]
+				yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
+				yomiuri.co.jp##div[class="ad200-out"]
+				yomiuri.co.jp##div[class="sideRegularCONT"]
+				yomiuri.co.jp##div[class="sideBlock.mobile"]
+				yomiuri.co.jp##div[class="search.clearfix"]
+
+	!!! <end>
+

@@ -26,7 +26,7 @@
 !
 ! pkg/_core
 !
-! 特殊許可:Firefoxの動作上、許可が必要な対象
+! [core-0_permit] 特殊許可:Firefoxの動作上、許可が必要な対象
 	!!! 1:Mozilla本家
 		!! 内部
 			@@about:addons
@@ -35,14 +35,16 @@
 			@@||support.mozilla.com^$domain=support.mozilla.jp,addons.mozilla.jp
 			@@||services.addons.mozilla.org^$domain=services.addons.mozilla.org
 			@@||getpersonas.com^$domain=getpersonas.com
-	!!! end 1
-! [CORE]アフィリエイト・アドバタイズ対策
+
+	!!! <end>
+
+! [core-1_adv] アフィリエイト・アドバタイズ対策
 	!!! 1:キーワード
 		!! 1.汎用
-			! 誤爆が結構ある為、“ad”では引っ掛けない方向で。
-			/ad\.(com|net|jp)/
+			! 誤爆が結構ある為、“ad”では極力引っ掛けない方向で。
+			/\/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
-			/ad\.(js|css)/
+			/\/ad\.(js|css)/
 		!! 2.div記述
 			!! id
 				##div[id*="/AD"]
@@ -74,8 +76,7 @@
 				##div[id*="bpbox_text"]
 				##div[id*="cm"]
 				##div[id*="headerBanner"]
-				##div[id*="imAds1"]
-				##div[id*="imAds2"]
+				##div[id*="imAds"]
 				##div[id*="im-wrapper-re"]
 				##div[id*="interested"]
 				##div[id*="interestMatch"]
@@ -86,7 +87,7 @@
 				##div[id*="newsFooter"]
 				##div[id*="partner-box"]
 				##div[id*="pickup"]
-				##div[id*="pr"]
+				!##div[id*="pr"]
 				##div[id*="promo"]
 				##div[id*="showAdv"]
 				##div[id*="squareAd"]
@@ -121,8 +122,7 @@
 				##div[class*="bpbox_text"]
 				##div[class*="cm"]
 				##div[class*="headerBanner"]
-				##div[class*="imAds1"]
-				##div[class*="imAds2"]
+				##div[class*="imAds"]
 				##div[class*="im-wrapper-re"]
 				##div[class*="interested"]
 				##div[class*="interestMatch"]
@@ -133,7 +133,7 @@
 				##div[class*="newsFooter"]
 				##div[class*="partner-box"]
 				##div[class*="pickup"]
-				##div[class*="pr"]
+				!##div[class*="pr"]
 				##div[class*="promo"]
 				##div[class*="showAdv"]
 				##div[class*="squareAd"]
@@ -192,8 +192,18 @@
 			||microad.jp^
 		!! overture系
 			*/overtureAd.js
-! [CORE]解析対策:解析スクリプトの抑止を行う。
-	!!! 1:抑止・拒否
+		!! googlesyndication.com
+			||googlesyndication.com^
+				/pagead*\.googlesyndication\.com/
+				##a[href*="googlesyndication.com"]
+		!! doubleclick.net
+			||doubleclick.net^
+				##a[href*="doubleclick.net"]
+
+	!!! <end>
+
+! [core-2_analyze] 解析対策:解析スクリプトの抑止を行う。
+	!!! 抑止・拒否
 		!! 1.汎用
 			/be(con|acon)/
 			! tracking
@@ -205,7 +215,8 @@
 			##*[class*="accessLog"]
 			##div[id*="accessLog"]
 			##div[class*="accessLog"]
-			##div[class*="log"]
+				!誤検出多発につき、disable。
+					!##div[class*="log"]
 		!! 2.ferret系
 			##script[src^="http://kaiseki.ferret-plus.com"]
 			||read-scope.com^
@@ -220,7 +231,10 @@
 			/bmv[0-9][0-9]\.js/
 			/bm[0-9][0-9]f\.js/
 			/bm[0-9][0-9]\.js/
-! [CORE] 埋め込みRSS対策:埋め込みRSSタグの抑止
+
+	!!! <end>
+
+! [core-3_rss] 埋め込みRSS対策:埋め込みRSSタグの抑止
 	!!! 1:HTML拒否
 		/rss*\.(htm|html|php|js)/
 	!!! 2:“RSS/rss”で停止可能な要素
@@ -266,7 +280,10 @@
 			##div[class^="blogroll"]
 			##script[src*="blogroll"]
 			##iframe[src*="blogroll"]
-! [CORE]NGhost:コアレベルで抑止すべきホストを記述する
+
+	!!! <end>
+
+! [core-4_corelevel-NGhost]NGhost:コアレベルで抑止すべきホストを記述する
 	!!! 1:Cookie関連のホスト
 		||omniture.com/
 		||2o7.net/
@@ -276,7 +293,10 @@
 		||revsci.net/
 		||serving-sys.com/
 		||tracer.jp/
-! [CORE]other:現状で未分類な物
+
+	!!! <end>
+
+! [core-5_other]other:現状で未分類な物
 	!!! 1:転送対策
 		!! META記述の拒否
 			##META[HTTP-EQUIV="REFRESH"]
@@ -287,3 +307,6 @@
 	!!! 3: 動画配信広告
 		!! youtube
 			adap.tv
+
+	!!! <end>
+

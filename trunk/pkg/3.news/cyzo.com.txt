@@ -1,8 +1,11 @@
-!!! [cyzo.com]
-			cyzo.com##img[alt="PR"]
-			cyzo.com##img[src*="/common/img/pr_icon.gif"]
-			cyzo.com##div[id="head-contents"]
-			cyzo.com##div[id="head-ad"]
-			cyzo.com##div[id="gamma-inner"]
-			cyzo.com##[href*="nikkancyzo-22"]
-			cyzo.com##[href*="advg.jp"]
+	!!! [cyzo.com]
+				cyzo.com##img[alt="PR"]
+				cyzo.com##img[src*="/common/img/pr_icon.gif"]
+				cyzo.com##div[id="head-contents"]
+				cyzo.com##div[id="head-ad"]
+				cyzo.com##div[id="gamma-inner"]
+				cyzo.com##[href*="nikkancyzo-22"]
+				cyzo.com##[href*="advg.jp"]
+
+	!!! <end>
+

@@ -26,3 +26,6 @@
 			||facebook.com/plugins/*$third-party
 			##iframe[src*="facebook.com/plugins/"]
 			##script[src*="connect.facebook.net"]
+
+	!!! <end>
+

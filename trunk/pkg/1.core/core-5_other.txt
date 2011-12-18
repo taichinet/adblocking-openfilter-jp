@@ -1,4 +1,4 @@
-! [CORE]other:現状で未分類な物
+! [core-5_other]other:現状で未分類な物
 	!!! 1:転送対策
 		!! META記述の拒否
 			##META[HTTP-EQUIV="REFRESH"]
@@ -9,3 +9,6 @@
 	!!! 3: 動画配信広告
 		!! youtube
 			adap.tv
+
+	!!! <end>
+

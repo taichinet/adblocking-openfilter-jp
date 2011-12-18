@@ -26,93 +26,108 @@
 !
 ! pkg/weblog
 !
-!!! [ameblo]
-		!! 1*1画像検出
-			||act.ameba.jp^
-			||ameblo.jp/accesslog/*
-		!! 表示簡略化
-			||spstatic.ameba.jp^
-			ameblo.jp##ul[id="amebaBar"]
-			ameblo.jp##div[class="readerMainLink"]
-			ameblo.jp##div[id="geinoujin_now"]
-			ameblo.jp##div[id^="advertising"]
-			ameblo.jp##div[id^="dendo"]
-			ameblo.jp##div[id="ameblo"][class="mainMenu"]
-			ameblo.jp##div[id="amebloInfo"]
-			ameblo.jp##div[id="amestamodule"]
-			ameblo.jp##div[id="eco_head"]
-			ameblo.jp##div[id="footer_ad_official"]
-			ameblo.jp##div[id="geinoujin_now"]
-			ameblo.jp##div[id="officialGnere"]
-			ameblo.jp##div[id="rc_box"][class="rc_box09"]
-			ameblo.jp##div[id="readerList"]
-			ameblo.jp##div[id="resPointArea"]
-			ameblo.jp##p[class^="dendo"]
-			ameblo.jp##p[class="ad1"]
-			ameblo.jp##p[class="ad2"]
-			ameblo.jp##ul[class="rc_head clearFix"]
-!!! [goo.ne.jp]
-			blog.goo.ne.jp##div[id="mod-advertising"]
-			blog.goo.ne.jp##div[id="global-header"]
-			blog.goo.ne.jp##div[id="mod-goo-recommends"]
-!!! [blogger.com]
-			blogspot.com##div[class="widget AdSense"]
-			blogspot.com##IFRAME[src^="http://dcs.yahoo.co.jp/dp/?adid="]
+	!!! [ameblo]
+			!! 1*1画像検出
+				||act.ameba.jp^
+				||ameblo.jp/accesslog/*
+			!! 表示簡略化
+				||spstatic.ameba.jp^
+				ameblo.jp##ul[id="amebaBar"]
+				ameblo.jp##div[class="readerMainLink"]
+				ameblo.jp##div[id="geinoujin_now"]
+				ameblo.jp##div[id^="advertising"]
+				ameblo.jp##div[id^="dendo"]
+				ameblo.jp##div[id="ameblo"][class="mainMenu"]
+				ameblo.jp##div[id="amebloInfo"]
+				ameblo.jp##div[id="amestamodule"]
+				ameblo.jp##div[id="eco_head"]
+				ameblo.jp##div[id="footer_ad_official"]
+				ameblo.jp##div[id="geinoujin_now"]
+				ameblo.jp##div[id="officialGnere"]
+				ameblo.jp##div[id="rc_box"][class="rc_box09"]
+				ameblo.jp##div[id="readerList"]
+				ameblo.jp##div[id="resPointArea"]
+				ameblo.jp##p[class^="dendo"]
+				ameblo.jp##p[class="ad1"]
+				ameblo.jp##p[class="ad2"]
+				ameblo.jp##ul[class="rc_head clearFix"]
 
-!!! [fc2.com]
-		!! ブログヘッダ
-			fc2.com##div[id$="blogheadbar"]
-		!! エディタ
-			blog.fc2.com##iframe[src*="advertising.com"]
-			blog.fc2.com##div[class="content"][id="recommend_newentry"]
-			blog.fc2.com##div[class="content"][id="content_tab"]
-			blog.fc2.com##div[class="main_top_ad"]
-			blog.fc2.com##div[class="content"][id="content_track"]
-			blog.fc2.com##div[id="recent_template"][class="recent_tmpl"]
-			blog.fc2.com##div[id="tbtheme"]
-			blog.fc2.com##div[id="ad_sidebar"]
-			blog.fc2.com##div[id="flashcontent1"]
-			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
-		!! 広告
-			||fc2.com/ad/*
-			##DIV[id^="footer_link"]
-		!! 解析？
-			! 長くなる気がしないので、現物ベタ。
-				||fc2.com/ana*
-				||analysis.fc2.com^
-				||analyzer5.fc2.com^
-				||analyzer54.fc2.com^
-				! カウンターは解析用の読み込みに使ってるんじゃないかと言う推測の元、ブロック。
-					||counter*.fc2.com^
-		!! ぶろぐらんきんぐ
-			||blogranking.fc2.com/*
-			##A[href^="http://blogranking.fc2.com/"]
-!!! [blog.livedoor.*]
-		!! weblog
-			! 分離計画有り。
-			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			blog.livedoor.jp##div[id="analyzer_tags"]
-			blog.livedoor.jp##script[src$="/settings/ad.js"]
-			blog.livedoor.jp##script[src$="/settings/header.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
-			blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
-			blog.livedoor.jp##span[class^="common-header"]
-			blog.livedoor.jp##td[class="catprbox"]
-			blog.livedoor.jp##td[class="newstickerbox"]
-			blog.livedoor.jp##td[class="pickuptheme"]
-			blog.livedoor.jp##td[class="startblogbox"]
-			blog.livedoor.jp##A[href*="ldblog-001-22"]
-		!! blogeditor
-			! これに許可を出さないとツールを使えない為、許可。
-			@@||livedoor.blogcms.jp/js/cms2/swfupload/*
-			@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
-			@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
-		!! なぞり検索
-			! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
-			nazorisearch
-			selectionSearch.js!!! [blog.so-net.ne.jp]
+	!!! <end>
+
+	!!! [goo.ne.jp]
+				blog.goo.ne.jp##div[id="mod-advertising"]
+				blog.goo.ne.jp##div[id="global-header"]
+				blog.goo.ne.jp##div[id="mod-goo-recommends"]
+
+	!!! <end>
+
+	!!! [blogger.com]
+				blogspot.com##div[class="widget AdSense"]
+				blogspot.com##IFRAME[src^="http://dcs.yahoo.co.jp/dp/?adid="]
+
+	!!! <end>
+
+	!!! [fc2.com]
+			!! ブログヘッダ
+				fc2.com##div[id$="blogheadbar"]
+			!! エディタ
+				blog.fc2.com##iframe[src*="advertising.com"]
+				blog.fc2.com##div[class="content"][id="recommend_newentry"]
+				blog.fc2.com##div[class="content"][id="content_tab"]
+				blog.fc2.com##div[class="main_top_ad"]
+				blog.fc2.com##div[class="content"][id="content_track"]
+				blog.fc2.com##div[id="recent_template"][class="recent_tmpl"]
+				blog.fc2.com##div[id="tbtheme"]
+				blog.fc2.com##div[id="ad_sidebar"]
+				blog.fc2.com##div[id="flashcontent1"]
+				blog.fc2.com##embed[src^="http://fc2.com/ad/"]
+			!! 広告
+				||fc2.com/ad/*
+				##DIV[id^="footer_link"]
+			!! 解析？
+				! 長くなる気がしないので、現物ベタ。
+					||fc2.com/ana*
+					||analysis.fc2.com^
+					||analyzer5.fc2.com^
+					||analyzer54.fc2.com^
+					! カウンターは解析用の読み込みに使ってるんじゃないかと言う推測の元、ブロック。
+						||counter*.fc2.com^
+			!! ぶろぐらんきんぐ
+				||blogranking.fc2.com/*
+				##A[href^="http://blogranking.fc2.com/"]
+
+	!!! <end>
+
+	!!! [blog.livedoor.*]
+			!! weblog
+				! 分離計画有り。
+				/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+				/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+				blog.livedoor.jp##div[id="analyzer_tags"]
+				blog.livedoor.jp##script[src$="/settings/ad.js"]
+				blog.livedoor.jp##script[src$="/settings/header.js"]
+				blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/c2.js"]
+				blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/lcslog.js"]
+				blog.livedoor.jp##script[src="http://parts.blog.livedoor.jp/js/smartphone.0.2.js"]
+				blog.livedoor.jp##span[class^="common-header"]
+				blog.livedoor.jp##td[class="catprbox"]
+				blog.livedoor.jp##td[class="newstickerbox"]
+				blog.livedoor.jp##td[class="pickuptheme"]
+				blog.livedoor.jp##td[class="startblogbox"]
+				blog.livedoor.jp##A[href*="ldblog-001-22"]
+			!! blogeditor
+				! これに許可を出さないとツールを使えない為、許可。
+				@@||livedoor.blogcms.jp/js/cms2/swfupload/*
+				@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp
+				@@||livedoor.blogcms.jp/img/cms2/blog/default/nav/*$domain=livedoor.blogcms.jp
+			!! なぞり検索
+				! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
+				nazorisearch
+				selectionSearch.js
+
+	!!! <end>
+
+	!!! [blog.so-net.ne.jp]
 			||blog.so-net.ne.jp/_contents/js/*
 			||blog.so-net.ne.jp/_common/js/*
 			||blog.so-net.ne.jp/_common/images/*
@@ -120,8 +135,14 @@
 			blog.so-net.ne.jp##div[class="searchFrame"]
 			blog.so-net.ne.jp##div[class="sbHeader"]
 			blog.so-net.ne.jp##div[id="powered"]
-!!! [blogs.yahoo.co.jp]
-		!! 宣伝
-			blogs.yahoo.co.jp##div[class^="newblogInfo"]
-		!! 広告
-			blogs.yahoo.co.jp##div[id*="AdBanner"]
+
+	!!! <end>
+
+	!!! [blogs.yahoo.co.jp]
+			!! 宣伝
+				blogs.yahoo.co.jp##div[class^="newblogInfo"]
+			!! 広告
+				blogs.yahoo.co.jp##div[id*="AdBanner"]
+
+	!!! <end>
+

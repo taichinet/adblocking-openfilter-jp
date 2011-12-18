@@ -1,5 +1,8 @@
-!!! [blogs.yahoo.co.jp]
-		!! 宣伝
-			blogs.yahoo.co.jp##div[class^="newblogInfo"]
-		!! 広告
-			blogs.yahoo.co.jp##div[id*="AdBanner"]
+	!!! [blogs.yahoo.co.jp]
+			!! 宣伝
+				blogs.yahoo.co.jp##div[class^="newblogInfo"]
+			!! 広告
+				blogs.yahoo.co.jp##div[id*="AdBanner"]
+
+	!!! <end>
+

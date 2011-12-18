@@ -1,10 +1,10 @@
-! [CORE]アフィリエイト・アドバタイズ対策
+! [core-1_adv] アフィリエイト・アドバタイズ対策
 	!!! 1:キーワード
 		!! 1.汎用
-			! 誤爆が結構ある為、“ad”では引っ掛けない方向で。
-			/ad\.(com|net|jp)/
+			! 誤爆が結構ある為、“ad”では極力引っ掛けない方向で。
+			/\/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
-			/ad\.(js|css)/
+			/\/ad\.(js|css)/
 		!! 2.div記述
 			!! id
 				##div[id*="/AD"]
@@ -36,8 +36,7 @@
 				##div[id*="bpbox_text"]
 				##div[id*="cm"]
 				##div[id*="headerBanner"]
-				##div[id*="imAds1"]
-				##div[id*="imAds2"]
+				##div[id*="imAds"]
 				##div[id*="im-wrapper-re"]
 				##div[id*="interested"]
 				##div[id*="interestMatch"]
@@ -48,7 +47,7 @@
 				##div[id*="newsFooter"]
 				##div[id*="partner-box"]
 				##div[id*="pickup"]
-				##div[id*="pr"]
+				!##div[id*="pr"]
 				##div[id*="promo"]
 				##div[id*="showAdv"]
 				##div[id*="squareAd"]
@@ -83,8 +82,7 @@
 				##div[class*="bpbox_text"]
 				##div[class*="cm"]
 				##div[class*="headerBanner"]
-				##div[class*="imAds1"]
-				##div[class*="imAds2"]
+				##div[class*="imAds"]
 				##div[class*="im-wrapper-re"]
 				##div[class*="interested"]
 				##div[class*="interestMatch"]
@@ -95,7 +93,7 @@
 				##div[class*="newsFooter"]
 				##div[class*="partner-box"]
 				##div[class*="pickup"]
-				##div[class*="pr"]
+				!##div[class*="pr"]
 				##div[class*="promo"]
 				##div[class*="showAdv"]
 				##div[class*="squareAd"]
@@ -154,3 +152,13 @@
 			||microad.jp^
 		!! overture系
 			*/overtureAd.js
+		!! googlesyndication.com
+			||googlesyndication.com^
+				/pagead*\.googlesyndication\.com/
+				##a[href*="googlesyndication.com"]
+		!! doubleclick.net
+			||doubleclick.net^
+				##a[href*="doubleclick.net"]
+
+	!!! <end>
+

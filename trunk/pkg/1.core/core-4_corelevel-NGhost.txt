@@ -1,4 +1,4 @@
-! [CORE]NGhost:コアレベルで抑止すべきホストを記述する
+! [core-4_corelevel-NGhost]NGhost:コアレベルで抑止すべきホストを記述する
 	!!! 1:Cookie関連のホスト
 		||omniture.com/
 		||2o7.net/
@@ -8,3 +8,6 @@
 		||revsci.net/
 		||serving-sys.com/
 		||tracer.jp/
+
+	!!! <end>
+

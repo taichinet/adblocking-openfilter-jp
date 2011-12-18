@@ -1,4 +1,4 @@
-! [CORE] 埋め込みRSS対策:埋め込みRSSタグの抑止
+! [core-3_rss] 埋め込みRSS対策:埋め込みRSSタグの抑止
 	!!! 1:HTML拒否
 		/rss*\.(htm|html|php|js)/
 	!!! 2:“RSS/rss”で停止可能な要素
@@ -44,3 +44,6 @@
 			##div[class^="blogroll"]
 			##script[src*="blogroll"]
 			##iframe[src*="blogroll"]
+
+	!!! <end>
+

@@ -1,9 +1,12 @@
-!!! [asahi[class="com]
-	asahi.com##div[class="BnrPr"]
-	asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
-	asahi.com##div[class="Box1"] > H2
-	asahi.com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
-	asahi.com##div[class="Box2"]
-	asahi.com##div[id="Sub"] > div[class="BnrLnkLct"]
-	asahi.com##ul[class="BnrLnk"] > LI
-	asahi.com##dl[class="PrInfo"]
+	!!! [asahi.com]
+		asahi.com##div[class="BnrPr"]
+		asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
+		asahi.com##div[class="Box1"] > H2
+		asahi.com##div[class="Box1"] > div[class="ThmbSetXw75.FstMod"]
+		asahi.com##div[class="Box2"]
+		asahi.com##div[id="Sub"] > div[class="BnrLnkLct"]
+		asahi.com##ul[class="BnrLnk"] > LI
+		asahi.com##dl[class="PrInfo"]
+
+	!!! <end>
+

@@ -1,7 +1,9 @@
-!!! [dmm]
-	!!! affiliate
-		||dmm.co.jp
-			##a[href*="dmm.co.jp"]
-			##IFRAME[src*="dmm.co.jp"]
-			##IMG[title*="dmm.co"]
+	!!! [dmm]
+		!!! affiliate
+			||dmm.co.jp
+				##a[href*="dmm.co.jp"]
+				##IFRAME[src*="dmm.co.jp"]
+				##IMG[title*="dmm.co"]
+
+	!!! <end>
 
