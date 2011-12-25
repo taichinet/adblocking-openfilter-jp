@@ -45,6 +45,7 @@
 			/\/ad\.(com|net|jp)/
 			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
 			/\/ad\.(js|css)/
+			||ad.
 		!! 2.div記述
 			!! id
 				##div[id*="/AD"]
@@ -176,6 +177,7 @@
 	!!! 2:特定ドメイン直
 		!! amazon
 			||amazon.co.jp/widgets/*
+			##IFRAME[src*="/inc/amazon.php"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -507,6 +509,7 @@
 	!!! <end>
 
 	!!! [nikkansports]
+				||ad.nikkansports.com^
 				nikkansports.com##div[class="adPRtext"]
 				nikkansports.com##IFRAME[src^="http://ad."]
 				nikkansports.com##DIV[id="sideRecommend"]
