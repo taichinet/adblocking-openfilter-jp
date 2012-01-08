@@ -55,6 +55,10 @@
 				cyzo.com##div[id="gamma-inner"]
 				cyzo.com##[href*="nikkancyzo-22"]
 				cyzo.com##[href*="advg.jp"]
+	!!! [cyzowoman.com]
+		cyzowoman.com##A[href*="/cyzowoman-22/"]
+		cyzowoman.com##DIV#acsessch
+		cyzowoman.com##DIV.fb-comments + *
 
 	!!! <end>
 

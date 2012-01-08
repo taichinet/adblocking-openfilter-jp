@@ -3,6 +3,7 @@
 		!!! 公式
 			!! 許可対象
 				@@||twimg.com/profile_images/$domain=twitter.com
+				@@|https://api.twitter.com/*/*/*/members.json
 			!! 抑止
 				!! 内部表示簡略化
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
@@ -14,7 +15,8 @@
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##LI[class^="user-small-list-item js-actionable-user"]
 					twitter.com##LI[class^="trend-item"]
-					twitter.com##IFRAME[id$="ad"]
+					twitter.com##A[class="definition"]
+
 				!! share
 						twitter.com##A[href="http://twitter.com/share"]
 						##script[src="http://widgets.twimg.com/j/2/widget.js"]

@@ -75,7 +75,6 @@
 				##div[id*="become_ads"]
 				##div[id*="blogcampaign"]
 				##div[id*="bpbox_text"]
-				##div[id*="cm"]
 				##div[id*="headerBanner"]
 				##div[id*="imAds"]
 				##div[id*="im-wrapper-re"]
@@ -121,7 +120,6 @@
 				##div[class*="become_ads"]
 				##div[class*="blogcampaign"]
 				##div[class*="bpbox_text"]
-				##div[class*="cm"]
 				##div[class*="headerBanner"]
 				##div[class*="imAds"]
 				##div[class*="im-wrapper-re"]
@@ -417,6 +415,10 @@
 				cyzo.com##div[id="gamma-inner"]
 				cyzo.com##[href*="nikkancyzo-22"]
 				cyzo.com##[href*="advg.jp"]
+	!!! [cyzowoman.com]
+		cyzowoman.com##A[href*="/cyzowoman-22/"]
+		cyzowoman.com##DIV#acsessch
+		cyzowoman.com##DIV.fb-comments + *
 
 	!!! <end>
 
@@ -1138,6 +1140,7 @@
 		!!! 公式
 			!! 許可対象
 				@@||twimg.com/profile_images/$domain=twitter.com
+				@@|https://api.twitter.com/*/*/*/members.json
 			!! 抑止
 				!! 内部表示簡略化
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
@@ -1149,7 +1152,8 @@
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##LI[class^="user-small-list-item js-actionable-user"]
 					twitter.com##LI[class^="trend-item"]
-					twitter.com##IFRAME[id$="ad"]
+					twitter.com##A[class="definition"]
+
 				!! share
 						twitter.com##A[href="http://twitter.com/share"]
 						##script[src="http://widgets.twimg.com/j/2/widget.js"]
@@ -1236,6 +1240,12 @@
 
 	!!! <end>
 
+	!!! [blog.livedoor.*]
+			!! weblog
+				||logping.exblog.jp^
+
+	!!! <end>
+
 	!!! [fc2.com]
 			!! ブログヘッダ
 				fc2.com##div[id$="blogheadbar"]
@@ -1272,6 +1282,9 @@
 				! 分離計画有り。
 				/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 				/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
+				||parts.blog.livedoor.jp/js/blog_ads/*
+				||parts.blog.livedoor.jp/js/c2.js
+				||parts.blog.livedoor.jp/js/lcslog.js
 				blog.livedoor.jp##div[id="analyzer_tags"]
 				blog.livedoor.jp##script[src$="/settings/ad.js"]
 				blog.livedoor.jp##script[src$="/settings/header.js"]
@@ -1284,6 +1297,8 @@
 				blog.livedoor.jp##td[class="pickuptheme"]
 				blog.livedoor.jp##td[class="startblogbox"]
 				blog.livedoor.jp##A[href*="ldblog-001-22"]
+				livedoor.biz##DIV#analyzer_tags
+				livedoor.biz##DIV[id^="header"]
 			!! blogeditor
 				! これに許可を出さないとツールを使えない為、許可。
 				@@||livedoor.blogcms.jp/js/cms2/swfupload/*
@@ -1293,6 +1308,8 @@
 				! livedoor以外にこのスクリプトを提供している可能性があるので指定無し
 				nazorisearch
 				selectionSearch.js
+			!! 外部参照
+				blog.livedoor.jp##A[href^="http://blog.livedoor.com/review/"]
 
 	!!! <end>
 
