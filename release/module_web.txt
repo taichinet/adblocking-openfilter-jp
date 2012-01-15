@@ -137,6 +137,8 @@
 			!! シェアの停止
 				##A[href="http://mixi.jp/share.pl"]
 				||static.mixi.jp/js/*$third-party
+			!! ログイン画面
+				mixi.jp##A[href^="http://mixi.jp/loginjack_redirector.pl"]
 
 	!!! <end>
 
@@ -158,19 +160,20 @@
 						@@||nicoapp.jp^
 					!! 市場用 
 						! 最近、ちゃんと開放できている感じがしないんで確認が必要
+						@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
+						@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
+						@@nicovideo.jp##DIV[id^="ichiba"]
+				!! 外部
+						@@||nicoimg.ggood.jp^$domain=nicovideo.jp
 						@@||images-amazon.com^$domain=nicovideo.jp
 						@@||ichiba.nicovideo.jp/embed/*$domain=nicovideo.jp
-						@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
-						@@nicovideo.jp##div[id^="ichiba_item"]
-						@@nicovideo.jp##div[id^="ichibaitem_"]
-						@@nicovideo.jp##div[id^="ichiba"]
-						@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
 		!!! {拒否}*.nicovideo.jp
 			!! /
 				||nicovideo.jp/__utm.gif*
 				||nicovideo.jp/api/getmarquee*
-			!! ad.
-				||ad.nicovideo.jp^$domain=nicovideo.jp
+			!! ad.|ads.
+				||ads.nicovideo.jp^
+				||ad.nicovideo.jp^
 			!! uad.
 				||uad.nicovideo.jp/delivery/assets/swf/*
 				||uad.nicovideo.jp/Uads*
@@ -200,17 +203,19 @@
 				||icon.nimg.jp^$domain=live.nicovideo.jp
 		!!! 非表示
 			!! 広告:nicovideo.jp
-				nicovideo.jp##div[class="ads_468"]
-				nicovideo.jp##div[id^="sideTxtAd"]
-				nicovideo.jp##div[id^="header-banner"]
-				nicovideo.jp##div[id^="web_pc_premium"]
-				nicovideo.jp##div[id^="web_pc_footer"]
-				nicovideo.jp##div[id^="footerWrap"]
-				nicovideo.jp##div[id^="PAGEFOOTER"]
-				nicovideo.jp##div[id^="content_312"]
+				nicovideo.jp##DIV[class="ads_468"]
+				nicovideo.jp##DIV[id^="sideTxtAd"]
+				nicovideo.jp##DIV[id^="header-banner"]
+				nicovideo.jp##DIV[id^="web_pc_premium"]
+				nicovideo.jp##DIV[id^="web_pc_footer"]
+				nicovideo.jp##DIV[id^="footerWrap"]
+				nicovideo.jp##DIV[id^="PAGEFOOTER"]
+				nicovideo.jp##DIV[id^="content_312"]
+				nicovideo.jp##DIV[id="banner-side"]
+				nicovideo.jp##DIV[id="banner-top"]
 			!! 広告:ニコ生用
-				live.nicovideo.jp##div[class="ichiba_frm"]
-				live.nicovideo.jp##div[id="carousel"]
+				live.nicovideo.jp##DIV[class="ichiba_frm"]
+				live.nicovideo.jp##DIV[id="carousel"]
 
 	!!! <end>
 

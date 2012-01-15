@@ -1,78 +1,136 @@
 	!!! [affiliate] アフィリエイトに関する、“ドメイン指定”の余地がある物だけこっちに。
 		!!! アフィリエイト中継
-			cl-sys.info
-			##a[href*="cl-sys.info"]
+			||cl-sys.info^
+			##A[href*="cl-sys.info"]
 		!!! ドメイン別
-			||advg.jp^
-				##a[href*="advg.jp"]
-				##iframe[src*="advg.jp"]
-			||microad.jp^
-				##a[href*="microad.jp"]
-			||adingo.jp^
-				##a[href*="adingo.jp"]
-			||accesstrade.net^
-				##a[href*="accesstrade.net"]
-			||ad.jp.ap.valuecommerce.com^
-				##a[href*="valuecommerce.com"]
-			||impact-ad.jp^
-				##a[href*="impact-ad.jp"]
-				##iframe[src*="impact-ad.jp"]
-			||adjust-net.jp^
-				##a[href*="adjust-net.jp"]
-				##iframe[src*="adjust-net.jp"]
-			||link-trade.net^
-				##script[src^="link-trade.net"]
-			||accesstrade.net^
-				##A[href*="accesstrade.net/"]
-				##iframe[src*="accesstrade.net/"]
-			||liveads.jp^
-				##a[href*="liveads.jp"]
-				##iframe[src*="liveads.jp"]
-			||adplan-ds.com^
-				##a[href*="adplan-ds.com"]
-				##iframe[*="adplan-ds.com"]
-			||adserve.com^
-				##A[href*="adserve.com"]
-				##iframe[src*="adserve.com"]
-				##script[src*="adserve.com"]		
-			||j-a-net.jp^
-				##A[href*="j-a-net.jp"]
-				##iframe[src*="j-a-net.jp"]
-			||adtech.de^
-				##A[href*="adtech.de"]
-				##iframe[src*="adtech.de"]
-			||d.href.org.uk^
-				##A[href*="d.href.org.uk"]
-				##iframe[src*="d.href.org.uk"]
-			||dtiserv.com^
-				##A[href*="dtiserv.com"]
-				##iframe[src*="dtiserv.com"]
-				##script[src*="dtiserv.com"]		
-			||media-b.jp^
-				##A[href*^="media-b.jp"]
-				##iframe[src*="media-b.jp"]
-			||durasite.net^
-				##a[href*="durasite.net"]
-				##iframe[src*="durasite.net"]
-			||e-nls.com^
-				##A[href*="e-nls.com"]
-				##iframe[src*="e-nls.com"]
-				##script[src*="e-nls.com"]
-			||abmr.net^
-				##a[href*="abmr.net"]
-				##iframe[src*="abmr.net"]
-			||extreme-dm.com^
-				##a[href*="extreme-dm.com"]
-				##iframe[src*="extreme-dm.com"]
-			||2mdn.net^
-				##a[href*="2mdn.net"]
-				##iframe[src*="2mdn.net"]
-			||smartadserver.com^
-				##a[href*="smartadserver.com"]
-				##iframe[src*="smartadserver.com"]
+			!! A
+				||abmr.net^
+					##A[href*="abmr.net"]
+					##IFRAME[src*="abmr.net"]
+				||acnt.biz^
+					##A[href*="acnt.biz"]
+					##IFRAME[src*="acnt.biz"]
+					##SCRIPT[src*="acnt.biz"]
+				||adlyze.net^
+					##A[href*="adlyze.net"]
+					##IFRAME[src*="adlyze.net"]
+					##SCRIPT[src*="adlyze.net"]
+				||advg.jp^
+					##A[href*="advg.jp"]
+					##IFRAME[src*="advg.jp"]
+				||adplan-ds.com^
+					##A[href*="adplan-ds.com"]
+					##iframe[*="adplan-ds.com"]
+				||adserve.com^
+					##A[href*="adserve.com"]
+					##IFRAME[src*="adserve.com"]
+					##SCRIPT[src*="adserve.com"]
+				||adtech.de^
+					##A[href*="adtech.de"]
+					##IFRAME[src*="adtech.de"]
+				||adimg.net^
+					##A[href*="adimg.net"]
+				||adjust-net.jp^
+					##A[href*="adjust-net.jp"]
+					##IFRAME[src*="adjust-net.jp"]
+				||microad.jp^
+					##A[href*="microad.jp"]
+				||adingo.jp^
+					##A[href*="adingo.jp"]
+			!! B
+			!! C
+			!! D
+				||dtiserv.com^
+					##A[href*="dtiserv.com"]
+					##IFRAME[src*="dtiserv.com"]
+					##SCRIPT[src*="dtiserv.com"]
+				||durasite.net^
+					##A[href*="durasite.net"]
+					##IFRAME[src*="durasite.net"]
+			!! E
+				||ebis.ne.jp
+					##A[href*="ebis.ne.jp"]
+					##IFRAME[src*="ebis.ne.jp"]
+				||e-nls.com^
+					##A[href*="e-nls.com"]
+					##IFRAME[src*="e-nls.com"]
+					##SCRIPT[src*="e-nls.com"]
+				||extreme-dm.com^
+					##A[href*="extreme-dm.com"]
+					##IFRAME[src*="extreme-dm.com"]
+			!! F
+			!! G
+			!! H
+				||d.href.org.uk^
+					##A[href*="d.href.org.uk"]
+					##IFRAME[src*="d.href.org.uk"]
+			!! I
+				||impact-ad.jp^
+					##A[href*="impact-ad.jp"]
+					##IFRAME[src*="impact-ad.jp"]
+				||i-mobile.co.jp
+					##A[href*="i-mobile.co.jp"]
+					##IFRAME[src*="i-mobile.co.jp"]
+					##SCRIPT[src*="i-mobile.co.jp"]
+				! i2i系は4.NGhostのmfroに書く事。
+			!! J
+				||j-a-net.jp^
+					##A[href*="j-a-net.jp"]
+					##IFRAME[src*="j-a-net.jp"]
+			!! K
+				||kau.li^
+					##A[href*="kau.li"]
+					##SCRIPT[src*="kau.li"]
+					##SPAN[id*="kauli"]
+			!! L
+				||liveads.jp^
+					##A[href*="liveads.jp"]
+					##IFRAME[src*="liveads.jp"]
+			!! M
+				||media-b.jp^
+					##A[href*^="media-b.jp"]
+					##IFRAME[src*="media-b.jp"]
+				||microad.jp^
+					##A[href*="microad.jp"]
+					##SCRIPT[src*="microad.jp"]
+					##IFRAME[src*="microad.jp"]
+			!! N
+			!! O
+			!! P
+			!! Q
+			!! R
+			!! S
+				||smartadserver.com^
+					##A[href*="smartadserver.com"]
+					##IFRAME[src*="smartadserver.com"]
+				||shard.jp^
+					##A[href*="shard.jp"]
+					##IFRAME[src*="shard.jp"]
+					##SCRIPT[src*="shard.jp"]
+			!! T
+			!! U
+			!! V
+				||valuecommerce.com^
+					##A[href*="valuecommerce.com"]
+			!! W
+			!! X
+				||xii.jp
+					##A[href*="xii.jp"]
+					##SCRIPT[src="xii.jp"]
+
+			!! Y
+				||yieldmanager.com^
+					##A[href*="yieldmanager.com"]
+					##SCRIPT[src="yieldmanager.com"]
+			!! Z
+			!! 0-9
+				||2mdn.net^
+					##A[href*="2mdn.net"]
+					##IFRAME[src*="2mdn.net"]
+
 		!!! [特殊例外]
 			!! このドメインで商売もやっている為、当面は現物のみのブロックとする。
-				##a[href^="http://gyutto.com/game/af-"]
+				##A[href^="http://gyutto.com/game/af-"]
 				##A[href*="dl.getchu.com/index.php?action=idx&ad"]
 
 	!!! <end>

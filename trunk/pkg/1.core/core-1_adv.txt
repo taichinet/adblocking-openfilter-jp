@@ -8,17 +8,6 @@
 			||ad.
 		!! 2.div記述
 			!! id
-				##div[id*="/AD"]
-				##div[id*="/Ad"]
-				##div[id*="/ad"]
-				##div[id*="/AD"]
-				##div[id*="/Ad"]
-				##div[id*="/ad"]
-				##div[id$="_ad"]
-				##div[id$="_ads"]
-				##div[id^="ad"]
-				##div[id^="ad-"]
-				##div[id^="ad_"]
 				##div[id*="adBlock"]
 				##div[id*="adbox"]
 				##div[id*="AdContainer"]
@@ -53,17 +42,6 @@
 				##div[id*="squareAd"]
 				##div[id*="textAd"]
 			!! class記述
-				##div[class*="/AD"]
-				##div[class*="/Ad"]
-				##div[class*="/ad"]
-				##div[class*="/AD"]
-				##div[class*="/Ad"]
-				##div[class*="/ad"]
-				##div[class$="_ad"]
-				##div[class$="_ads"]
-				##div[class^="ad"]
-				##div[class^="ad-"]
-				##div[class^="ad_"]
 				##div[class*="adBlock"]
 				##div[class*="adbox"]
 				##div[class*="AdContainer"]
@@ -97,6 +75,29 @@
 				##div[class*="showAdv"]
 				##div[class*="squareAd"]
 				##div[class*="textAd"]
+			!! 改修予定
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id*="/AD"]
+				##div[id*="/Ad"]
+				##div[id*="/ad"]
+				##div[id$="_ad"]
+				##div[id$="_ads"]
+				!	##div[id^="ad"]
+				##div[id^="ad-"]
+				##div[id^="ad_"]
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class*="/AD"]
+				##div[class*="/Ad"]
+				##div[class*="/ad"]
+				##div[class$="_ad"]
+				##div[class$="_ads"]
+				!	##div[class^="ad"]
+				##div[class^="ad-"]
+				##div[class^="ad_"]
 		!! 3.script記述
 			##script[src*="ad_common.js"]
 			##script[src*="ad_parts.js"]
@@ -135,7 +136,15 @@
 	!!! 2:特定ドメイン直
 		!! amazon
 			||amazon.co.jp/widgets/*
+			||amazon.co.jp/gp/associates/previews/*
+			||assoc-amazon.jp/s/link-enhancer?*
+			||assoc-amazon.jp/*/JP/js/*
+			||ecx.images-amazon.com^
+			||g-ec2.images-amazon.com^
+			||rcm-jp.amazon.co.jp/*
+			||z-ecx.images-amazon.com^
 			##IFRAME[src*="/inc/amazon.php"]
+			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -152,7 +161,9 @@
 			||microad.jp^
 		!! overture系
 			*/overtureAd.js
-		!! googlesyndication.com
+			##DIV[id*="overtureAds"]
+		!! google系
+			##DIV[id^="google_afc"]
 			||googlesyndication.com^
 				/pagead*\.googlesyndication\.com/
 				##a[href*="googlesyndication.com"]

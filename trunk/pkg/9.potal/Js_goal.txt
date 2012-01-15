@@ -2,6 +2,7 @@
 				||jsgoal.jp/js/_parts/random_banner/*
 				||jsgoal.jp/js/common/ad_overture.js
 				jsgoal.jp##div[id="searchpopup"]
+				jsgoal.jp##DIV[id="topBanner"]
 
 	!!! <end>
 

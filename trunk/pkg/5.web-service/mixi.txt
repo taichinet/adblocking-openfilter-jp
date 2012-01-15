@@ -43,6 +43,8 @@
 			!! シェアの停止
 				##A[href="http://mixi.jp/share.pl"]
 				||static.mixi.jp/js/*$third-party
+			!! ログイン画面
+				mixi.jp##A[href^="http://mixi.jp/loginjack_redirector.pl"]
 
 	!!! <end>
 
