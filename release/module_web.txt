@@ -233,16 +233,18 @@
 				@@|https://api.twitter.com/*/*/*/members.json
 			!! 抑止
 				!! 内部表示簡略化
-					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
-					twitter.com##A[href^="http://blog.twitter.jp/"]
-					twitter.com##A[href="/#!/who_to_follow"]
-					twitter.com##IFRAME[id="j_ad"]
-					twitter.com##DIV[class="trends-inner"]
-					twitter.com##P[class="promo"]
-					twitter.com##H2[class="user-rec-component"]
-					twitter.com##LI[class^="user-small-list-item js-actionable-user"]
-					twitter.com##LI[class^="trend-item"]
 					twitter.com##A[class="definition"]
+					twitter.com##A[href="/#!/who_to_follow"]
+					twitter.com##A[href^="http://blog.twitter.jp/"]
+					twitter.com##DIV[class*="promoted-tweet"]
+					twitter.com##DIV[class="component"] > DIV[class="user-rec-inner"]
+					twitter.com##DIV[class="trends-inner"]
+					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
+					twitter.com##H2[class="user-rec-component"]
+					twitter.com##IFRAME[id="j_ad"]
+					twitter.com##LI[class^="trend-item"]
+					twitter.com##LI[class^="user-small-list-item.js-actionable-user"]
+					twitter.com##P[class="promo"]
 
 				!! share
 						twitter.com##A[href="http://twitter.com/share"]
