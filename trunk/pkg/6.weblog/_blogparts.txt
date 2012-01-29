@@ -1,0 +1,9 @@
+! [ブログパーツ用抑止]
+	!!! ブログパーツ用抑止
+		||blogdeco.jp/bp/js/bp.js
+		||trackfeed.com^
+		||blogchart.jp/js/blogparts.js
+		||rakuword.com!!^
+
+	!!! <end>
+

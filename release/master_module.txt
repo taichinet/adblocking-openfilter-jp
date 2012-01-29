@@ -1320,6 +1320,15 @@
 !
 ! pkg/weblog
 !
+! [ブログパーツ用抑止]
+	!!! ブログパーツ用抑止
+		||blogdeco.jp/bp/js/bp.js
+		||trackfeed.com^
+		||blogchart.jp/js/blogparts.js
+		||rakuword.com!!^
+
+	!!! <end>
+
 	!!! [ameblo]
 			!! 1*1画像検出
 				||act.ameba.jp^
