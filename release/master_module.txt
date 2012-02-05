@@ -166,7 +166,6 @@
 			##a[href*="/ads."]
 			##a[href*="/adv/"]
 			##a[href*="/advert"]
-			##a[href*="/ad"]
 			##a[href^="http://ad."]
 			##a[href*="http://ads."]
 			##a[href*="affiliate"]
@@ -193,12 +192,14 @@
 			||durasite.net^
 		!!impact-ad.jp
 			||impact-ad.jp^
-				##script[src*="impact-ad.jp"]
+				##a[href*="impact-ad.jp"]
+				##script[src*="impact-ad.jp"]				
 				##iframe[src*="impact-ad.jp"]
 				##img[src*="impact-ad.jp"]
-				##a[href*="impact-ad.jp"]
+				##script[src*="impact-ad.jp"]
 		!! microad.jp
 			||microad.jp^
+			##IFRAME[src*="microad.jp"]
 		!! overture系
 			*/overtureAd.js
 			##DIV[id*="overtureAds"]
@@ -210,6 +211,25 @@
 		!! doubleclick.net
 			||doubleclick.net^
 				##a[href*="doubleclick.net"]
+		!! livedoor系
+			##A[href^="http://ck.rd.livedoor.com/ck/"]
+		!! xmax系
+			##A[href*="xmax.jp"]
+		!! NLS系
+			##A[href*="e-nls.com"]
+		!! c-team系
+			||c-team.jp^
+		!! j-a-net.jp
+			##A[href*="j-a-net.jp"]
+		!! amiami
+			! 自ドメイン内での処理許可方法が思いつかないので保留。
+			! ##A[href*="amiami.jp"]
+		!! acnt.biz
+			##A[href^="http://acnt.biz/"]
+		!! adlyze.net
+			##A[href^="http://adlyze.net/"]
+		!! xii.jp
+			##A[href*="ad.xii.jp"]
 
 	!!! <end>
 
@@ -349,15 +369,22 @@
 	!!! <end>
 
 
+	!!! [DMM]
+		!! 抑止対象
+			##A[href*="dmm.co.jp"]
+
+	!!! <end>
+
 	!!! [楽天]
 			!! 許可対象
 				@@||item.rakuten.co.jp^$document
 			!! 抑止対象
-				/(static|xml|hbb)\.(afl|affiliate)\.rakuten\.co\.jp/
+				/(static|xml|hbb|anz|)\.(afl|affiliate|rd|pitatto)\.rakuten\.co\.jp/
 				!	||hbb.afl.rakuten.co.jp^
 				!	||static.affiliate.rakuten.co.jp^
 				!	||xml.affiliate.rakuten.co.jp^
-				||pitatto.rakuten.co.jp/image/*
+				!	||anz.rd.rakuten.co.jp^
+				!	||pitatto.rakuten.co.jp/image/*
 				||image.infoseek.rakuten.co.jp/common/footer/css/grpRakutenLinkArea.css
 				rakuten.co.jp##td[align="center"]
 				rakuten.co.jp##dl[class="hotKeywords"]
@@ -1326,7 +1353,21 @@
 		||trackfeed.com^
 		||blogchart.jp/js/blogparts.js
 		||rakuword.com!!^
-
+		||e-pagerank.net^
+		||feedmeter.net^
+		||adimg.net^
+		||adimp.excite.co.jp^
+		||c-team.jp^
+		||dlsite.com^$third-party
+		||e-pagerank.net^
+		||feedmeter.net^
+		||awasete.com^
+		||blogmura.com^
+		##A[href^="http://clap.fc2.com/"]
+		##A[href*="shard.jp"]
+		##A[href*="tophatenar.com"]
+		##A[href*="xii.jp"]
+		##A[href*="y-nomnom.info"]
 	!!! <end>
 
 	!!! [ameblo]

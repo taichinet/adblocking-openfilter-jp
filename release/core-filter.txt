@@ -166,7 +166,6 @@
 			##a[href*="/ads."]
 			##a[href*="/adv/"]
 			##a[href*="/advert"]
-			##a[href*="/ad"]
 			##a[href^="http://ad."]
 			##a[href*="http://ads."]
 			##a[href*="affiliate"]
@@ -193,12 +192,14 @@
 			||durasite.net^
 		!!impact-ad.jp
 			||impact-ad.jp^
-				##script[src*="impact-ad.jp"]
+				##a[href*="impact-ad.jp"]
+				##script[src*="impact-ad.jp"]				
 				##iframe[src*="impact-ad.jp"]
 				##img[src*="impact-ad.jp"]
-				##a[href*="impact-ad.jp"]
+				##script[src*="impact-ad.jp"]
 		!! microad.jp
 			||microad.jp^
+			##IFRAME[src*="microad.jp"]
 		!! overture系
 			*/overtureAd.js
 			##DIV[id*="overtureAds"]
@@ -210,6 +211,25 @@
 		!! doubleclick.net
 			||doubleclick.net^
 				##a[href*="doubleclick.net"]
+		!! livedoor系
+			##A[href^="http://ck.rd.livedoor.com/ck/"]
+		!! xmax系
+			##A[href*="xmax.jp"]
+		!! NLS系
+			##A[href*="e-nls.com"]
+		!! c-team系
+			||c-team.jp^
+		!! j-a-net.jp
+			##A[href*="j-a-net.jp"]
+		!! amiami
+			! 自ドメイン内での処理許可方法が思いつかないので保留。
+			! ##A[href*="amiami.jp"]
+		!! acnt.biz
+			##A[href^="http://acnt.biz/"]
+		!! adlyze.net
+			##A[href^="http://adlyze.net/"]
+		!! xii.jp
+			##A[href*="ad.xii.jp"]
 
 	!!! <end>
 

@@ -4,6 +4,20 @@
 		||trackfeed.com^
 		||blogchart.jp/js/blogparts.js
 		||rakuword.com!!^
-
+		||e-pagerank.net^
+		||feedmeter.net^
+		||adimg.net^
+		||adimp.excite.co.jp^
+		||c-team.jp^
+		||dlsite.com^$third-party
+		||e-pagerank.net^
+		||feedmeter.net^
+		||awasete.com^
+		||blogmura.com^
+		##A[href^="http://clap.fc2.com/"]
+		##A[href*="shard.jp"]
+		##A[href*="tophatenar.com"]
+		##A[href*="xii.jp"]
+		##A[href*="y-nomnom.info"]
 	!!! <end>
 

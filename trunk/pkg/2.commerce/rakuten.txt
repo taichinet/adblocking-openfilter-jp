@@ -2,11 +2,12 @@
 			!! 許可対象
 				@@||item.rakuten.co.jp^$document
 			!! 抑止対象
-				/(static|xml|hbb)\.(afl|affiliate)\.rakuten\.co\.jp/
+				/(static|xml|hbb|anz|)\.(afl|affiliate|rd|pitatto)\.rakuten\.co\.jp/
 				!	||hbb.afl.rakuten.co.jp^
 				!	||static.affiliate.rakuten.co.jp^
 				!	||xml.affiliate.rakuten.co.jp^
-				||pitatto.rakuten.co.jp/image/*
+				!	||anz.rd.rakuten.co.jp^
+				!	||pitatto.rakuten.co.jp/image/*
 				||image.infoseek.rakuten.co.jp/common/footer/css/grpRakutenLinkArea.css
 				rakuten.co.jp##td[align="center"]
 				rakuten.co.jp##dl[class="hotKeywords"]
