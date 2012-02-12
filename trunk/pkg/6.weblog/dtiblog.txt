@@ -1,0 +1,10 @@
+	!!! [dtiblog]
+		!! 許可対象
+			||analyzer.dtiblog.com^
+			||analyzer2.dtiblog.com^
+		!! 抑止対象
+			##A[href^="http://click.dtiserv2.com/"]
+
+
+	!!! <end>
+
