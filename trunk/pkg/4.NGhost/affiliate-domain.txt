@@ -37,6 +37,9 @@
 					##A[href*="microad.jp"]
 				||adingo.jp^
 					##A[href*="adingo.jp"]
+				||a8.net^
+					##A[href*="a8.net"]
+					##SCRIPT[src*="a8.net"]
 			!! B
 			!! C
 			!! D
@@ -47,6 +50,9 @@
 				||durasite.net^
 					##A[href*="durasite.net"]
 					##IFRAME[src*="durasite.net"]
+				||click.duga.jp^
+					##A[href*="click.duga.jp"]
+					##SCRIPT[src^="click.duga.jp"]
 			!! E
 				||ebis.ne.jp
 					##A[href*="ebis.ne.jp"]
@@ -65,14 +71,20 @@
 					##A[href*="d.href.org.uk"]
 					##IFRAME[src*="d.href.org.uk"]
 			!! I
+				! i2i系は4.NGhostのmfroに書く事。
 				||impact-ad.jp^
 					##A[href*="impact-ad.jp"]
 					##IFRAME[src*="impact-ad.jp"]
-				||i-mobile.co.jp
+				||i-mobile.co.jp^
 					##A[href*="i-mobile.co.jp"]
 					##IFRAME[src*="i-mobile.co.jp"]
 					##SCRIPT[src*="i-mobile.co.jp"]
-				! i2i系は4.NGhostのmfroに書く事。
+				||infotop.jp^
+					##A[href*="infotop.jp"]
+					##SCRIPT[src*="infotop.jp"]
+				||info-restaurant.jp^
+					##A[href*="info-restaurant.jp"]
+					##SCRIPT[src*="info-restaurant.jp"]
 			!! J
 				||j-a-net.jp^
 					##A[href*="j-a-net.jp"]
@@ -94,6 +106,12 @@
 					##A[href*="microad.jp"]
 					##SCRIPT[src*="microad.jp"]
 					##IFRAME[src*="microad.jp"]
+				||media-b.jp^
+					##A[href*="media-b.jp"]
+					##SCRIPT[src*="media-b.jp"]
+				||movja.info^
+					##A[href*="movja.info"]
+					##SCRIPT[src*="movja.info"]
 			!! N
 			!! O
 			!! P
@@ -127,6 +145,9 @@
 				||2mdn.net^
 					##A[href*="2mdn.net"]
 					##IFRAME[src*="2mdn.net"]
+				||9lick.net^
+					##A[href*="9lick.net"]
+					##SCRIPT[src*="9lick.net"]
 
 		!!! [特殊例外]
 			!! このドメインで商売もやっている為、当面は現物のみのブロックとする。

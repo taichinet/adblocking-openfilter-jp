@@ -1,5 +1,6 @@
 	!!! [blogs.yahoo.co.jp]
 			!! 宣伝
+				||yimg.jp/i/jp/blog/p3/js/*
 				blogs.yahoo.co.jp##div[class^="newblogInfo"]
 			!! 広告
 				blogs.yahoo.co.jp##div[id*="AdBanner"]

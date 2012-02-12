@@ -665,6 +665,9 @@
 					##A[href*="microad.jp"]
 				||adingo.jp^
 					##A[href*="adingo.jp"]
+				||a8.net^
+					##A[href*="a8.net"]
+					##SCRIPT[src*="a8.net"]
 			!! B
 			!! C
 			!! D
@@ -675,6 +678,9 @@
 				||durasite.net^
 					##A[href*="durasite.net"]
 					##IFRAME[src*="durasite.net"]
+				||click.duga.jp^
+					##A[href*="click.duga.jp"]
+					##SCRIPT[src^="click.duga.jp"]
 			!! E
 				||ebis.ne.jp
 					##A[href*="ebis.ne.jp"]
@@ -693,14 +699,20 @@
 					##A[href*="d.href.org.uk"]
 					##IFRAME[src*="d.href.org.uk"]
 			!! I
+				! i2i系は4.NGhostのmfroに書く事。
 				||impact-ad.jp^
 					##A[href*="impact-ad.jp"]
 					##IFRAME[src*="impact-ad.jp"]
-				||i-mobile.co.jp
+				||i-mobile.co.jp^
 					##A[href*="i-mobile.co.jp"]
 					##IFRAME[src*="i-mobile.co.jp"]
 					##SCRIPT[src*="i-mobile.co.jp"]
-				! i2i系は4.NGhostのmfroに書く事。
+				||infotop.jp^
+					##A[href*="infotop.jp"]
+					##SCRIPT[src*="infotop.jp"]
+				||info-restaurant.jp^
+					##A[href*="info-restaurant.jp"]
+					##SCRIPT[src*="info-restaurant.jp"]
 			!! J
 				||j-a-net.jp^
 					##A[href*="j-a-net.jp"]
@@ -722,6 +734,12 @@
 					##A[href*="microad.jp"]
 					##SCRIPT[src*="microad.jp"]
 					##IFRAME[src*="microad.jp"]
+				||media-b.jp^
+					##A[href*="media-b.jp"]
+					##SCRIPT[src*="media-b.jp"]
+				||movja.info^
+					##A[href*="movja.info"]
+					##SCRIPT[src*="movja.info"]
 			!! N
 			!! O
 			!! P
@@ -755,6 +773,9 @@
 				||2mdn.net^
 					##A[href*="2mdn.net"]
 					##IFRAME[src*="2mdn.net"]
+				||9lick.net^
+					##A[href*="9lick.net"]
+					##SCRIPT[src*="9lick.net"]
 
 		!!! [特殊例外]
 			!! このドメインで商売もやっている為、当面は現物のみのブロックとする。
@@ -1349,26 +1370,53 @@
 !
 ! [ブログパーツ用抑止]
 	!!! ブログパーツ用抑止
-		||blogdeco.jp/bp/js/bp.js
-		||trackfeed.com^
-		||blogchart.jp/js/blogparts.js
-		||rakuword.com!!^
-		||e-pagerank.net^
-		||feedmeter.net^
-		||adimg.net^
-		||adimp.excite.co.jp^
-		||c-team.jp^
-		||dlsite.com^$third-party
-		||e-pagerank.net^
-		||feedmeter.net^
 		||awasete.com^
+			##A[href*="awasete.com"]
+			##[src*="awasete.com"]
+		||blogchart.jp^
+			##A[href*="blogchart.jp"]
+			##[src*="blogchart.jp"]
+		||blogdeco.jp^
+			##A[href*="blogdeco.jp"]
+			##[src*="blogdeco.jp"]
 		||blogmura.com^
-		##A[href^="http://clap.fc2.com/"]
-		##A[href*="shard.jp"]
-		##A[href*="tophatenar.com"]
-		##A[href*="xii.jp"]
-		##A[href*="y-nomnom.info"]
-	!!! <end>
+			##A[href*="blogmura.com"]
+			##[src*="blogmura.com"]
+		||blogpark.jp^
+			##A[href*="blogpark.jp"]
+			##[src*="blogpark.jp"]
+		||c-team.jp^
+			##A[href*="c-team.jp"]
+			##[src*="c-team.jp"]
+		||dlsite.com^$third-party
+			##A[href*="dlsite.com"]
+			##[src*="dlsite.com"]
+		||e-pagerank.net^
+			##A[href*="e-pagerank.net"]
+			##[src*="e-pagerank.net"]
+		||feedmeter.net^
+			##A[href*="feedmeter.net"]
+			##[src*="feedmeter.net"]
+		||rakuword.com^
+			##A[href*="rakuword.com"]
+			##[src*="rakuword.com"]
+		||shard.jp^
+			##A[href*="shard.jp"]
+			##[src*="shard.jp"]
+		||tophatenar.com^
+			##A[href*="tophatenar.com"]
+			##[src*="tophatenar.com"]
+		||trackfeed.com^
+			##A[href*="trackfeed.com"]
+			##[src*="trackfeed.com"]
+		||xii.jp^
+			##A[href*="xii.jp"]
+			##[src*="xii.jp"]
+		||y-nomnom.info^
+			##A[href*="y-nomnom.info"]
+			##[src*="y-nomnom.info"]
+
+!!! <end>
 
 	!!! [ameblo]
 			!! 1*1画像検出
@@ -1411,9 +1459,26 @@
 
 	!!! <end>
 
+	!!! [dtiblog]
+		!! 許可対象
+			||analyzer.dtiblog.com^
+			||analyzer2.dtiblog.com^
+		!! 抑止対象
+			##A[href^="http://click.dtiserv2.com/"]
+
+
+	!!! <end>
+
 	!!! [blog.livedoor.*]
 			!! weblog
 				||logping.exblog.jp^
+
+	!!! <end>
+
+	!!! [excite]
+		!! 許可対象
+			||adimp.excite.co.jp^
+		!! 抑止対象
 
 	!!! <end>
 
@@ -1445,6 +1510,8 @@
 			!! ぶろぐらんきんぐ
 				||blogranking.fc2.com/*
 				##A[href^="http://blogranking.fc2.com/"]
+			!! Web拍手
+				##A[href*="clap.fc2.com"]
 
 	!!! <end>
 
@@ -1497,6 +1564,7 @@
 
 	!!! [blogs.yahoo.co.jp]
 			!! 宣伝
+				||yimg.jp/i/jp/blog/p3/js/*
 				blogs.yahoo.co.jp##div[class^="newblogInfo"]
 			!! 広告
 				blogs.yahoo.co.jp##div[id*="AdBanner"]

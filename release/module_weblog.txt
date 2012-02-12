@@ -28,26 +28,53 @@
 !
 ! [ブログパーツ用抑止]
 	!!! ブログパーツ用抑止
-		||blogdeco.jp/bp/js/bp.js
-		||trackfeed.com^
-		||blogchart.jp/js/blogparts.js
-		||rakuword.com!!^
-		||e-pagerank.net^
-		||feedmeter.net^
-		||adimg.net^
-		||adimp.excite.co.jp^
-		||c-team.jp^
-		||dlsite.com^$third-party
-		||e-pagerank.net^
-		||feedmeter.net^
 		||awasete.com^
+			##A[href*="awasete.com"]
+			##[src*="awasete.com"]
+		||blogchart.jp^
+			##A[href*="blogchart.jp"]
+			##[src*="blogchart.jp"]
+		||blogdeco.jp^
+			##A[href*="blogdeco.jp"]
+			##[src*="blogdeco.jp"]
 		||blogmura.com^
-		##A[href^="http://clap.fc2.com/"]
-		##A[href*="shard.jp"]
-		##A[href*="tophatenar.com"]
-		##A[href*="xii.jp"]
-		##A[href*="y-nomnom.info"]
-	!!! <end>
+			##A[href*="blogmura.com"]
+			##[src*="blogmura.com"]
+		||blogpark.jp^
+			##A[href*="blogpark.jp"]
+			##[src*="blogpark.jp"]
+		||c-team.jp^
+			##A[href*="c-team.jp"]
+			##[src*="c-team.jp"]
+		||dlsite.com^$third-party
+			##A[href*="dlsite.com"]
+			##[src*="dlsite.com"]
+		||e-pagerank.net^
+			##A[href*="e-pagerank.net"]
+			##[src*="e-pagerank.net"]
+		||feedmeter.net^
+			##A[href*="feedmeter.net"]
+			##[src*="feedmeter.net"]
+		||rakuword.com^
+			##A[href*="rakuword.com"]
+			##[src*="rakuword.com"]
+		||shard.jp^
+			##A[href*="shard.jp"]
+			##[src*="shard.jp"]
+		||tophatenar.com^
+			##A[href*="tophatenar.com"]
+			##[src*="tophatenar.com"]
+		||trackfeed.com^
+			##A[href*="trackfeed.com"]
+			##[src*="trackfeed.com"]
+		||xii.jp^
+			##A[href*="xii.jp"]
+			##[src*="xii.jp"]
+		||y-nomnom.info^
+			##A[href*="y-nomnom.info"]
+			##[src*="y-nomnom.info"]
+
+!!! <end>
 
 	!!! [ameblo]
 			!! 1*1画像検出
@@ -90,9 +117,26 @@
 
 	!!! <end>
 
+	!!! [dtiblog]
+		!! 許可対象
+			||analyzer.dtiblog.com^
+			||analyzer2.dtiblog.com^
+		!! 抑止対象
+			##A[href^="http://click.dtiserv2.com/"]
+
+
+	!!! <end>
+
 	!!! [blog.livedoor.*]
 			!! weblog
 				||logping.exblog.jp^
+
+	!!! <end>
+
+	!!! [excite]
+		!! 許可対象
+			||adimp.excite.co.jp^
+		!! 抑止対象
 
 	!!! <end>
 
@@ -124,6 +168,8 @@
 			!! ぶろぐらんきんぐ
 				||blogranking.fc2.com/*
 				##A[href^="http://blogranking.fc2.com/"]
+			!! Web拍手
+				##A[href*="clap.fc2.com"]
 
 	!!! <end>
 
@@ -176,6 +222,7 @@
 
 	!!! [blogs.yahoo.co.jp]
 			!! 宣伝
+				||yimg.jp/i/jp/blog/p3/js/*
 				blogs.yahoo.co.jp##div[class^="newblogInfo"]
 			!! 広告
 				blogs.yahoo.co.jp##div[id*="AdBanner"]

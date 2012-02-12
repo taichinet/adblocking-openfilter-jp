@@ -26,6 +26,8 @@
 			!! ぶろぐらんきんぐ
 				||blogranking.fc2.com/*
 				##A[href^="http://blogranking.fc2.com/"]
+			!! Web拍手
+				##A[href*="clap.fc2.com"]
 
 	!!! <end>
 
