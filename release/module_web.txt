@@ -176,7 +176,6 @@
 				||ad.nicovideo.jp^
 			!! uad.
 				||uad.nicovideo.jp/delivery/assets/swf/*
-				||uad.nicovideo.jp/Uads*
 			!! app-cliapi.
 				|app-cliapi.nicovideo.jp/crossdomain.xml
 				||flapi.nicovideo.jp/api/getmarqueev3

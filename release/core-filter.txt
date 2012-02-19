@@ -184,6 +184,10 @@
 			||z-ecx.images-amazon.com^
 			##IFRAME[src*="/inc/amazon.php"]
 			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
+			##DIV[class^="amazon"]
+			##IFRAME[src$="/amazon_rotate.html"]
+			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
+			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -230,6 +234,7 @@
 			##A[href^="http://adlyze.net/"]
 		!! xii.jp
 			##A[href*="ad.xii.jp"]
+
 
 	!!! <end>
 
@@ -278,8 +283,10 @@
 			##div[id*="rss"]
 			##div[class*="rss"]
 			##script[src*="rss"]
-			##iframe[title*="rss"]
-			##iframe[src*="rss"]
+			##IFRAME[title*="rss"]
+			##IFRAME[src*="rss"]
+			##IFRAME[CLASS*="head_rss"]
+			##IFRAME[ID*="head_rss"]
 		!! 行頭一致
 			##DIV[id^="rss"]
 	!!! 3:“RSS”以外の表記
@@ -311,7 +318,15 @@
 			##div[class^="blogroll"]
 			##script[src*="blogroll"]
 			##iframe[src*="blogroll"]
+		!! 5.ayapon
+			##P[class*="ayapon"]
+			##P[id*="ayapon"]
+		!! 6.rssad
+			##IMG[src^="http://rss.rssad.jp/rss/img/"]
+		!! 7.antena
+			##DIV[class^="antena"]
 
+		
 	!!! <end>
 
 ! [core-4_corelevel-NGhost]NGhost:コアレベルで抑止すべきホストを記述する

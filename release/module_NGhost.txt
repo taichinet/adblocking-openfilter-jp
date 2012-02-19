@@ -230,6 +230,8 @@
 					##IFRAME[src*="i2i."]
 					##SCRIPT[src*="i2i."]
 					##IMG[title*="i2i."]
+					##DIV[class*="i2i"]
+					##DIV[id*="i2i"]
 					##A[href*="i2iserv."]
 					##IFRAME[src*="i2iserv."]
 					##SCRIPT[src*="i2iserv."]

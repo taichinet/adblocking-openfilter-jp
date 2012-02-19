@@ -144,6 +144,10 @@
 			||z-ecx.images-amazon.com^
 			##IFRAME[src*="/inc/amazon.php"]
 			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
+			##DIV[class^="amazon"]
+			##IFRAME[src$="/amazon_rotate.html"]
+			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
+			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -190,6 +194,7 @@
 			##A[href^="http://adlyze.net/"]
 		!! xii.jp
 			##A[href*="ad.xii.jp"]
+
 
 	!!! <end>
 
