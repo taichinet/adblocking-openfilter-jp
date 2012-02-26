@@ -151,6 +151,11 @@
 					@@||app.nicovideo.jp^
 					@@||app-cliapi.nicovideo.jp^
 					@@||app-pay.nicovideo.jp^
+					@@||app.nicovideo.jp/watch/*$document
+				!! uad系
+					@@||uad.nicovideo.jp/ads/*
+					@@||uad.nicovideo.jp/UadsBannerService/send
+					@@||api.uad.nicovideo.jp^
 				!! flapi系
 					@@||flapi.nicovideo.jp/api/*
 				!! nimg.jp
@@ -163,6 +168,9 @@
 						@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
 						@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
 						@@nicovideo.jp##DIV[id^="ichiba"]
+						@@||res.nimg.jp/js/ads.js?*$domain=nicovideo.jp
+						@@||res.nimg.jp/css/ads.css?*$domain=nicovideo.jp
+						@@||item.shopping.c.yimg.jp^$domain=nicovideo.jp
 				!! 外部
 						@@||nicoimg.ggood.jp^$domain=nicovideo.jp
 						@@||images-amazon.com^$domain=nicovideo.jp
@@ -198,6 +206,10 @@
 				||res.nimg.jp/swf/appli/*
 				||res.nimg.jp/swf/player/marqueeplayer.swf?*
 				||res.nimg.jp/img/system/marquee/event*
+				||res.nimg.jp/swf/player/user_sponsor.swf*
+				|http://res.nimg.jp/img/watch/info_tab*0_right.png*
+				|http://res.nimg.jp/img/watch/info_tab/*_right.png*
+				|http://res.nimg.jp/swf/player/user_sponsor.swf*
 			!! icon系
 				||icon.nimg.jp^$domain=live.nicovideo.jp
 		!!! 非表示
@@ -212,12 +224,13 @@
 				nicovideo.jp##DIV[id^="content_312"]
 				nicovideo.jp##DIV[id="banner-side"]
 				nicovideo.jp##DIV[id="banner-top"]
+				nicovideo.jp##DIV[id="web_pc_watch"]|http://res.nimg.jp/img/watch/info_tab/*_left.png*
+				nicovideo.jp##P[id="web_pc_prime"]
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
 
 	!!! <end>
-
 	!!! [すらど.jp]
 				slashdot.jp##div[id="ads-index-text"]
 				slashdot.jp##div[id^="gpt-sd_index"]

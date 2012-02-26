@@ -31,6 +31,9 @@
 		||awasete.com^
 			##A[href*="awasete.com"]
 			##[src*="awasete.com"]
+		||a-pagerank.net^
+		
+		||addclips.org/*/addclips.js
 		||blogchart.jp^
 			##A[href*="blogchart.jp"]
 			##[src*="blogchart.jp"]
@@ -73,6 +76,8 @@
 		||y-nomnom.info^
 			##A[href*="y-nomnom.info"]
 			##[src*="y-nomnom.info"]
+		||nakanohito.jp^
+		||ax.xrea.com/*.gif
 
 !!! <end>
 
@@ -121,6 +126,7 @@
 		!! 許可対象
 			||analyzer.dtiblog.com^
 			||analyzer2.dtiblog.com^
+			||dtiserv2.com^
 		!! 抑止対象
 			##A[href^="http://click.dtiserv2.com/"]
 

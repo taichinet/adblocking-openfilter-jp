@@ -1,6 +1,8 @@
 	!!! [DMM]
 		!! 抑止対象
 			##A[href*="dmm.co.jp"]
+			||dmm.com/af/*
+			||dmm.com/af/dmmad/adsite/*
 
 	!!! <end>
 

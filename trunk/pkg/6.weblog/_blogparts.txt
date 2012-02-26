@@ -3,6 +3,9 @@
 		||awasete.com^
 			##A[href*="awasete.com"]
 			##[src*="awasete.com"]
+		||a-pagerank.net^
+		
+		||addclips.org/*/addclips.js
 		||blogchart.jp^
 			##A[href*="blogchart.jp"]
 			##[src*="blogchart.jp"]
@@ -45,6 +48,8 @@
 		||y-nomnom.info^
 			##A[href*="y-nomnom.info"]
 			##[src*="y-nomnom.info"]
+		||nakanohito.jp^
+		||ax.xrea.com/*.gif
 
 !!! <end>
 

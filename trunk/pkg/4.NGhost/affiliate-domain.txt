@@ -66,6 +66,11 @@
 					##IFRAME[src*="extreme-dm.com"]
 			!! F
 			!! G
+				||gyutto.com
+					! /gyutto\.(com|net|jp)\/*\/*banner_img/
+					||gyutto.com/data/af_banner_img/*
+					||gyutto.jp/data/banner_img/*
+					##A[href*="gyutto.com"][href*="/af"]
 			!! H
 				||d.href.org.uk^
 					##A[href*="d.href.org.uk"]
@@ -77,6 +82,7 @@
 					##IFRAME[src*="impact-ad.jp"]
 				||i-mobile.co.jp^
 					##A[href*="i-mobile.co.jp"]
+					##[src*="i-mobile.co.jp"]
 					##IFRAME[src*="i-mobile.co.jp"]
 					##SCRIPT[src*="i-mobile.co.jp"]
 				||infotop.jp^
@@ -148,6 +154,7 @@
 				||9lick.net^
 					##A[href*="9lick.net"]
 					##SCRIPT[src*="9lick.net"]
+					##A[href^="http://9lick.net/click.php"]
 
 		!!! [特殊例外]
 			!! このドメインで商売もやっている為、当面は現物のみのブロックとする。

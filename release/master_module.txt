@@ -48,130 +48,131 @@
 			||ad.
 		!! 2.div記述
 			!! id
-				##div[id*="adBlock"]
-				##div[id*="adbox"]
-				##div[id*="AdContainer"]
-				##div[id^="ads"]
-				##div[id^="ads-"]
-				##div[id*="adsense"]
-				##div[id="adtext"]
-				##div[id="adTitle"]
-				##div[id*="affiliate"]
-				##div[id*="autopagerize_insert_before"]
-				##div[id*="banner"]
-				##div[id*="banner_eye_catch_bottom"]
-				##div[id*="become"]
-				##div[id*="become_ads"]
-				##div[id*="blogcampaign"]
-				##div[id*="bpbox_text"]
-				##div[id*="headerBanner"]
-				##div[id*="imAds"]
-				##div[id*="im-wrapper-re"]
-				##div[id*="interested"]
-				##div[id*="interestMatch"]
-				##div[id*="mainad"]
-				##div[id*="main-header-banner-box"]
-				##div[id*="mediaBanner"]
-				##div[id*="module-adsense module"]
-				##div[id*="newsFooter"]
-				##div[id*="partner-box"]
-				##div[id*="pickup"]
-				!##div[id*="pr"]
-				##div[id*="promo"]
-				##div[id*="showAdv"]
-				##div[id*="squareAd"]
-				##div[id*="textAd"]
+				##DIV[id*="adBlock"]
+				##DIV[id*="adbox"]
+				##DIV[id*="AdContainer"]
+				##DIV[id^="ads"]
+				##DIV[id^="ads-"]
+				##DIV[id*="adsense"]
+				##DIV[id="adtext"]
+				##DIV[id="adTitle"]
+				##DIV[id*="affiliate"]
+				##DIV[id*="autopagerize_insert_before"]
+				##DIV[id*="banner"]
+				##DIV[id*="banner_eye_catch_bottom"]
+				##DIV[id*="become"]
+				##DIV[id*="become_ads"]
+				##DIV[id*="blogcampaign"]
+				##DIV[id*="bpbox_text"]
+				##DIV[id*="headerBanner"]
+				##DIV[id*="imAds"]
+				##DIV[id*="im-wrapper-re"]
+				##DIV[id*="interested"]
+				##DIV[id*="interestMatch"]
+				##DIV[id*="mainad"]
+				##DIV[id*="main-header-banner-box"]
+				##DIV[id*="mediaBanner"]
+				##DIV[id*="module-adsense module"]
+				##DIV[id*="newsFooter"]
+				##DIV[id*="partner-box"]
+				##DIV[id*="pickup"]
+				!##DIV[id*="pr"]
+				##DIV[id*="promo"]
+				##DIV[id*="showAdv"]
+				##DIV[id*="squareAd"]
+				##DIV[id*="textAd"]
 			!! class記述
-				##div[class*="adBlock"]
-				##div[class*="adbox"]
-				##div[class*="AdContainer"]
-				##div[class^="ads"]
-				##div[class^="ads-"]
-				##div[class*="adsense"]
-				##div[class="adtext"]
-				##div[class="adTitle"]
-				##div[class*="affiliate"]
-				##div[class*="autopagerize_insert_before"]
-				##div[class*="banner"]
-				##div[class*="banner_eye_catch_bottom"]
-				##div[class*="become"]
-				##div[class*="become_ads"]
-				##div[class*="blogcampaign"]
-				##div[class*="bpbox_text"]
-				##div[class*="headerBanner"]
-				##div[class*="imAds"]
-				##div[class*="im-wrapper-re"]
-				##div[class*="interested"]
-				##div[class*="interestMatch"]
-				##div[class*="mainad"]
-				##div[class*="main-header-banner-box"]
-				##div[class*="mediaBanner"]
-				##div[class*="module-adsense module"]
-				##div[class*="newsFooter"]
-				##div[class*="partner-box"]
-				##div[class*="pickup"]
-				!##div[class*="pr"]
-				##div[class*="promo"]
-				##div[class*="showAdv"]
-				##div[class*="squareAd"]
-				##div[class*="textAd"]
+				##DIV[class*="adBlock"]
+				##DIV[class*="adbox"]
+				##DIV[class*="AdContainer"]
+				##DIV[class^="ads"]
+				##DIV[class^="ads-"]
+				##DIV[class*="adsense"]
+				##DIV[class="adtext"]
+				##DIV[class="adTitle"]
+				##DIV[class*="affiliate"]
+				##DIV[class*="autopagerize_insert_before"]
+				##DIV[class*="banner"]
+				##DIV[class*="banner_eye_catch_bottom"]
+				##DIV[class*="become"]
+				##DIV[class*="become_ads"]
+				##DIV[class*="blogcampaign"]
+				##DIV[class*="bpbox_text"]
+				##DIV[class*="headerBanner"]
+				##DIV[class*="imAds"]
+				##DIV[class*="im-wrapper-re"]
+				##DIV[class*="interested"]
+				##DIV[class*="interestMatch"]
+				##DIV[class*="mainad"]
+				##DIV[class*="main-header-banner-box"]
+				##DIV[class*="mediaBanner"]
+				##DIV[class*="module-adsense module"]
+				##DIV[class*="newsFooter"]
+				##DIV[class*="partner-box"]
+				##DIV[class*="pickup"]
+				!##DIV[class*="pr"]
+				##DIV[class*="promo"]
+				##DIV[class*="showAdv"]
+				##DIV[class*="squareAd"]
+				##DIV[class*="textAd"]
 			!! 改修予定
-				##div[id*="/AD"]
-				##div[id*="/Ad"]
-				##div[id*="/ad"]
-				##div[id*="/AD"]
-				##div[id*="/Ad"]
-				##div[id*="/ad"]
-				##div[id$="_ad"]
-				##div[id$="_ads"]
-				!	##div[id^="ad"]
-				##div[id^="ad-"]
-				##div[id^="ad_"]
-				##div[class*="/AD"]
-				##div[class*="/Ad"]
-				##div[class*="/ad"]
-				##div[class*="/AD"]
-				##div[class*="/Ad"]
-				##div[class*="/ad"]
-				##div[class$="_ad"]
-				##div[class$="_ads"]
-				!	##div[class^="ad"]
-				##div[class^="ad-"]
-				##div[class^="ad_"]
+				##DIV[id*="/AD"]
+				##DIV[id*="/Ad"]
+				##DIV[id*="/ad"]
+				##DIV[id*="/AD"]
+				##DIV[id*="/Ad"]
+				##DIV[id*="/ad"]
+				##DIV[id$="_ad"]
+				##DIV[id$="_ads"]
+				!	##DIV[id^="ad"]
+				##DIV[id^="ad-"]
+				##DIV[id^="ad_"]
+				##DIV[class*="/AD"]
+				##DIV[class*="/Ad"]
+				##DIV[class*="/ad"]
+				##DIV[class*="/AD"]
+				##DIV[class*="/Ad"]
+				##DIV[class*="/ad"]
+				##DIV[class$="_ad"]
+				##DIV[class$="_ads"]
+				!	##DIV[class^="ad"]
+				##DIV[class^="ad-"]
+				##DIV[class^="ad_"]
 		!! 3.script記述
-			##script[src*="ad_common.js"]
-			##script[src*="ad_parts.js"]
+			##SCRIPT[src*="ad_common.js"]
+			##SCRIPT[src*="ad_parts.js"]
 		!! 4.iframe記述
-			##iframe[src^="http://ad."]
-			##iframe[src^="https://ad."]
-			##iframe[src^="http://ads."]
-			##iframe[src^="https://ads."]
+			##IFRAME[src^="http://ad."]
+			##IFRAME[src^="https://ad."]
+			##IFRAME[src^="http://ads."]
+			##IFRAME[src^="https://ads."]
 			##IFRAME[src$="/ad.htm"]
 			##IFRAME[src$="/ad2.htm"]
 			##IFRAME[src$="/ad.html"]
 			##IFRAME[src$="/ad2.html"]
-			##iframe[src*="adserver"]
+			##IFRAME[src*="adserver"]
 			##IFRAME[src*="affiliate"]
 		!! 5.ハイパーリンク指定
-			##a[href*="/Click/"]
-			##a[href*="/click/"]
-			##a[href*="/link/?"]
-			##a[href*="?AD="]
-			##a[href*="?ad="]
-			##a[href*="ADCLICK"]
-			##a[href*="adclick"]
-			##a[href*="AdID="]
-			##a[href*="ADV="]
-			##a[href*="/ad/"]
-			##a[href*="/ads."]
-			##a[href*="/adv/"]
-			##a[href*="/advert"]
-			##a[href^="http://ad."]
-			##a[href*="http://ads."]
-			##a[href*="affiliate"]
+			##A[href*="/Click/"]
+			##A[href*="/click/"]
+			##A[href*="/link/?"]
+			##A[href*="?AD="]
+			##A[href*="?ad="]
+			##A[href*="ADCLICK"]
+			##A[href*="adclick"]
+			##A[href*="AdID="]
+			##A[href*="ADV="]
+			##A[href*="/ad/"]
+			##A[href*="/ads."]
+			##A[href*="/adv/"]
+			##A[href*="/advert"]
+			##A[href^="http://ad."]
+			##A[href*="http://ads."]
+			##A[href*="affiliate"]
 		!! 6.その他表記
-			##div[id*="buyPremium"]
-			##div[id*="sponsered_contents"]
+			##DIV[id*="buyPremium"]
+			##DIV[id*="sponsered_contents"]
+			/adlisting.php
 	!!! 2:特定ドメイン直
 		!! amazon
 			||amazon.co.jp/widgets/*
@@ -188,6 +189,7 @@
 			##IFRAME[src$="/amazon_rotate.html"]
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
+			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -196,11 +198,11 @@
 			||durasite.net^
 		!!impact-ad.jp
 			||impact-ad.jp^
-				##a[href*="impact-ad.jp"]
-				##script[src*="impact-ad.jp"]				
-				##iframe[src*="impact-ad.jp"]
+				##A[href*="impact-ad.jp"]
+				##SCRIPT[src*="impact-ad.jp"]
+				##IFRAME[src*="impact-ad.jp"]
 				##img[src*="impact-ad.jp"]
-				##script[src*="impact-ad.jp"]
+				##SCRIPT[src*="impact-ad.jp"]
 		!! microad.jp
 			||microad.jp^
 			##IFRAME[src*="microad.jp"]
@@ -211,10 +213,10 @@
 			##DIV[id^="google_afc"]
 			||googlesyndication.com^
 				/pagead*\.googlesyndication\.com/
-				##a[href*="googlesyndication.com"]
+				##A[href*="googlesyndication.com"]
 		!! doubleclick.net
 			||doubleclick.net^
-				##a[href*="doubleclick.net"]
+				##A[href*="doubleclick.net"]
 		!! livedoor系
 			##A[href^="http://ck.rd.livedoor.com/ck/"]
 		!! xmax系
@@ -267,6 +269,15 @@
 			/bmv[0-9][0-9]\.js/
 			/bm[0-9][0-9]f\.js/
 			/bm[0-9][0-9]\.js/
+	!! SEO対策
+		||seo-stats.com^
+		||seoparts.com^
+		||seo.net-tribe.jp^
+		||seoparts.net^
+	!! トラック
+		||trackword.net^
+		||trackword.biz^
+		||webtracker.jp^
 
 	!!! <end>
 
@@ -387,6 +398,8 @@
 	!!! [DMM]
 		!! 抑止対象
 			##A[href*="dmm.co.jp"]
+			||dmm.com/af/*
+			||dmm.com/af/dmmad/adsite/*
 
 	!!! <end>
 
@@ -709,6 +722,11 @@
 					##IFRAME[src*="extreme-dm.com"]
 			!! F
 			!! G
+				||gyutto.com
+					! /gyutto\.(com|net|jp)\/*\/*banner_img/
+					||gyutto.com/data/af_banner_img/*
+					||gyutto.jp/data/banner_img/*
+					##A[href*="gyutto.com"][href*="/af"]
 			!! H
 				||d.href.org.uk^
 					##A[href*="d.href.org.uk"]
@@ -720,6 +738,7 @@
 					##IFRAME[src*="impact-ad.jp"]
 				||i-mobile.co.jp^
 					##A[href*="i-mobile.co.jp"]
+					##[src*="i-mobile.co.jp"]
 					##IFRAME[src*="i-mobile.co.jp"]
 					##SCRIPT[src*="i-mobile.co.jp"]
 				||infotop.jp^
@@ -791,6 +810,7 @@
 				||9lick.net^
 					##A[href*="9lick.net"]
 					##SCRIPT[src*="9lick.net"]
+					##A[href^="http://9lick.net/click.php"]
 
 		!!! [特殊例外]
 			!! このドメインで商売もやっている為、当面は現物のみのブロックとする。
@@ -1245,6 +1265,11 @@
 					@@||app.nicovideo.jp^
 					@@||app-cliapi.nicovideo.jp^
 					@@||app-pay.nicovideo.jp^
+					@@||app.nicovideo.jp/watch/*$document
+				!! uad系
+					@@||uad.nicovideo.jp/ads/*
+					@@||uad.nicovideo.jp/UadsBannerService/send
+					@@||api.uad.nicovideo.jp^
 				!! flapi系
 					@@||flapi.nicovideo.jp/api/*
 				!! nimg.jp
@@ -1257,6 +1282,9 @@
 						@@nicovideo.jp##a[href*="ap.valuecommerce.com"]
 						@@nicovideo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/servlet/"]
 						@@nicovideo.jp##DIV[id^="ichiba"]
+						@@||res.nimg.jp/js/ads.js?*$domain=nicovideo.jp
+						@@||res.nimg.jp/css/ads.css?*$domain=nicovideo.jp
+						@@||item.shopping.c.yimg.jp^$domain=nicovideo.jp
 				!! 外部
 						@@||nicoimg.ggood.jp^$domain=nicovideo.jp
 						@@||images-amazon.com^$domain=nicovideo.jp
@@ -1292,6 +1320,10 @@
 				||res.nimg.jp/swf/appli/*
 				||res.nimg.jp/swf/player/marqueeplayer.swf?*
 				||res.nimg.jp/img/system/marquee/event*
+				||res.nimg.jp/swf/player/user_sponsor.swf*
+				|http://res.nimg.jp/img/watch/info_tab*0_right.png*
+				|http://res.nimg.jp/img/watch/info_tab/*_right.png*
+				|http://res.nimg.jp/swf/player/user_sponsor.swf*
 			!! icon系
 				||icon.nimg.jp^$domain=live.nicovideo.jp
 		!!! 非表示
@@ -1306,12 +1338,13 @@
 				nicovideo.jp##DIV[id^="content_312"]
 				nicovideo.jp##DIV[id="banner-side"]
 				nicovideo.jp##DIV[id="banner-top"]
+				nicovideo.jp##DIV[id="web_pc_watch"]|http://res.nimg.jp/img/watch/info_tab/*_left.png*
+				nicovideo.jp##P[id="web_pc_prime"]
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
 
 	!!! <end>
-
 	!!! [すらど.jp]
 				slashdot.jp##div[id="ads-index-text"]
 				slashdot.jp##div[id^="gpt-sd_index"]
@@ -1389,6 +1422,9 @@
 		||awasete.com^
 			##A[href*="awasete.com"]
 			##[src*="awasete.com"]
+		||a-pagerank.net^
+		
+		||addclips.org/*/addclips.js
 		||blogchart.jp^
 			##A[href*="blogchart.jp"]
 			##[src*="blogchart.jp"]
@@ -1431,6 +1467,8 @@
 		||y-nomnom.info^
 			##A[href*="y-nomnom.info"]
 			##[src*="y-nomnom.info"]
+		||nakanohito.jp^
+		||ax.xrea.com/*.gif
 
 !!! <end>
 
@@ -1479,6 +1517,7 @@
 		!! 許可対象
 			||analyzer.dtiblog.com^
 			||analyzer2.dtiblog.com^
+			||dtiserv2.com^
 		!! 抑止対象
 			##A[href^="http://click.dtiserv2.com/"]
 
