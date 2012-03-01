@@ -1321,9 +1321,10 @@
 				||res.nimg.jp/swf/player/marqueeplayer.swf?*
 				||res.nimg.jp/img/system/marquee/event*
 				||res.nimg.jp/swf/player/user_sponsor.swf*
-				|http://res.nimg.jp/img/watch/info_tab*0_right.png*
-				|http://res.nimg.jp/img/watch/info_tab/*_right.png*
-				|http://res.nimg.jp/swf/player/user_sponsor.swf*
+				||res.nimg.jp/img/watch/info_tab/*_left.png*
+				||res.nimg.jp/img/watch/info_tab*0_right.png*
+				||res.nimg.jp/img/watch/info_tab/*_right.png*
+				||res.nimg.jp/swf/player/user_sponsor.swf*
 			!! icon系
 				||icon.nimg.jp^$domain=live.nicovideo.jp
 		!!! 非表示
@@ -1338,7 +1339,7 @@
 				nicovideo.jp##DIV[id^="content_312"]
 				nicovideo.jp##DIV[id="banner-side"]
 				nicovideo.jp##DIV[id="banner-top"]
-				nicovideo.jp##DIV[id="web_pc_watch"]|http://res.nimg.jp/img/watch/info_tab/*_left.png*
+				nicovideo.jp##DIV[id="web_pc_watch"]
 				nicovideo.jp##P[id="web_pc_prime"]
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
