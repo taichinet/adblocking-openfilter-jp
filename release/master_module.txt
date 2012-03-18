@@ -641,7 +641,11 @@
 
 	!!! <end>
 
-	!!! [読売]
+	!!! [yomiuri.co.jp]
+
+				||yomiuri.co.jp/g/d.gif
+				||yomiuri.co.jp/scripts/tw_widget2.js?*
+				||yomiuri.co.jp/scripts/socialbuttons3.4.js
 				yomiuri.co.jp##div[class="yahooAd"]
 				yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
 				yomiuri.co.jp##div[class="ad200-out"]
@@ -1145,18 +1149,18 @@
 		!! 表示簡略化
 			||creative.ak.fbcdn.net/*/flyers/*
 			||facebook.com/ajax/emu/end.php*$domain=facebook.com
-			facebook.com##a[href*="/ajax/emu/end.php"]
-			facebook.com##a[href^="/campaign/landing.php"]
-			facebook.com##a[class="uiIconLink emuEventfad_fan fbEmuLink"]
-			facebook.com##a[ajaxify*="en=fad_fan"]
-			facebook.com##a[class="uiHeaderActions rfloat"][href^="/campaign/landing.php"]
-			facebook.com##div[id="pagelet_mutual"]
-			facebook.com##div[id="pagelet_ego_pane"]
-			facebook.com##div[class="ego_column"]
-			facebook.com##div[class="ego_section"]
-			facebook.com##span[class="fbEmuContext"]
-			facebook.com##span[class="muffin_tracking_pixel_start"]
-			facebook.com##div[class^="auto_resize_iframe"]
+			facebook.com##A[href*="/ajax/emu/end.php"]
+			facebook.com##A[href^="/campaign/landing.php"]
+			facebook.com##A[class="uiIconLink emuEventfad_fan fbEmuLink"]
+			facebook.com##A[ajaxify*="en=fad_fan"]
+			facebook.com##A[class="uiHeaderActions rfloat"][href^="/campaign/landing.php"]
+			facebook.com##DIV[id="pagelet_mutual"]
+			facebook.com##DIV[id="pagelet_ego_pane"]
+			facebook.com##DIV[class="ego_column"]
+			facebook.com##DIV[class="ego_section"]
+			facebook.com##SPAN[class="fbEmuContext"]
+			facebook.com##SPAN[class="muffin_tracking_pixel_start"]
+			facebook.com##DIV[class^="auto_resize_iframe"]
 		!! 解析用フレーム
 			||facebook.com/ai.php*
 			##iframe[src*="/ai.php"]
@@ -1166,8 +1170,9 @@
 			||connect.facebook.net/*/all.js
 			||facebook.com/iframe/^$third-party
 			||facebook.com/plugins/*$third-party
-			##iframe[src*="facebook.com/plugins/"]
-			##script[src*="connect.facebook.net"]
+			||facebook.com/ajax/pagelet/generic.php/*$subdocument
+			##IFRAME[src*="facebook.com/plugins/"]
+			##SCRIPT[src*="connect.facebook.net"]
 
 	!!! <end>
 

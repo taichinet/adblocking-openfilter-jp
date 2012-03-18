@@ -1,4 +1,8 @@
-	!!! [読売]
+	!!! [yomiuri.co.jp]
+
+				||yomiuri.co.jp/g/d.gif
+				||yomiuri.co.jp/scripts/tw_widget2.js?*
+				||yomiuri.co.jp/scripts/socialbuttons3.4.js
 				yomiuri.co.jp##div[class="yahooAd"]
 				yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
 				yomiuri.co.jp##div[class="ad200-out"]
