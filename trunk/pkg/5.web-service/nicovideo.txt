@@ -7,7 +7,6 @@
 					@@||app.nicovideo.jp^
 					@@||app-cliapi.nicovideo.jp^
 					@@||app-pay.nicovideo.jp^
-					@@||app.nicovideo.jp/watch/*$document
 				!! uad系
 					@@||uad.nicovideo.jp/ads/*
 					@@||uad.nicovideo.jp/UadsBannerService/send
@@ -88,7 +87,6 @@
 				live.nicovideo.jp##DIV[id="carousel"]
 		!! nicoapp用
 			! 調査が終わった物からてきとーに追加する事。
-
 			!! ぱいろん
 				||res.nimg.jp/swf/player/video_menu.swf?*
 				||rsc.nico.pairon.jp/ex/html/notice/images/*
@@ -96,45 +94,44 @@
 				@@||pd.nd.gamania.co.jp/channeling/images/index/btn_game_start_on.jpg
 				@@||pd.nd.gamania.co.jp/channeling/images/gash_charge/*
 				@@||pd.nd.gamania.co.jp/channeling/images/worldselect/*
-				@@||pd.nd.gamania.co.jp/channeling/images/index/*
 				@@||pdgame-nd2.gamania.co.jp/p/base_eq/index/*
 				@@||pdgame-nd2.gamania.co.jp/p/base_fc/*
 				@@||pdgame-nd2.gamania.co.jp/p/base_eq/*
 				@@||pdgame-nd2.gamania.co.jp/p/*
 				@@||pd.nd.gamania.co.jp/inc/js/*
-				pd.nd.gamania.co.jp##DIV#rotation_banner
-				||pd.gamania.co.jp/images/support/news/*
-				||pd.nd.gamania.co.jp/channeling/images/about/*
-				||pd.nd.gamania.co.jp/channeling/images/common/*
-				||pd.nd.gamania.co.jp/channeling/images/common/sidemenu/*
-				||pd.nd.gamania.co.jp/channeling/images/common/title/*
-				||pd.nd.gamania.co.jp/channeling/images/common/title/main_title*.jpg
-				||pd.nd.gamania.co.jp/channeling/images/common/title/title*.jpg
-				||pd.nd.gamania.co.jp/channeling/images/dolls/*
-				||pd.nd.gamania.co.jp/channeling/images/dolls/btn_dolls*_off.jpg
-				||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_index*.jpg
-				||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_sub*.jpg
-				||pd.nd.gamania.co.jp/channeling/images/library/*
-				||pd.nd.gamania.co.jp/channeling/images/shop_guide/*
+				/pd\.nd\.gamania\.co\.jp\/channeling\/images\/((library|shop_guide)\/*|update_*\.jpg)/
+				/pd\.nd\.gamania\.co\.jp\/channeling\/images\/(dolls|about|common)\/*/
+				/pd\.nd\.gamania\.co\.jp\/channeling\/js\/(troublelist|playguide|news)\.js/
 				||pd.nd.gamania.co.jp/channeling/images/update_*.jpg
-				||pd.nd.gamania.co.jp/channeling/js/news.js
-				||pd.nd.gamania.co.jp/channeling/js/playguide.js
-				||pd.nd.gamania.co.jp/channeling/js/troublelist.js
-				||pd.nd.gamania.co.jp/images/jsbanner/*
-				||pd.nd.gamania.co.jp/images/news/category*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/loader/*
 				||pd.nd.gamania.co.jp/images/support/news/*/*/*
-				||pd.nd.gamania.co.jp/inc/js/fancybox_ini.js
-				pdgame-nd2.gamania.co.jp###footer
-
-				!! 試作
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/about\/*
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/*
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/sidemenu\/*
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/title\/*title*\.jpg/
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/dolls\/*/
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/index\/btn_gnb_(index|sub)*\.jpg/
-					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/((library|shop_guide)\/*|update_*\.jpg)/
-					/pd\.nd\.gamania\.co\.jp\/channeling\/(js\/(news|playguide|troublelist)|\.js/
+				||pd.nd.gamania.co.jp/images/jsbanner/*
+				||pd.gamania.co.jp/images/support/news/*
+				pd.nd.gamania.co.jp##DIV[id="rotation_banner"]
+				pdgame-nd2.gamania.co.jp##DIV[id="footer"]
+					!! source
+					!	||pd.gamania.co.jp/images/support/news/*
+					!	||pd.nd.gamania.co.jp/channeling/images/about/*
+					!	||pd.nd.gamania.co.jp/channeling/images/common/*
+					!	||pd.nd.gamania.co.jp/channeling/images/common/sidemenu/*
+					!	||pd.nd.gamania.co.jp/channeling/images/common/title/*
+					!	||pd.nd.gamania.co.jp/channeling/images/common/title/main_title*.jpg
+					!	||pd.nd.gamania.co.jp/channeling/images/common/title/title*.jpg
+					!	||pd.nd.gamania.co.jp/channeling/images/dolls/*
+					!	||pd.nd.gamania.co.jp/channeling/images/dolls/btn_dolls*_off.jpg
+					!	||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_index*.jpg
+					!	||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_sub*.jpg
+					!	||pd.nd.gamania.co.jp/channeling/images/library/*
+					!	||pd.nd.gamania.co.jp/channeling/images/shop_guide/*
+					!	||pd.nd.gamania.co.jp/channeling/images/update_*.jpg
+					!	||pd.nd.gamania.co.jp/channeling/js/news.js
+					!	||pd.nd.gamania.co.jp/channeling/js/playguide.js
+					!	||pd.nd.gamania.co.jp/channeling/js/troublelist.js
+					!	||pd.nd.gamania.co.jp/images/jsbanner/*
+					!	||pd.nd.gamania.co.jp/images/news/category*.jpg
+					!	||pd.nd.gamania.co.jp/images/support/news/*/*/*
+					!	||pd.nd.gamania.co.jp/inc/js/fancybox_ini.js
 			!! プラレール
 				! ウチの環境ではマトモに確認してません。
 				@@||hangame.co.jp^$domain=nicoapp.jp
