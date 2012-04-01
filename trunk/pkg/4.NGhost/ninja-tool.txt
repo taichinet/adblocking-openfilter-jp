@@ -1,5 +1,5 @@
 	!!! [Ninja tools]
-		!!! 正規表現による拒否
+		!! 正規表現による拒否
 			! タグ表記によるブロックは、誤爆多発の危険があるのでやらない予定。
 				/a(ikotoba\.jp|kazunoma\.com|mearare\.com|me-zaiku\.com|migasa\.jp|ri-jigoku\.com|shigaru\.jp|t-ninja\.jp|tukan\.com)/
 				/b(ake-neko\.net|akufu\.org|iroudo\.jp|okunenjin\.com|ufsiz\.jp|utanishinju\.com|uzama\.com|youbu\.com)/
@@ -23,6 +23,7 @@
 				/x(xxxxxxxx\.jp)/
 				/y(aekumo\.com|ahansugi\.com|akigote\.com|akiin\.net|akiuchi\.com|amagomori\.com|amanoha\.com|angotonaki\.com|ohamanzokuja\.com|okinihakarae\.com|okochou\.com|omibitoshirazu\.com|oshi-moto\.com|oshi-tsugu\.com|ukigesho\.com|ukihotaru\.com|ukimizake\.net|uki-mura\.net|ukishigure\.com|umenogotoshi\.com|u-nagi\.com|u-yake\.com)/
 				/z(ashiki\.com|atunen\.com|ouri\.jp)/
-
+		!! サブドメイン
+			||adm.shinobi.jp^
 	!!! <end>
 

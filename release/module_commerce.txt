@@ -77,8 +77,10 @@
 				rakuten.co.jp##script[src*="rakuten.co.jp/js/advertise.js"]
 				rakuten.co.jp##p[class="banner"]
 			!! 外部貼り付け
-				##img[title^="[rakuten.co.jp]"]
-				##a[href*="afl.rakuten.co.jp/"]
+				##A[href*="afl.rakuten.co.jp/"]
+				##IFRAME[src$="adv/rakuten/index.html"]
+				##IMG[title^="[rakuten.co.jp]"]
+				##DIV[id="rakuten_top"]
 			!! afl.
 				afl.rakuten.co.jp##HTML
 				##script[src*="afl.rakuten.co.jp"]

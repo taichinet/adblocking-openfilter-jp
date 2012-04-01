@@ -1,7 +1,11 @@
 	!!! [livedoor]
 		!!! 基本抑止
 			!! 正規表現
-				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate/
+				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
+				||click.livedoor.com^
+				||image.click.livedoor.com/js/livedoortopFlashAd.js
+			!	||app.click.livedoor.com/A-affiliate2/*
+				||news.livedoor.com/img/social/*
 			!! .com
 				livedoor.com##*[href*="A-affiliate"]
 				livedoor.com##div[id^="ad-"]
@@ -33,6 +37,15 @@
 				livedoor.com##div[id="news-special"]
 				livedoor.com##div[id^="footer-ad"]
 				livedoor.com##div[id="commonFooter"]
+			!! TOP
+				livedoor.biz##DIV#analyzer_tags
+				livedoor.biz##DIV[id^="header"]
+				livedoor.com##DIV[id="article-social-tool"]
+				livedoor.com##DIV[class="LDservice-link"]
+				livedoor.com##DIV[class="sub-smartphone-box"]
+			!! news.
+				news.livedoor.com##DIV[class="large-showcase"]
+				news.livedoor.com##DL[class="image-list.image120-80"]
 		!!! サービス
 			!! 多分解析
 				||lcs.livedoor.net^

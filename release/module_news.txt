@@ -220,12 +220,14 @@
 				||yomiuri.co.jp/g/d.gif
 				||yomiuri.co.jp/scripts/tw_widget2.js?*
 				||yomiuri.co.jp/scripts/socialbuttons3.4.js
-				yomiuri.co.jp##div[class="yahooAd"]
-				yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
-				yomiuri.co.jp##div[class="ad200-out"]
-				yomiuri.co.jp##div[class="sideRegularCONT"]
-				yomiuri.co.jp##div[class="sideBlock.mobile"]
-				yomiuri.co.jp##div[class="search.clearfix"]
+				yomiuri.co.jp##DIV[class="yahooAd"]
+				yomiuri.co.jp##DIV[class="sideRecruiteAd.clearfix"]
+				yomiuri.co.jp##DIV[class="ad200-out"]
+				yomiuri.co.jp##DIV[class="sideRegularCONT"]
+				yomiuri.co.jp##DIV[class="sideBlock.mobile"]
+				yomiuri.co.jp##DIV[class="search.clearfix"]
+				yomiuri.co.jp##DIV[class="hPtn1.showUpbr"]
+				yomiuri.co.jp##DIV[class*="txtad"]
 
 	!!! <end>
 

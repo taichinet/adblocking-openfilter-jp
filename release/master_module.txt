@@ -421,8 +421,10 @@
 				rakuten.co.jp##script[src*="rakuten.co.jp/js/advertise.js"]
 				rakuten.co.jp##p[class="banner"]
 			!! 外部貼り付け
-				##img[title^="[rakuten.co.jp]"]
-				##a[href*="afl.rakuten.co.jp/"]
+				##A[href*="afl.rakuten.co.jp/"]
+				##IFRAME[src$="adv/rakuten/index.html"]
+				##IMG[title^="[rakuten.co.jp]"]
+				##DIV[id="rakuten_top"]
 			!! afl.
 				afl.rakuten.co.jp##HTML
 				##script[src*="afl.rakuten.co.jp"]
@@ -646,12 +648,14 @@
 				||yomiuri.co.jp/g/d.gif
 				||yomiuri.co.jp/scripts/tw_widget2.js?*
 				||yomiuri.co.jp/scripts/socialbuttons3.4.js
-				yomiuri.co.jp##div[class="yahooAd"]
-				yomiuri.co.jp##div[class="sideRecruiteAd.clearfix"]
-				yomiuri.co.jp##div[class="ad200-out"]
-				yomiuri.co.jp##div[class="sideRegularCONT"]
-				yomiuri.co.jp##div[class="sideBlock.mobile"]
-				yomiuri.co.jp##div[class="search.clearfix"]
+				yomiuri.co.jp##DIV[class="yahooAd"]
+				yomiuri.co.jp##DIV[class="sideRecruiteAd.clearfix"]
+				yomiuri.co.jp##DIV[class="ad200-out"]
+				yomiuri.co.jp##DIV[class="sideRegularCONT"]
+				yomiuri.co.jp##DIV[class="sideBlock.mobile"]
+				yomiuri.co.jp##DIV[class="search.clearfix"]
+				yomiuri.co.jp##DIV[class="hPtn1.showUpbr"]
+				yomiuri.co.jp##DIV[class*="txtad"]
 
 	!!! <end>
 
@@ -755,6 +759,9 @@
 				||j-a-net.jp^
 					##A[href*="j-a-net.jp"]
 					##IFRAME[src*="j-a-net.jp"]
+				||jpn.org^
+					##A[href*="jpn.org"]
+					##IFRAME[src*="jpn.org"]
 			!! K
 				||kau.li^
 					##A[href*="kau.li"]
@@ -778,6 +785,10 @@
 				||movja.info^
 					##A[href*="movja.info"]
 					##SCRIPT[src*="movja.info"]
+				||motionlink.jp
+					##A[href*="motionlink.jp"]
+					##IMG[title*="motionlink.jp"]
+					##SCRIPT[src*="motionlink.jp"]
 			!! N
 			!! O
 			!! P
@@ -1080,7 +1091,7 @@
 	!!! <end>
 
 	!!! [Ninja tools]
-		!!! 正規表現による拒否
+		!! 正規表現による拒否
 			! タグ表記によるブロックは、誤爆多発の危険があるのでやらない予定。
 				/a(ikotoba\.jp|kazunoma\.com|mearare\.com|me-zaiku\.com|migasa\.jp|ri-jigoku\.com|shigaru\.jp|t-ninja\.jp|tukan\.com)/
 				/b(ake-neko\.net|akufu\.org|iroudo\.jp|okunenjin\.com|ufsiz\.jp|utanishinju\.com|uzama\.com|youbu\.com)/
@@ -1104,7 +1115,8 @@
 				/x(xxxxxxxx\.jp)/
 				/y(aekumo\.com|ahansugi\.com|akigote\.com|akiin\.net|akiuchi\.com|amagomori\.com|amanoha\.com|angotonaki\.com|ohamanzokuja\.com|okinihakarae\.com|okochou\.com|omibitoshirazu\.com|oshi-moto\.com|oshi-tsugu\.com|ukigesho\.com|ukihotaru\.com|ukimizake\.net|uki-mura\.net|ukishigure\.com|umenogotoshi\.com|u-nagi\.com|u-yake\.com)/
 				/z(ashiki\.com|atunen\.com|ouri\.jp)/
-
+		!! サブドメイン
+			||adm.shinobi.jp^
 	!!! <end>
 
 	!!! [ranktool] ランキングツールの非表示化
@@ -1161,6 +1173,7 @@
 			facebook.com##SPAN[class="fbEmuContext"]
 			facebook.com##SPAN[class="muffin_tracking_pixel_start"]
 			facebook.com##DIV[class^="auto_resize_iframe"]
+			facebook.com##DIV[class="home_right_column.tickerOnTop"]
 		!! 解析用フレーム
 			||facebook.com/ai.php*
 			##iframe[src*="/ai.php"]
@@ -1327,9 +1340,9 @@
 				||res.nimg.jp/img/system/marquee/event*
 				||res.nimg.jp/swf/player/user_sponsor.swf*
 				||res.nimg.jp/img/watch/info_tab/*_left.png*
-				||res.nimg.jp/img/watch/info_tab*0_right.png*
 				||res.nimg.jp/img/watch/info_tab/*_right.png*
 				||res.nimg.jp/swf/player/user_sponsor.swf*
+				||res.nimg.jp/js/uad_embed.js
 			!! icon系
 				||icon.nimg.jp^$domain=live.nicovideo.jp
 		!!! 非表示
@@ -1349,6 +1362,58 @@
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
+		!! nicoapp用
+			! 調査が終わった物からてきとーに追加する事。
+
+			!! ぱいろん
+				||res.nimg.jp/swf/player/video_menu.swf?*
+				||rsc.nico.pairon.jp/ex/html/notice/images/*
+			!! WebPD (表示簡略化用)
+				@@||pd.nd.gamania.co.jp/channeling/images/index/btn_game_start_on.jpg
+				@@||pd.nd.gamania.co.jp/channeling/images/gash_charge/*
+				@@||pd.nd.gamania.co.jp/channeling/images/worldselect/*
+				@@||pd.nd.gamania.co.jp/channeling/images/index/*
+				@@||pdgame-nd2.gamania.co.jp/p/base_eq/index/*
+				@@||pdgame-nd2.gamania.co.jp/p/base_fc/*
+				@@||pdgame-nd2.gamania.co.jp/p/base_eq/*
+				@@||pdgame-nd2.gamania.co.jp/p/*
+				@@||pd.nd.gamania.co.jp/inc/js/*
+				pd.nd.gamania.co.jp##DIV#rotation_banner
+				||pd.gamania.co.jp/images/support/news/*
+				||pd.nd.gamania.co.jp/channeling/images/about/*
+				||pd.nd.gamania.co.jp/channeling/images/common/*
+				||pd.nd.gamania.co.jp/channeling/images/common/sidemenu/*
+				||pd.nd.gamania.co.jp/channeling/images/common/title/*
+				||pd.nd.gamania.co.jp/channeling/images/common/title/main_title*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/common/title/title*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/dolls/*
+				||pd.nd.gamania.co.jp/channeling/images/dolls/btn_dolls*_off.jpg
+				||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_index*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/index/btn_gnb_sub*.jpg
+				||pd.nd.gamania.co.jp/channeling/images/library/*
+				||pd.nd.gamania.co.jp/channeling/images/shop_guide/*
+				||pd.nd.gamania.co.jp/channeling/images/update_*.jpg
+				||pd.nd.gamania.co.jp/channeling/js/news.js
+				||pd.nd.gamania.co.jp/channeling/js/playguide.js
+				||pd.nd.gamania.co.jp/channeling/js/troublelist.js
+				||pd.nd.gamania.co.jp/images/jsbanner/*
+				||pd.nd.gamania.co.jp/images/news/category*.jpg
+				||pd.nd.gamania.co.jp/images/support/news/*/*/*
+				||pd.nd.gamania.co.jp/inc/js/fancybox_ini.js
+				pdgame-nd2.gamania.co.jp###footer
+
+				!! 試作
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/about\/*
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/*
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/sidemenu\/*
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/common\/title\/*title*\.jpg/
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/dolls\/*/
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/index\/btn_gnb_(index|sub)*\.jpg/
+					/pd\.nd\.gamania\.co\.jp\/channeling\/images\/((library|shop_guide)\/*|update_*\.jpg)/
+					/pd\.nd\.gamania\.co\.jp\/channeling\/(js\/(news|playguide|troublelist)|\.js/
+			!! プラレール
+				! ウチの環境ではマトモに確認してません。
+				@@||hangame.co.jp^$domain=nicoapp.jp
 
 	!!! <end>
 	!!! [すらど.jp]
@@ -1370,6 +1435,7 @@
 					twitter.com##A[href^="http://blog.twitter.jp/"]
 					twitter.com##DIV[class*="promoted-tweet"]
 					twitter.com##DIV[class="component"] > DIV[class="user-rec-inner"]
+					twitter.com##DIV[class="trends"]
 					twitter.com##DIV[class="trends-inner"]
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
 					twitter.com##H2[class="user-rec-component"]
@@ -1519,6 +1585,13 @@
 
 	!!! <end>
 
+	!!! [blogspot.com]
+		!! 許可対象
+
+		!! 抑止対象
+
+	!!! <end>
+
 	!!! [dtiblog]
 		!! 許可対象
 			||analyzer.dtiblog.com^
@@ -1577,13 +1650,13 @@
 	!!! <end>
 
 	!!! [blog.livedoor.*]
-			!! weblog
-				! 分離計画有り。
+			!! blog.
 				/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 				/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 				||parts.blog.livedoor.jp/js/blog_ads/*
 				||parts.blog.livedoor.jp/js/c2.js
 				||parts.blog.livedoor.jp/js/lcslog.js
+				blog.livedoor.jp##A[href*="ldblog-001-22"]
 				blog.livedoor.jp##div[id="analyzer_tags"]
 				blog.livedoor.jp##script[src$="/settings/ad.js"]
 				blog.livedoor.jp##script[src$="/settings/header.js"]
@@ -1595,10 +1668,9 @@
 				blog.livedoor.jp##td[class="newstickerbox"]
 				blog.livedoor.jp##td[class="pickuptheme"]
 				blog.livedoor.jp##td[class="startblogbox"]
-				blog.livedoor.jp##A[href*="ldblog-001-22"]
-				livedoor.biz##DIV#analyzer_tags
-				livedoor.biz##DIV[id^="header"]
 			!! blogeditor
+				||parts.blog.livedoor.jp/img/usr/*/bg.gif
+				||parts.blog.livedoor.jp/img/usr/cmn/*
 				! これに許可を出さないとツールを使えない為、許可。
 				@@||livedoor.blogcms.jp/js/cms2/swfupload/*
 				@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp

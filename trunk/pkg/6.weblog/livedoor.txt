@@ -1,11 +1,11 @@
 	!!! [blog.livedoor.*]
-			!! weblog
-				! 分離計画有り。
+			!! blog.
 				/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 				/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 				||parts.blog.livedoor.jp/js/blog_ads/*
 				||parts.blog.livedoor.jp/js/c2.js
 				||parts.blog.livedoor.jp/js/lcslog.js
+				blog.livedoor.jp##A[href*="ldblog-001-22"]
 				blog.livedoor.jp##div[id="analyzer_tags"]
 				blog.livedoor.jp##script[src$="/settings/ad.js"]
 				blog.livedoor.jp##script[src$="/settings/header.js"]
@@ -17,10 +17,9 @@
 				blog.livedoor.jp##td[class="newstickerbox"]
 				blog.livedoor.jp##td[class="pickuptheme"]
 				blog.livedoor.jp##td[class="startblogbox"]
-				blog.livedoor.jp##A[href*="ldblog-001-22"]
-				livedoor.biz##DIV#analyzer_tags
-				livedoor.biz##DIV[id^="header"]
 			!! blogeditor
+				||parts.blog.livedoor.jp/img/usr/*/bg.gif
+				||parts.blog.livedoor.jp/img/usr/cmn/*
 				! これに許可を出さないとツールを使えない為、許可。
 				@@||livedoor.blogcms.jp/js/cms2/swfupload/*
 				@@||livedoor.blogcms.jp/swf/analyzer/*$domain=livedoor.blogcms.jp

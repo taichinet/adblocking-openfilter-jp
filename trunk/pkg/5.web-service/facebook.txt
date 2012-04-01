@@ -15,6 +15,7 @@
 			facebook.com##SPAN[class="fbEmuContext"]
 			facebook.com##SPAN[class="muffin_tracking_pixel_start"]
 			facebook.com##DIV[class^="auto_resize_iframe"]
+			facebook.com##DIV[class="home_right_column.tickerOnTop"]
 		!! 解析用フレーム
 			||facebook.com/ai.php*
 			##iframe[src*="/ai.php"]

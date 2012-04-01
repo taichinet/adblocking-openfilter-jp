@@ -11,6 +11,7 @@
 					twitter.com##A[href^="http://blog.twitter.jp/"]
 					twitter.com##DIV[class*="promoted-tweet"]
 					twitter.com##DIV[class="component"] > DIV[class="user-rec-inner"]
+					twitter.com##DIV[class="trends"]
 					twitter.com##DIV[class="trends-inner"]
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
 					twitter.com##H2[class="user-rec-component"]

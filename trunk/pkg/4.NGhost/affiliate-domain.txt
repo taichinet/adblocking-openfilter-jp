@@ -95,6 +95,9 @@
 				||j-a-net.jp^
 					##A[href*="j-a-net.jp"]
 					##IFRAME[src*="j-a-net.jp"]
+				||jpn.org^
+					##A[href*="jpn.org"]
+					##IFRAME[src*="jpn.org"]
 			!! K
 				||kau.li^
 					##A[href*="kau.li"]
@@ -118,6 +121,10 @@
 				||movja.info^
 					##A[href*="movja.info"]
 					##SCRIPT[src*="movja.info"]
+				||motionlink.jp
+					##A[href*="motionlink.jp"]
+					##IMG[title*="motionlink.jp"]
+					##SCRIPT[src*="motionlink.jp"]
 			!! N
 			!! O
 			!! P
