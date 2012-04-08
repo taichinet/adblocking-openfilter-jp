@@ -42,10 +42,12 @@
 	!!! 1:キーワード
 		!! 1.汎用
 			! 誤爆が結構ある為、“ad”では極力引っ掛けない方向で。
-			/\/ad\.(com|net|jp)/
-			/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
-			/\/ad\.(js|css)/
-			||ad.
+				/\/ad\.(com|net|jp)/
+				/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
+				/\/ad\.(js|css)/
+				||ad.
+			!! 拡張予定
+				*/adv/rakuten/
 		!! 2.div記述
 			!! id
 				##DIV[id*="adBlock"]
@@ -55,6 +57,7 @@
 				##DIV[id^="ads-"]
 				##DIV[id*="adsense"]
 				##DIV[id="adtext"]
+				##DIV[id="advertising"]
 				##DIV[id="adTitle"]
 				##DIV[id*="affiliate"]
 				##DIV[id*="autopagerize_insert_before"]
@@ -89,6 +92,7 @@
 				##DIV[class^="ads-"]
 				##DIV[class*="adsense"]
 				##DIV[class="adtext"]
+				##DIV[class="advertising"]
 				##DIV[class="adTitle"]
 				##DIV[class*="affiliate"]
 				##DIV[class*="autopagerize_insert_before"]
@@ -190,6 +194,7 @@
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
+			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -236,6 +241,8 @@
 			##A[href^="http://adlyze.net/"]
 		!! xii.jp
 			##A[href*="ad.xii.jp"]
+		!! yahoo系
+			||listing.yahoo.co.jp/*
 
 
 	!!! <end>
