@@ -9,8 +9,6 @@
 			facebook.com##A[ajaxify*="en=fad_fan"]
 			facebook.com##A[class="uiHeaderActions rfloat"][href^="/campaign/landing.php"]
 			facebook.com##DIV[id="pagelet_mutual"]
-			facebook.com##DIV[id="pagelet_ego_pane"]
-			facebook.com##DIV[class="ego_column"]
 			facebook.com##DIV[class="ego_section"]
 			facebook.com##SPAN[class="fbEmuContext"]
 			facebook.com##SPAN[class="muffin_tracking_pixel_start"]

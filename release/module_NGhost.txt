@@ -94,11 +94,13 @@
 					##IFRAME[src*="extreme-dm.com"]
 			!! F
 			!! G
-				||gyutto.com
+				||gyutto.com^
 					! /gyutto\.(com|net|jp)\/*\/*banner_img/
 					||gyutto.com/data/af_banner_img/*
 					||gyutto.jp/data/banner_img/*
 					##A[href*="gyutto.com"][href*="/af"]
+				||gl-cash.com^
+					##A[href*="gl-cash.com"]
 			!! H
 				||d.href.org.uk^
 					##A[href*="d.href.org.uk"]

@@ -62,8 +62,6 @@
 				||res.nimg.jp/swf/player/marqueeplayer.swf?*
 				||res.nimg.jp/img/system/marquee/event*
 				||res.nimg.jp/swf/player/user_sponsor.swf*
-				||res.nimg.jp/img/watch/info_tab/*_left.png*
-				||res.nimg.jp/img/watch/info_tab/*_right.png*
 				||res.nimg.jp/swf/player/user_sponsor.swf*
 				||res.nimg.jp/js/uad_embed.js
 			!! icon系
