@@ -1,0 +1,6 @@
+	!!! [getnews.jp]
+		gernews.jp##a[href^="http://j.mp"]
+		getnews.jp##div[id="adft_border"]
+		getnews.jp##div[id="cntx_recom"]
+		getnews.jp##img[title^="[images-amazon.com]"]
+

@@ -1,0 +1,7 @@
+	!!! [sanspo.com]
+		!! 広告
+			sanspo.com##A[href="/notice/adsense.htm"]
+			sanspo.com##DIV[class="module.adimg"]
+			sanspo.com##DIV[class$="adimg"] + DIV[class$="graybox"]
+			sanspo.com##DIV[id="cyumoku"]
+

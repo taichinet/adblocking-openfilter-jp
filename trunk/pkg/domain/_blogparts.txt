@@ -1,0 +1,54 @@
+! [ブログパーツ用抑止]
+	!!! ブログパーツ用抑止
+		||awasete.com^
+			##A[href*="awasete.com"]
+			##[src*="awasete.com"]
+		||a-pagerank.net^
+		
+		||addclips.org/*/addclips.js
+		||blogchart.jp^
+			##A[href*="blogchart.jp"]
+			##[src*="blogchart.jp"]
+		||blogdeco.jp^
+			##A[href*="blogdeco.jp"]
+			##[src*="blogdeco.jp"]
+		||blogmura.com^
+			##A[href*="blogmura.com"]
+			##[src*="blogmura.com"]
+		||blogpark.jp^
+			##A[href*="blogpark.jp"]
+			##[src*="blogpark.jp"]
+		||c-team.jp^
+			##A[href*="c-team.jp"]
+			##[src*="c-team.jp"]
+		||dlsite.com^$third-party
+			##A[href*="dlsite.com"]
+			##[src*="dlsite.com"]
+		||e-pagerank.net^
+			##A[href*="e-pagerank.net"]
+			##[src*="e-pagerank.net"]
+		||feedmeter.net^
+			##A[href*="feedmeter.net"]
+			##[src*="feedmeter.net"]
+		||rakuword.com^
+			##A[href*="rakuword.com"]
+			##[src*="rakuword.com"]
+		||shard.jp^
+			##A[href*="shard.jp"]
+			##[src*="shard.jp"]
+		||tophatenar.com^
+			##A[href*="tophatenar.com"]
+			##[src*="tophatenar.com"]
+		||trackfeed.com^
+			##A[href*="trackfeed.com"]
+			##[src*="trackfeed.com"]
+		||xii.jp^
+			##A[href*="xii.jp"]
+			##[src*="xii.jp"]
+		||y-nomnom.info^
+			##A[href*="y-nomnom.info"]
+			##[src*="y-nomnom.info"]
+		||nakanohito.jp^
+		||ax.xrea.com/*.gif
+	!!! <end>
+
