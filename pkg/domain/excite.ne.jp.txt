@@ -1,0 +1,5 @@
+	!!! [excite]
+		!! 許可対象
+			||adimp.excite.co.jp^
+		!! 抑止対象
+
