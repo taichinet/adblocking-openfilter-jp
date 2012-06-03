@@ -1,0 +1,16 @@
+	!!! [searchina]
+		!! 表示簡略化
+			searchina.ne.jp##div[id$="adsense"]
+			searchina.ne.jp##div[id="nl2ad"]
+			searchina.ne.jp##div[id="xlisting_keyword_side"]
+			searchina.ne.jp##div[class="nl2ad"]
+			searchina.ne.jp##DIV[id="special_pr"][class$="special_ad"]
+			searchina.ne.jp##IFRAME[src*="yahooshopping"]
+			searchina.ne.jp##DIV[id="tfbTab"]
+			searchina.ne.jp##TD + TD[align="left"]
+			searchina.ne.jp##div[class="xlisting_keyword_side"]
+		!! 外部連携
+			searchina.ne.jp##div[id*="plusone"]
+			searchina.ne.jp##A[class="mixi-check-button"]
+			searchina.ne.jp##A[class="twitter-share-button"]
+
