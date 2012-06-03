@@ -1,0 +1,15 @@
+	!!! [rocketnews24.com]
+		!! 広告
+			rocketnews24.com##DIV[class^="ad ad"]
+			rocketnews24.com##DIV[id^="ad.ad"]
+			rocketnews24.com##DIV[id="textwidget"] > DIV[id="ad300x250"]
+		!! プラグイン
+			rocketnews24.com##DIV[id="linkcat-1728"]
+			rocketnews24.com##DIV[class="widget.widget_links"]
+			rocketnews24.com##DIV[id="pouch-posts"]
+			rocketnews24.com##DIV[class="footer"]
+			rocketnews24.com##LI[class="text-5"]
+			rocketnews24.com##LI[class="text-6"]
+			rocketnews24.com##LI[class="text-7"]
+			rocketnews24.com##LI[class="text-8"]
+
