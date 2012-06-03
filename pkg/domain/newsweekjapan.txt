@@ -1,3 +1,0 @@
-	!!! [newsweekjapan.jp]
-		newsweekjapan.jp##div[id="sideAdPanel"]
-

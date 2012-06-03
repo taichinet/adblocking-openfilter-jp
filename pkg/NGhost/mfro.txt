@@ -1,0 +1,247 @@
+	!!! [MFRO対策用]
+		! MFRO社以外の名義でのドメイン保有・ログ取得用ツールでの使用が濃厚。
+		! 関連するキーワードにてヒットするドメインは、例外なく全面非表示扱い。
+		!
+		! 追加に関しても、例外処理を設けずに以下の処理を行わせる事。
+		! ||domain
+		! 	domain##html
+		! 	##a[hre*="domain"]
+		! 	##SCRIPT[src*="domain"]
+		!!! 本営
+				||mfro.net
+					mfro.net##html
+					##a[href*="mfro.net"]
+					##SCRIPT[src*="mfro.net"]
+			!! 運営中ドメイン
+				||mobalyzer.net
+					mobalyzer.net##html
+					##a[href*="mobalyzer.net"]
+					##SCRIPT[src*="mobalyzer.net"]
+				||quicca.com
+					quicca.com##html
+					##a[href*="quicca.com"]
+					##SCRIPT[src*="quicca.com"]
+				||s-hosting.jp
+					s-hosting.jp##html
+					##a[href*="s-hosting.jp"]
+					##SCRIPT[src*="s-hosting.jp"]
+				||iq-servers.com
+					iq-servers.com##html
+					##a[href*="iq-servers.com"]
+					##SCRIPT[src*="iq-servers.com"]
+			!! i2i
+				!! お試し。誤作動の可能性あり。
+					##A[href*="i2i."]
+					##IFRAME[src*="i2i."]
+					##SCRIPT[src*="i2i."]
+					##IMG[title*="i2i."]
+					##DIV[class*="i2i"]
+					##DIV[id*="i2i"]
+					##A[href*="i2iserv."]
+					##IFRAME[src*="i2iserv."]
+					##SCRIPT[src*="i2iserv."]
+					##IMG[title*="i2iserv."]
+
+					##A[href*="i2idata."]
+					##IFRAME[src*="i2idata."]
+					##SCRIPT[src*="i2idata."]
+					##IMG[title*="i2idata."]
+
+				/i2i\.(com|jp)/
+					||i2i.com
+						i2i.com##html
+!						##A[href*="i2i.com"]
+!						##SCRIPT[src*="i2i.com"]
+					||i2i.jp
+						i2i.jp##html
+!						##A[href*="i2i.jp"]
+!						##IFRAME[src*="i2i.jp"]
+!						##SCRIPT[src*="i2i.jp"]
+!						##IMG[title*="i2i.jp"]
+				/i2iserv\.(com|jp)/
+					||i2iserv.com
+						i2iserv.com##html
+!						##A[href*="i2iserv.com"]
+!						##SCRIPT[src*="i2iserv.com"]l
+					||i2iserv.jp
+						i2iserv.jp##html
+!						##A[href*="i2iserv.jp"]
+!						##SCRIPT[src*="i2iserv.jp"]
+				/i2idata\.(com|jp)/
+					||i2idata.com
+						i2idata.com##html
+!						##A[href*="i2idata.com"]
+!						##SCRIPT[src*="i2idata.com"]
+					||i2idata.jp
+						i2idata.jp##html
+!						##A[href*="i2idata.jp"]
+!						##SCRIPT[src*="i2idata.jp"]
+			!! rentalurl
+				/rentalurl\.(com|net|jp)/
+					##a[href*="rentalurl"]
+					##SCRIPT[src*="rentalurl"]
+		!!! ドメイン確保用
+			||akth.com
+				akth.com##html
+				##a[href*="akth.com"]
+				##SCRIPT[src*="akth.com"]
+		!!! 用途不明ドメイン
+			||321loan.net
+				321loan.net##html
+				##a[href*="321loan.net"]
+				##SCRIPT[src*="321loan.net"]
+			||ailiyo.net
+				ailiyo.net##html
+				##a[href*="ailiyo.net"]
+				##SCRIPT[src*="ailiyo.net"]
+			||aithilla.com
+				aithilla.com##html
+				##a[href*="aithilla.com"]
+				##SCRIPT[src*="aithilla.com"]
+			||c365fx.com
+				c365fx.com##html
+				##a[href*="c365fx.com"]
+				##SCRIPT[src*="c365fx.com"]
+			||cashingz.net
+				cashingz.net##html
+				##a[href*="cashingz.net"]
+				##SCRIPT[src*="cashingz.net"]
+			||ca-z.net
+				ca-z.net##html
+				##a[href*="ca-z.net"]
+				##SCRIPT[src*="ca-z.net"]
+			||cfd110.net
+				cfd110.net##html
+				##a[href*="cfd110.net"]
+				##SCRIPT[src*="cfd110.net"]
+			||cockie-cleam.net
+				cockie-cleam.net ##html
+				##a[href*="cockie-cleam.net "]
+				##SCRIPT[src*="cockie-cleam.net "]
+			||corneliatown.com
+				corneliatown.com##html
+				##a[href*="corneliatown.com"]
+				##SCRIPT[src*="corneliatown.com"]
+			||couponpon.net
+				couponpon.net##html
+				##a[href*="couponpon.net"]
+				##SCRIPT[src*="couponpon.net"]
+			||dokodemocash.com
+				dokodemocash.com##html
+				##a[href*="dokodemocash.com"]
+				##SCRIPT[src*="dokodemocash.com"]
+			||fishingmani.net
+				fishingmani.net##html
+				##a[href*="fishingmani.net"]
+				##SCRIPT[src*="fishingmani.net"]
+			||fxdefx.com
+				fxdefx.com##html
+				##a[href*="fxdefx.com"]
+				##SCRIPT[src*="fxdefx.com"]
+			||gcmania.net
+				gcmania.net##html
+				##a[href*="gcmania.net"]
+				##SCRIPT[src*="gcmania.net"]
+			||how-to-esthe.com
+				how-to-esthe.com##html
+				##a[href*="how-to-esthe.com"]
+				##SCRIPT[src*="how-to-esthe.com"]
+			||ichigan-camera.com
+				ichigan-camera.com##html
+				##a[href*="ichigan-camera.com"]
+				##SCRIPT[src*="ichigan-camera.com"]
+			||i-love-creditcard.net
+				i-love-creditcard.net##html
+				##a[href*="i-love-creditcard.net"]
+				##SCRIPT[src*="i-love-creditcard.net"]
+			||kaigai-doramatai.com
+				kaigai-doramatai.com##html
+				##a[href*="kaigai-doramatai.com"]
+				##SCRIPT[src*="kaigai-doramatai.com"]
+			||korekara-cfd.com
+				korekara-cfd.com##html
+				##a[href*="korekara-cfd.com"]
+				##SCRIPT[src*="korekara-cfd.com"]
+			||kousui-hikaku.com
+				kousui-hikaku.com##html
+				##a[href*="kousui-hikaku.com"]
+				##SCRIPT[src*="kousui-hikaku.com"]
+			||live2tv.com
+				live2tv.com##html
+				##a[href*="live2tv.com"]
+				##SCRIPT[src*="live2tv.com"]
+			||marriage-jyunbi.com
+				marriage-jyunbi.com##html
+				##a[href*="marriage-jyunbi.com"]
+				##SCRIPT[src*="marriage-jyunbi.com"]
+			||mazu-otameshi.com
+				mazu-otameshi.com##html
+				##a[href*="mazu-otameshi.com"]
+				##SCRIPT[src*="mazu-otameshi.com"]
+			||no-aids.com
+				no-aids.com##html
+				##a[href*="no-aids.com"]
+				##SCRIPT[src*="no-aids.com"]
+			||o-negai.com
+				o-negai.com##html
+				##a[href*="o-negai.com"]
+				##SCRIPT[src*="o-negai.com"]
+			||oremo-gold.com
+				oremo-gold.com##html
+				##a[href*="oremo-gold.com"]
+				##SCRIPT[src*="oremo-gold.com"]
+			||oshiete-sakimono.com
+				oshiete-sakimono.com##html
+				##a[href*="oshiete-sakimono.com"]
+				##SCRIPT[src*="oshiete-sakimono.com"]
+			||oshin-soudan.jp
+				oshin-soudan.jp##html
+				##a[href*="oshin-soudan.jp"]
+				##SCRIPT[src*="oshin-soudan.jp"]
+			||otoku-credit.com
+				otoku-credit.com##html
+				##a[href*="otoku-credit.com"]
+				##SCRIPT[src*="otoku-credit.com"]
+			||petsousai.net
+				petsousai.net##html
+				##a[href*="petsousai.net"]
+				##SCRIPT[src*="petsousai.net"]
+			||qmqls.com
+				qmqls.com##html
+				##a[href*="qmqls.com"]
+				##SCRIPT[src*="qmqls.com"]
+			||ryhfs.com
+				ryhfs.com##html
+				##a[href*="ryhfs.com"]
+				##SCRIPT[src*="ryhfs.com"]
+			||sakana-zukan.net
+				sakana-zukan.net##html
+				##a[href*="sakana-zukan.net"]
+				##SCRIPT[src*="sakana-zukan.net"]
+			||taiyo-navi.com
+				taiyo-navi.com##html
+				##a[href*="taiyo-navi.com"]
+				##SCRIPT[src*="taiyo-navi.com"]
+			||want-circus.com
+				want-circus.com##html
+				##a[href*="want-circus.com"]
+				##SCRIPT[src*="want-circus.com"]
+			||takedenebisu.com
+				takedenebisu.com##html
+				##a[href*="takedenebisu.com"]
+				##SCRIPT[src*="takedenebisu.com"]
+			||tickepo.net*
+				tickepo.net##html
+				##a[href*="tickepo.net"]
+				##SCRIPT[src*="tickepo.net"]
+			||yadopon.net*
+				yadopon.net##html
+				##a[href*="yadopon.net"]
+				##SCRIPT[src*="yadopon.net"]
+			||y-nomnom.info*
+				y-nomnom.info##html
+				##a[href*="y-nomnom.info"]
+				##SCRIPT[src*="y-nomnom.info"]
+
+	!!! <end>
+

@@ -1,0 +1,29 @@
+	!!! [Ninja tools]
+		!! 正規表現による拒否
+			! タグ表記によるブロックは、誤爆多発の危険があるのでやらない予定。
+				/a(ikotoba\.jp|kazunoma\.com|mearare\.com|me-zaiku\.com|migasa\.jp|ri-jigoku\.com|shigaru\.jp|t-ninja\.jp|tukan\.com)/
+				/b(ake-neko\.net|akufu\.org|iroudo\.jp|okunenjin\.com|ufsiz\.jp|utanishinju\.com|uzama\.com|youbu\.com)/
+				/c(hagasi\.com|hakin\.com|hikouyore\.com|himanako\.net|hitosedori\.com|ho-chin\.com|hoitoippuku\.com|hottu\.net|houmusubi\.com|lient\.jp|yber-ninja\.jp)/
+				/d(arumaotosi\.com|ayuh\.net|okkoisho\.com|onburako\.com|otera\.net|oumeki\.com|ousetsu\.com)/
+				/e(bo-shi\.com|do-jidai\.com|hoh\.net|nokorogusa\.com)/
+				/f(uma-kotaro\.com|utene\.net)/
+				/g(amagaeru\.jp|anriki\.net|aryoutensei\.com|ejigeji\.jp|enin\.jp|ionsyouja\.com|oemonburo\.com|okenin\.com|oraikou\.com|osyuugi\.com|ouketu\.com|ozaru\.jp)/
+				/h(agewasi\.com|ahaue\.com|anabie\.com|anagasumi\.net|anagumori\.com|anamizake\.com|an-be\.com|annnari\.com|ariko\.com|arisen\.jp|atagashira\.com|atiju-hatiya\.com|ebiichigo\.com|ide-yoshi\.net|igoyomi\.com|imegimi\.jp|iroimon\.com|isa-hide\.com|ishaku\.com|isyaku\.com|iyamugi\.com|oremitakotoka\.com|oukou-onchi\.com|o-zuki\.com|ujibakama\.com|uruike\.com|usuma\.com|uuryuu\.com)/
+				/i(aigiri\.com|chiya-boshi\.net|e-yasu\.com|fdef\.jp|inaa\.net|iyudana\.net|kaduchi\.com|kidane\.com|mawamukashi\.com|modurushiki\.com|na-ka\.com|nukubou\.com|s-mine\.net|zakamakura\.com|za-yoi\.net)/
+				/j(akou\.com|orougumo\.com|ougennotuki\.com|ounin\.jp|youkamachi\.com)/
+				/k(acchaokkana\.com|achoufuugetu\.net|agebo-shi\.com|agechiyo\.net|agennotuki\.com|age-tora\.com|age-tsuna\.com|aginawa\.jp|akukaku-sikajika\.com|akurezato\.com|anashibari\.jp|an-be\.com|ane-tsugu\.com|anpaku\.jp|an-suke\.com|arakasa\.com|arakuri-yashiki\.com|aramatu\.com|arou\.jp|asabuta\.net|asajizo\.com|atsu-ie\.com|atsu-yori\.com|emuridama\.com|enkenpa\.net|en-nyo\.com|en-shin\.net|esagiri\.net|ibisuwokaesu\.com|imodameshi\.com|inbyoubu\.com|inugoshi\.net|irisute-gomen\.com|itunebi\.com|iyo-masa\.com|oborezakura\.com|oiwazurai\.com|ojyuro\.com|omusou\.jp|onjiki\.jp|onohashigure\.com|uchinawa\.com|umadori\.com|umogakure\.com|urushiunai\.jp|usakage\.com|usarikatabira\.jp|utinawa\.com|yarame\.com)/
+				/m(aeda-keiji\.com|aiougi\.com|a-jide\.com|akibishi\.jp|akibisi\.net|ameshibori\.net|anjushage\.com|asa-mune\.jp|ichikusa\.jp|ikosi\.com|itarashidango\.com|itsu-hide\.com|itsu-nari\.com|izubasyou\.com|izusasi\.net|omijioroshi\.com|onogoshi\.com|oraimon\.com|oryou\.com|oto-chika\.com|oto-nari\.com|outounai\.com|ukade\.jp|u-sashi\.com)/
+				/n(abebugyou\.com|aga-masa\.com|agesen\.net|amekuji\.jp|amidaame\.com|ao-shige\.com|ekonikoban\.org|emachinotsuki\.com|emiminimizu\.com|engu\.jp|igamushi\.net|inja-mania\.jp|inja-web\.net|inja-x\.jp|inpou\.jp|obody\.jp|obu-naga\.net|omaki\.jp|oppikinaranu\.com|ukarumi\.net|ukenin\.jp|ukimi\.com|usutto\.jp)/
+				/o(bihimo\.com|bijime\.net|boroduki\.com|bunko\.com|daikansama\.com|furegaki\.com|haguro\.com|hitashi\.com|huda\.com|hugi\.com|hyakudo-mairi\.com|iran\.org|jaru\.jp|kitsune\.com|koshi-yasu\.com|koshi-yasu\.net|kunohosomichi\.net|megumi\.com|miki\.com|nasake\.com|ngaeshi\.biz|nmitsu\.jp|nushi\.com|nushimowaruyonou\.com|oban-koban\.com|-oku\.jp|otugomori\.com|sonae\.com|teage\.net|todo\.net|togirisou\.com|toshiana\.com)/
+				/r(akugan\.com|an-maru\.net)/
+				/s(a-kon\.net|ankinkoutai\.com|annasubi\.com|arashi\.com|ara-yashiki\.com|a-suke\.com|engoku-jidai\.com|ensyuuraku\.com|essya\.net|hakunage\.net|hichihuku\.com|hidareyanagi\.com|hikanosuke\.net|hikisokuzekuu\.net|himazu-yoshihiro\.net|hime-saba\.com|himo-yake\.com|hin-gen\.jp|hinobiashi\.com|hiriagari\.com|hirikakusazu\.com|hironuri\.com|hisyou\.com|hiteyattari\.com|iromuku\.com|odenoshita\.com|okowonantoka\.com|okushinbutsu\.com|onnabakana\.com|oragoto\.net|oregashi\.com|oudesune\.net|uichu-ka\.com|uki-ari\.net|ukimakaze\.com|uppa\.jp|yakuhati\.com|yanari\.com|yarasoujyu\.com|yogyoumujou\.com|youtikubai\.com|yuriken\.jp)/
+				/t(abigeinin\.com|ada-katsu\.com|aka-kage\.com|akara-bune\.net|amajiri\.com|anmono\.com|enohiragaeshi\.com|he-ninja\.jp|irirenge\.com|iyogami\.com|obiiro\.jp|onosama\.jp|oshi-ie\.com|oumoku\.com|suchigumo\.com|sunokakushi\.com|ubakurame\.com|udura\.com|umabeni\.com|urigane\.com|urubeotoshi\.com|urukusa\.com|utakazura\.com|uzigiri\.com|uzikaze\.com|yabo\.com|yanoyu\.net|yonmage\.com|urigane\.com)/
+				/u(ijin\.com|ji-masa\.com|kime\.org|ndeinosa\.com|ntokosho\.com|shimairi\.com|sunuri\.com|unyan\.com)/
+				/w(akatono\.jp|arabimochi\.net|arabuki\.net|aremowaremoto\.com|a-sanbon\.com)/
+				/x(xxxxxxxx\.jp)/
+				/y(aekumo\.com|ahansugi\.com|akigote\.com|akiin\.net|akiuchi\.com|amagomori\.com|amanoha\.com|angotonaki\.com|ohamanzokuja\.com|okinihakarae\.com|okochou\.com|omibitoshirazu\.com|oshi-moto\.com|oshi-tsugu\.com|ukigesho\.com|ukihotaru\.com|ukimizake\.net|uki-mura\.net|ukishigure\.com|umenogotoshi\.com|u-nagi\.com|u-yake\.com)/
+				/z(ashiki\.com|atunen\.com|ouri\.jp)/
+		!! サブドメイン
+			||adm.shinobi.jp^
+	!!! <end>
+
