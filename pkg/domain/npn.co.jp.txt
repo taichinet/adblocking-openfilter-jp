@@ -1,5 +1,0 @@
-	!!! [npn.co.jp]
-				npn.co.jp##div[id^="ygbad"]
-				npn.co.jp##div[id^="ads_"]
-				npn.co.jp##p[class^="pr-text"]
-

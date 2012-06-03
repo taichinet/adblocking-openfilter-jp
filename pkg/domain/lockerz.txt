@@ -1,6 +1,0 @@
-	!!! [lockerz.com]
-		lockerz.com##div[class="advert"]
-		lockerz.com##div[id^="dclkAdsDivID"]
-		lockerz.com##div[id="feed-box"][class="clearfix"]
-		lockerz.com##div[id="leaderboard-ad"]
-
