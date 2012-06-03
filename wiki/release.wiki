@@ -3,15 +3,5 @@
 == [http://adblocking-openfilter-jp.googlecode.com/svn/release/master_module.txt 統合データ] 以下のファイルをマージした物です。 ==
 ||ファイル||内容||
 ||[http://adblocking-openfilter-jp.googlecode.com/svn/release/core-filter.txt コアフィルタ]||動作の基準となるフィルタ||
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_NGhost.txt NGhost.txt]||NG指定ホスト用パッケージ||
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_commerce.txt module_commerce.txt]||商用サイト向けモジュール||
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_news.txt module_news.txt]||ニュースサイト向けパッケージ||
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_web.txt module_web.txt]||Webサービス向けパッケージ||
-
- * [http://code.google.com/p/adblocking-openfilter-jp/downloads/list 旧 公開ファイル]
-
-== 研究用公開 ==
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_potal.txt module_potal]||ポータルサイト向けパッケージ(動作不良有り　研究用公開)||
-
-== 試験公開 ==
-||[http://adblocking-openfilter-jp.googlecode.com/svn/release/module_weblog.txt module_weblog]||各種blog用パッケージ||
+||[http://adblocking-openfilter-jp.googlecode.com/svn/release/NGhost-filter.txt NGhost-filter.txt]||NG指定ホスト用パッケージ||
+||[http://adblocking-openfilter-jp.googlecode.com/svn/release/domain-filter.txt domain-filtertxt]||Webサービス向けパッケージ||
