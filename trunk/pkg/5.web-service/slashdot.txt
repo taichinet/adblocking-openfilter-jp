@@ -1,6 +1,0 @@
-	!!! [すらど.jp]
-				slashdot.jp##div[id="ads-index-text"]
-				slashdot.jp##div[id^="gpt-sd_index"]
-
-	!!! <end>
-

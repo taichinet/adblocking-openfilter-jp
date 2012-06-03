@@ -1,9 +1,0 @@
-	!!! [nikkansports]
-				||ad.nikkansports.com^
-				nikkansports.com##div[class="adPRtext"]
-				nikkansports.com##IFRAME[src^="http://ad."]
-				nikkansports.com##DIV[id="sideRecommend"]
-				nikkansports.com##DIV[class="adGIFtext"]
-
-	!!! <end>
-
