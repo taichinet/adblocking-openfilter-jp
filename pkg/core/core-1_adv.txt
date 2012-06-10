@@ -6,6 +6,9 @@
 				/(A|a)(D|d)(box|block|Container|ffiliate|s|text|sense|server|Title|vert(ise(|ment))|network)(|_|-)(|0|1|2|3|4|5|6|7|8|9)(|0|1|2|3|4|5|6|7|8|9)\./
 				/\/ad\.(js|css)/
 				||ad.
+				/affiliate*\.(jpg|gif)/
+				/advert*\.(jpg|gif)/
+				/affiliate.html?*
 			!! 拡張予定
 				*/adv/rakuten/
 		!! 2.div記述
