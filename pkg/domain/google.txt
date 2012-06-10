@@ -1,17 +1,17 @@
 	!!! [google.com]
 		!!! 許可
-		!!! .com
+			!!! .com
 				@@||google.com/adsense/*
 				@@||google.com/images?*
 				@@||google.com/recaptcha/api/*
 				@@||google.com/sbd?*
-		!!! .co.jp
+			!!! .co.jp
 				@@||google.co.jp/extern_js/
 				@@||google.co.jp/images/srpr/*
 				@@||google.co.jp/images?*
 				@@||google.co.jp/imgevent?
 				@@||google.co.jp/sbd?
-		!!! 個別サービス（サブドメインも含む）
+			!!! 個別サービス（サブドメインも含む）
 				@@||gstatic.com^
 				@@|mail.google.com/*
 				@@|docs.google.com/*
@@ -35,4 +35,5 @@
 				google.com,~google.co.jp##span[id="taw"]
 				google.com,~google.co.jp##div[id="bottomads"]
 				google.com,~google.co.jp##td[class="std"]
+			!! google翻訳
 

@@ -18,7 +18,6 @@
 					twitter.com##LI[class^="trend-item"]
 					twitter.com##LI[class^="user-small-list-item.js-actionable-user"]
 					twitter.com##P[class="promo"]
-
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
 					##script[src="http://widgets.twimg.com/j/2/widget.js"]
@@ -26,7 +25,10 @@
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 				!! 広告抑止
 					||ad-v.jp^$domain=twitter.com
-
+				!! 外部モジュール
+					! 後で直す
+					/jquery.twitterTrackback.css
+					/jquery.twitterTrackback.js
 		!!! Twitter関連の他サイト
 			!! twitpic
 				twitpic.com##DIV[id^="view-photo-ad"]
@@ -41,4 +43,5 @@
 		!!! アドオン
 				!! pbtweet+用
 					DIV[class="component"]>DIV[class$="pb-toggleable"]
+
 
