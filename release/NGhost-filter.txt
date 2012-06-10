@@ -1,6 +1,6 @@
 [Adblock Plus]
 !
-!Copyright (c) 2012, hako 
+!Copyright (c) 2011, hako 
 !All rights reserved.
 !
 !Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -23,9 +23,10 @@
 !本ソフトウェアは、著作権者およびコントリビューターによって「現状のまま」提供されており、明示黙示を問わず、商業的な使用可能性、および特定の目的に対する適合性に関する暗黙の保証も含め、またそれに限定されない、いかなる保証もありません。
 !著作権者もコントリビューターも、事由のいかんを問わず、 損害発生の原因いかんを問わず、かつ責任の根拠が契約であるか厳格責任であるか（過失その他の）不法行為であるかを問わず、
 !仮にそのような損害が発生する可能性を知らされていたとしても、本ソフトウェアの使用によって発生した（代替品または代用サービスの調達、使用の喪失、データの喪失、利益の喪失、業務の中断も含め、またそれに限定されない）直接損害、間接損害、偶発的な損害、特別損害、懲罰的損害、または結果損害について、一切責任を負わないものとします。 
-!
-! pkg/NGhost
-!
+
+
+! [ARCIVE>
+
 !!! a8.net
 		!! 抑止対象
 			##a[href^="http://px.a8.net/"]
@@ -35,6 +36,10 @@
 			##A[href*="cl-sys.info"]
 		!!! ドメイン別
 			!! A
+				||agift-ad.com^
+					##A[href*="agift-ad.com"]
+					##IFRAME[src*="agift-ad.com"]
+					##SCRIPT[src*="agift-ad.com"]
 				||abmr.net^
 					##A[href*="abmr.net"]
 					##IFRAME[src*="abmr.net"]
@@ -181,7 +186,10 @@
 				||xii.jp
 					##A[href*="xii.jp"]
 					##SCRIPT[src="xii.jp"]
-
+				||xtendmedia.com^
+					##A[href*="xtendmedia.com"]
+					##IFRAME[src*="xtendmedia.com"]
+					##SCRIPT[src*="xtendmedia.com"]
 			!! Y
 				||yieldmanager.com^
 					##A[href*="yieldmanager.com"]
@@ -231,7 +239,8 @@
 				##a[href*="dmm.co.jp"]
 				##IFRAME[src*="dmm.co.jp"]
 				##IMG[title*="dmm.co"]
-
+			||pics.dmm.com/digital/*
+			||pics.dmm.com/mono/*
 	!!! <end>
 
 	!!! [MFRO対策用]

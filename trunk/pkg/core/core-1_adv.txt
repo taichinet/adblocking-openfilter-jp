@@ -8,7 +8,9 @@
 				||ad.
 				/affiliate*\.(jpg|gif)/
 				/advert*\.(jpg|gif)/
-				/affiliate.html?*
+				/utm.(js|gif|jpg)/
+				*/affiliate.htm*
+				/banner*\.(jpg|gif)/
 			!! 拡張予定
 				*/adv/rakuten/
 		!! 2.div記述

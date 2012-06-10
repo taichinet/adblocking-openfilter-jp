@@ -4,6 +4,10 @@
 			##A[href*="cl-sys.info"]
 		!!! ドメイン別
 			!! A
+				||agift-ad.com^
+					##A[href*="agift-ad.com"]
+					##IFRAME[src*="agift-ad.com"]
+					##SCRIPT[src*="agift-ad.com"]
 				||abmr.net^
 					##A[href*="abmr.net"]
 					##IFRAME[src*="abmr.net"]
@@ -150,7 +154,10 @@
 				||xii.jp
 					##A[href*="xii.jp"]
 					##SCRIPT[src="xii.jp"]
-
+				||xtendmedia.com^
+					##A[href*="xtendmedia.com"]
+					##IFRAME[src*="xtendmedia.com"]
+					##SCRIPT[src*="xtendmedia.com"]
 			!! Y
 				||yieldmanager.com^
 					##A[href*="yieldmanager.com"]

@@ -1,6 +1,6 @@
 [Adblock Plus]
 !
-!Copyright (c) 2012, hako 
+!Copyright (c) 2011, hako 
 !All rights reserved.
 !
 !Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -23,9 +23,10 @@
 !本ソフトウェアは、著作権者およびコントリビューターによって「現状のまま」提供されており、明示黙示を問わず、商業的な使用可能性、および特定の目的に対する適合性に関する暗黙の保証も含め、またそれに限定されない、いかなる保証もありません。
 !著作権者もコントリビューターも、事由のいかんを問わず、 損害発生の原因いかんを問わず、かつ責任の根拠が契約であるか厳格責任であるか（過失その他の）不法行為であるかを問わず、
 !仮にそのような損害が発生する可能性を知らされていたとしても、本ソフトウェアの使用によって発生した（代替品または代用サービスの調達、使用の喪失、データの喪失、利益の喪失、業務の中断も含め、またそれに限定されない）直接損害、間接損害、偶発的な損害、特別損害、懲罰的損害、または結果損害について、一切責任を負わないものとします。 
-!
-! pkg/_core
-!
+
+
+! [ARCIVE>
+
 ! [ブログパーツ用抑止]
 	!!! ブログパーツ用抑止
 		||awasete.com^
@@ -135,6 +136,13 @@
 
 	!!! [CNET]
 		cnet.com##div[class="block10.clearfix"]
+
+	!!! [cookpad]
+		!! 許可対象
+			! 今ん所無し
+		!! 抑止対象
+			||cookpad.com/ad*
+			||cookpad.com/iframe/*
 
 	!!! [cyzo.com]
 		cyzo.com##img[alt="PR"]
@@ -268,18 +276,18 @@
 
 	!!! [google.com]
 		!!! 許可
-		!!! .com
+			!!! .com
 				@@||google.com/adsense/*
 				@@||google.com/images?*
 				@@||google.com/recaptcha/api/*
 				@@||google.com/sbd?*
-		!!! .co.jp
+			!!! .co.jp
 				@@||google.co.jp/extern_js/
 				@@||google.co.jp/images/srpr/*
 				@@||google.co.jp/images?*
 				@@||google.co.jp/imgevent?
 				@@||google.co.jp/sbd?
-		!!! 個別サービス（サブドメインも含む）
+			!!! 個別サービス（サブドメインも含む）
 				@@||gstatic.com^
 				@@|mail.google.com/*
 				@@|docs.google.com/*
@@ -303,6 +311,7 @@
 				google.com,~google.co.jp##span[id="taw"]
 				google.com,~google.co.jp##div[id="bottomads"]
 				google.com,~google.co.jp##td[class="std"]
+			!! google翻訳
 
 	!!! [hangame.co.jp]
 		hangame.co.jp##div[class="promoBnrWrap"]
@@ -519,6 +528,8 @@
 				eetimes.jp##div[id="masterFooter"]
 
 	!!! [j-cast]
+		||j-cast.com/images/common/all/*
+		||j-cast.com/images/ad_img/*
 		j-cast.com##div[class="amazon-info"]
 		j-cast.com##div[id^="MCAdEntry"]
 		j-cast.com##iframe[title="Advertisement"]
@@ -526,6 +537,7 @@
 		j-cast.com##div[id^="RCBanner"]
 		j-cast.com##div[id^="MCEntryAmazon"]
 		j-cast.com##div[id^="RCTopRectangle"]
+		
 
 	!!! [J's goal]
 		||jsgoal.jp/js/_parts/random_banner/*
@@ -535,6 +547,57 @@
 		||jsgoal.jp/images/1dot.gif
 		||jsgoal.jp/js/news/skp_banner.js
 
+	!!! [livedoor]
+		!!! 基本抑止
+			!! 正規表現
+				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
+				||click.livedoor.com^
+				||image.click.livedoor.com/js/livedoortopFlashAd.js
+			!	||app.click.livedoor.com/A-affiliate2/*
+				||news.livedoor.com/img/social/*
+			!! .com
+				livedoor.com##*[href*="A-affiliate"]
+				livedoor.com##div[id^="ad-"]
+				livedoor.com##div[id="amazon-ranking"]
+				livedoor.com##div[id*="become"]
+				livedoor.com##div[id="blogcampaign"]
+				livedoor.com##div[id="headerBanner"]
+				livedoor.com##div[id="newsFooter"]
+				livedoor.com##div[id="osusume"]
+				livedoor.com##div[id="otoku-info"]
+				livedoor.com##div[id="partner-box"]
+				livedoor.com##div[id="yahoo-shopping"]
+				livedoor.com##div[class*="adsense"]
+				livedoor.com##div[class*="become"]
+				livedoor.com##div[class*="google-body"]
+				livedoor.com##div[class*="google-title"]
+				livedoor.com##div[class*="large-showcase"]
+				livedoor.com##div[class*="LDservice-link"]
+				livedoor.com##div[class*="module ad-"]
+				livedoor.com##div[class*="prtextBox"]
+				livedoor.com##div[class*="SearchResult"][class$=AD"]
+				livedoor.com##div[class*="SearchResultTopAD"]
+				livedoor.com##div[class*="ads-by-google"]
+				livedoor.com##iframe[src*="ad.yieldmanager.com"]
+				livedoor.com##script[src*="FlashAd"]
+				livedoor.com##img[class="tie-up"]
+				livedoor.com##p[id="megaText"]
+				livedoor.com##div[id$="ad"]
+				livedoor.com##div[id="news-special"]
+				livedoor.com##div[id^="footer-ad"]
+				livedoor.com##div[id="commonFooter"]
+			!! TOP
+				livedoor.biz##DIV#analyzer_tags
+				livedoor.biz##DIV[id^="header"]
+				livedoor.com##DIV[id="article-social-tool"]
+				livedoor.com##DIV[class="LDservice-link"]
+				livedoor.com##DIV[class="sub-smartphone-box"]
+			!! news.
+				news.livedoor.com##DIV[class="large-showcase"]
+				news.livedoor.com##DL[class="image-list.image120-80"]
+		!!! サービス
+			!! 多分解析
+				||lcs.livedoor.net^
 	!!! [blog.livedoor.*]
 		!! blog.
 			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
@@ -740,7 +803,8 @@
 			zakzak.co.jp##div[id^="ad"]
 
 	!!! [MSN]
-				##*[href*="http://clk.atdmt.com/"]
+		||rad.msn.com^
+		##*[href*="http://clk.atdmt.com/"]
 
 	!!! [newsweekjapan.jp]
 		newsweekjapan.jp##div[id="sideAdPanel"]
@@ -794,6 +858,8 @@
 				||flapi.nicovideo.jp/api/logger.php^
 			!! info.
 				||info.nicovideo.jp/feed/*
+			!! ichiba
+				||ichiba.nicovideo.jp/img/bnr_*
 			!! live.
 				||live.nicovideo.jp/api/getstreamlist?*
 				||live.nicovideo.jp/bnr_mobile_gate.swf?*
@@ -963,6 +1029,16 @@
 			searchina.ne.jp##A[class="mixi-check-button"]
 			searchina.ne.jp##A[class="twitter-share-button"]
 
+	!!! [対象名]
+		!! 許可対象
+
+		!! 抑止対象
+			! blog
+				||blog.seesaa.jp/contents/js/ad_plugin.js
+				||blog.seesaa.jp/js/trace_searcher.js
+
+	!!! <end>
+
 	!!! [すらど.jp]
 				slashdot.jp##div[id="ads-index-text"]
 				slashdot.jp##div[id^="gpt-sd_index"]
@@ -1003,7 +1079,6 @@
 					twitter.com##LI[class^="trend-item"]
 					twitter.com##LI[class^="user-small-list-item.js-actionable-user"]
 					twitter.com##P[class="promo"]
-
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
 					##script[src="http://widgets.twimg.com/j/2/widget.js"]
@@ -1011,7 +1086,10 @@
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 				!! 広告抑止
 					||ad-v.jp^$domain=twitter.com
-
+				!! 外部モジュール
+					! 後で直す
+					/jquery.twitterTrackback.css
+					/jquery.twitterTrackback.js
 		!!! Twitter関連の他サイト
 			!! twitpic
 				twitpic.com##DIV[id^="view-photo-ad"]
@@ -1027,6 +1105,7 @@
 				!! pbtweet+用
 					DIV[class="component"]>DIV[class$="pb-toggleable"]
 
+
 	!!! [ustream]
 		ustream.tv##div[class="channelTopBannerWrapper"]
 		ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
@@ -1034,6 +1113,60 @@
 		ustream.tv##div[id="PageRectangle"]
 		ustream.tv##div[id="UstreamSiteNotification"]
 
+	!!! [yahoo.co.jp]
+		!!! 許可対象
+			@@||map.yahoo.co.jp^$document
+			@@||yahooapis.com
+		!!! 抑止対象
+			! 確認に時間がかかるので、カテ分けちゃんとやってません。
+			!! 広告
+				yjaxc.yahoo.co.jp
+				/*\.yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/
+				yahoo.co.jp##div[id^="ADframe"]
+				yahoo.co.jp##div[class^="ad"]
+			!! 非表示
+					yahoo.co.jp##div[id^="pos-"]
+					yahoo.co.jp##a[href^="http://ard.yahoo.co.jp/"]
+					yahoo.co.jp##a[href="http://business.yahoo.co.jp/sponsor/"]
+					yahoo.co.jp##div[class^="yjSt adTyumokumar"]
+					yahoo.co.jp##div[class^="ymuiHeaderBGLG"]
+					yahoo.co.jp##div[class="bx"][id="rightbox"]
+					yahoo.co.jp##div[id="center1"]
+					yahoo.co.jp##div[id="center2"]
+					yahoo.co.jp##div[id="mainpr"]
+					yahoo.co.jp##div[id="pos-lrec"]
+					yahoo.co.jp##div[id="rightbox1"]
+					yahoo.co.jp##div[id="tct"]
+					yahoo.co.jp##div[id="uhdMain"]
+				!! hedlines.
+					headlines.yahoo.co.jp##DIV[class*="adTyumoku"]
+					headlines.yahoo.co.jp##DIV[class*="adCt"]
+					headlines.yahoo.co.jp##DIV[class*="adRp"]
+					headlines.yahoo.co.jp##DIV[class="ymui3DContainerLP"]
+					headlines.yahoo.co.jp##DIV[id="pos-lrec"]
+					headlines.yahoo.co.jp##DIV[id="pos-sqb"]
+					headlines.yahoo.co.jp##DIV[id="pos-tn"]
+					headlines.yahoo.co.jp##H2[class^="ymuiTitle.yjS.textCenter"]
+					headlines.yahoo.co.jp##H2[class^="ymuiTitle.fss"]
+				!! beauty
+					beauty.yahoo.co.jp##div[class="all_md02"]
+				!! chiebukuro
+					chiebukuro.yahoo.co.jp##div[id="chie-ams"]
+				!! finance
+					finance.yahoo.co.jp##div[class="marB10"]
+				!! realestate
+					realestate.yahoo.co.jp##div[id="ranking"]
+				!! sports
+					sports.yahoo.co.jp##div[id="im2"]
+				!! tv
+					tv.yahoo.co.jp##div[class="pr300a"]
+					tv.yahoo.co.jp##div[id="right1"]
+				!! weather
+					weather.yahoo.co.jp##div[class^="yjw_sub_md "]
+		!!! mail用暫定策
+				@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*
+				||yui.yahooapis.jp/3.0.0pr2/build/yui/*
+				##div[id="jpwelcomeinsideyahootitle"]
 	!!! [blogs.yahoo.co.jp]
 		!! 宣伝
 			||yimg.jp/i/jp/blog/p3/js/*

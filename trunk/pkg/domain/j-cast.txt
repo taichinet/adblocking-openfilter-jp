@@ -1,4 +1,6 @@
 	!!! [j-cast]
+		||j-cast.com/images/common/all/*
+		||j-cast.com/images/ad_img/*
 		j-cast.com##div[class="amazon-info"]
 		j-cast.com##div[id^="MCAdEntry"]
 		j-cast.com##iframe[title="Advertisement"]
@@ -6,4 +8,5 @@
 		j-cast.com##div[id^="RCBanner"]
 		j-cast.com##div[id^="MCEntryAmazon"]
 		j-cast.com##div[id^="RCTopRectangle"]
+		
 

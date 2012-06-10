@@ -1,0 +1,7 @@
+	!!! [cookpad]
+		!! 許可対象
+			! 今ん所無し
+		!! 抑止対象
+			||cookpad.com/ad*
+			||cookpad.com/iframe/*
+

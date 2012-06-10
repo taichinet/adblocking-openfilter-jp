@@ -4,6 +4,7 @@
 				##a[href*="dmm.co.jp"]
 				##IFRAME[src*="dmm.co.jp"]
 				##IMG[title*="dmm.co"]
-
+			||pics.dmm.com/digital/*
+			||pics.dmm.com/mono/*
 	!!! <end>
 
