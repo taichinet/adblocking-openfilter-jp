@@ -2,7 +2,6 @@
 		hangame.co.jp##div[class="promoBnrWrap"]
 		hangame.co.jp##div[id="cmsBnrArea"]
 		hangame.co.jp##div[id="newlyInfo"]
-		hangame.co.jp##div[id="rcmndEasyGame"]
-		hangame.co.jp##div[id="rcmndGames"]
+		hangame.co.jp##div[id^="rcmnd"]
 		hangame.co.jp##div[id="recruitmentCircle"]
 
