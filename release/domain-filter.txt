@@ -1028,15 +1028,10 @@
 			searchina.ne.jp##A[class="mixi-check-button"]
 			searchina.ne.jp##A[class="twitter-share-button"]
 
-	!!! [対象名]
-		!! 許可対象
-
-		!! 抑止対象
-			! blog
-				||blog.seesaa.jp/contents/js/ad_plugin.js
-				||blog.seesaa.jp/js/trace_searcher.js
-
-	!!! <end>
+	!!! [seesaa]
+		! blog
+			||blog.seesaa.jp/contents/js/ad_plugin.js
+			||blog.seesaa.jp/js/trace_searcher.js
 
 	!!! [すらど.jp]
 				slashdot.jp##div[id="ads-index-text"]
