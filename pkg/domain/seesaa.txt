@@ -1,10 +1,5 @@
-	!!! [対象名]
-		!! 許可対象
-
-		!! 抑止対象
-			! blog
-				||blog.seesaa.jp/contents/js/ad_plugin.js
-				||blog.seesaa.jp/js/trace_searcher.js
-
-	!!! <end>
+	!!! [seesaa]
+		! blog
+			||blog.seesaa.jp/contents/js/ad_plugin.js
+			||blog.seesaa.jp/js/trace_searcher.js
 
