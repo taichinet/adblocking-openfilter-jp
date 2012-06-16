@@ -4,10 +4,10 @@
 		cyzo.com##div[id="head-contents"]
 		cyzo.com##div[id="head-ad"]
 		cyzo.com##div[id="gamma-inner"]
-		cyzo.com##[href*="nikkancyzo-22"]
-		cyzo.com##[href*="advg.jp"]
+		cyzo.com##A[href*="nikkancyzo-22"]
+		cyzo.com##A[href*="advg.jp"]
 	!!! [cyzowoman.com]
 		cyzowoman.com##A[href*="/cyzowoman-22/"]
-		cyzowoman.com##DIV#acsessch
-		cyzowoman.com##DIV.fb-comments + *
+		cyzowoman.com##DIV[id="acsessch"]
+		cyzowoman.com##DIV[class="fb-comments"] + *
 

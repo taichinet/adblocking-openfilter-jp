@@ -6,7 +6,7 @@
 			! 確認に時間がかかるので、カテ分けちゃんとやってません。
 			!! 広告
 				yjaxc.yahoo.co.jp
-				/*\.yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/
+			!	/yimg\.jp\/bdv\/*\/*\/*\/*\.(jpg|png|gif|swf)/
 				yahoo.co.jp##div[id^="ADframe"]
 				yahoo.co.jp##div[class^="ad"]
 			!! 非表示

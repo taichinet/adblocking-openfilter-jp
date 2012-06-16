@@ -19,81 +19,81 @@
 						!! 自前表示
 							||itmedia.co.jp/js/ad_getMetaContent.js^$domain=itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp
 							##IFRAME[src^="http://dlv.itmedia.jp/adsv/"]
-							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id~="ISAL"]
-							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id^="ISTL"]
-							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id="ISFLR"]
-							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id="ISTLR"]
-							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id="ISTCPB"]
+							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id~="ISAL"]
+							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id^="ISTL"]
+							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id="ISFLR"]
+							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id="ISTLR"]
+							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id="ISTCPB"]
 						!! amazon
 							itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##embed[src="http://ws.amazon.co.jp/widgets/"]
 						!! base
-							atmarkit.co.jp,~eetimes.jp##div[class="ad"]
-							atmarkit.co.jp,~eetimes.jp##div[class="jobspace"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="kyujin"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="social"]
-							atmarkit.co.jp,~eetimes.jp##div[id="calendarInnerPR"]
-							atmarkit.co.jp,~eetimes.jp##div[id="header_ad"]
-							atmarkit.co.jp,~eetimes.jp##div[id="job-info"]
-							atmarkit.co.jp,~eetimes.jp##div[id="osirase"]
-							atmarkit.co.jp,~eetimes.jp##div[id="pr-event"]
-							atmarkit.co.jp,~eetimes.jp##div[id="right-rectangle"] DT
-							atmarkit.co.jp,~eetimes.jp##div[id="swfAd"]
+							atmarkit.co.jp,~eetimes.jp##DIV[class="ad"]
+							atmarkit.co.jp,~eetimes.jp##DIV[class="jobspace"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="kyujin"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="social"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="calendarInnerPR"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="header_ad"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="job-info"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="osirase"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="pr-event"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id="right-rectangle"] DT
+							atmarkit.co.jp,~eetimes.jp##DIV[id="swfAd"]
 							atmarkit.co.jp,~eetimes.jp##SPAN[class="prmark"]
-							atmarkit.co.jp,~eetimes.jp##div[class^="ISCHR"][class$="heading"] + div[id*="body"]
-							atmarkit.co.jp,~eetimes.jp##div[class^="ISCHR"][class$="heading"] + SPAN
-							atmarkit.co.jp,~eetimes.jp##div[class^="ISCHU"][class$="heading"] + SPAN
-							atmarkit.co.jp,~eetimes.jp##div[class^="ISLER"][class$="heading"] + SPAN
-							atmarkit.co.jp,~eetimes.jp##div[class^="ISLEU"][class$="heading"] + SPAN
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISALR"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISCHC"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISFLC"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISLEC"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISLER"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ISTLC"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITKT"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITNI"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITR"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITTC"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITTI"]
-							atmarkit.co.jp,~eetimes.jp##div[id^="ITTO"]
+							atmarkit.co.jp,~eetimes.jp##DIV[class^="ISCHR"][class$="heading"] + div[id*="body"]
+							atmarkit.co.jp,~eetimes.jp##DIV[class^="ISCHR"][class$="heading"] + SPAN
+							atmarkit.co.jp,~eetimes.jp##DIV[class^="ISCHU"][class$="heading"] + SPAN
+							atmarkit.co.jp,~eetimes.jp##DIV[class^="ISLER"][class$="heading"] + SPAN
+							atmarkit.co.jp,~eetimes.jp##DIV[class^="ISLEU"][class$="heading"] + SPAN
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISALR"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISCHC"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISFLC"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISLEC"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISLER"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ISTLC"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITKT"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITNI"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITR"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITTC"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITTI"]
+							atmarkit.co.jp,~eetimes.jp##DIV[id^="ITTO"]
 				!! footer
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp,~eetimes.jp##div[id="globalFooter"]
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp,~eetimes.jp##DIV[id="globalFooter"]
 				!! news/fl
 					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##A[href="http://www.itmedia.co.jp/news/fl/"] + BR + div
 					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##A[href="http://www.itmedia.co.jp/news/fl/"]
 				!! blogparts
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div#kijijiblogparts
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id="kijijiblogparts"]
 				!! wassr.jp
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[class^="widget"] > A[href^="http://wassr.jp/user/"]
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[class^="widget"] > A[href^="http://wassr.jp/user/"]
 				!! twitter
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[id^="twtr-widget"]
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##div[class^="twtr-widget"]
-					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##[id="twtRank"]
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id^="twtr-widget"]
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[class^="twtr-widget"]
+					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##DIV[id="twtRank"]
 					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##script[src$="widget.js"]
 					itmedia.co.jp,~bizmakoto.jp,~atmarkit.co.jp##script[src$="twimgWidget.js"]
 				!! はてブ
-					itmedia.co.jp,~atmarkit.co.jp,~eetimes.jp##div[id="hatebu"]
+					itmedia.co.jp,~atmarkit.co.jp,~eetimes.jp##DIV[id="hatebu"]
 		!!! ITMedia
 			!! 親止め
-				itmedia.co.jp##div[id="amazon-item"]
-				itmedia.co.jp##div[id="osusumepc"]
-				itmedia.co.jp##div[id="mobileshop"]
-				itmedia.co.jp##div[id="newzia_connect_flmobile"]
+				itmedia.co.jp##DIV[id="amazon-item"]
+				itmedia.co.jp##DIV[id="osusumepc"]
+				itmedia.co.jp##DIV[id="mobileshop"]
+				itmedia.co.jp##DIV[id="newzia_connect_flmobile"]
 			!! www.
-				www.itmedia.co.jp##div[class="colBoxAppinfo"]
-				www.itmedia.co.jp##div[class="colBoxRanking"]
-				www.itmedia.co.jp##div[class="colBoxOnetopi"]
+				www.itmedia.co.jp##DIV[class="colBoxAppinfo"]
+				www.itmedia.co.jp##DIV[class="colBoxRanking"]
+				www.itmedia.co.jp##DIV[class="colBoxOnetopi"]
 			!! plusd.
-				plusd.itmedia.co.jp##div[class="leftbox"] > div
-				plusd.itmedia.co.jp##div[class="kwoutBtn"]
-				plusd.itmedia.co.jp##div[class="hb"]
-				plusd.itmedia.co.jp##div[class="endlink"] + P[align="CENTER"]
+				plusd.itmedia.co.jp##DIV[class="leftbox"] > div
+				plusd.itmedia.co.jp##DIV[class="kwoutBtn"]
+				plusd.itmedia.co.jp##DIV[class="hb"]
+				plusd.itmedia.co.jp##DIV[class="endlink"] + P[align="CENTER"]
 			!! nlab.
-				nlab.itmedia.co.jp##div[class="colBoxUlist"]
+				nlab.itmedia.co.jp##DIV[class="colBoxUlist"]
 				nlab.itmedia.co.jp##A[href*="itmedia-netlab-22"]
 			!! gadget.
-				gadget.itmedia.co.jp##div[id="ITOP"]
-				gadget.itmedia.co.jp##div[class="zenback"]
+				gadget.itmedia.co.jp##DIV[id="ITOP"]
+				gadget.itmedia.co.jp##DIV[class="zenback"]
 			!! blogs.
 				blogs.itmedia.co.jp##A[title$="PR"]
 			!! img.
@@ -101,57 +101,57 @@
 		!!! bizmakoto.jp
 			!! base
 				bizmakoto.jp##A[onclick^="designCnt"]"] + BR"] + div[style^="margin"]
-				bizmakoto.jp##div[class^="msbTopOut"]
-				bizmakoto.jp##div[class="affiliateBox-amazon"]
-				bizmakoto.jp##div[class="GtAdsense"]
-				bizmakoto.jp##div[class="keyword"]
-				bizmakoto.jp##div[class="navi"]
-				bizmakoto.jp##div[class="pr-txt"]
-				bizmakoto.jp##div[class="prtimes"]
-				bizmakoto.jp##div[class="quickpoll"]
-				bizmakoto.jp##div[class="randomicon"]
-				bizmakoto.jp##div[id="carrier"] > div[class="cbox"]
-				bizmakoto.jp##div[id="COIDP"]
-				bizmakoto.jp##div[id="feedback"]
-				bizmakoto.jp##div[id="ITSB"] + ##div[class="colBoxR50"]
-				bizmakoto.jp##div[id="lnavSubSub"]
-				bizmakoto.jp##div[id="topitmnews"]
+				bizmakoto.jp##DIV[class^="msbTopOut"]
+				bizmakoto.jp##DIV[class="affiliateBox-amazon"]
+				bizmakoto.jp##DIV[class="GtAdsense"]
+				bizmakoto.jp##DIV[class="keyword"]
+				bizmakoto.jp##DIV[class="navi"]
+				bizmakoto.jp##DIV[class="pr-txt"]
+				bizmakoto.jp##DIV[class="prtimes"]
+				bizmakoto.jp##DIV[class="quickpoll"]
+				bizmakoto.jp##DIV[class="randomicon"]
+				bizmakoto.jp##DIV[id="carrier"] > div[class="cbox"]
+				bizmakoto.jp##DIV[id="COIDP"]
+				bizmakoto.jp##DIV[id="feedback"]
+				bizmakoto.jp##DIV[id="ITSB"] + ##DIV[class="colBoxR50"]
+				bizmakoto.jp##DIV[id="lnavSubSub"]
+				bizmakoto.jp##DIV[id="topitmnews"]
 				bizmakoto.jp##IFRAME[src^="//www.facebook.com/plugins/likebox.php"]
 				bizmakoto.jp##IFRAME[src^="http://cgi.itmedia.co.jp/quickpoll/"]
 				bizmakoto.jp##IMG[src^="http://image.itmedia.co.jp/makoto/images/"]
-				bizmakoto.jp##SCRIPT[src="/include/modiphi/inst_prtimes.js"] + ##div[class="cbox"]
+				bizmakoto.jp##SCRIPT[src="/include/modiphi/inst_prtimes.js"] + ##DIV[class="cbox"]
 			!! makoto*
-				bizmakoto.jp##div[class="makotoblog"] > div[style^="text-align"]
-				bizmakoto.jp##div[class^="makotofocus"]
-				bizmakoto.jp##div[id^="makotofocus"]
+				bizmakoto.jp##DIV[class="makotoblog"] > div[style^="text-align"]
+				bizmakoto.jp##DIV[class^="makotofocus"]
+				bizmakoto.jp##DIV[id^="makotofocus"]
 			!! global
-				bizmakoto.jp##div[id="globalHeaderMiddle"]
+				bizmakoto.jp##DIV[id="globalHeaderMiddle"]
 			!! cbox
-				bizmakoto.jp##div[class^="cbox"] + div[class="cbox"]
-				bizmakoto.jp##div[class="colBoxIndex"] > div[class="colBoxIcon"]
-				bizmakoto.jp##div[id="colBoxSocialButton"]
-				bizmakoto.jp##div[class="colBoxSocialButton"]
-				bizmakoto.jp##div[id="rank"] + div[class="cbox"]
-				bizmakoto.jp##div[id="tfm"] + div[class="cbox"]
+				bizmakoto.jp##DIV[class^="cbox"] + div[class="cbox"]
+				bizmakoto.jp##DIV[class="colBoxIndex"] > div[class="colBoxIcon"]
+				bizmakoto.jp##DIV[id="colBoxSocialButton"]
+				bizmakoto.jp##DIV[class="colBoxSocialButton"]
+				bizmakoto.jp##DIV[id="rank"] + div[class="cbox"]
+				bizmakoto.jp##DIV[id="tfm"] + div[class="cbox"]
 				bizmakoto.jp##SCRIPT[src^="/include/bizid/"] + div[class="cbox"]
 			!! subcol
-				bizmakoto.jp##div[class="subcol"] > div[class="rectangle"]
-				bizmakoto.jp##div[class="subcol"] > div[id="tfm"]
+				bizmakoto.jp##DIV[class="subcol"] > div[class="rectangle"]
+				bizmakoto.jp##DIV[class="subcol"] > div[id="tfm"]
 		!!! @IT
 			!! www.
-				www.atmarkit.co.jp##div[id="btm-ttwpjob"]
-				www.atmarkit.co.jp##div[id="sponsor"] > H2
+				www.atmarkit.co.jp##DIV[id="btm-ttwpjob"]
+				www.atmarkit.co.jp##DIV[id="sponsor"] > H2
 			!! core.
-				core.atmarkit.co.jp##div[id="ad728"]
+				core.atmarkit.co.jp##DIV[id="ad728"]
 			!! jibun.
-				jibun.atmarkit.co.jp##div[id="twitter_div"]
+				jibun.atmarkit.co.jp##DIV[id="twitter_div"]
 				jibun.atmarkit.co.jp##UL[class="archive"] + DIV
 			!! monoist.
-				monoist.atmarkit.co.jp##div[class="colBoxSubhead"] + DIV[class="colBoxInner"] + DIV[class="colBoxClear.h20px"]
-				monoist.atmarkit.co.jp##div[id="colBoxRanking + SCRIPT[type="text/javascript"] + DIV[class="colBox"] > DIV[class="colBoxOuter"]
-				monoist.atmarkit.co.jp##div[id="socialButton"]
+				monoist.atmarkit.co.jp##DIV[class="colBoxSubhead"] + DIV[class="colBoxInner"] + DIV[class="colBoxClear.h20px"]
+				monoist.atmarkit.co.jp##DIV[id="colBoxRanking + SCRIPT[type="text/javascript"] + DIV[class="colBox"] > DIV[class="colBoxOuter"]
+				monoist.atmarkit.co.jp##DIV[id="socialButton"]
 		!! cancom-j.com
-				ednjapan.cancom-j.com##div[class="border_h3.border_h3_red"]
+				ednjapan.cancom-j.com##DIV[class="border_h3.border_h3_red"]
 		!! ee-times.jp
-				eetimes.jp##div[id="masterFooter"]
+				eetimes.jp##DIV[id="masterFooter"]
 
