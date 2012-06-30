@@ -25,6 +25,7 @@
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 				!! 広告抑止
 					||ad-v.jp^$domain=twitter.com
+					twitter.com##IFRAME[src*="ad-v.jp"]
 				!! 外部モジュール
 					! 後で直す
 					/jquery.twitterTrackback.css
@@ -44,4 +45,6 @@
 				!! pbtweet+用
 					DIV[class="component"]>DIV[class$="pb-toggleable"]
 
-
+		!!! 外部アフィリエイト
+			||twpss.jp^
+				twitter.com##A[title*="twpss.jp"][href^="http://t.co/"]

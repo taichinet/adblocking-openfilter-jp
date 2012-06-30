@@ -1,10 +1,12 @@
 	!!! [dmm]
 		!!! affiliate
 			||dmm.co.jp
-				##a[href*="dmm.co.jp"]
+				##A[href*="dmm.co.jp"]
 				##IFRAME[src*="dmm.co.jp"]
 				##IMG[title*="dmm.co"]
 			||pics.dmm.com/digital/*
 			||pics.dmm.com/mono/*
+			##A[href^="http://www.dmm.com/digital/pcgame"]
+			##A[href^="http://www.dmm.com/mono/"]
 	!!! <end>
 
