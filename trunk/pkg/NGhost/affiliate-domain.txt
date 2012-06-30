@@ -69,6 +69,8 @@
 					##A[href*="extreme-dm.com"]
 					##IFRAME[src*="extreme-dm.com"]
 			!! F
+				||twpss.jp^
+					##A[href*="twpss.jp"]
 			!! G
 				||gyutto.com^
 					! /gyutto\.(com|net|jp)\/*\/*banner_img/
