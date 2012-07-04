@@ -16,8 +16,10 @@
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##IFRAME[id="j_ad"]
 					twitter.com##LI[class^="trend-item"]
-					twitter.com##LI[class^="user-small-list-item.js-actionable-user"]
+					twitter.com##LI[class^="user-small-list-item"]
 					twitter.com##P[class="promo"]
+					twitter.com##DIV[class^="js-recommended-followers"]
+					twitter.com##DIV[class="flex-module-header"]
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
 					##script[src="http://widgets.twimg.com/j/2/widget.js"]
@@ -43,7 +45,8 @@
 				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
 		!!! アドオン
 				!! pbtweet+用
-					DIV[class="component"]>DIV[class$="pb-toggleable"]
+					##DIV[class="component"]>DIV[class$="pb-toggleable"]
+					##DIV[class="twitter-button"]
 
 		!!! 外部アフィリエイト
 			||twpss.jp^

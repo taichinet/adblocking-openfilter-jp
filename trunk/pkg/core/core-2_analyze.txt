@@ -27,6 +27,8 @@
 			/bmv[0-9][0-9]\.js/
 			/bm[0-9][0-9]f\.js/
 			/bm[0-9][0-9]\.js/
+		!! geo.yahoo.com^
+			||geo.yahoo.com^
 	!! SEO対策
 		||seo-stats.com^
 		||seoparts.com^
@@ -36,6 +38,9 @@
 		||trackword.net^
 		||trackword.biz^
 		||webtracker.jp^
+	!! アンチロギング
+		||log*.*.*/*
+		||log*.*.*.*/*
 
 	!!! <end>
 

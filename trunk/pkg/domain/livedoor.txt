@@ -26,7 +26,7 @@
 				livedoor.com##DIV[class*="LDservice-link"]
 				livedoor.com##DIV[class*="module ad-"]
 				livedoor.com##DIV[class*="prtextBox"]
-				livedoor.com##DIV[class*="SearchResult"][class$=AD"]
+				livedoor.com##DIV[class*="SearchResult"][class$="AD"]
 				livedoor.com##DIV[class*="SearchResultTopAD"]
 				livedoor.com##DIV[class*="ads-by-google"]
 				livedoor.com##iframe[src*="ad.yieldmanager.com"]

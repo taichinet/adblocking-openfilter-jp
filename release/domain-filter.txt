@@ -24,9 +24,6 @@
 !著作権者もコントリビューターも、事由のいかんを問わず、 損害発生の原因いかんを問わず、かつ責任の根拠が契約であるか厳格責任であるか（過失その他の）不法行為であるかを問わず、
 !仮にそのような損害が発生する可能性を知らされていたとしても、本ソフトウェアの使用によって発生した（代替品または代用サービスの調達、使用の喪失、データの喪失、利益の喪失、業務の中断も含め、またそれに限定されない）直接損害、間接損害、偶発的な損害、特別損害、懲罰的損害、または結果損害について、一切責任を負わないものとします。 
 
-
-! [ARCIVE>
-
 ! [ブログパーツ用抑止]
 	!!! ブログパーツ用抑止
 		||awasete.com^
@@ -91,26 +88,27 @@
 			||ameblo.jp/accesslog/*
 		!! 表示簡略化
 			||spstatic.ameba.jp^
-			ameblo.jp##ul[id="amebaBar"]
-			ameblo.jp##div[class="readerMainLink"]
-			ameblo.jp##div[id="geinoujin_now"]
-			ameblo.jp##div[id^="advertising"]
-			ameblo.jp##div[id^="dendo"]
-			ameblo.jp##div[id="ameblo"][class="mainMenu"]
-			ameblo.jp##div[id="amebloInfo"]
-			ameblo.jp##div[id="amestamodule"]
-			ameblo.jp##div[id="eco_head"]
-			ameblo.jp##div[id="footer_ad_official"]
-			ameblo.jp##div[id="geinoujin_now"]
-			ameblo.jp##div[id="officialGnere"]
-			ameblo.jp##div[id="rc_box"][class="rc_box09"]
-			ameblo.jp##div[id="readerList"]
-			ameblo.jp##div[id="resPointArea"]
-			ameblo.jp##p[class^="dendo"]
-			ameblo.jp##p[class="ad1"]
-			ameblo.jp##p[class="ad2"]
-			ameblo.jp##ul[class="rc_head clearFix"]
-
+			||stat100.ameba.jp^
+			ameblo.jp##DIV[class="readerMainLink"]
+			ameblo.jp##DIV[id="geinoujin_now"]
+			ameblo.jp##DIV[id^="advertising"]
+			ameblo.jp##DIV[id^="dendo"]
+			ameblo.jp##DIV[id="ameblo"][class="mainMenu"]
+			ameblo.jp##DIV[id="amebloInfo"]
+			ameblo.jp##DIV[id="amestamodule"]
+			ameblo.jp##DIV[id="eco_head"]
+			ameblo.jp##DIV[id="footer_ad_official"]
+			ameblo.jp##DIV[id="geinoujin_now"]
+			ameblo.jp##DIV[id="officialGnere"]
+			ameblo.jp##DIV[id="rc_box"][class="rc_box09"]
+			ameblo.jp##DIV[id="readerList"]
+			ameblo.jp##DIV[id="resPointArea"]
+			ameblo.jp##DIV[id="comment_present"]
+			ameblo.jp##P[class^="dendo"]
+			ameblo.jp##P[class^="ad"]
+			ameblo.jp##UL[class="rc_head clearFix"]
+			ameblo.jp##UL[id="amebaBar"]
+			ameblo.jp##UL[id="exLinkBtn"]
 	!!! [asahi.com]
 		asahi.com##div[class="BnrPr"]
 		asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
@@ -545,7 +543,6 @@
 		jsgoal.jp##DIV[id="topBanner"]
 		||jsgoal.jp/images/1dot.gif
 		||jsgoal.jp/js/news/skp_banner.js
-
 	!!! [livedoor]
 		!!! 基本抑止
 			!! 正規表現
@@ -574,7 +571,7 @@
 				livedoor.com##DIV[class*="LDservice-link"]
 				livedoor.com##DIV[class*="module ad-"]
 				livedoor.com##DIV[class*="prtextBox"]
-				livedoor.com##DIV[class*="SearchResult"][class$=AD"]
+				livedoor.com##DIV[class*="SearchResult"][class$="AD"]
 				livedoor.com##DIV[class*="SearchResultTopAD"]
 				livedoor.com##DIV[class*="ads-by-google"]
 				livedoor.com##iframe[src*="ad.yieldmanager.com"]
@@ -826,6 +823,13 @@
 				!! nimg.jp
 					!! res系
 						@@||res.nimg.jp/swf/appli/*
+						||res.nimg.jp/img/base/head/icon/nico/*
+						||res.nimg.jp/img/base/head/logo/*
+						||res.nimg.jp/img/base/foot/*
+						||res.nimg.jp/img/watch/ichiba_2/x.gif
+						||res.nimg.jp/img/bg.png
+						||res.nimg.jp/img/player/poster/*
+						||res.nimg.jp/img/remocon/*
 					!! nicoapp
 						@@||nicoapp.jp^
 					!! 市場用 
@@ -844,6 +848,7 @@
 			!! /
 				||nicovideo.jp/__utm.gif*
 				||nicovideo.jp/api/getmarquee*
+				||nicovideo.jp/img/remocon/*
 			!! ad.|ads.
 				||ads.nicovideo.jp^
 				||ad.nicovideo.jp^
@@ -897,7 +902,13 @@
 				nikkansports.com##IFRAME[src^="http://ad."]
 				nikkansports.com##DIV[id="sideRecommend"]
 				nikkansports.com##DIV[class="adGIFtext"]
-
+				||become.co.jp^$domain=nikkansports.com
+				||apis.google.com/js/plusone.js$domain=nikkansports.com
+				||plusone.google.com^$domain=nikkansports.com
+				||api.popin.cc^$domain=nikkansports.com
+				||fresheye.com^$domain=nikkansports.com
+				||static.evernote.com^$domain=nikkansports.com
+				||platform.twitter.com/widgets.js$domain=nikkansports.com
 	!!! [日経系]
 		!!! nikkei.co.jp
 			||adb.nikkei.co.jp*
@@ -955,11 +966,13 @@
 			rocketnews24.com##LI[class="text-8"]
 
 	!!! [sanspo.com]
-		!! 広告
+		!! 謚第ｭ｢
 			sanspo.com##A[href="/notice/adsense.htm"]
 			sanspo.com##DIV[class="module.adimg"]
 			sanspo.com##DIV[class$="adimg"] + DIV[class$="graybox"]
 			sanspo.com##DIV[id="cyumoku"]
+			||sanspo.com/module/ad/*
+			||u.sanspo.com/__utm.js
 
 	!!! [searchina]
 		!! 表示簡略化
@@ -1020,8 +1033,10 @@
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##IFRAME[id="j_ad"]
 					twitter.com##LI[class^="trend-item"]
-					twitter.com##LI[class^="user-small-list-item.js-actionable-user"]
+					twitter.com##LI[class^="user-small-list-item"]
 					twitter.com##P[class="promo"]
+					twitter.com##DIV[class^="js-recommended-followers"]
+					twitter.com##DIV[class="flex-module-header"]
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
 					##script[src="http://widgets.twimg.com/j/2/widget.js"]
@@ -1047,7 +1062,8 @@
 				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
 		!!! アドオン
 				!! pbtweet+用
-					DIV[class="component"]>DIV[class$="pb-toggleable"]
+					##DIV[class="component"]>DIV[class$="pb-toggleable"]
+					##DIV[class="twitter-button"]
 
 		!!! 外部アフィリエイト
 			||twpss.jp^
@@ -1056,17 +1072,17 @@
 		ustream.tv##div[class="channelTopBannerWrapper"]
 		ustream.tv##div[class="featuredContent.colTitleBoxV4.pageScroller"]
 		ustream.tv##div[class="hideAdMessage.forPageRectangle"]
-                ustream.tv##DIV[class="channelTopBannerWrapper"]
-                ustream.tv##DIV[class^="featuredContent.colTitleBoxV4.pageScroller"]
-                ustream.tv##DIV[class="largeRectBanner]
+		ustream.tv##DIV[class="channelTopBannerWrapper"]
+		ustream.tv##DIV[class^="featuredContent.colTitleBoxV4.pageScroller"]
+		ustream.tv##DIV[class="largeRectBanner]
 		ustream.tv##div[id="PageRectangle"]
 		ustream.tv##div[id="UstreamSiteNotification"]
-                ustream.tv##DIV[id^="RecommendedLive"]
+		ustream.tv##DIV[id^="RecommendedLive"]
 		@@||static-cdn2.ustream.tv/static/v3/images/*
 	[wordpress.com]
 		@@||wp.com/_static/*
 		wordpress.com##DIV[id="welcome.updated"]
-
+		wordpress.com##DIV[id="welcome"]
 	!!! [yahoo.co.jp]
 		!!! 許可対象
 			@@||map.yahoo.co.jp^$document
@@ -1092,6 +1108,8 @@
 					yahoo.co.jp##div[id="rightbox1"]
 					yahoo.co.jp##div[id="tct"]
 					yahoo.co.jp##div[id="uhdMain"]
+					yahoo.co.jp##DIV[id^="im_main"]
+					yahoo.co.jp##DIV[id="adLREC"]
 				!! hedlines.
 					headlines.yahoo.co.jp##DIV[class*="adTyumoku"]
 					headlines.yahoo.co.jp##DIV[class*="adCt"]
@@ -1106,28 +1124,41 @@
 					beauty.yahoo.co.jp##div[class="all_md02"]
 				!! chiebukuro
 					chiebukuro.yahoo.co.jp##div[id="chie-ams"]
+					chiebukuro.yahoo.co.jp##DIV[id^="im_"]
 				!! finance
 					finance.yahoo.co.jp##div[class="marB10"]
 				!! realestate
 					realestate.yahoo.co.jp##div[id="ranking"]
 				!! sports
-					sports.yahoo.co.jp##div[id="im2"]
+					sports.yahoo.co.jp##div[id^="im"]
 				!! tv
 					tv.yahoo.co.jp##div[class="pr300a"]
 					tv.yahoo.co.jp##div[id="right1"]
 				!! weather
 					weather.yahoo.co.jp##div[class^="yjw_sub_md "]
+				!! r25
+					r25.yahoo.co.jp##DIV[id="article"] > DIV[id="center1 > DIV[style^="display:block;margin"]
+					r25.yahoo.co.jp##DIV[id="center2"] > DIV[style^="display:block;margin:"]
+					r25.yahoo.co.jp##DIV[class="PR_key"]
+					r25.yahoo.co.jp##DIV[id="side"] > DIV[id="right1"]
+					r25.yahoo.co.jp##DIV[class="sd_adSQM"]
+					r25.yahoo.co.jp##DIV[id="adLREC"]
+				!! rikunabi-next
+					rikunabi-next.yahoo.co.jp##DIV[id="footer_logo_message"]
+					rikunabi-next.yahoo.co.jp##DIV[id="hd_wrap_dot"]
+					rikunabi-next.yahoo.co.jp##H1[class="hd_text"]
 		!!! mail用暫定策
 				@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*
 				||yui.yahooapis.jp/3.0.0pr2/build/yui/*
-				##div[id="jpwelcomeinsideyahootitle"]
+				mail.yahoo.co.jp##DIV[id="jpwelcomeinsideyahootitle"]
+				mail.yahoo.co.jp##DIV[id="lrecad"]
+				mail.yahoo.co.jp##IFRAME[id="LREC"]
 	!!! [blogs.yahoo.co.jp]
 		!! 宣伝
 			||yimg.jp/i/jp/blog/p3/js/*
 			blogs.yahoo.co.jp##div[class^="newblogInfo"]
 		!! 広告
 			blogs.yahoo.co.jp##div[id*="AdBanner"]
-
 	!!! [yomiuri.co.jp]
 		||yomiuri.co.jp/g/d.gif
 		||yomiuri.co.jp/scripts/tw_widget2.js?*

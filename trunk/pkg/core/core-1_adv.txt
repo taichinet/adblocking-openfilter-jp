@@ -210,6 +210,8 @@
 			##A[href*="ad.xii.jp"]
 		!! yahoo系
 			||listing.yahoo.co.jp/*
+		!! xtendmedia.com
+			||ad.xtendmedia.com^
 
 
 	!!! <end>
