@@ -4,4 +4,10 @@
 				nikkansports.com##IFRAME[src^="http://ad."]
 				nikkansports.com##DIV[id="sideRecommend"]
 				nikkansports.com##DIV[class="adGIFtext"]
-
+				||become.co.jp^$domain=nikkansports.com
+				||apis.google.com/js/plusone.js$domain=nikkansports.com
+				||plusone.google.com^$domain=nikkansports.com
+				||api.popin.cc^$domain=nikkansports.com
+				||fresheye.com^$domain=nikkansports.com
+				||static.evernote.com^$domain=nikkansports.com
+				||platform.twitter.com/widgets.js$domain=nikkansports.com

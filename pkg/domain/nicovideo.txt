@@ -16,6 +16,13 @@
 				!! nimg.jp
 					!! res系
 						@@||res.nimg.jp/swf/appli/*
+						||res.nimg.jp/img/base/head/icon/nico/*
+						||res.nimg.jp/img/base/head/logo/*
+						||res.nimg.jp/img/base/foot/*
+						||res.nimg.jp/img/watch/ichiba_2/x.gif
+						||res.nimg.jp/img/bg.png
+						||res.nimg.jp/img/player/poster/*
+						||res.nimg.jp/img/remocon/*
 					!! nicoapp
 						@@||nicoapp.jp^
 					!! 市場用 
@@ -34,6 +41,7 @@
 			!! /
 				||nicovideo.jp/__utm.gif*
 				||nicovideo.jp/api/getmarquee*
+				||nicovideo.jp/img/remocon/*
 			!! ad.|ads.
 				||ads.nicovideo.jp^
 				||ad.nicovideo.jp^

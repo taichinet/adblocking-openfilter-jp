@@ -23,6 +23,8 @@
 					yahoo.co.jp##div[id="rightbox1"]
 					yahoo.co.jp##div[id="tct"]
 					yahoo.co.jp##div[id="uhdMain"]
+					yahoo.co.jp##DIV[id^="im_main"]
+					yahoo.co.jp##DIV[id="adLREC"]
 				!! hedlines.
 					headlines.yahoo.co.jp##DIV[class*="adTyumoku"]
 					headlines.yahoo.co.jp##DIV[class*="adCt"]
@@ -37,25 +39,38 @@
 					beauty.yahoo.co.jp##div[class="all_md02"]
 				!! chiebukuro
 					chiebukuro.yahoo.co.jp##div[id="chie-ams"]
+					chiebukuro.yahoo.co.jp##DIV[id^="im_"]
 				!! finance
 					finance.yahoo.co.jp##div[class="marB10"]
 				!! realestate
 					realestate.yahoo.co.jp##div[id="ranking"]
 				!! sports
-					sports.yahoo.co.jp##div[id="im2"]
+					sports.yahoo.co.jp##div[id^="im"]
 				!! tv
 					tv.yahoo.co.jp##div[class="pr300a"]
 					tv.yahoo.co.jp##div[id="right1"]
 				!! weather
 					weather.yahoo.co.jp##div[class^="yjw_sub_md "]
+				!! r25
+					r25.yahoo.co.jp##DIV[id="article"] > DIV[id="center1 > DIV[style^="display:block;margin"]
+					r25.yahoo.co.jp##DIV[id="center2"] > DIV[style^="display:block;margin:"]
+					r25.yahoo.co.jp##DIV[class="PR_key"]
+					r25.yahoo.co.jp##DIV[id="side"] > DIV[id="right1"]
+					r25.yahoo.co.jp##DIV[class="sd_adSQM"]
+					r25.yahoo.co.jp##DIV[id="adLREC"]
+				!! rikunabi-next
+					rikunabi-next.yahoo.co.jp##DIV[id="footer_logo_message"]
+					rikunabi-next.yahoo.co.jp##DIV[id="hd_wrap_dot"]
+					rikunabi-next.yahoo.co.jp##H1[class="hd_text"]
 		!!! mail用暫定策
 				@@||i.yimg.jp/images/mail/classic/mongo/6_0_19_23/js/*
 				||yui.yahooapis.jp/3.0.0pr2/build/yui/*
-				##div[id="jpwelcomeinsideyahootitle"]
+				mail.yahoo.co.jp##DIV[id="jpwelcomeinsideyahootitle"]
+				mail.yahoo.co.jp##DIV[id="lrecad"]
+				mail.yahoo.co.jp##IFRAME[id="LREC"]
 	!!! [blogs.yahoo.co.jp]
 		!! 宣伝
 			||yimg.jp/i/jp/blog/p3/js/*
 			blogs.yahoo.co.jp##div[class^="newblogInfo"]
 		!! 広告
 			blogs.yahoo.co.jp##div[id*="AdBanner"]
-

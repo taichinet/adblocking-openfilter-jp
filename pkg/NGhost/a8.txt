@@ -1,3 +1,4 @@
-!!! a8.net
+	!!! a8.net
 		!! 抑止対象
 			##a[href^="http://px.a8.net/"]
+

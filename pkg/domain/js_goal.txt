@@ -5,4 +5,3 @@
 		jsgoal.jp##DIV[id="topBanner"]
 		||jsgoal.jp/images/1dot.gif
 		||jsgoal.jp/js/news/skp_banner.js
-
