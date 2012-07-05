@@ -1499,7 +1499,7 @@
 				!! weather
 					weather.yahoo.co.jp##div[class^="yjw_sub_md "]
 				!! r25
-					r25.yahoo.co.jp##DIV[id="article"] > DIV[id="center1 > DIV[style^="display:block;margin"]
+					r25.yahoo.co.jp##DIV[id="article"] > DIV[id="center"] > DIV[style^="display:block;margin"]
 					r25.yahoo.co.jp##DIV[id="center2"] > DIV[style^="display:block;margin:"]
 					r25.yahoo.co.jp##DIV[class="PR_key"]
 					r25.yahoo.co.jp##DIV[id="side"] > DIV[id="right1"]
