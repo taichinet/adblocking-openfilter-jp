@@ -148,7 +148,7 @@
 				jibun.atmarkit.co.jp##UL[class="archive"] + DIV
 			!! monoist.
 				monoist.atmarkit.co.jp##DIV[class="colBoxSubhead"] + DIV[class="colBoxInner"] + DIV[class="colBoxClear.h20px"]
-				monoist.atmarkit.co.jp##DIV[id="colBoxRanking + SCRIPT[type="text/javascript"] + DIV[class="colBox"] > DIV[class="colBoxOuter"]
+				monoist.atmarkit.co.jp##DIV[id="colBoxRanking"] + SCRIPT[type="text/javascript"] + DIV[class="colBox"] > DIV[class="colBoxOuter"]
 				monoist.atmarkit.co.jp##DIV[id="socialButton"]
 		!! cancom-j.com
 				ednjapan.cancom-j.com##DIV[class="border_h3.border_h3_red"]
