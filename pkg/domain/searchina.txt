@@ -1,16 +1,20 @@
 	!!! [searchina]
 		!! 表示簡略化
-			searchina.ne.jp##div[id$="adsense"]
-			searchina.ne.jp##div[id="nl2ad"]
-			searchina.ne.jp##div[id="xlisting_keyword_side"]
-			searchina.ne.jp##div[class="nl2ad"]
+			searchina.ne.jp##DIV[id$="adsense"]
+			searchina.ne.jp##DIV[id="nl2ad"]
+			searchina.ne.jp##DIV[id="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[class="nl2ad"]
 			searchina.ne.jp##DIV[id="special_pr"][class$="special_ad"]
 			searchina.ne.jp##IFRAME[src*="yahooshopping"]
 			searchina.ne.jp##DIV[id="tfbTab"]
 			searchina.ne.jp##TD + TD[align="left"]
-			searchina.ne.jp##div[class="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[class="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[id^="DIV-gpt-ad"]
+			searchina.ne.jp##IFRAME[id="cxkeyword"]
+			searchina.ne.jp##IFRAME[id="disp"]
+			searchina.ne.jp##DIV[id="linkservice"] > TABLE
 		!! 外部連携
-			searchina.ne.jp##div[id*="plusone"]
+			searchina.ne.jp##DIV[id*="plusone"]
 			searchina.ne.jp##A[class="mixi-check-button"]
 			searchina.ne.jp##A[class="twitter-share-button"]
 
