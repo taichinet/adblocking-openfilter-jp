@@ -4,7 +4,7 @@
 		ustream.tv##div[class="hideAdMessage.forPageRectangle"]
 		ustream.tv##DIV[class="channelTopBannerWrapper"]
 		ustream.tv##DIV[class^="featuredContent.colTitleBoxV4.pageScroller"]
-		ustream.tv##DIV[class="largeRectBanner]
+		ustream.tv##DIV[class="largeRectBanner"]
 		ustream.tv##div[id="PageRectangle"]
 		ustream.tv##div[id="UstreamSiteNotification"]
 		ustream.tv##DIV[id^="RecommendedLive"]

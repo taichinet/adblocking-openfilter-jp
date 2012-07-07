@@ -199,7 +199,6 @@
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
-			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
@@ -1259,18 +1258,19 @@
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
 	!!! [nikkansports]
-				||ad.nikkansports.com^
-				nikkansports.com##div[class="adPRtext"]
-				nikkansports.com##IFRAME[src^="http://ad."]
-				nikkansports.com##DIV[id="sideRecommend"]
-				nikkansports.com##DIV[class="adGIFtext"]
-				||become.co.jp^$domain=nikkansports.com
-				||apis.google.com/js/plusone.js$domain=nikkansports.com
-				||plusone.google.com^$domain=nikkansports.com
-				||api.popin.cc^$domain=nikkansports.com
-				||fresheye.com^$domain=nikkansports.com
-				||static.evernote.com^$domain=nikkansports.com
-				||platform.twitter.com/widgets.js$domain=nikkansports.com
+		nikkansports.com##div[class="adPRtext"]
+		nikkansports.com##IFRAME[src^="http://ad."]
+		nikkansports.com##DIV[id="sideRecommend"]
+		nikkansports.com##DIV[class="adGIFtext"]
+		nikkansports.com##DIV[class="adBECOME"]
+		||become.co.jp^$domain=nikkansports.com
+		||ad.nikkansports.com^
+		||apis.google.com/js/plusone.js$domain=nikkansports.com
+		||plusone.google.com^$domain=nikkansports.com
+		||api.popin.cc^$domain=nikkansports.com
+		||fresheye.com^$domain=nikkansports.com
+		||static.evernote.com^$domain=nikkansports.com
+		||platform.twitter.com/widgets.js$domain=nikkansports.com
 	!!! [日経系]
 		!!! nikkei.co.jp
 			||adb.nikkei.co.jp*
@@ -1338,17 +1338,21 @@
 
 	!!! [searchina]
 		!! 表示簡略化
-			searchina.ne.jp##div[id$="adsense"]
-			searchina.ne.jp##div[id="nl2ad"]
-			searchina.ne.jp##div[id="xlisting_keyword_side"]
-			searchina.ne.jp##div[class="nl2ad"]
+			searchina.ne.jp##DIV[id$="adsense"]
+			searchina.ne.jp##DIV[id="nl2ad"]
+			searchina.ne.jp##DIV[id="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[class="nl2ad"]
 			searchina.ne.jp##DIV[id="special_pr"][class$="special_ad"]
 			searchina.ne.jp##IFRAME[src*="yahooshopping"]
 			searchina.ne.jp##DIV[id="tfbTab"]
 			searchina.ne.jp##TD + TD[align="left"]
-			searchina.ne.jp##div[class="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[class="xlisting_keyword_side"]
+			searchina.ne.jp##DIV[id^="DIV-gpt-ad"]
+			searchina.ne.jp##IFRAME[id="cxkeyword"]
+			searchina.ne.jp##IFRAME[id="disp"]
+			searchina.ne.jp##DIV[id="linkservice"] > TABLE
 		!! 外部連携
-			searchina.ne.jp##div[id*="plusone"]
+			searchina.ne.jp##DIV[id*="plusone"]
 			searchina.ne.jp##A[class="mixi-check-button"]
 			searchina.ne.jp##A[class="twitter-share-button"]
 
@@ -1436,7 +1440,7 @@
 		ustream.tv##div[class="hideAdMessage.forPageRectangle"]
 		ustream.tv##DIV[class="channelTopBannerWrapper"]
 		ustream.tv##DIV[class^="featuredContent.colTitleBoxV4.pageScroller"]
-		ustream.tv##DIV[class="largeRectBanner]
+		ustream.tv##DIV[class="largeRectBanner"]
 		ustream.tv##div[id="PageRectangle"]
 		ustream.tv##div[id="UstreamSiteNotification"]
 		ustream.tv##DIV[id^="RecommendedLive"]

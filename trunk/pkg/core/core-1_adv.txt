@@ -161,7 +161,6 @@
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
-			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 		!! pitta.ne.jp
 			||ad.pitta.ne.jp^
 		!! advertising.com
