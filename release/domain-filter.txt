@@ -817,7 +817,7 @@
 		##*[href*="http://clk.atdmt.com/"]
 		jp.msn.com##DIV[id=dopad"]
 		jp.msn.com##DIV[id=infopane"]
-		jp.msn.com##DIV[id=subfoot"]
+		jp.msn.com##DIV[id="subfoot"]
 	! [news-postseven.com]
 		news-postseven.com##DIV[class^="adlantiss_frame"]
 		news-postseven.com##DIV[id="mobile"]
