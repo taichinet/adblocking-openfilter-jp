@@ -8,5 +8,11 @@
 		j-cast.com##div[id^="RCBanner"]
 		j-cast.com##div[id^="MCEntryAmazon"]
 		j-cast.com##div[id^="RCTopRectangle"]
-		
+		j-cast.com##DIV[id^="LCOverture"]
+		j-cast.com##DIV[id="LCOtherLanguages"]
+		j-cast.com##DIV[id="LCServices"]
+		j-cast.com##DIV[id="Footer"]
+		j-cast.com##DIV[id="SiteMap"]
+		j-cast.com##DIV[id^="RCOverture"]
+		j-cast.com##DIV[id^="MCAd"]	
 

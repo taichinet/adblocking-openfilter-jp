@@ -1,0 +1,4 @@
+	! [news-postseven.com]
+		news-postseven.com##DIV[class^="adlantiss_frame"]
+		news-postseven.com##DIV[id="mobile"]
+		news-postseven.com##DIV[id="commonFooter"]

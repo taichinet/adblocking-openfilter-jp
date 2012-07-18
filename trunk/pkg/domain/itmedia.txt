@@ -91,6 +91,8 @@
 			!! nlab.
 				nlab.itmedia.co.jp##DIV[class="colBoxUlist"]
 				nlab.itmedia.co.jp##A[href*="itmedia-netlab-22"]
+				nlab.itmedia.co.jp##DIV[id^="masterSocialbutton"]
+				nlab.itmedia.co.jp##DIV[class="inner"] > DIV[class="colBox"]
 			!! gadget.
 				gadget.itmedia.co.jp##DIV[id="ITOP"]
 				gadget.itmedia.co.jp##DIV[class="zenback"]

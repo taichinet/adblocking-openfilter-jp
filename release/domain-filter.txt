@@ -1,6 +1,6 @@
 [Adblock Plus]
 !
-!Copyright (c) 2011, hako 
+!Copyright (c) 2012, hako 
 !All rights reserved.
 !
 !Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -460,6 +460,8 @@
 			!! nlab.
 				nlab.itmedia.co.jp##DIV[class="colBoxUlist"]
 				nlab.itmedia.co.jp##A[href*="itmedia-netlab-22"]
+				nlab.itmedia.co.jp##DIV[id^="masterSocialbutton"]
+				nlab.itmedia.co.jp##DIV[class="inner"] > DIV[class="colBox"]
 			!! gadget.
 				gadget.itmedia.co.jp##DIV[id="ITOP"]
 				gadget.itmedia.co.jp##DIV[class="zenback"]
@@ -524,6 +526,12 @@
 		!! ee-times.jp
 				eetimes.jp##DIV[id="masterFooter"]
 
+	![iza.ne.jp]
+		! 非表示
+			iza.ne.jp##DIV[class^="ad_prFeature"]	
+		! 外部連携
+			||ad.sankei-digital.co.jp^
+
 	!!! [j-cast]
 		||j-cast.com/images/common/all/*
 		||j-cast.com/images/ad_img/*
@@ -534,7 +542,13 @@
 		j-cast.com##div[id^="RCBanner"]
 		j-cast.com##div[id^="MCEntryAmazon"]
 		j-cast.com##div[id^="RCTopRectangle"]
-		
+		j-cast.com##DIV[id^="LCOverture"]
+		j-cast.com##DIV[id="LCOtherLanguages"]
+		j-cast.com##DIV[id="LCServices"]
+		j-cast.com##DIV[id="Footer"]
+		j-cast.com##DIV[id="SiteMap"]
+		j-cast.com##DIV[id^="RCOverture"]
+		j-cast.com##DIV[id^="MCAd"]	
 
 	!!! [J's goal]
 		||jsgoal.jp/js/_parts/random_banner/*
@@ -801,7 +815,13 @@
 	!!! [MSN]
 		||rad.msn.com^
 		##*[href*="http://clk.atdmt.com/"]
-
+		jp.msn.com##DIV[id=dopad"]
+		jp.msn.com##DIV[id=infopane"]
+		jp.msn.com##DIV[id=subfoot"]
+	! [news-postseven.com]
+		news-postseven.com##DIV[class^="adlantiss_frame"]
+		news-postseven.com##DIV[id="mobile"]
+		news-postseven.com##DIV[id="commonFooter"]
 	!!! [newsweekjapan.jp]
 		newsweekjapan.jp##div[id="sideAdPanel"]
 
@@ -896,6 +916,11 @@
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
+				live.nicovideo.jp##DIV[id="ichiba"]
+				live.nicovideo.jp##DIV[id="body_footer"]
+				live.nicovideo.jp##DIV[id="page_footer"]
+				live.nicovideo.jp##DIV[id="descriptions"]
+				live.nicovideo.jp##DIV[id="player_btm"]
 	!!! [nikkansports]
 		nikkansports.com##div[class="adPRtext"]
 		nikkansports.com##IFRAME[src^="http://ad."]
@@ -990,6 +1015,8 @@
 			searchina.ne.jp##IFRAME[id="cxkeyword"]
 			searchina.ne.jp##IFRAME[id="disp"]
 			searchina.ne.jp##DIV[id="linkservice"] > TABLE
+			searchina.ne.jp##DIV[id="cxrecommendations"]
+			searchina.ne.jp##DIV[id="cxkeyword"]
 		!! 外部連携
 			searchina.ne.jp##DIV[id*="plusone"]
 			searchina.ne.jp##A[class="mixi-check-button"]

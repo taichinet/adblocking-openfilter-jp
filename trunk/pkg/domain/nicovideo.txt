@@ -89,3 +89,8 @@
 			!! 広告:ニコ生用
 				live.nicovideo.jp##DIV[class="ichiba_frm"]
 				live.nicovideo.jp##DIV[id="carousel"]
+				live.nicovideo.jp##DIV[id="ichiba"]
+				live.nicovideo.jp##DIV[id="body_footer"]
+				live.nicovideo.jp##DIV[id="page_footer"]
+				live.nicovideo.jp##DIV[id="descriptions"]
+				live.nicovideo.jp##DIV[id="player_btm"]

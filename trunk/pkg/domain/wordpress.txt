@@ -1,0 +1,4 @@
+	[wordpress.com]
+		@@||wp.com/_static/*
+		wordpress.com##DIV[id="welcome.updated"]
+		wordpress.com##DIV[id="welcome"]

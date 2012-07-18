@@ -13,6 +13,8 @@
 			searchina.ne.jp##IFRAME[id="cxkeyword"]
 			searchina.ne.jp##IFRAME[id="disp"]
 			searchina.ne.jp##DIV[id="linkservice"] > TABLE
+			searchina.ne.jp##DIV[id="cxrecommendations"]
+			searchina.ne.jp##DIV[id="cxkeyword"]
 		!! 外部連携
 			searchina.ne.jp##DIV[id*="plusone"]
 			searchina.ne.jp##A[class="mixi-check-button"]
