@@ -1,0 +1,6 @@
+	![iza.ne.jp]
+		! 非表示
+			iza.ne.jp##DIV[class^="ad_prFeature"]	
+		! 外部連携
+			||ad.sankei-digital.co.jp^
+
