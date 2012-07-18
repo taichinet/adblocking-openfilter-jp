@@ -1,6 +1,6 @@
 	!!! [MSN]
 		||rad.msn.com^
 		##*[href*="http://clk.atdmt.com/"]
-		jp.msn.com##DIV[id=dopad"]
-		jp.msn.com##DIV[id=infopane"]
+		jp.msn.com##DIV[id="dopad"]
+		jp.msn.com##DIV[id="infopane"]
 		jp.msn.com##DIV[id="subfoot"]
