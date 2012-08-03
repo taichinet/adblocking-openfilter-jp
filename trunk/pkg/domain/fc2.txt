@@ -14,6 +14,7 @@
 			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
 		!! 広告
 			||fc2.com/ad/*
+			||contents.fc2.com^
 			##DIV[id^="footer_link"]
 		!! 解析？
 			! 長くなる気がしないので、現物ベタ。

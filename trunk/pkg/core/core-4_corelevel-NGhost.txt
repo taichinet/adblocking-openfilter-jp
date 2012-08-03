@@ -8,6 +8,10 @@
 		||revsci.net/
 		||serving-sys.com/
 		||tracer.jp/
+	!!! 悪質中継（到達点含む）
+		||ad-stir.com^
+		||bypass.jp^
+
 
 	!!! <end>
 

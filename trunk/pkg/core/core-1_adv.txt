@@ -33,14 +33,12 @@
 				##DIV[id*="become_ads"]
 				##DIV[id*="blogcampaign"]
 				##DIV[id*="bpbox_text"]
-				##DIV[id*="headerBanner"]
+				##DIV[id*="Banner"]
 				##DIV[id*="imAds"]
 				##DIV[id*="im-wrapper-re"]
 				##DIV[id*="interested"]
 				##DIV[id*="interestMatch"]
 				##DIV[id*="mainad"]
-				##DIV[id*="main-header-banner-box"]
-				##DIV[id*="mediaBanner"]
 				##DIV[id*="module-adsense module"]
 				##DIV[id*="newsFooter"]
 				##DIV[id*="partner-box"]
@@ -69,14 +67,13 @@
 				##DIV[class*="become_ads"]
 				##DIV[class*="blogcampaign"]
 				##DIV[class*="bpbox_text"]
-				##DIV[class*="headerBanner"]
+				##DIV[class*="Banner"]
+				##DIV[class*="banner"]
 				##DIV[class*="imAds"]
 				##DIV[class*="im-wrapper-re"]
 				##DIV[class*="interested"]
 				##DIV[class*="interestMatch"]
 				##DIV[class*="mainad"]
-				##DIV[class*="main-header-banner-box"]
-				##DIV[class*="mediaBanner"]
 				##DIV[class*="module-adsense module"]
 				##DIV[class*="newsFooter"]
 				##DIV[class*="partner-box"]
@@ -143,21 +140,23 @@
 		!! 6.その他表記
 			##DIV[id*="buyPremium"]
 			##DIV[id*="sponsered_contents"]
-			/adlisting.php
+			/ad*.php
 	!!! 2:特定ドメイン直
 		!! amazon
 			||amazon.co.jp/widgets/*
 			||amazon.co.jp/gp/associates/previews/*
 			||assoc-amazon.jp/s/link-enhancer?*
 			||assoc-amazon.jp/*/JP/js/*
-			||ecx.images-amazon.com^
-			||g-ec2.images-amazon.com^
 			||rcm-jp.amazon.co.jp/*
+			||ecx.images-amazon.com^
+			||g-ec*.images-amazon.com^
 			||z-ecx.images-amazon.com^
+			! 後日確認の上リリース
+			! /(ecx|g-ec*|z-ecx)\.images-amazon\.com/
 			##IFRAME[src*="/inc/amazon.php"]
 			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 			##DIV[class^="amazon"]
-			##IFRAME[src$="/amazon_rotate.html"]
+			##IFRAME[src$="amazon_rotate.html"]
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
@@ -177,7 +176,7 @@
 				##A[href*="impact-ad.jp"]
 				##SCRIPT[src*="impact-ad.jp"]
 				##IFRAME[src*="impact-ad.jp"]
-				##img[src*="impact-ad.jp"]
+				##IMG[src*="impact-ad.jp"]
 				##SCRIPT[src*="impact-ad.jp"]
 		!! microad.jp
 			||microad.jp^

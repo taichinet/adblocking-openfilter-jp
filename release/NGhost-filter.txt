@@ -74,6 +74,18 @@
 				||a8.net^
 					##A[href*="a8.net"]
 					##SCRIPT[src*="a8.net"]
+				||adtech.de^
+					##A[href*="adtech.de"]
+					##SCRIPT[src*="adtech.de"]
+				||adxns.com^
+					##A[href*="adxns.com"]
+					##SCRIPT[src*="adxns.com"]
+				||adsta.jp^
+					##A[href*="adsta.jp"]
+					##SCRIPT[src*="adsta.jp"]
+				||adroll.com^
+					##A[href*="adroll.com"]
+					##SCRIPT[src*="adroll.com"]
 			!! B
 			!! C
 			!! D

@@ -71,14 +71,12 @@
 				##DIV[id*="become_ads"]
 				##DIV[id*="blogcampaign"]
 				##DIV[id*="bpbox_text"]
-				##DIV[id*="headerBanner"]
+				##DIV[id*="Banner"]
 				##DIV[id*="imAds"]
 				##DIV[id*="im-wrapper-re"]
 				##DIV[id*="interested"]
 				##DIV[id*="interestMatch"]
 				##DIV[id*="mainad"]
-				##DIV[id*="main-header-banner-box"]
-				##DIV[id*="mediaBanner"]
 				##DIV[id*="module-adsense module"]
 				##DIV[id*="newsFooter"]
 				##DIV[id*="partner-box"]
@@ -107,14 +105,13 @@
 				##DIV[class*="become_ads"]
 				##DIV[class*="blogcampaign"]
 				##DIV[class*="bpbox_text"]
-				##DIV[class*="headerBanner"]
+				##DIV[class*="Banner"]
+				##DIV[class*="banner"]
 				##DIV[class*="imAds"]
 				##DIV[class*="im-wrapper-re"]
 				##DIV[class*="interested"]
 				##DIV[class*="interestMatch"]
 				##DIV[class*="mainad"]
-				##DIV[class*="main-header-banner-box"]
-				##DIV[class*="mediaBanner"]
 				##DIV[class*="module-adsense module"]
 				##DIV[class*="newsFooter"]
 				##DIV[class*="partner-box"]
@@ -181,21 +178,23 @@
 		!! 6.その他表記
 			##DIV[id*="buyPremium"]
 			##DIV[id*="sponsered_contents"]
-			/adlisting.php
+			/ad*.php
 	!!! 2:特定ドメイン直
 		!! amazon
 			||amazon.co.jp/widgets/*
 			||amazon.co.jp/gp/associates/previews/*
 			||assoc-amazon.jp/s/link-enhancer?*
 			||assoc-amazon.jp/*/JP/js/*
-			||ecx.images-amazon.com^
-			||g-ec2.images-amazon.com^
 			||rcm-jp.amazon.co.jp/*
+			||ecx.images-amazon.com^
+			||g-ec*.images-amazon.com^
 			||z-ecx.images-amazon.com^
+			! 後日確認の上リリース
+			! /(ecx|g-ec*|z-ecx)\.images-amazon\.com/
 			##IFRAME[src*="/inc/amazon.php"]
 			##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 			##DIV[class^="amazon"]
-			##IFRAME[src$="/amazon_rotate.html"]
+			##IFRAME[src$="amazon_rotate.html"]
 			##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 			##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 			##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
@@ -215,7 +214,7 @@
 				##A[href*="impact-ad.jp"]
 				##SCRIPT[src*="impact-ad.jp"]
 				##IFRAME[src*="impact-ad.jp"]
-				##img[src*="impact-ad.jp"]
+				##IMG[src*="impact-ad.jp"]
 				##SCRIPT[src*="impact-ad.jp"]
 		!! microad.jp
 			||microad.jp^
@@ -331,9 +330,10 @@
 			##script[src*="headrank"]
 			##iframe[src*="headrank"]
 		!! 2.headline
+			! divタグに関しては停止。他は様子見。
 			/(H|h)(EADLINE|eadline)\.(html|htm|php|js)
-			##div[id*="headline"]
-			##div[class*="headline"]
+			!	##div[id*="headline"]
+			!	##div[class*="headline"]
 			##script[src*="headline"]
 			##iframe[src*="headline"]
 			##iframe[src*="Headline"]
@@ -373,6 +373,10 @@
 		||revsci.net/
 		||serving-sys.com/
 		||tracer.jp/
+	!!! 悪質中継（到達点含む）
+		||ad-stir.com^
+		||bypass.jp^
+
 
 	!!! <end>
 
@@ -602,6 +606,7 @@
 			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
 		!! 広告
 			||fc2.com/ad/*
+			||contents.fc2.com^
 			##DIV[id^="footer_link"]
 		!! 解析？
 			! 長くなる気がしないので、現物ベタ。
@@ -698,6 +703,24 @@
 				||b.hatena.ne.jp/entrylist/*$third-party
 				||b.hatena.ne.jp/images/widget/*$third-party
 				||b.hatena.ne.jp/js/*$third-party
+
+	![hootsuite.com]
+		! 許可
+			@@||static.hootsuite.com/*/js/images/*$domain=hootsuite.com
+			@@||static.hootsuite.com/*/js/*$domain=hootsuite.com
+			@@||fbcdn.net^$domain=hootsuite.com
+			@@||hootsuite.com/ajax/*$domain=hootsuite.com
+			@@||static.hootsuite.com/*/css/*$domain=hootsuite.com
+			@@||hootsuite.com/dashboard#/tabs*$domain=hootsuite.com
+			@@||cloudfront.net^$domain=hootsuite.com
+			@@||profile.img.mixi.jp^$domain=hootsuite.com
+			@@||static.hootsuite.com/*/images/*$domain=hootsuite.com
+			@@||static.hootsuite.com/*/swf/*$domain=hootsuite.com
+			@@||maps-api-ssl.google.com^$domain=hootsuite.com
+			@@||google.com/jsapi$domain=hootsuite.com
+			@@||hootsuite.com^$document
+		! 非許可
+			||hootsuite.com/show-ad
 
 	!!! [infoseek.co.jp]
 		!! 広域
@@ -1626,6 +1649,18 @@
 				||a8.net^
 					##A[href*="a8.net"]
 					##SCRIPT[src*="a8.net"]
+				||adtech.de^
+					##A[href*="adtech.de"]
+					##SCRIPT[src*="adtech.de"]
+				||adxns.com^
+					##A[href*="adxns.com"]
+					##SCRIPT[src*="adxns.com"]
+				||adsta.jp^
+					##A[href*="adsta.jp"]
+					##SCRIPT[src*="adsta.jp"]
+				||adroll.com^
+					##A[href*="adroll.com"]
+					##SCRIPT[src*="adroll.com"]
 			!! B
 			!! C
 			!! D
