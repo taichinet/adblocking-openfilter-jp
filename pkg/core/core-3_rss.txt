@@ -25,9 +25,10 @@
 			##script[src*="headrank"]
 			##iframe[src*="headrank"]
 		!! 2.headline
+			! divタグに関しては停止。他は様子見。
 			/(H|h)(EADLINE|eadline)\.(html|htm|php|js)
-			##div[id*="headline"]
-			##div[class*="headline"]
+			!	##div[id*="headline"]
+			!	##div[class*="headline"]
 			##script[src*="headline"]
 			##iframe[src*="headline"]
 			##iframe[src*="Headline"]
