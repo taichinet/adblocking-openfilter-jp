@@ -1,15 +1,23 @@
 	!!! [excite.co.jp]
+		! weblogサービス(exblog.jp)に関しては、exblog.jp.txtを参照の事
+
 		||adimp.excite.co.jp/*
 		excite.co.jp##A[href*="adimp"]
-		excite.co.jp##SCRIPT[src*="adimp"]
-		excite.co.jp##IFRAME[src*="adimp"]
-		excite.co.jp##DIV[class^="ov_cm"]
-		excite.co.jp##DIV[class="popularKeywords"]
+		excite.co.jp##DIV#exFooter
+		excite.co.jp##DIV#footerWall
+		excite.co.jp##DIV#gameRanking
+		excite.co.jp##DIV#popular_keywords_main
+		excite.co.jp##DIV#sideChinaTalk
+		excite.co.jp##DIV.relNewsAd300
 		excite.co.jp##DIV[class="ad728"]
+		excite.co.jp##DIV[class="popularKeywords"]
+		excite.co.jp##DIV[class^="ov_cm"]
+		excite.co.jp##DIV[id$="banner"]
+		excite.co.jp##DIV[id="excite_slidead_wrap"]
+		excite.co.jp##DIV[id="external_flash_ad_embed"]
+		excite.co.jp##DIV[id="footer"]
 		excite.co.jp##DIV[id="HS-2-frame"]
 		excite.co.jp##DIV[id="rakuten-frame"]
-		excite.co.jp##DIV[id="footer"]
-		excite.co.jp##DIV[id$="banner"]
-		excite.co.jp##DIV[id="external_flash_ad_embed"]
-		excite.co.jp##DIV[id="excite_slidead_wrap"]
+		excite.co.jp##IFRAME[src*="adimp"]
+		excite.co.jp##SCRIPT[src*="adimp"]
 

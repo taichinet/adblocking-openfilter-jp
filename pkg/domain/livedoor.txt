@@ -1,23 +1,14 @@
 	!!! [livedoor]
 		!!! 基本抑止
-			!! 正規表現
-				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
 				||click.livedoor.com^
 				||image.click.livedoor.com/js/livedoortopFlashAd.js
-			!	||app.click.livedoor.com/A-affiliate2/*
 				||news.livedoor.com/img/social/*
+
+			!! 正規表現
+				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
 			!! .com
-				livedoor.com##*[href*="A-affiliate"]
-				livedoor.com##DIV[id^="ad-"]
-				livedoor.com##DIV[id="amazon-ranking"]
-				livedoor.com##DIV[id*="become"]
-				livedoor.com##DIV[id="blogcampaign"]
-				livedoor.com##DIV[id="headerBanner"]
-				livedoor.com##DIV[id="newsFooter"]
-				livedoor.com##DIV[id="osusume"]
-				livedoor.com##DIV[id="otoku-info"]
-				livedoor.com##DIV[id="partner-box"]
-				livedoor.com##DIV[id="yahoo-shopping"]
+				livedoor.com##A[href*="A-affiliate"]
+				livedoor.com##DIV[class*="ads-by-google"]
 				livedoor.com##DIV[class*="adsense"]
 				livedoor.com##DIV[class*="become"]
 				livedoor.com##DIV[class*="google-body"]
@@ -28,21 +19,30 @@
 				livedoor.com##DIV[class*="prtextBox"]
 				livedoor.com##DIV[class*="SearchResult"][class$="AD"]
 				livedoor.com##DIV[class*="SearchResultTopAD"]
-				livedoor.com##DIV[class*="ads-by-google"]
+				livedoor.com##DIV[id$="ad"]
+				livedoor.com##DIV[id*="become"]
+				livedoor.com##DIV[id="amazon-ranking"]
+				livedoor.com##DIV[id="blogcampaign"]
+				livedoor.com##DIV[id="commonFooter"]
+				livedoor.com##DIV[id="headerBanner"]
+				livedoor.com##DIV[id="news-special"]
+				livedoor.com##DIV[id="newsFooter"]
+				livedoor.com##DIV[id="osusume"]
+				livedoor.com##DIV[id="otoku-info"]
+				livedoor.com##DIV[id="partner-box"]
+				livedoor.com##DIV[id="yahoo-shopping"]
+				livedoor.com##DIV[id^="ad-"]
+				livedoor.com##DIV[id^="footer-ad"]
 				livedoor.com##IFRAME[src*="ad.yieldmanager.com"]
-				livedoor.com##SCRIPT[src*="FlashAd"]
 				livedoor.com##IMG[class="tie-up"]
 				livedoor.com##P[id="megaText"]
-				livedoor.com##DIV[id$="ad"]
-				livedoor.com##DIV[id="news-special"]
-				livedoor.com##DIV[id^="footer-ad"]
-				livedoor.com##DIV[id="commonFooter"]
+				livedoor.com##SCRIPT[src*="FlashAd"]
 			!! TOP
-				livedoor.biz##DIV#analyzer_tags
+				livedoor.biz##DIV[id="analyzer_tags"]
 				livedoor.biz##DIV[id^="header"]
-				livedoor.com##DIV[id="article-social-tool"]
 				livedoor.com##DIV[class="LDservice-link"]
 				livedoor.com##DIV[class="sub-smartphone-box"]
+				livedoor.com##DIV[id="article-social-tool"]
 			!! news.
 				news.livedoor.com##DIV[class="large-showcase"]
 				news.livedoor.com##DL[class="image-list.image120-80"]
@@ -50,12 +50,11 @@
 			!! 多分解析
 				||lcs.livedoor.net^
 	!!! [blog.livedoor.*]
+		! livedoor管轄以外のブログパーツに関しては、_blogparts.txtを参照。
+		
 		!! blog.
-			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			||parts.blog.livedoor.jp/js/blog_ads/*
-			||parts.blog.livedoor.jp/js/c2.js
-			||parts.blog.livedoor.jp/js/lcslog.js
+			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 			blog.livedoor.jp##A[href*="ldblog-001-22"]
 			blog.livedoor.jp##DIV[id="analyzer_tags"]
 			blog.livedoor.jp##SCRIPT[src$="/settings/ad.js"]
@@ -68,6 +67,9 @@
 			blog.livedoor.jp##TD[class="newstickerbox"]
 			blog.livedoor.jp##TD[class="pickuptheme"]
 			blog.livedoor.jp##TD[class="startblogbox"]
+			||parts.blog.livedoor.jp/js/blog_ads/*
+			||parts.blog.livedoor.jp/js/c2.js
+			||parts.blog.livedoor.jp/js/lcslog.js
 		!! blogeditor
 			||parts.blog.livedoor.jp/img/usr/*/bg.gif
 			||parts.blog.livedoor.jp/img/usr/cmn/*

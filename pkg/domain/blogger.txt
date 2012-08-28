@@ -1,4 +1,6 @@
 	!!! [blogger.com]
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		blogspot.com##div[class="widget AdSense"]
 		blogspot.com##IFRAME[src^="http://dcs.yahoo.co.jp/dp/?adid="]
 
