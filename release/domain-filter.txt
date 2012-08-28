@@ -26,63 +26,73 @@
 
 ! [ブログパーツ用抑止]
 	!!! ブログパーツ用抑止
-		||awasete.com^
-			##A[href*="awasete.com"]
-			##[src*="awasete.com"]
-		||a-pagerank.net^
-		
-		||addclips.org/*/addclips.js
-		||blogchart.jp^
-			##A[href*="blogchart.jp"]
-			##[src*="blogchart.jp"]
-		||blogdeco.jp^
-			##A[href*="blogdeco.jp"]
-			##[src*="blogdeco.jp"]
-		||blogmura.com^
-			##A[href*="blogmura.com"]
-			##[src*="blogmura.com"]
-		||blogpark.jp^
-			##A[href*="blogpark.jp"]
-			##[src*="blogpark.jp"]
-		||c-team.jp^
-			##A[href*="c-team.jp"]
-			##[src*="c-team.jp"]
-		||dlsite.com^$third-party
-			##A[href*="dlsite.com"]
-			##[src*="dlsite.com"]
-		||e-pagerank.net^
-			##A[href*="e-pagerank.net"]
-			##[src*="e-pagerank.net"]
-		||feedmeter.net^
-			##A[href*="feedmeter.net"]
-			##[src*="feedmeter.net"]
-		||rakuword.com^
-			##A[href*="rakuword.com"]
-			##[src*="rakuword.com"]
-		||shard.jp^
-			##A[href*="shard.jp"]
-			##[src*="shard.jp"]
-		||tophatenar.com^
-			##A[href*="tophatenar.com"]
-			##[src*="tophatenar.com"]
-		||trackfeed.com^
-			##A[href*="trackfeed.com"]
-			##[src*="trackfeed.com"]
-		||xii.jp^
-			##A[href*="xii.jp"]
-			##[src*="xii.jp"]
-		||y-nomnom.info^
-			##A[href*="y-nomnom.info"]
-			##[src*="y-nomnom.info"]
-		||nakanohito.jp^
-		||ax.xrea.com/*.gif
-	!!! <end>
+			##DIV[class="widget.HTML"]
+		!! ドメイン別
+			||awasete.com^
+				##A[href*="awasete.com"]
+				##[src*="awasete.com"]
+			||a-pagerank.net^
+			||addclips.org/*/addclips.js
+			||blogchart.jp^
+				##A[href*="blogchart.jp"]
+				##[src*="blogchart.jp"]
+			||blogdeco.jp^
+				##A[href*="blogdeco.jp"]
+				##[src*="blogdeco.jp"]
+			||blogmura.com^
+				##A[href*="blogmura.com"]
+				##[src*="blogmura.com"]
+			||blogpark.jp^
+				##A[href*="blogpark.jp"]
+				##[src*="blogpark.jp"]
+			||c-team.jp^
+				##A[href*="c-team.jp"]
+				##[src*="c-team.jp"]
+			||dlsite.com^$third-party
+				##A[href*="dlsite.com"]
+				##[src*="dlsite.com"]
+			||e-pagerank.net^
+				##A[href*="e-pagerank.net"]
+				##[src*="e-pagerank.net"]
+			||feedmeter.net^
+				##A[href*="feedmeter.net"]
+				##[src*="feedmeter.net"]
+			||rakuword.com^
+				##A[href*="rakuword.com"]
+				##[src*="rakuword.com"]
+			||shard.jp^
+				##A[href*="shard.jp"]
+				##[src*="shard.jp"]
+			||tophatenar.com^
+				##A[href*="tophatenar.com"]
+				##[src*="tophatenar.com"]
+			||trackfeed.com^
+				##A[href*="trackfeed.com"]
+				##[src*="trackfeed.com"]
+			||xii.jp^
+				##A[href*="xii.jp"]
+				##[src*="xii.jp"]
+			||y-nomnom.info^
+				##A[href*="y-nomnom.info"]
+				##[src*="y-nomnom.info"]
+			||nakanohito.jp^
+			||ax.xrea.com/*.gif
+		!!! <end>
 
 	!!! [afpbb.com]
 		afpbb.com###bpnDirectoryBlock
 		afpbb.com###prLinkBlock
 
 	!!! [ameblo]
+		! weblogサービス(ameblo)はameblo.txtを参照の事。
+
+		!! profile
+			profile.ameba.jp##DIV#profile_pBanner
+		
+	!!! [ameblo]
+		! ameba.jpに関しては、ameba.jp.txtを参照の事。
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		!! 1*1画像検出
 			||act.ameba.jp^
 			||ameblo.jp/accesslog/*
@@ -109,6 +119,7 @@
 			ameblo.jp##UL[class="rc_head clearFix"]
 			ameblo.jp##UL[id="amebaBar"]
 			ameblo.jp##UL[id="exLinkBtn"]
+
 	!!! [asahi.com]
 		asahi.com##div[class="BnrPr"]
 		asahi.com##div[class="Box1"] > UL[class="Lnk.FstMod.LstMargin"]
@@ -120,11 +131,15 @@
 		asahi.com##dl[class="PrInfo"]
 
 	!!! [goo.ne.jp]
-		blog.goo.ne.jp##div[id="mod-advertising"]
-		blog.goo.ne.jp##div[id="global-header"]
-		blog.goo.ne.jp##div[id="mod-goo-recommends"]
+		! ブログパーツに関しては、_blogparts.txtを参照。
+
+		blog.goo.ne.jp##DIV[id="global-header"]
+		blog.goo.ne.jp##DIV[id="mod-advertising"]
+		blog.goo.ne.jp##DIV[id="mod-goo-recommends"]
 
 	!!! [blogger.com]
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		blogspot.com##div[class="widget AdSense"]
 		blogspot.com##IFRAME[src^="http://dcs.yahoo.co.jp/dp/?adid="]
 
@@ -168,28 +183,34 @@
 		engadget.com##IFRAME[src^="http://xml.affiliate.rakuten.co.jp"]
 
 	!!! [exblog.ne.jp*]
+		! excite.co.jpに関しては、excite.txtを参照の事。
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		!! weblog
 			||logping.exblog.jp^
 
-	!!! [excite]
-		!! 許可対象
-			||adimp.excite.co.jp^
-		!! 抑止対象
-
 	!!! [excite.co.jp]
+		! weblogサービス(exblog.jp)に関しては、exblog.jp.txtを参照の事
+
 		||adimp.excite.co.jp/*
 		excite.co.jp##A[href*="adimp"]
-		excite.co.jp##SCRIPT[src*="adimp"]
-		excite.co.jp##IFRAME[src*="adimp"]
-		excite.co.jp##DIV[class^="ov_cm"]
-		excite.co.jp##DIV[class="popularKeywords"]
+		excite.co.jp##DIV#exFooter
+		excite.co.jp##DIV#footerWall
+		excite.co.jp##DIV#gameRanking
+		excite.co.jp##DIV#popular_keywords_main
+		excite.co.jp##DIV#sideChinaTalk
+		excite.co.jp##DIV.relNewsAd300
 		excite.co.jp##DIV[class="ad728"]
+		excite.co.jp##DIV[class="popularKeywords"]
+		excite.co.jp##DIV[class^="ov_cm"]
+		excite.co.jp##DIV[id$="banner"]
+		excite.co.jp##DIV[id="excite_slidead_wrap"]
+		excite.co.jp##DIV[id="external_flash_ad_embed"]
+		excite.co.jp##DIV[id="footer"]
 		excite.co.jp##DIV[id="HS-2-frame"]
 		excite.co.jp##DIV[id="rakuten-frame"]
-		excite.co.jp##DIV[id="footer"]
-		excite.co.jp##DIV[id$="banner"]
-		excite.co.jp##DIV[id="external_flash_ad_embed"]
-		excite.co.jp##DIV[id="excite_slidead_wrap"]
+		excite.co.jp##IFRAME[src*="adimp"]
+		excite.co.jp##SCRIPT[src*="adimp"]
 
 	!!! [Facebook]
 		!!! 内部
@@ -221,29 +242,33 @@
 				##SCRIPT[src*="connect.facebook.net"]
 
 	!!! [fc2.com]
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		!! ブログヘッダ
-			fc2.com##div[id$="blogheadbar"]
+			fc2.com##DIV[id$="blogheadbar"]
 		!! エディタ
-			blog.fc2.com##iframe[src*="advertising.com"]
-			blog.fc2.com##div[class="content"][id="recommend_newentry"]
-			blog.fc2.com##div[class="content"][id="content_tab"]
-			blog.fc2.com##div[class="main_top_ad"]
-			blog.fc2.com##div[class="content"][id="content_track"]
-			blog.fc2.com##div[id="recent_template"][class="recent_tmpl"]
-			blog.fc2.com##div[id="tbtheme"]
-			blog.fc2.com##div[id="ad_sidebar"]
-			blog.fc2.com##div[id="flashcontent1"]
-			blog.fc2.com##embed[src^="http://fc2.com/ad/"]
+			blog.fc2.com##DIV[class="content"][id="content_tab"]
+			blog.fc2.com##DIV[class="content"][id="content_track"]
+			blog.fc2.com##DIV[class="content"][id="recommend_newentry"]
+			blog.fc2.com##DIV[class="main_top_ad"]
+			blog.fc2.com##DIV[id="ad_sidebar"]
+			blog.fc2.com##DIV[id="flashcontent1"]
+			blog.fc2.com##DIV[id="recent_template"][class="recent_tmpl"]
+			blog.fc2.com##DIV[id="tbtheme"]
+			blog.fc2.com##EMBED[src^="http://fc2.com/ad/"]
+			blog.fc2.com##IFRAME[src*="advertising.com"]
 		!! 広告
 			||fc2.com/ad/*
 			||contents.fc2.com^
-			##DIV[id^="footer_link"]
+			fc2.com##DIV[id^="footer_link"]
 		!! 解析？
-			! 長くなる気がしないので、現物ベタ。
+			! そんな長くなる気がしないので、現物ベタ。
 				||fc2.com/ana*
 				||analysis.fc2.com^
 				||analyzer5.fc2.com^
 				||analyzer54.fc2.com^
+				! /analy(sis|zer*)\.fc2\.com/
+
 				! カウンターは解析用の読み込みに使ってるんじゃないかと言う推測の元、ブロック。
 					||counter*.fc2.com^
 		!! ぶろぐらんきんぐ
@@ -334,23 +359,26 @@
 				||b.hatena.ne.jp/images/widget/*$third-party
 				||b.hatena.ne.jp/js/*$third-party
 
-	![hootsuite.com]
-		! 許可
-			@@||static.hootsuite.com/*/js/images/*$domain=hootsuite.com
-			@@||static.hootsuite.com/*/js/*$domain=hootsuite.com
-			@@||fbcdn.net^$domain=hootsuite.com
-			@@||hootsuite.com/ajax/*$domain=hootsuite.com
-			@@||static.hootsuite.com/*/css/*$domain=hootsuite.com
-			@@||hootsuite.com/dashboard#/tabs*$domain=hootsuite.com
-			@@||cloudfront.net^$domain=hootsuite.com
-			@@||profile.img.mixi.jp^$domain=hootsuite.com
-			@@||static.hootsuite.com/*/images/*$domain=hootsuite.com
-			@@||static.hootsuite.com/*/swf/*$domain=hootsuite.com
-			@@||maps-api-ssl.google.com^$domain=hootsuite.com
-			@@||google.com/jsapi$domain=hootsuite.com
-			@@||hootsuite.com^$document
-		! 非許可
-			||hootsuite.com/show-ad
+	! [hootsuite.com]
+		! twitter本家はtwitter.txtを参照の事。
+	
+		!! hootsuite.com
+			! 許可
+				@@||cloudfront.net^$domain=hootsuite.com
+				@@||fbcdn.net^$domain=hootsuite.com
+				@@||google.com/jsapi$domain=hootsuite.com
+				@@||hootsuite.com/ajax/*$domain=hootsuite.com
+				@@||hootsuite.com/dashboard#/tabs*$domain=hootsuite.com
+				@@||hootsuite.com^$document
+				@@||maps-api-ssl.google.com^$domain=hootsuite.com
+				@@||profile.img.mixi.jp^$domain=hootsuite.com
+				@@||static.hootsuite.com/*/css/*$domain=hootsuite.com
+				@@||static.hootsuite.com/*/images/*$domain=hootsuite.com
+				@@||static.hootsuite.com/*/js/*$domain=hootsuite.com
+				@@||static.hootsuite.com/*/js/images/*$domain=hootsuite.com
+				@@||static.hootsuite.com/*/swf/*$domain=hootsuite.com
+			! 非許可
+				||hootsuite.com/show-ad
 
 	!!! [infoseek.co.jp]
 		!! 広域
@@ -578,24 +606,15 @@
 		||jsgoal.jp/js/news/skp_banner.js
 	!!! [livedoor]
 		!!! 基本抑止
-			!! 正規表現
-				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
 				||click.livedoor.com^
 				||image.click.livedoor.com/js/livedoortopFlashAd.js
-			!	||app.click.livedoor.com/A-affiliate2/*
 				||news.livedoor.com/img/social/*
+
+			!! 正規表現
+				/livedoor\.(com|jp)(|:80|:8000|:8080)\/A-affiliate*/
 			!! .com
-				livedoor.com##*[href*="A-affiliate"]
-				livedoor.com##DIV[id^="ad-"]
-				livedoor.com##DIV[id="amazon-ranking"]
-				livedoor.com##DIV[id*="become"]
-				livedoor.com##DIV[id="blogcampaign"]
-				livedoor.com##DIV[id="headerBanner"]
-				livedoor.com##DIV[id="newsFooter"]
-				livedoor.com##DIV[id="osusume"]
-				livedoor.com##DIV[id="otoku-info"]
-				livedoor.com##DIV[id="partner-box"]
-				livedoor.com##DIV[id="yahoo-shopping"]
+				livedoor.com##A[href*="A-affiliate"]
+				livedoor.com##DIV[class*="ads-by-google"]
 				livedoor.com##DIV[class*="adsense"]
 				livedoor.com##DIV[class*="become"]
 				livedoor.com##DIV[class*="google-body"]
@@ -606,21 +625,30 @@
 				livedoor.com##DIV[class*="prtextBox"]
 				livedoor.com##DIV[class*="SearchResult"][class$="AD"]
 				livedoor.com##DIV[class*="SearchResultTopAD"]
-				livedoor.com##DIV[class*="ads-by-google"]
+				livedoor.com##DIV[id$="ad"]
+				livedoor.com##DIV[id*="become"]
+				livedoor.com##DIV[id="amazon-ranking"]
+				livedoor.com##DIV[id="blogcampaign"]
+				livedoor.com##DIV[id="commonFooter"]
+				livedoor.com##DIV[id="headerBanner"]
+				livedoor.com##DIV[id="news-special"]
+				livedoor.com##DIV[id="newsFooter"]
+				livedoor.com##DIV[id="osusume"]
+				livedoor.com##DIV[id="otoku-info"]
+				livedoor.com##DIV[id="partner-box"]
+				livedoor.com##DIV[id="yahoo-shopping"]
+				livedoor.com##DIV[id^="ad-"]
+				livedoor.com##DIV[id^="footer-ad"]
 				livedoor.com##IFRAME[src*="ad.yieldmanager.com"]
-				livedoor.com##SCRIPT[src*="FlashAd"]
 				livedoor.com##IMG[class="tie-up"]
 				livedoor.com##P[id="megaText"]
-				livedoor.com##DIV[id$="ad"]
-				livedoor.com##DIV[id="news-special"]
-				livedoor.com##DIV[id^="footer-ad"]
-				livedoor.com##DIV[id="commonFooter"]
+				livedoor.com##SCRIPT[src*="FlashAd"]
 			!! TOP
-				livedoor.biz##DIV#analyzer_tags
+				livedoor.biz##DIV[id="analyzer_tags"]
 				livedoor.biz##DIV[id^="header"]
-				livedoor.com##DIV[id="article-social-tool"]
 				livedoor.com##DIV[class="LDservice-link"]
 				livedoor.com##DIV[class="sub-smartphone-box"]
+				livedoor.com##DIV[id="article-social-tool"]
 			!! news.
 				news.livedoor.com##DIV[class="large-showcase"]
 				news.livedoor.com##DL[class="image-list.image120-80"]
@@ -628,12 +656,11 @@
 			!! 多分解析
 				||lcs.livedoor.net^
 	!!! [blog.livedoor.*]
+		! livedoor管轄以外のブログパーツに関しては、_blogparts.txtを参照。
+		
 		!! blog.
-			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 			/settings/ad.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
-			||parts.blog.livedoor.jp/js/blog_ads/*
-			||parts.blog.livedoor.jp/js/c2.js
-			||parts.blog.livedoor.jp/js/lcslog.js
+			/settings/header.js^$domain=livedoor.com,~livedoor.net,~livedoor.jp,~livedoor.biz
 			blog.livedoor.jp##A[href*="ldblog-001-22"]
 			blog.livedoor.jp##DIV[id="analyzer_tags"]
 			blog.livedoor.jp##SCRIPT[src$="/settings/ad.js"]
@@ -646,6 +673,9 @@
 			blog.livedoor.jp##TD[class="newstickerbox"]
 			blog.livedoor.jp##TD[class="pickuptheme"]
 			blog.livedoor.jp##TD[class="startblogbox"]
+			||parts.blog.livedoor.jp/js/blog_ads/*
+			||parts.blog.livedoor.jp/js/c2.js
+			||parts.blog.livedoor.jp/js/lcslog.js
 		!! blogeditor
 			||parts.blog.livedoor.jp/img/usr/*/bg.gif
 			||parts.blog.livedoor.jp/img/usr/cmn/*
@@ -1051,6 +1081,8 @@
 				slashdot.jp##div[id^="gpt-sd_index"]
 
 	!!! [blog.so-net.ne.jp]
+		! ブログパーツに関しては、_blogparts.txtを参照
+
 			||blog.so-net.ne.jp/_contents/js/*
 			||blog.so-net.ne.jp/_common/js/*
 			||blog.so-net.ne.jp/_common/images/*
@@ -1067,6 +1099,8 @@
 		tabelog.com##IFRAME[src^="http://notice.kakaku.com/html.ng/"]
 
 	!!! [twitter]
+		! 外部クライアントに関しては分離予定。Togetterに関しては思案中
+
 		!!! 公式
 			!! 許可対象
 				@@||twimg.com/profile_images/$domain=twitter.com
@@ -1078,19 +1112,19 @@
 					twitter.com##A[href^="http://blog.twitter.jp/"]
 					twitter.com##DIV[class*="promoted-tweet"]
 					twitter.com##DIV[class="component"] > DIV[class="user-rec-inner"]
+					twitter.com##DIV[class="flex-module-header"]
 					twitter.com##DIV[class="trends"]
 					twitter.com##DIV[class="trends-inner"]
+					twitter.com##DIV[class^="js-recommended-followers"]
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##IFRAME[id="j_ad"]
 					twitter.com##LI[class^="trend-item"]
 					twitter.com##LI[class^="user-small-list-item"]
 					twitter.com##P[class="promo"]
-					twitter.com##DIV[class^="js-recommended-followers"]
-					twitter.com##DIV[class="flex-module-header"]
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
-					##script[src="http://widgets.twimg.com/j/2/widget.js"]
+					##SCRIPT[src="http://widgets.twimg.com/j/2/widget.js"]
 					##DIV[id^="twtr-widget"]
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 				!! 広告抑止
@@ -1104,13 +1138,16 @@
 			!! twitpic
 				twitpic.com##DIV[id^="view-photo-ad"]
 			!! Togetter
-				togetter.com##div[id="amazon_content_box"]
-				togetter.com##div[class="advertise_head_box"]
+				togetter.com##DIV[id="amazon_content_box"]
+				togetter.com##DIV[class="advertise_head_box"]
 				togetter.com##A[href*="togetter06-22"]
 				togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
-				togetter.com##div[class="side_box"]
+				togetter.com##DIV[class="side_box"]
+		!!! Webクライアント
+			! 将来的には分離予定。
 			!! twipple
 				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
+
 		!!! アドオン
 				!! pbtweet+用
 					##DIV[class="component"]>DIV[class$="pb-toggleable"]

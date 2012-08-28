@@ -1,4 +1,7 @@
 	!!! [ameblo]
+		! ameba.jpに関しては、ameba.jp.txtを参照の事。
+		! その他ブログパーツに関しては、_blogparts.txtを参照。
+
 		!! 1*1画像検出
 			||act.ameba.jp^
 			||ameblo.jp/accesslog/*
@@ -25,3 +28,4 @@
 			ameblo.jp##UL[class="rc_head clearFix"]
 			ameblo.jp##UL[id="amebaBar"]
 			ameblo.jp##UL[id="exLinkBtn"]
+

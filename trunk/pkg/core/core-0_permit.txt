@@ -1,4 +1,6 @@
-! [core-0_permit] 特殊許可:Firefoxの動作上、許可が必要な対象
+! [core-0_permit] 
+
+! 1:特殊許可:Firefoxの動作上、許可が必要な対象
 	!!! 1:Mozilla本家
 		!! 内部
 			@@about:addons

@@ -1,5 +1,7 @@
 	!!! [goo.ne.jp]
-		blog.goo.ne.jp##div[id="mod-advertising"]
-		blog.goo.ne.jp##div[id="global-header"]
-		blog.goo.ne.jp##div[id="mod-goo-recommends"]
+		! ブログパーツに関しては、_blogparts.txtを参照。
+
+		blog.goo.ne.jp##DIV[id="global-header"]
+		blog.goo.ne.jp##DIV[id="mod-advertising"]
+		blog.goo.ne.jp##DIV[id="mod-goo-recommends"]
 

@@ -1,0 +1,6 @@
+	!!! [ameblo]
+		! weblogサービス(ameblo)はameblo.txtを参照の事。
+
+		!! profile
+			profile.ameba.jp##DIV#profile_pBanner
+		

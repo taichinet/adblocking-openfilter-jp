@@ -1,4 +1,6 @@
 	!!! [blog.so-net.ne.jp]
+		! ブログパーツに関しては、_blogparts.txtを参照
+
 			||blog.so-net.ne.jp/_contents/js/*
 			||blog.so-net.ne.jp/_common/js/*
 			||blog.so-net.ne.jp/_common/images/*

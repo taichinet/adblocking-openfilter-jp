@@ -1,4 +1,6 @@
 	!!! [twitter]
+		! 外部クライアントに関しては分離予定。Togetterに関しては思案中
+
 		!!! 公式
 			!! 許可対象
 				@@||twimg.com/profile_images/$domain=twitter.com
@@ -10,19 +12,19 @@
 					twitter.com##A[href^="http://blog.twitter.jp/"]
 					twitter.com##DIV[class*="promoted-tweet"]
 					twitter.com##DIV[class="component"] > DIV[class="user-rec-inner"]
+					twitter.com##DIV[class="flex-module-header"]
 					twitter.com##DIV[class="trends"]
 					twitter.com##DIV[class="trends-inner"]
+					twitter.com##DIV[class^="js-recommended-followers"]
 					twitter.com##DIV[id="custom_49"][class="eTologyToken"]
 					twitter.com##H2[class="user-rec-component"]
 					twitter.com##IFRAME[id="j_ad"]
 					twitter.com##LI[class^="trend-item"]
 					twitter.com##LI[class^="user-small-list-item"]
 					twitter.com##P[class="promo"]
-					twitter.com##DIV[class^="js-recommended-followers"]
-					twitter.com##DIV[class="flex-module-header"]
 				!! share
 					twitter.com##A[href="http://twitter.com/share"]
-					##script[src="http://widgets.twimg.com/j/2/widget.js"]
+					##SCRIPT[src="http://widgets.twimg.com/j/2/widget.js"]
 					##DIV[id^="twtr-widget"]
 					##IFRAME[src^="http://platform.twitter.com/widgets/tweet_button.html"]
 				!! 広告抑止
@@ -36,13 +38,16 @@
 			!! twitpic
 				twitpic.com##DIV[id^="view-photo-ad"]
 			!! Togetter
-				togetter.com##div[id="amazon_content_box"]
-				togetter.com##div[class="advertise_head_box"]
+				togetter.com##DIV[id="amazon_content_box"]
+				togetter.com##DIV[class="advertise_head_box"]
 				togetter.com##A[href*="togetter06-22"]
 				togetter.com##img[src^="http://b.hatena.ne.jp/entry/image/"]
-				togetter.com##div[class="side_box"]
+				togetter.com##DIV[class="side_box"]
+		!!! Webクライアント
+			! 将来的には分離予定。
 			!! twipple
 				twipple.jp##DIV[class="tweetActionMenu"]>DIV[class="exteriorPulldown"]>A[class^="actionButtonExterior"]
+
 		!!! アドオン
 				!! pbtweet+用
 					##DIV[class="component"]>DIV[class$="pb-toggleable"]
