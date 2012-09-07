@@ -544,7 +544,6 @@
 				!	||anz.rd.rakuten.co.jp^
 				!	||pitatto.rakuten.co.jp/image/*
 				||image.infoseek.rakuten.co.jp/common/footer/css/grpRakutenLinkArea.css
-				rakuten.co.jp##td[align="center"]
 				rakuten.co.jp##dl[class="hotKeywords"]
 				rakuten.co.jp##div[class="partsRanking"]
 				rakuten.co.jp##div[class="partsBnr last"]

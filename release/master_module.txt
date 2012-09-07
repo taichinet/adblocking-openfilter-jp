@@ -80,7 +80,7 @@
 				##DIV[id*="module-adsense module"]
 				##DIV[id*="newsFooter"]
 				##DIV[id*="partner-box"]
-				##DIV[id*="pickup"]
+				! ##DIV[id*="pickup"]
 				! ##DIV[id*="promo"]
 				##DIV[id*="showAdv"]
 				##DIV[id*="slidead"]
@@ -118,7 +118,7 @@
 				##DIV[class*="module-adsense module"]
 				##DIV[class*="newsFooter"]
 				##DIV[class*="partner-box"]
-				##DIV[class*="pickup"]
+				! ##DIV[class*="pickup"]
 				! ##DIV[class*="promo"]
 				##DIV[class*="showAdv"]
 				##DIV[class*="slidead"]
@@ -2170,7 +2170,6 @@
 				!	||anz.rd.rakuten.co.jp^
 				!	||pitatto.rakuten.co.jp/image/*
 				||image.infoseek.rakuten.co.jp/common/footer/css/grpRakutenLinkArea.css
-				rakuten.co.jp##td[align="center"]
 				rakuten.co.jp##dl[class="hotKeywords"]
 				rakuten.co.jp##div[class="partsRanking"]
 				rakuten.co.jp##div[class="partsBnr last"]
