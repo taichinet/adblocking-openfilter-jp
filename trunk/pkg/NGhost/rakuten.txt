@@ -1,6 +1,5 @@
 	!!! [楽天]
 			!! 許可対象
-				@@||item.rakuten.co.jp^$document
 			!! 抑止対象
 				/(static|xml|hbb|anz|)\.(afl|affiliate|rd|pitatto)\.rakuten\.co\.jp/
 				!	||hbb.afl.rakuten.co.jp^
