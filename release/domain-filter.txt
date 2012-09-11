@@ -369,7 +369,6 @@
 				@@||google.com/jsapi$domain=hootsuite.com
 				@@||hootsuite.com/ajax/*$domain=hootsuite.com
 				@@||hootsuite.com/dashboard#/tabs*$domain=hootsuite.com
-				@@||hootsuite.com^$document
 				@@||maps-api-ssl.google.com^$domain=hootsuite.com
 				@@||profile.img.mixi.jp^$domain=hootsuite.com
 				@@||static.hootsuite.com/*/css/*$domain=hootsuite.com
