@@ -9,6 +9,8 @@
 			@@||support.mozilla.com^$domain=support.mozilla.jp,addons.mozilla.jp
 			@@||services.addons.mozilla.org^$domain=services.addons.mozilla.org
 			@@||getpersonas.com^$domain=getpersonas.com
-
+! 2:抑止回避
+	!!! 汎用
+		@@||login.*
 	!!! <end>
 
